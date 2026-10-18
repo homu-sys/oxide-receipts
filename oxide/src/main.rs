@@ -17,21 +17,27 @@ use cli::{Cli, Command};
 use paths::Paths;
 use std::process::Command as SysCommand;
 
-/// Translate pacman-style flags into oxide subcommands.
+/// Translate pacman-style flags into oxide subcommands wherever they appear.
 fn translate_argv(args: Vec<String>) -> Vec<String> {
     if args.len() < 2 {
         return args;
     }
-    let flag = args[1].clone();
-    if !flag.starts_with('-') || flag.starts_with("--") {
+    // Find the first single-dash token (global options use --long form).
+    let Some(idx) = args
+        .iter()
+        .skip(1)
+        .position(|a| a.starts_with('-') && !a.starts_with("--"))
+        .map(|p| p + 1)
+    else {
         return args;
-    }
-    let rest = &args[2..];
-    let map = |sub: &str, extra: &[&str]| {
-        let mut v = vec![args[0].clone(), sub.to_string()];
-        v.extend(extra.iter().map(|s| s.to_string()));
-        v.extend(rest.iter().cloned());
-        v
+    };
+    let flag = args[idx].clone();
+    let rest: Vec<String> = args[idx + 1..].to_vec();
+    let mut out = args[..idx].to_vec();
+    let mut map = |sub: &str, extra: &[&str]| {
+        out.push(sub.to_string());
+        out.extend(extra.iter().map(|s| s.to_string()));
+        out.extend(rest.iter().cloned());
     };
     match flag.as_str() {
         "-S" => map("install", &[]),
@@ -46,8 +52,9 @@ fn translate_argv(args: Vec<String>) -> Vec<String> {
         "-Qi" => map("info", &[]),
         "-Ql" => map("files", &[]),
         "-Qu" => map("outdated", &[]),
-        _ => args,
+        _ => return args,
     }
+    out
 }
 
 fn needs_root(command: &Command) -> bool {
