@@ -1,0 +1,17 @@
+[package]
+name = "fastfetch"
+version = "2.70.0"
+description = "A feature-rich and performance-oriented neofetch-like system information tool"
+homepage = "https://github.com/fastfetch-cli/fastfetch"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "fastfetch-musl-amd64.tar.gz"
+strip_prefix = "fastfetch-musl-amd64"
+
+[install]
+bins = ["usr/bin/fastfetch"]

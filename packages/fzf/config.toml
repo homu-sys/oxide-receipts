@@ -1,0 +1,17 @@
+[package]
+name = "fzf"
+version = "0.74.5"
+description = "A command-line fuzzy finder"
+homepage = "https://github.com/junegunn/fzf"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "fzf-0.74.5-linux_amd64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["fzf"]

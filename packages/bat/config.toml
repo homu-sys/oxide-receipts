@@ -1,0 +1,17 @@
+[package]
+name = "bat"
+version = "0.26.1"
+description = "A cat clone with syntax highlighting and Git integration"
+homepage = "https://github.com/sharkdp/bat"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "bat-v0.26.1-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "bat-v0.26.1-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["bat"]

@@ -1,0 +1,17 @@
+[package]
+name = "fd"
+version = "10.5.0"
+description = "A simple, fast and user-friendly alternative to find"
+homepage = "https://github.com/sharkdp/fd"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "fd-v10.5.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "fd-v10.5.0-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["fd"]

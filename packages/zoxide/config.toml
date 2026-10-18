@@ -1,0 +1,17 @@
+[package]
+name = "zoxide"
+version = "0.10.0"
+description = "A smarter cd command, inspired by z and autojump"
+homepage = "https://github.com/ajeetdsouza/zoxide"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "zoxide-0.10.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["zoxide"]

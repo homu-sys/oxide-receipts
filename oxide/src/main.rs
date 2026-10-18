@@ -1,0 +1,144 @@
+mod cli;
+mod config;
+mod extract;
+mod install;
+mod manifest;
+mod paths;
+mod query;
+mod receipt;
+mod registry;
+mod remove;
+mod update;
+mod util;
+
+use anyhow::Result;
+use clap::Parser;
+use cli::{Cli, Command};
+use paths::Paths;
+use std::process::Command as SysCommand;
+
+/// Translate pacman-style flags into oxide subcommands.
+fn translate_argv(args: Vec<String>) -> Vec<String> {
+    if args.len() < 2 {
+        return args;
+    }
+    let flag = args[1].clone();
+    if !flag.starts_with('-') || flag.starts_with("--") {
+        return args;
+    }
+    let rest = &args[2..];
+    let map = |sub: &str, extra: &[&str]| {
+        let mut v = vec![args[0].clone(), sub.to_string()];
+        v.extend(extra.iter().map(|s| s.to_string()));
+        v.extend(rest.iter().cloned());
+        v
+    };
+    match flag.as_str() {
+        "-S" => map("install", &[]),
+        "-Sy" => map("sync", &[]),
+        "-Syu" => map("update", &["--sync"]),
+        "-Su" => map("update", &[]),
+        "-Ss" => map("search", &[]),
+        "-Si" => map("info", &[]),
+        "-Sc" => map("clean", &[]),
+        "-R" | "-Rn" | "-Rns" => map("remove", &[]),
+        "-Q" => map("list", &[]),
+        "-Qi" => map("info", &[]),
+        "-Ql" => map("files", &[]),
+        "-Qu" => map("outdated", &[]),
+        _ => args,
+    }
+}
+
+fn needs_root(command: &Command) -> bool {
+    matches!(
+        command,
+        Command::Sync { .. }
+            | Command::Install { .. }
+            | Command::Remove { .. }
+            | Command::Update { .. }
+            | Command::Clean { .. }
+    )
+}
+
+fn reexec_with_sudo() -> ! {
+    let exe = std::env::current_exe().expect("current exe");
+    let args: Vec<String> = std::env::args().skip(1).collect();
+    let status = SysCommand::new("sudo")
+        .arg(exe)
+        .args(args)
+        .status()
+        .expect("failed to run sudo — install it or run oxide as root");
+    std::process::exit(status.code().unwrap_or(1));
+}
+
+fn run(cli: &Cli) -> Result<()> {
+    let paths = Paths::new(cli.root.clone());
+
+    if needs_root(&cli.command) && paths.is_system() && util::euid() != 0 {
+        eprintln!("root required — re-running with sudo...");
+        reexec_with_sudo();
+    }
+
+    let registry_url =
+        config::resolve_registry_url(cli.registry.as_deref(), &paths.config_file());
+
+    match &cli.command {
+        Command::Sync => registry::Registry::sync(&paths, &registry_url),
+
+        Command::Install { packages } => {
+            if packages.is_empty() {
+                anyhow::bail!("no packages specified");
+            }
+            let registry = registry::Registry::load(&paths)?;
+            install::install_packages(&paths, &registry, packages)
+        }
+
+        Command::Remove { packages, force } => {
+            if packages.is_empty() {
+                anyhow::bail!("no packages specified");
+            }
+            remove::remove_packages(&paths, packages, *force)
+        }
+
+        Command::Update { packages, sync } => {
+            if *sync {
+                registry::Registry::sync(&paths, &registry_url)?;
+            }
+            let registry = registry::Registry::load(&paths)?;
+            update::update_packages(&paths, &registry, packages)
+        }
+
+        Command::Search { query } => {
+            let registry = registry::Registry::load(&paths)?;
+            query::search(&registry, query)
+        }
+
+        Command::Info { package } => {
+            let registry = registry::Registry::load(&paths)?;
+            query::info(&paths, &registry, package)
+        }
+
+        Command::List => query::list_installed(&paths),
+
+        Command::Outdated => {
+            let registry = registry::Registry::load(&paths)?;
+            query::outdated(&paths, &registry)
+        }
+
+        Command::Files { package } => query::files(&paths, package),
+
+        Command::Verify { packages } => query::verify(&paths, packages),
+
+        Command::Clean => query::clean(&paths),
+    }
+}
+
+fn main() {
+    let args = translate_argv(std::env::args().collect());
+    let cli = Cli::parse_from(args);
+    if let Err(err) = run(&cli) {
+        eprintln!("error: {err:#}");
+        std::process::exit(1);
+    }
+}
