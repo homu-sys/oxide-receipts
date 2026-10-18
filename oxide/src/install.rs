@@ -23,6 +23,8 @@ pub fn install_packages(paths: &Paths, registry: &Registry, names: &[String]) ->
         return Ok(());
     }
 
+    let explicit_targets: std::collections::HashSet<&String> = names.iter().collect();
+
     for name in &plan {
         let manifest = registry.get(name)?;
         if !manifest.supports_current_arch() {
@@ -31,9 +33,10 @@ pub fn install_packages(paths: &Paths, registry: &Registry, names: &[String]) ->
                 util::current_arch()
             );
         }
+        let explicit = explicit_targets.contains(name);
         match installed.get(name) {
             Some(receipt) if receipt.package.version == manifest.package.version => {
-                println!(" {} {name} is up to date", "=" .dimmed());
+                println!(" {} {name} is up to date", "=".dimmed());
             }
             Some(receipt) => {
                 println!(
@@ -42,10 +45,10 @@ pub fn install_packages(paths: &Paths, registry: &Registry, names: &[String]) ->
                     receipt.package.version,
                     manifest.package.version
                 );
-                install_one(paths, registry, manifest)?;
+                install_one(paths, registry, manifest, explicit || receipt.explicit)?;
             }
             None => {
-                install_one(paths, registry, manifest)?;
+                install_one(paths, registry, manifest, explicit)?;
             }
         }
     }
@@ -99,7 +102,12 @@ fn visit(
     Ok(())
 }
 
-fn install_one(paths: &Paths, registry: &Registry, manifest: &Manifest) -> Result<()> {
+fn install_one(
+    paths: &Paths,
+    registry: &Registry,
+    manifest: &Manifest,
+    explicit: bool,
+) -> Result<()> {
     let name = &manifest.package.name;
     let archive_path = registry.package_dir(name).join(&manifest.archive.file);
     if !archive_path.exists() {
@@ -108,6 +116,9 @@ fn install_one(paths: &Paths, registry: &Registry, manifest: &Manifest) -> Resul
             manifest.archive.file
         );
     }
+
+    let old = Receipt::load(paths, name).ok();
+    let hold = old.as_ref().is_some_and(|r| r.hold);
 
     let staging = paths.staging().join(name);
     if staging.exists() {
@@ -128,8 +139,8 @@ fn install_one(paths: &Paths, registry: &Registry, manifest: &Manifest) -> Resul
         manifest.install.bins.clone()
     };
 
-    if let Ok(old) = Receipt::load(paths, name) {
-        remove_receipt_artifacts(&old);
+    if let Some(ref old) = old {
+        remove_receipt_artifacts(old);
     }
 
     if prefix.exists() {
@@ -196,6 +207,8 @@ fn install_one(paths: &Paths, registry: &Registry, manifest: &Manifest) -> Resul
         depends: manifest.dependencies.depends.clone(),
         files,
         links,
+        explicit,
+        hold,
     };
     Receipt::save(paths, &receipt)?;
 

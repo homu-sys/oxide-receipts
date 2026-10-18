@@ -22,19 +22,19 @@ pub struct Cli {
 
 #[derive(Subcommand, Debug)]
 pub enum Command {
-    /// Sync the package registry
+    /// Sync the package registry from the repo
     Sync,
 
     /// Install packages
     #[command(alias = "i")]
     Install { packages: Vec<String> },
 
-    /// Remove installed packages
-    #[command(alias = "rm")]
-    Remove {
+    /// Detain (uninstall) packages
+    #[command(alias = "remove", alias = "rm", alias = "uninstall")]
+    Detain {
         packages: Vec<String>,
 
-        /// Remove even if other packages depend on them
+        /// Detain even if other packages depend on them
         #[arg(long, short)]
         force: bool,
     },
@@ -68,6 +68,36 @@ pub enum Command {
 
     /// Verify integrity of installed packages
     Verify { packages: Vec<String> },
+
+    /// Explain why a package is installed
+    Why { package: String },
+
+    /// Show a package's dependency tree (from the registry)
+    Deps { package: String },
+
+    /// List orphaned packages (dependencies nothing needs anymore)
+    Orphans,
+
+    /// Hold packages — skip them during `oxide update`
+    Hold { packages: Vec<String> },
+
+    /// Release held packages
+    Unhold { packages: Vec<String> },
+
+    /// Show install history
+    Log,
+
+    /// Show disk usage per package
+    Stats,
+
+    /// Print explicitly installed packages (for backup)
+    Export,
+
+    /// Install every package listed in a file (from `oxide export`)
+    Import { file: PathBuf },
+
+    /// Check installed packages for consistency problems
+    Check,
 
     /// Remove cached data
     Clean,

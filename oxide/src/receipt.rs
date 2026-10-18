@@ -14,6 +14,16 @@ pub struct Receipt {
     pub files: Vec<FileEntry>,
     #[serde(default)]
     pub links: Vec<LinkEntry>,
+    /// True when the user installed it directly (not pulled in as a dependency).
+    #[serde(default = "default_true")]
+    pub explicit: bool,
+    /// Held packages are skipped by `oxide update`.
+    #[serde(default)]
+    pub hold: bool,
+}
+
+fn default_true() -> bool {
+    true
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]

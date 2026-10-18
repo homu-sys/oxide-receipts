@@ -9,23 +9,37 @@ use crate::util;
 
 pub fn update_packages(paths: &Paths, registry: &Registry, names: &[String]) -> Result<()> {
     let installed = Receipt::load_all(paths)?;
-    let targets: Vec<String> = if names.is_empty() {
+    let requested: Vec<String> = if names.is_empty() {
         installed.iter().map(|r| r.package.name.clone()).collect()
     } else {
         names.to_vec()
     };
 
-    let mut updated = 0usize;
-    for name in &targets {
+    let mut targets = Vec::new();
+    for name in &requested {
         let Some(receipt) = installed.iter().find(|r| &r.package.name == name) else {
             println!("{} '{name}' is not installed", "warning:".yellow());
             continue;
         };
-        let Ok(manifest) = registry.get(name) else {
+        if receipt.hold {
+            println!(
+                "{} {} {} (held)",
+                "skipping".dimmed(),
+                name,
+                receipt.package.version
+            );
             continue;
-        };
-        if util::version_gt(&manifest.package.version, &receipt.package.version) {
-            updated += 1;
+        }
+        targets.push(name.clone());
+    }
+
+    let mut updated = 0usize;
+    for name in &targets {
+        let receipt = installed.iter().find(|r| &r.package.name == name).unwrap();
+        if let Ok(manifest) = registry.get(name) {
+            if util::version_gt(&manifest.package.version, &receipt.package.version) {
+                updated += 1;
+            }
         }
     }
 

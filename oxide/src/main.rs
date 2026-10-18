@@ -47,7 +47,7 @@ fn translate_argv(args: Vec<String>) -> Vec<String> {
         "-Ss" => map("search", &[]),
         "-Si" => map("info", &[]),
         "-Sc" => map("clean", &[]),
-        "-R" | "-Rn" | "-Rns" => map("remove", &[]),
+        "-R" | "-Rn" | "-Rns" => map("detain", &[]),
         "-Q" => map("list", &[]),
         "-Qi" => map("info", &[]),
         "-Ql" => map("files", &[]),
@@ -62,8 +62,11 @@ fn needs_root(command: &Command) -> bool {
         command,
         Command::Sync { .. }
             | Command::Install { .. }
-            | Command::Remove { .. }
+            | Command::Detain { .. }
             | Command::Update { .. }
+            | Command::Hold { .. }
+            | Command::Unhold { .. }
+            | Command::Import { .. }
             | Command::Clean { .. }
     )
 }
@@ -101,7 +104,7 @@ fn run(cli: &Cli) -> Result<()> {
             install::install_packages(&paths, &registry, packages)
         }
 
-        Command::Remove { packages, force } => {
+        Command::Detain { packages, force } => {
             if packages.is_empty() {
                 anyhow::bail!("no packages specified");
             }
@@ -136,6 +139,42 @@ fn run(cli: &Cli) -> Result<()> {
         Command::Files { package } => query::files(&paths, package),
 
         Command::Verify { packages } => query::verify(&paths, packages),
+
+        Command::Why { package } => query::why(&paths, package),
+
+        Command::Deps { package } => {
+            let registry = registry::Registry::load(&paths)?;
+            query::deps(&registry, package)
+        }
+
+        Command::Orphans => query::orphans(&paths),
+
+        Command::Hold { packages } => {
+            if packages.is_empty() {
+                anyhow::bail!("no packages specified");
+            }
+            query::set_hold(&paths, packages, true)
+        }
+
+        Command::Unhold { packages } => {
+            if packages.is_empty() {
+                anyhow::bail!("no packages specified");
+            }
+            query::set_hold(&paths, packages, false)
+        }
+
+        Command::Log => query::log(&paths),
+
+        Command::Stats => query::stats(&paths),
+
+        Command::Export => query::export(&paths),
+
+        Command::Import { file } => {
+            let registry = registry::Registry::load(&paths)?;
+            query::import(&paths, &registry, file)
+        }
+
+        Command::Check => query::check(&paths),
 
         Command::Clean => query::clean(&paths),
     }
