@@ -10,8 +10,8 @@ arch = ["x86_64"]
 depends = []
 
 [archive]
-file = "fastfetch-musl-amd64.tar.gz"
-strip_prefix = "fastfetch-musl-amd64"
+file = "fastfetch-linux-amd64.tar.gz"
+strip_prefix = "fastfetch-linux-amd64"
 
 [install]
 bins = ["usr/bin/fastfetch"]

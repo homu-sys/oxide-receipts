@@ -18,12 +18,8 @@ pub fn list_installed(paths: &Paths) -> Result<()> {
         .max()
         .unwrap_or(0);
     for r in &receipts {
-        println!(
-            "{:width$}  {}",
-            r.package.name.bold(),
-            r.package.version,
-            width = width
-        );
+        let padded = format!("{:width$}", r.package.name, width = width);
+        println!("{}  {}", padded.bold(), r.package.version);
     }
     println!("\n{} package(s) installed", receipts.len());
     Ok(())

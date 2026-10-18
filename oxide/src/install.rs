@@ -135,6 +135,9 @@ fn install_one(paths: &Paths, registry: &Registry, manifest: &Manifest) -> Resul
     if prefix.exists() {
         std::fs::remove_dir_all(&prefix)?;
     }
+    if let Some(parent) = prefix.parent() {
+        std::fs::create_dir_all(parent)?;
+    }
     std::fs::rename(&staging, &prefix)
         .with_context(|| format!("moving {name} into {}", prefix.display()))?;
 
