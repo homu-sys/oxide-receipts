@@ -77,7 +77,7 @@ fn index_url_for(url: &str) -> String {
     if let Some(rest) = url.strip_prefix("https://github.com/") {
         let rest = rest.trim_end_matches(".git");
         if rest.matches('/').count() == 1 {
-            return format!("https://raw.githubusercontent.com/{rest}/main/index");
+            return format!("https://raw.githubusercontent.com/{rest}/refs/heads/main/index");
         }
     }
     if url.contains("://") {
