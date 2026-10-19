@@ -1,0 +1,12 @@
+[package]
+name = "tgt"
+version = "1.0.0-rc1"
+description = "TUI for Telegram written in Rust 🦀"
+homepage = "https://github.com/FedericoBruzzone/tgt"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "tgt-v1.0.0-rc1-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/FedericoBruzzone/tgt/releases/download/v1.0.0-rc1/tgt-v1.0.0-rc1-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

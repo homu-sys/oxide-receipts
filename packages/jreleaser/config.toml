@@ -1,0 +1,12 @@
+[package]
+name = "jreleaser"
+version = "1.26.0"
+description = ":rocket: Release projects quickly and easily with JReleaser"
+homepage = "https://github.com/jreleaser/jreleaser"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "jreleaser-standalone-1.26.0-linux_musl-x86_64.zip"
+url = "https://github.com/jreleaser/jreleaser/releases/download/v1.26.0/jreleaser-standalone-1.26.0-linux_musl-x86_64.zip"
+strip_prefix = ""

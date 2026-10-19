@@ -1,0 +1,12 @@
+[package]
+name = "terax-ai"
+version = "0.9.0"
+description = "Lightweight (7MB) terminal-first AI-native development environment"
+homepage = "https://github.com/crynta/terax-ai"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Terax_0.9.0_x64.app.tar.gz"
+url = "https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64.app.tar.gz"
+strip_prefix = ""

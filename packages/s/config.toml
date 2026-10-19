@@ -1,0 +1,12 @@
+[package]
+name = "s"
+version = "0.8.1"
+description = "Open a web search in your terminal."
+homepage = "https://github.com/zquestz/s"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "s-linux_amd64.zip"
+url = "https://github.com/zquestz/s/releases/download/v0.8.1/s-linux_amd64.zip"
+strip_prefix = ""

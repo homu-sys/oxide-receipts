@@ -1,0 +1,12 @@
+[package]
+name = "kafkactl"
+version = "5.21.0"
+description = "Command Line Tool for managing Apache Kafka"
+homepage = "https://github.com/deviceinsight/kafkactl"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kafkactl_5.21.0_linux_amd64.tar.gz"
+url = "https://github.com/deviceinsight/kafkactl/releases/download/v5.21.0/kafkactl_5.21.0_linux_amd64.tar.gz"
+strip_prefix = ""

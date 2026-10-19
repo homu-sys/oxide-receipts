@@ -1,0 +1,12 @@
+[package]
+name = "pomo"
+version = "1.2.1"
+description = "Customizable TUI Pomodoro timer with ASCII art, progress bar, desktop notifications, and productivity statistics."
+homepage = "https://github.com/Bahaaio/pomo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "pomo_Linux_x86_64.tar.gz"
+url = "https://github.com/Bahaaio/pomo/releases/download/v1.2.1/pomo_Linux_x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,11 @@
+[package]
+name = "exiv2"
+version = "0.28.9"
+description = "Image metadata library and tools"
+homepage = "https://github.com/Exiv2/exiv2"
+arch = ["x86_64"]
+
+[archive]
+file = "exiv2-0.28.9-Linux-x86_64.tar.gz"
+url = "https://github.com/Exiv2/exiv2/releases/download/v0.28.9/exiv2-0.28.9-Linux-x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "cli"
+version = "2.102.0"
+description = "GitHub’s official command line tool"
+homepage = "https://github.com/cli/cli"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gh_2.102.0_linux_amd64.tar.gz"
+url = "https://github.com/cli/cli/releases/download/v2.102.0/gh_2.102.0_linux_amd64.tar.gz"
+strip_prefix = ""

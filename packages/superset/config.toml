@@ -1,0 +1,11 @@
+[package]
+name = "superset"
+version = "desktop-v1.39.0"
+description = "Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription."
+homepage = "https://github.com/superset-sh/superset"
+arch = ["x86_64"]
+
+[archive]
+file = "Superset-x64-mac.zip"
+url = "https://github.com/superset-sh/superset/releases/download/desktop-v1.39.0/Superset-x64-mac.zip"
+strip_prefix = ""

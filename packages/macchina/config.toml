@@ -1,0 +1,12 @@
+[package]
+name = "macchina"
+version = "6.4.0"
+description = "A system information frontend with an emphasis on performance."
+homepage = "https://github.com/Macchina-CLI/macchina"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "macchina-v6.4.0-linux-musl-x86_64.tar.gz"
+url = "https://github.com/Macchina-CLI/macchina/releases/download/v6.4.0/macchina-v6.4.0-linux-musl-x86_64.tar.gz"
+strip_prefix = ""

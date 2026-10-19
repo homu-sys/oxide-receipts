@@ -1,0 +1,12 @@
+[package]
+name = "claude-code-usage-bar"
+version = "3.46.1"
+description = "Lightweight Claude Code statusLine: 5h/7d rate-limit usage, reset countdowns, model + context window, prompt-cache age — one line, 3 styles × 9 themes, daemon fast-mode"
+homepage = "https://github.com/leeguooooo/claude-code-usage-bar"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "cs-linux-x86_64.tar.gz"
+url = "https://github.com/leeguooooo/claude-code-usage-bar/releases/download/v3.46.1/cs-linux-x86_64.tar.gz"
+strip_prefix = ""

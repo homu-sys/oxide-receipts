@@ -1,0 +1,12 @@
+[package]
+name = "spotify-player"
+version = "0.25.1"
+description = "A Spotify player in the terminal with full feature parity"
+homepage = "https://github.com/aome510/spotify-player"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "spotify_player-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/aome510/spotify-player/releases/download/v0.25.1/spotify_player-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "azul"
+version = "0.2.0"
+description = "Desktop GUI Framework"
+homepage = "https://github.com/fschutt/azul"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "libazul.linux-x86_64-musl.a.tar.gz"
+url = "https://github.com/fschutt/azul/releases/download/0.2.0/libazul.linux-x86_64-musl.a.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "play"
+version = "0.4.0"
+description = "A TUI playground to experiment with your favorite programs, such as grep, sed, awk, jq and yq"
+homepage = "https://github.com/paololazzari/play"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "play_v0.4.0_linux_amd64.zip"
+url = "https://github.com/paololazzari/play/releases/download/v0.4.0/play_v0.4.0_linux_amd64.zip"
+strip_prefix = ""

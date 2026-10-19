@@ -1,0 +1,11 @@
+[package]
+name = "netbird"
+version = "0.81.3"
+description = "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®"
+homepage = "https://github.com/netbirdio/netbird"
+arch = ["x86_64"]
+
+[archive]
+file = "nblink_0.81.3_linux_amd64.tar.gz"
+url = "https://github.com/netbirdio/netbird/releases/download/v0.81.3/nblink_0.81.3_linux_amd64.tar.gz"
+strip_prefix = ""

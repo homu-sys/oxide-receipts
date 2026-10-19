@@ -1,0 +1,12 @@
+[package]
+name = "spegel"
+version = "0.8.0"
+description = "Stateless cluster local OCI registry mirror."
+homepage = "https://github.com/spegel-org/spegel"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "spegel_0.8.0_linux_amd64.tar.gz"
+url = "https://github.com/spegel-org/spegel/releases/download/v0.8.0/spegel_0.8.0_linux_amd64.tar.gz"
+strip_prefix = ""

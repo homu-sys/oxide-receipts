@@ -1,0 +1,12 @@
+[package]
+name = "opengist"
+version = "1.15.2"
+description = "Self-hosted pastebin powered by Git, open-source alternative to Github Gist."
+homepage = "https://github.com/thomiceli/opengist"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "opengist1.15.2-linux-amd64.tar.gz"
+url = "https://github.com/thomiceli/opengist/releases/download/v1.15.2/opengist1.15.2-linux-amd64.tar.gz"
+strip_prefix = ""

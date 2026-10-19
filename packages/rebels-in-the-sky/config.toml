@@ -1,0 +1,12 @@
+[package]
+name = "rebels-in-the-sky"
+version = "1.8.1"
+description = "P2P terminal game about spacepirates playing basketball across the galaxy"
+homepage = "https://github.com/ricott1/rebels-in-the-sky"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rebels-v1.8.1-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/ricott1/rebels-in-the-sky/releases/download/v1.8.1/rebels-v1.8.1-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

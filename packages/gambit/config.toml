@@ -1,0 +1,12 @@
+[package]
+name = "gambit"
+version = "0.1.0"
+description = "Play chess in your terminal"
+homepage = "https://github.com/maaslalani/gambit"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gambit_0.1.0_linux_x86_64.tar.gz"
+url = "https://github.com/maaslalani/gambit/releases/download/v0.1.0/gambit_0.1.0_linux_x86_64.tar.gz"
+strip_prefix = ""

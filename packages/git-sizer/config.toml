@@ -1,0 +1,12 @@
+[package]
+name = "git-sizer"
+version = "1.5.0"
+description = "Compute various size metrics for a Git repository, flagging those that might cause problems"
+homepage = "https://github.com/github/git-sizer"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "git-sizer-1.5.0-linux-amd64.zip"
+url = "https://github.com/github/git-sizer/releases/download/v1.5.0/git-sizer-1.5.0-linux-amd64.zip"
+strip_prefix = ""

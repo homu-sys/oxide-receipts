@@ -1,0 +1,12 @@
+[package]
+name = "rivalcfg"
+version = "4.17.0"
+description = "CLI tool and Python library to configure SteelSeries gaming mice"
+homepage = "https://github.com/flozz/rivalcfg"
+license = "WTFPL"
+arch = ["x86_64"]
+
+[archive]
+file = "rivalcfg-cli_v4.17.0_linux_x86_64.tar.gz"
+url = "https://github.com/flozz/rivalcfg/releases/download/v4.17.0/rivalcfg-cli_v4.17.0_linux_x86_64.tar.gz"
+strip_prefix = ""

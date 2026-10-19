@@ -1,0 +1,12 @@
+[package]
+name = "senpi"
+version = "2026.10.19"
+description = "pi had nothing (nothing), so I made something (something) — sorry mariozechner-senpai, I went ahead and lovingly soiled your pure pi for you. opinionated fork of badlogic/pi-mono with extension-first additions. ganbare ganbare senpi 頑張れ頑張れ先輩"
+homepage = "https://github.com/code-yeongyu/senpi"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "pi-linux-x64.tar.gz"
+url = "https://github.com/code-yeongyu/senpi/releases/download/v2026.10.19/pi-linux-x64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,11 @@
+[package]
+name = "stalwart"
+version = "0.16.27"
+description = "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV)."
+homepage = "https://github.com/stalwartlabs/stalwart"
+arch = ["x86_64"]
+
+[archive]
+file = "stalwart-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/stalwartlabs/stalwart/releases/download/v0.16.27/stalwart-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

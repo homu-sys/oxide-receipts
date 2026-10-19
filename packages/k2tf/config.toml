@@ -1,0 +1,12 @@
+[package]
+name = "k2tf"
+version = "0.8.0"
+description = "Kubernetes YAML to Terraform HCL converter"
+homepage = "https://github.com/sl1pm4t/k2tf"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "k2tf_0.8.0_Linux_amd64.tar.gz"
+url = "https://github.com/sl1pm4t/k2tf/releases/download/v0.8.0/k2tf_0.8.0_Linux_amd64.tar.gz"
+strip_prefix = ""

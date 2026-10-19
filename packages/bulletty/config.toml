@@ -1,0 +1,12 @@
+[package]
+name = "bulletty"
+version = "0.3.0"
+description = "bulletty is a pretty feed reader for the terminal that stores the articles as Markdown"
+homepage = "https://github.com/crocidb/bulletty"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "bulletty-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/crocidb/bulletty/releases/download/v0.3.0/bulletty-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

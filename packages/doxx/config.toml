@@ -1,0 +1,12 @@
+[package]
+name = "doxx"
+version = "0.1.4"
+description = "Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!"
+homepage = "https://github.com/bgreenwell/doxx"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "doxx-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/bgreenwell/doxx/releases/download/v0.1.4/doxx-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

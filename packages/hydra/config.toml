@@ -1,0 +1,12 @@
+[package]
+name = "hydra"
+version = "1.1.0"
+description = "A fast, resilient, multi-source file retriever and download engine"
+homepage = "https://github.com/ja7ad/hydra"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "libhydra-1.0.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/ja7ad/hydra/releases/download/v1.1.0/libhydra-1.0.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "termscp"
+version = "1.2.1"
+description = "🖥  A feature rich terminal UI file transfer and explorer with support for SCP/SFTP/FTP/S3/SMB/WebDAV"
+homepage = "https://github.com/veeso/termscp"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "termscp-v1.2.1-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/veeso/termscp/releases/download/v1.2.1/termscp-v1.2.1-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

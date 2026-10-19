@@ -1,0 +1,12 @@
+[package]
+name = "gup"
+version = "1.10.3"
+description = "Fast manager for Go-installed binaries in $GOBIN: update, export/import, and migrate toolsets across machines"
+homepage = "https://github.com/nao1215/gup"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "gup_1.10.3_linux_amd64.tar.gz"
+url = "https://github.com/nao1215/gup/releases/download/v1.10.3/gup_1.10.3_linux_amd64.tar.gz"
+strip_prefix = ""

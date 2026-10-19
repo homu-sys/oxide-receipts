@@ -1,0 +1,12 @@
+[package]
+name = "aichat"
+version = "0.30.0"
+description = "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more."
+homepage = "https://github.com/sigoden/aichat"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "aichat-v0.30.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

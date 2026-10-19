@@ -1,0 +1,12 @@
+[package]
+name = "croc"
+version = "11.5.5"
+description = "Easily and securely send things from one computer to another :crocodile: :package:"
+homepage = "https://github.com/schollz/croc"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "croc-web_v11.5.5_Linux-amd64.tar.gz"
+url = "https://github.com/schollz/croc/releases/download/v11.5.5/croc-web_v11.5.5_Linux-amd64.tar.gz"
+strip_prefix = ""

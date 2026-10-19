@@ -1,0 +1,12 @@
+[package]
+name = "rustowl"
+version = "0.4.0"
+description = "Visualize Ownership and Lifetimes in Rust"
+homepage = "https://github.com/cordx56/rustowl"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rustowl-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/cordx56/rustowl/releases/download/v0.4.0/rustowl-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

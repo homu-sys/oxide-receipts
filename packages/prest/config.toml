@@ -1,0 +1,12 @@
+[package]
+name = "prest"
+version = "2.5.2"
+description = "Instant REST and MCP APIs for PostgreSQL and MySQL, on existing or new databases. CRUD, custom SQL routes, auth and ACL without writing a backend. Low-code, ⚡ realtime, high-performance. Native MySQL support since v2.5."
+homepage = "https://github.com/prest/prest"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "prest_2.5.2_linux_amd64.tar.gz"
+url = "https://github.com/prest/prest/releases/download/v2.5.2/prest_2.5.2_linux_amd64.tar.gz"
+strip_prefix = ""

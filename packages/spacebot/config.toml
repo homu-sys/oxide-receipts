@@ -1,0 +1,11 @@
+[package]
+name = "spacebot"
+version = "0.5.0"
+description = "An AI agent for teams, communities, and multi-user environments."
+homepage = "https://github.com/spacedriveapp/spacebot"
+arch = ["x86_64"]
+
+[archive]
+file = "spacebot-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/spacedriveapp/spacebot/releases/download/v0.5.0/spacebot-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

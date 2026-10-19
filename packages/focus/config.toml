@@ -1,0 +1,12 @@
+[package]
+name = "focus"
+version = "1.4.3"
+description = "A fully featured productivity timer for the command line, based on the Pomodoro Technique. Supports Linux, Windows, and macOS."
+homepage = "https://github.com/ayoisaiah/focus"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "focus_1.4.3_linux_amd64.pkg.tar.zst"
+url = "https://github.com/ayoisaiah/focus/releases/download/v1.4.3/focus_1.4.3_linux_amd64.pkg.tar.zst"
+strip_prefix = ""

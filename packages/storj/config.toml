@@ -1,0 +1,12 @@
+[package]
+name = "storj"
+version = "1.165.2"
+description = "Ongoing Storj v3 development. Decentralized cloud object storage that is affordable, easy to use, private, and secure."
+homepage = "https://github.com/storj/storj"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "identity_linux_amd64.zip"
+url = "https://github.com/storj/storj/releases/download/v1.165.2/identity_linux_amd64.zip"
+strip_prefix = ""

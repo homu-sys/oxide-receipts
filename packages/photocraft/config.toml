@@ -1,0 +1,12 @@
+[package]
+name = "photocraft"
+version = "0.10.0"
+description = "PhotoCraft: An open-source, photo editor written by scratch in pure Rust"
+homepage = "https://github.com/storytold/photocraft"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "photocraft-0.10.0-linux-x86_64.tar.gz"
+url = "https://github.com/storytold/photocraft/releases/download/v0.10.0/photocraft-0.10.0-linux-x86_64.tar.gz"
+strip_prefix = ""

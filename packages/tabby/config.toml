@@ -1,0 +1,12 @@
+[package]
+name = "tabby"
+version = "1.0.238"
+description = "A terminal for a more modern age"
+homepage = "https://github.com/Eugeny/tabby"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tabby-1.0.238-linux-x64.tar.gz"
+url = "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-x64.tar.gz"
+strip_prefix = ""

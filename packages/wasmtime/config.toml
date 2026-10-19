@@ -1,0 +1,12 @@
+[package]
+name = "wasmtime"
+version = "49.0.3"
+description = "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant"
+homepage = "https://github.com/bytecodealliance/wasmtime"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "wasmtime-v49.0.3-x86_64-musl-c-api.tar.xz"
+url = "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.3/wasmtime-v49.0.3-x86_64-musl-c-api.tar.xz"
+strip_prefix = ""

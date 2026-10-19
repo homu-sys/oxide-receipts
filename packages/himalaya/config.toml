@@ -1,0 +1,12 @@
+[package]
+name = "himalaya"
+version = "2.2.1"
+description = "CLI to manage emails"
+homepage = "https://github.com/pimalaya/himalaya"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "himalaya.x86_64-linux.tgz"
+url = "https://github.com/pimalaya/himalaya/releases/download/v2.2.1/himalaya.x86_64-linux.tgz"
+strip_prefix = ""

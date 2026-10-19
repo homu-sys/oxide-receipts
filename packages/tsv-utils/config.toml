@@ -1,0 +1,12 @@
+[package]
+name = "tsv-utils"
+version = "2.2.1"
+description = "eBay's TSV Utilities: Command line tools for large, tabular data files. Filtering, statistics, sampling, joins and more."
+homepage = "https://github.com/eBay/tsv-utils"
+license = "BSL-1.0"
+arch = ["x86_64"]
+
+[archive]
+file = "tsv-utils-v2.2.1_osx-x86_64_ldc2.tar.gz"
+url = "https://github.com/eBay/tsv-utils/releases/download/v2.2.1/tsv-utils-v2.2.1_osx-x86_64_ldc2.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "openless"
+version = "2.0.1-tauri"
+description = "Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS & Windows. (按住快捷键说话，松开即得润色后的文字)"
+homepage = "https://github.com/Open-Less/openless"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "OpenLess_x86_64.app.tar.gz"
+url = "https://github.com/Open-Less/openless/releases/download/v2.0.1-tauri/OpenLess_x86_64.app.tar.gz"
+strip_prefix = ""

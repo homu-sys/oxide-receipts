@@ -1,0 +1,11 @@
+[package]
+name = "worktrunk"
+version = "0.80.0"
+description = "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
+homepage = "https://github.com/max-sixty/worktrunk"
+arch = ["x86_64"]
+
+[archive]
+file = "worktrunk-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/max-sixty/worktrunk/releases/download/v0.80.0/worktrunk-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

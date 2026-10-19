@@ -1,0 +1,12 @@
+[package]
+name = "evcc"
+version = "0.317.2"
+description = "solar charging ☀️🚘"
+homepage = "https://github.com/evcc-io/evcc"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "evcc_0.317.2_linux-amd64.tar.gz"
+url = "https://github.com/evcc-io/evcc/releases/download/0.317.2/evcc_0.317.2_linux-amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "nats-server"
+version = "2.15.1"
+description = "High-Performance server for NATS.io, the cloud and edge native messaging system."
+homepage = "https://github.com/nats-io/nats-server"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "nats-server-v2.15.1-linux-amd64.tar.gz"
+url = "https://github.com/nats-io/nats-server/releases/download/v2.15.1/nats-server-v2.15.1-linux-amd64.tar.gz"
+strip_prefix = ""

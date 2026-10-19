@@ -1,0 +1,12 @@
+[package]
+name = "rumdl"
+version = "0.3.0"
+description = "Fast Markdown linter and formatter written in Rust"
+homepage = "https://github.com/rvben/rumdl"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "rumdl-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/rvben/rumdl/releases/download/v0.3.0/rumdl-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

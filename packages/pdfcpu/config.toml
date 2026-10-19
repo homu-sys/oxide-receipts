@@ -1,0 +1,12 @@
+[package]
+name = "pdfcpu"
+version = "0.16.2"
+description = "PDF tooling for Go and the command line."
+homepage = "https://github.com/pdfcpu/pdfcpu"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "pdfcpu_0.16.2_Linux_x86_64.tar.xz"
+url = "https://github.com/pdfcpu/pdfcpu/releases/download/v0.16.2/pdfcpu_0.16.2_Linux_x86_64.tar.xz"
+strip_prefix = ""

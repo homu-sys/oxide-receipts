@@ -1,0 +1,12 @@
+[package]
+name = "semtools"
+version = "3.0.1"
+description = "Semantic search and document parsing tools for the command line"
+homepage = "https://github.com/run-llama/semtools"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "semtools-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/run-llama/semtools/releases/download/v3.0.1/semtools-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

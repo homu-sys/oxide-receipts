@@ -1,0 +1,12 @@
+[package]
+name = "harper"
+version = "2.13.0"
+description = "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered"
+homepage = "https://github.com/Automattic/harper"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "harper-cli-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/Automattic/harper/releases/download/v2.13.0/harper-cli-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

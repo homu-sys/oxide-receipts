@@ -1,0 +1,12 @@
+[package]
+name = "git-duet"
+version = "0.10.0"
+description = "Support for pairing with git"
+homepage = "https://github.com/git-duet/git-duet"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "linux_amd64.tar.gz"
+url = "https://github.com/git-duet/git-duet/releases/download/0.10.0/linux_amd64.tar.gz"
+strip_prefix = ""

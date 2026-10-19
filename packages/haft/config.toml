@@ -1,0 +1,11 @@
+[package]
+name = "haft"
+version = "9.1.0"
+description = "Engineering decisions engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement. For Claude Code, Cursor, Gemini CLI, Codex and more."
+homepage = "https://github.com/m0n0x41d/haft"
+arch = ["x86_64"]
+
+[archive]
+file = "haft-linux-amd64.tar.gz"
+url = "https://github.com/m0n0x41d/haft/releases/download/v9.1.0/haft-linux-amd64.tar.gz"
+strip_prefix = ""

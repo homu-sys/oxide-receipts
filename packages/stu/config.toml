@@ -1,0 +1,12 @@
+[package]
+name = "stu"
+version = "0.7.6"
+description = "TUI explorer application for Amazon S3 (AWS S3) 🪣"
+homepage = "https://github.com/lusingander/stu"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "stu-0.7.6-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/lusingander/stu/releases/download/v0.7.6/stu-0.7.6-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

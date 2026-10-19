@@ -1,0 +1,12 @@
+[package]
+name = "atac"
+version = "0.24.0"
+description = "A simple API client (postman like) in your terminal"
+homepage = "https://github.com/Julien-cpsn/ATAC"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "atac-v0.24.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/Julien-cpsn/ATAC/releases/download/v0.24.0/atac-v0.24.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

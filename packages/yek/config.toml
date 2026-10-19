@@ -1,0 +1,12 @@
+[package]
+name = "yek"
+version = "0.25.5"
+description = "A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumption"
+homepage = "https://github.com/mohsen1/yek"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "yek-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/mohsen1/yek/releases/download/v0.25.5/yek-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

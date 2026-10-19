@@ -1,0 +1,12 @@
+[package]
+name = "pgweb"
+version = "0.17.0"
+description = "Cross-platform client for PostgreSQL databases"
+homepage = "https://github.com/sosedoff/pgweb"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "pgweb_linux_amd64.zip"
+url = "https://github.com/sosedoff/pgweb/releases/download/v0.17.0/pgweb_linux_amd64.zip"
+strip_prefix = ""

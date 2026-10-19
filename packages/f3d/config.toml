@@ -1,0 +1,12 @@
+[package]
+name = "f3d"
+version = "3.5.0"
+description = "Fast and minimalist 3D viewer."
+homepage = "https://github.com/f3d-app/f3d"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "F3D-3.5.0-Linux-x86_64-raytracing.tar.gz"
+url = "https://github.com/f3d-app/f3d/releases/download/v3.5.0/F3D-3.5.0-Linux-x86_64-raytracing.tar.gz"
+strip_prefix = ""

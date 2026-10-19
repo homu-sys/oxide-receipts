@@ -1,0 +1,12 @@
+[package]
+name = "browser-control"
+version = "0.1.1"
+description = "A tiny, fast Rust CLI that drives a real browser over the Chrome DevTools Protocol — built for coding agents."
+homepage = "https://github.com/keon/browser-control"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "browser-control-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/keon/browser-control/releases/download/v0.1.1/browser-control-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

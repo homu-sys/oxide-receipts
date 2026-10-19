@@ -1,0 +1,12 @@
+[package]
+name = "eilmeldung"
+version = "1.9.0"
+description = "eilmeldung is a TUI RSS reader based on the awesome news-flash library."
+homepage = "https://github.com/christo-auer/eilmeldung"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "eilmeldung-x86_64-unknown-linux-musl-1.9.0.tar.gz"
+url = "https://github.com/christo-auer/eilmeldung/releases/download/1.9.0/eilmeldung-x86_64-unknown-linux-musl-1.9.0.tar.gz"
+strip_prefix = ""

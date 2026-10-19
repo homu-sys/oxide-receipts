@@ -1,0 +1,12 @@
+[package]
+name = "tran"
+version = "0.1.43"
+description = "🖥 Securely transfer and send anything between computers with TUI."
+homepage = "https://github.com/abdfnx/tran"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tran_linux_v0.1.43_amd64.zip"
+url = "https://github.com/abdfnx/tran/releases/download/v0.1.43/tran_linux_v0.1.43_amd64.zip"
+strip_prefix = ""

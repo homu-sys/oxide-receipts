@@ -1,0 +1,12 @@
+[package]
+name = "pixi"
+version = "0.82.0"
+description = "Powerful system-level package manager for Linux, macOS and Windows written in Rust – building on top of the Conda ecosystem."
+homepage = "https://github.com/prefix-dev/pixi"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "pixi-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/prefix-dev/pixi/releases/download/v0.82.0/pixi-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,11 @@
+[package]
+name = "coding_agent_session_search"
+version = "0.10.0"
+description = "Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)"
+homepage = "https://github.com/Dicklesworthstone/coding_agent_session_search"
+arch = ["x86_64"]
+
+[archive]
+file = "cass-linux-amd64.tar.gz"
+url = "https://github.com/Dicklesworthstone/coding_agent_session_search/releases/download/v0.10.0/cass-linux-amd64.tar.gz"
+strip_prefix = ""

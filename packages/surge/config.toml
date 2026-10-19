@@ -1,0 +1,12 @@
+[package]
+name = "surge"
+version = "0.12.2"
+description = "Blazing fast TUI download manager built in Go for power users"
+homepage = "https://github.com/SurgeDM/Surge"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "Surge_0.12.2_linux_amd64.tar.gz"
+url = "https://github.com/SurgeDM/Surge/releases/download/v0.12.2/Surge_0.12.2_linux_amd64.tar.gz"
+strip_prefix = ""

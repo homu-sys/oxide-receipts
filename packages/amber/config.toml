@@ -1,0 +1,12 @@
+[package]
+name = "amber"
+version = "0.6.1"
+description = "A code search / replace tool"
+homepage = "https://github.com/dalance/amber"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "amber-v0.6.1-x86_64-lnx.zip"
+url = "https://github.com/dalance/amber/releases/download/v0.6.1/amber-v0.6.1-x86_64-lnx.zip"
+strip_prefix = ""

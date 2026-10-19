@@ -1,0 +1,12 @@
+[package]
+name = "axe"
+version = "1.10.0"
+description = "A lightweight cli for running single-purpose AI agents. Define focused agents in TOML, trigger them from anywhere; pipes, git hooks, cron, or the terminal."
+homepage = "https://github.com/jrswab/axe"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "axe_1.10.0_linux_amd64.tar.gz"
+url = "https://github.com/jrswab/axe/releases/download/v1.10.0/axe_1.10.0_linux_amd64.tar.gz"
+strip_prefix = ""

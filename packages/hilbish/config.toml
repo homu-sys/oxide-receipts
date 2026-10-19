@@ -1,0 +1,12 @@
+[package]
+name = "hilbish"
+version = "2.3.4"
+description = "✨🌙 A modern, advanced, comfortable Lua-configured (Unix/Windows) shell for everyone. 🌺"
+homepage = "https://github.com/sammy-ette/Hilbish"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "hilbish-v2.3.4-linux-amd64.tar.gz"
+url = "https://github.com/sammy-ette/Hilbish/releases/download/v2.3.4/hilbish-v2.3.4-linux-amd64.tar.gz"
+strip_prefix = ""

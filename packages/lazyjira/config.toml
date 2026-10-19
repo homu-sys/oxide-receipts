@@ -1,0 +1,12 @@
+[package]
+name = "lazyjira"
+version = "2.19.2"
+description = "Lazygit but for Jira"
+homepage = "https://github.com/textfuel/lazyjira"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lazyjira_linux_amd64.tar.gz"
+url = "https://github.com/textfuel/lazyjira/releases/download/v2.19.2/lazyjira_linux_amd64.tar.gz"
+strip_prefix = ""

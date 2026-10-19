@@ -1,0 +1,12 @@
+[package]
+name = "moviebox-tui"
+version = "0.1.26"
+description = "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players."
+homepage = "https://github.com/mesamirh/MovieBox-Tui"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "MovieBox_Linux_x64.tar.gz"
+url = "https://github.com/mesamirh/MovieBox-Tui/releases/download/v0.1.26/MovieBox_Linux_x64.tar.gz"
+strip_prefix = ""

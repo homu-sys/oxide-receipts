@@ -1,0 +1,12 @@
+[package]
+name = "tracee"
+version = "0.24.1"
+description = "Linux Runtime Security and Forensics using eBPF"
+homepage = "https://github.com/aquasecurity/tracee"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "tracee-x86_64.v0.24.1.tar.gz"
+url = "https://github.com/aquasecurity/tracee/releases/download/v0.24.1/tracee-x86_64.v0.24.1.tar.gz"
+strip_prefix = ""

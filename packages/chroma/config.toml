@@ -1,0 +1,11 @@
+[package]
+name = "chroma"
+version = "3.0.0-alpha.5"
+description = "A general purpose syntax highlighter in pure Go"
+homepage = "https://github.com/alecthomas/chroma"
+arch = ["x86_64"]
+
+[archive]
+file = "chroma-3.0.0-alpha.5-linux-amd64.tar.gz"
+url = "https://github.com/alecthomas/chroma/releases/download/v3.0.0-alpha.5/chroma-3.0.0-alpha.5-linux-amd64.tar.gz"
+strip_prefix = ""

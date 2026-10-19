@@ -1,0 +1,12 @@
+[package]
+name = "kubernetes-ingress"
+version = "5.7.0"
+description = "NGINX and  NGINX Plus Ingress Controllers for Kubernetes"
+homepage = "https://github.com/nginx/kubernetes-ingress"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kubernetes-ingress_5.7.0_linux_amd64.tar.gz"
+url = "https://github.com/nginx/kubernetes-ingress/releases/download/v5.7.0/kubernetes-ingress_5.7.0_linux_amd64.tar.gz"
+strip_prefix = ""

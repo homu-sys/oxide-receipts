@@ -1,0 +1,12 @@
+[package]
+name = "gocryptfs"
+version = "2.6.1"
+description = "Encrypted overlay filesystem written in Go"
+homepage = "https://github.com/rfjakob/gocryptfs"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gocryptfs_v2.6.1_linux-static_amd64.tar.gz"
+url = "https://github.com/rfjakob/gocryptfs/releases/download/v2.6.1/gocryptfs_v2.6.1_linux-static_amd64.tar.gz"
+strip_prefix = ""

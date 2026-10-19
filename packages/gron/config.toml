@@ -1,0 +1,12 @@
+[package]
+name = "gron"
+version = "0.7.1"
+description = "Make JSON greppable!"
+homepage = "https://github.com/tomnomnom/gron"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gron-linux-amd64-0.7.1.tgz"
+url = "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-amd64-0.7.1.tgz"
+strip_prefix = ""

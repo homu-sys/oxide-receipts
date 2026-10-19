@@ -1,0 +1,12 @@
+[package]
+name = "gpg-tui"
+version = "0.11.2"
+description = "Manage your GnuPG keys with ease! 🔐"
+homepage = "https://github.com/orhun/gpg-tui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gpg-tui-0.11.2-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/orhun/gpg-tui/releases/download/v0.11.2/gpg-tui-0.11.2-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

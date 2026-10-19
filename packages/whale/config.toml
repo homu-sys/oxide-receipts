@@ -1,0 +1,12 @@
+[package]
+name = "whale"
+version = "0.1.66"
+description = "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows."
+homepage = "https://github.com/usewhale/Whale"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "whale-linux-amd64.tar.gz"
+url = "https://github.com/usewhale/Whale/releases/download/v0.1.66/whale-linux-amd64.tar.gz"
+strip_prefix = ""

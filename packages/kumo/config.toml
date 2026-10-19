@@ -1,0 +1,12 @@
+[package]
+name = "kumo"
+version = "0.32.0"
+description = "A lightweight AWS service emulator written in Go"
+homepage = "https://github.com/sivchari/kumo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "kumo_0.32.0_linux_amd64.tar.gz"
+url = "https://github.com/sivchari/kumo/releases/download/v0.32.0/kumo_0.32.0_linux_amd64.tar.gz"
+strip_prefix = ""

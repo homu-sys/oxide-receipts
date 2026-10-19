@@ -1,0 +1,12 @@
+[package]
+name = "helmor"
+version = "0.46.0"
+description = "Open-source local workbench for multi-agent software development."
+homepage = "https://github.com/dohooo/helmor"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Helmor_x64.app.tar.gz"
+url = "https://github.com/dohooo/helmor/releases/download/v0.46.0/Helmor_x64.app.tar.gz"
+strip_prefix = ""

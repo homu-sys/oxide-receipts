@@ -1,0 +1,12 @@
+[package]
+name = "podinfo"
+version = "6.15.0"
+description = "Go microservice template for Kubernetes"
+homepage = "https://github.com/stefanprodan/podinfo"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "podcli_6.15.0_linux_amd64.tar.gz"
+url = "https://github.com/stefanprodan/podinfo/releases/download/6.15.0/podcli_6.15.0_linux_amd64.tar.gz"
+strip_prefix = ""

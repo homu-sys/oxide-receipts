@@ -1,0 +1,12 @@
+[package]
+name = "fvm"
+version = "4.3.2"
+description = "Flutter Version Management: A simple CLI to manage Flutter SDK versions."
+homepage = "https://github.com/btwld/fvm"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "fvm-4.3.2-linux-x64-musl.tar.gz"
+url = "https://github.com/btwld/fvm/releases/download/4.3.2/fvm-4.3.2-linux-x64-musl.tar.gz"
+strip_prefix = ""

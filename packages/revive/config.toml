@@ -1,0 +1,12 @@
+[package]
+name = "revive"
+version = "1.17.1"
+description = "🔥 Fast, strict, configurable, extensible, and beautiful linter for Go"
+homepage = "https://github.com/revive-lint/revive"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "revive_linux_amd64.tar.gz"
+url = "https://github.com/revive-lint/revive/releases/download/v1.17.1/revive_linux_amd64.tar.gz"
+strip_prefix = ""

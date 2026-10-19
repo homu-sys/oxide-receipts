@@ -1,0 +1,12 @@
+[package]
+name = "workbuddy2api-panel"
+version = "1.13.0"
+description = "把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支"
+homepage = "https://github.com/linguo2625469/workbuddy2api-panel"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "wb2api-panel-v1.13.0-linux-amd64.tar.gz"
+url = "https://github.com/linguo2625469/workbuddy2api-panel/releases/download/v1.13.0/wb2api-panel-v1.13.0-linux-amd64.tar.gz"
+strip_prefix = ""

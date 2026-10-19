@@ -1,0 +1,12 @@
+[package]
+name = "pik"
+version = "1.0.1"
+description = "Process Interactive Kill"
+homepage = "https://github.com/jacek-kurlit/pik"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "pik-1.0.1-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/jacek-kurlit/pik/releases/download/1.0.1/pik-1.0.1-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

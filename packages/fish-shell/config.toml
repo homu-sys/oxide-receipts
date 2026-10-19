@@ -1,0 +1,11 @@
+[package]
+name = "fish-shell"
+version = "4.9.3"
+description = "The user-friendly command line shell."
+homepage = "https://github.com/fish-shell/fish-shell"
+arch = ["x86_64"]
+
+[archive]
+file = "fish-4.9.3-linux-x86_64.tar.xz"
+url = "https://github.com/fish-shell/fish-shell/releases/download/4.9.3/fish-4.9.3-linux-x86_64.tar.xz"
+strip_prefix = ""

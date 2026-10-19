@@ -1,0 +1,12 @@
+[package]
+name = "weave"
+version = "0.6.1"
+description = "Entity-level git merge driver. Resolves false conflicts git invents when independent agents edit the same file. ~95% reduction vs. line-based merge."
+homepage = "https://github.com/Ataraxy-Labs/weave"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "weave-cli-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/Ataraxy-Labs/weave/releases/download/v0.6.1/weave-cli-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

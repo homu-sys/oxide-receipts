@@ -1,0 +1,12 @@
+[package]
+name = "kt-connect"
+version = "0.3.7"
+description = "A toolkit for Integrating with your kubernetes dev environment more efficiently"
+homepage = "https://github.com/alibaba/kt-connect"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ktctl_0.3.7_Linux_x86_64.tar.gz"
+url = "https://github.com/alibaba/kt-connect/releases/download/v0.3.7/ktctl_0.3.7_Linux_x86_64.tar.gz"
+strip_prefix = ""

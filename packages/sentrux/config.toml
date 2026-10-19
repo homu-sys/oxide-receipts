@@ -1,0 +1,12 @@
+[package]
+name = "sentrux"
+version = "0.5.7"
+description = "Real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust."
+homepage = "https://github.com/sentrux/sentrux"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "grammars-linux-x86_64.tar.gz"
+url = "https://github.com/sentrux/sentrux/releases/download/v0.5.7/grammars-linux-x86_64.tar.gz"
+strip_prefix = ""

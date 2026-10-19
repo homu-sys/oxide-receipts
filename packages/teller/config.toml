@@ -1,0 +1,12 @@
+[package]
+name = "teller"
+version = "2.0.7"
+description = "Cloud native secrets management for developers - never leave your command line for secrets."
+homepage = "https://github.com/tellerops/teller"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "teller-x86_64-linux.tar.xz"
+url = "https://github.com/tellerops/teller/releases/download/v2.0.7/teller-x86_64-linux.tar.xz"
+strip_prefix = ""

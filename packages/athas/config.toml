@@ -1,0 +1,12 @@
+[package]
+name = "athas"
+version = "0.17.0"
+description = "A lightweight, cross-platform code editor, built with Tauri (Rust and React) with Git support, AI agents, vim keybindings."
+homepage = "https://github.com/athasdev/athas"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Athas_0.17.0_linux-x86_64.tar.gz"
+url = "https://github.com/athasdev/athas/releases/download/v0.17.0/Athas_0.17.0_linux-x86_64.tar.gz"
+strip_prefix = ""

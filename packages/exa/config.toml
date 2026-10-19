@@ -1,0 +1,12 @@
+[package]
+name = "exa"
+version = "0.10.1"
+description = "A modern replacement for ‘ls’."
+homepage = "https://github.com/ogham/exa"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "exa-linux-x86_64-musl-v0.10.1.zip"
+url = "https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-musl-v0.10.1.zip"
+strip_prefix = ""

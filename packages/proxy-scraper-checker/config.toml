@@ -1,0 +1,12 @@
+[package]
+name = "proxy-scraper-checker"
+version = "build-3807"
+description = "Fast proxy scraper and checker written in Rust. Collects HTTP, SOCKS4 and SOCKS5 proxies from any number of sources, verifies each one really works, and writes JSON and plain text with response time, exit IP, ASN and geolocation. Single binary for Windows, Linux, macOS and Android, with an interactive TUI."
+homepage = "https://github.com/monosans/proxy-scraper-checker"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "proxy-scraper-checker-binary-x86_64-unknown-linux-musl.zip"
+url = "https://github.com/monosans/proxy-scraper-checker/releases/download/build-3807/proxy-scraper-checker-binary-x86_64-unknown-linux-musl.zip"
+strip_prefix = ""

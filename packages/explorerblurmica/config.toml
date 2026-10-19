@@ -1,0 +1,12 @@
+[package]
+name = "explorerblurmica"
+version = "2.1.0"
+description = "Add background Blur effect or Acrylic (Mica for win11) effect to explorer for win10 and win11"
+homepage = "https://github.com/Maplespe/ExplorerBlurMica"
+license = "LGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Release_x64.zip"
+url = "https://github.com/Maplespe/ExplorerBlurMica/releases/download/2.1.0/Release_x64.zip"
+strip_prefix = ""

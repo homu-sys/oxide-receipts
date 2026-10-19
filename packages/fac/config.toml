@@ -1,0 +1,12 @@
+[package]
+name = "fac"
+version = "2.0.0"
+description = "Easy-to-use CUI for fixing git conflicts"
+homepage = "https://github.com/mkchoi212/fac"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "fac_2.0.0_linux_amd64.tar.gz"
+url = "https://github.com/mkchoi212/fac/releases/download/v2.0.0/fac_2.0.0_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "vibe"
+version = "3.2.2"
+description = "Transcribe on your own!"
+homepage = "https://github.com/thewh1teagle/vibe"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "vibe_x64.app.tar.gz"
+url = "https://github.com/thewh1teagle/vibe/releases/download/v3.2.2/vibe_x64.app.tar.gz"
+strip_prefix = ""

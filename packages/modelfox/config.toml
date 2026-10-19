@@ -1,0 +1,11 @@
+[package]
+name = "modelfox"
+version = "0.8.0"
+description = "ModelFox makes it easy to train, deploy, and monitor machine learning models."
+homepage = "https://github.com/modelfoxdotdev/modelfox"
+arch = ["x86_64"]
+
+[archive]
+file = "libmodelfox_0.8.0_x86_64-linux-musl.tar.gz"
+url = "https://github.com/modelfoxdotdev/modelfox/releases/download/v0.8.0/libmodelfox_0.8.0_x86_64-linux-musl.tar.gz"
+strip_prefix = ""

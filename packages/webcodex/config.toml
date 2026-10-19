@@ -1,0 +1,12 @@
+[package]
+name = "webcodex"
+version = "0.4.6"
+description = "Give cloud AI agents a real development environment on your own machines."
+homepage = "https://github.com/yyjeqhc/webcodex"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "webcodex-v0.4.6-linux-x64.tar.gz"
+url = "https://github.com/yyjeqhc/webcodex/releases/download/v0.4.6/webcodex-v0.4.6-linux-x64.tar.gz"
+strip_prefix = ""

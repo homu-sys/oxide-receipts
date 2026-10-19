@@ -1,0 +1,12 @@
+[package]
+name = "dtm"
+version = "1.19.0"
+description = "A distributed transaction framework, supports workflow, saga, tcc, xa, 2-phase message, outbox patterns, supports many languages."
+homepage = "https://github.com/dtm-labs/dtm"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "dtm_1.19.0_linux_amd64.tar.gz"
+url = "https://github.com/dtm-labs/dtm/releases/download/v1.19.0/dtm_1.19.0_linux_amd64.tar.gz"
+strip_prefix = ""

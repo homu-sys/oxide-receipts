@@ -1,0 +1,12 @@
+[package]
+name = "fluvio"
+version = "0.18.1"
+description = "🦀 event stream processing for developers to collect and transform data in motion to power responsive data intensive applications."
+homepage = "https://github.com/fluvio-community/fluvio"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cdk-x86_64-unknown-linux-musl.zip"
+url = "https://github.com/fluvio-community/fluvio/releases/download/v0.18.1/cdk-x86_64-unknown-linux-musl.zip"
+strip_prefix = ""

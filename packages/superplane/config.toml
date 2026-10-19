@@ -1,0 +1,11 @@
+[package]
+name = "superplane"
+version = "fleet-manager/v0.1.4"
+description = "Open source factory for one-shot engineering"
+homepage = "https://github.com/superplanehq/superplane"
+arch = ["x86_64"]
+
+[archive]
+file = "fleet-manager-linux-amd64.tar.gz"
+url = "https://github.com/superplanehq/superplane/releases/download/fleet-manager/v0.1.4/fleet-manager-linux-amd64.tar.gz"
+strip_prefix = ""

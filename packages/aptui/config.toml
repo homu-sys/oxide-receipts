@@ -1,0 +1,12 @@
+[package]
+name = "aptui"
+version = "0.8.2"
+description = "TUI package manager for APT-based Linux distributions"
+homepage = "https://github.com/mexirica/aptui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "aptui_0.8.2_linux_amd64.tar.gz"
+url = "https://github.com/mexirica/aptui/releases/download/v0.8.2/aptui_0.8.2_linux_amd64.tar.gz"
+strip_prefix = ""

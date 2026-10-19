@@ -1,0 +1,12 @@
+[package]
+name = "wazero"
+version = "1.12.0"
+description = "wazero: the zero dependency WebAssembly runtime for Go developers"
+homepage = "https://github.com/wazero/wazero"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "wazero_1.12.0_linux_amd64.tar.gz"
+url = "https://github.com/wazero/wazero/releases/download/v1.12.0/wazero_1.12.0_linux_amd64.tar.gz"
+strip_prefix = ""

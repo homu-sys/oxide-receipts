@@ -1,0 +1,12 @@
+[package]
+name = "teamide"
+version = "2.6.38"
+description = "Team IDE 集成MySql、Oracle、金仓、达梦、神通等数据库、SSH、FTP、Redis、Zookeeper、Kafka、Elasticsearch、Mongodb、小工具等管理工具"
+homepage = "https://github.com/team-ide/teamide"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "teamide-node-linux-amd64-2.6.38.zip"
+url = "https://github.com/team-ide/teamide/releases/download/v2.6.38/teamide-node-linux-amd64-2.6.38.zip"
+strip_prefix = ""

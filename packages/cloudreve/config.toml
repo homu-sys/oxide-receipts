@@ -1,0 +1,12 @@
+[package]
+name = "cloudreve"
+version = "4.19.1"
+description = "🌩 Self-hosted file management and sharing system, supports multiple storage providers"
+homepage = "https://github.com/cloudreve/cloudreve"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cloudreve_4.19.1_linux_amd64.tar.gz"
+url = "https://github.com/cloudreve/cloudreve/releases/download/4.19.1/cloudreve_4.19.1_linux_amd64.tar.gz"
+strip_prefix = ""

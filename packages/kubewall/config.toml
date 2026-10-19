@@ -1,0 +1,12 @@
+[package]
+name = "kubewall"
+version = "0.0.23"
+description = "kubewall - Kubernetes Dashboard for Multi-Cluster Management Real-Time, Self-Hosted, Single Binary, AI-powered. Manage, monitor & debug K8s clusters in your browser, no cloud, no agents."
+homepage = "https://github.com/kubewall/kubewall"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kubewall_Linux_x86_64.tar.gz"
+url = "https://github.com/kubewall/kubewall/releases/download/v0.0.23/kubewall_Linux_x86_64.tar.gz"
+strip_prefix = ""

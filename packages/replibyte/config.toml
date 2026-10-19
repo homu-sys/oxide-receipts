@@ -1,0 +1,12 @@
+[package]
+name = "replibyte"
+version = "0.10.0"
+description = "Seed your development database with real data ⚡️"
+homepage = "https://github.com/Qovery/Replibyte"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "replibyte_v0.10.0_x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/Qovery/Replibyte/releases/download/v0.10.0/replibyte_v0.10.0_x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

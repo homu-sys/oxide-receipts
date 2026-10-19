@@ -1,0 +1,12 @@
+[package]
+name = "chess-tui"
+version = "2.7.1"
+description = "Play chess in any terminal. Rust TUI, Stockfish, Lichess."
+homepage = "https://github.com/thomas-mauran/chess-tui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "chess-tui-2.7.1-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.1/chess-tui-2.7.1-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

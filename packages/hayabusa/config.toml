@@ -1,0 +1,12 @@
+[package]
+name = "hayabusa"
+version = "4.2.0"
+description = "Hayabusa (隼) is a sigma-based threat hunting and fast forensics timeline generator for Windows event logs."
+homepage = "https://github.com/Yamato-Security/hayabusa"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "hayabusa-4.2.0-lin-x64-musl.zip"
+url = "https://github.com/Yamato-Security/hayabusa/releases/download/v4.2.0/hayabusa-4.2.0-lin-x64-musl.zip"
+strip_prefix = ""

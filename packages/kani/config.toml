@@ -1,0 +1,12 @@
+[package]
+name = "kani"
+version = "kani-0.68.0"
+description = "A model checker for Rust programs."
+homepage = "https://github.com/model-checking/kani"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kani-0.68.0-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/model-checking/kani/releases/download/kani-0.68.0/kani-0.68.0-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

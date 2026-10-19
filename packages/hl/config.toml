@@ -1,0 +1,12 @@
+[package]
+name = "hl"
+version = "0.36.3"
+description = "A fast and powerful log viewer and processor that converts JSON logs or logfmt logs into a clear human-readable format."
+homepage = "https://github.com/pamburus/hl"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "hl-linux-x86_64-musl.tar.gz"
+url = "https://github.com/pamburus/hl/releases/download/v0.36.3/hl-linux-x86_64-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "mailpit"
+version = "1.31.6"
+description = "An email and SMTP testing tool with API for developers"
+homepage = "https://github.com/axllent/mailpit"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mailpit-linux-amd64.tar.gz"
+url = "https://github.com/axllent/mailpit/releases/download/v1.31.6/mailpit-linux-amd64.tar.gz"
+strip_prefix = ""

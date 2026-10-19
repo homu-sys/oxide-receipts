@@ -1,0 +1,11 @@
+[package]
+name = "empryo"
+version = "2.20.25"
+description = "AI coding harness for desktop, terminal and CI. Maps your repo, edits code by symbol through AST and LSP, then runs your checks. Any model or the plan you already pay for. Get it at https://empryo.com"
+homepage = "https://github.com/proxysoul/Empryo"
+arch = ["x86_64"]
+
+[archive]
+file = "soulforge-2.20.25-linux-x64-baseline.tar.gz"
+url = "https://github.com/proxysoul/Empryo/releases/download/v2.20.25/soulforge-2.20.25-linux-x64-baseline.tar.gz"
+strip_prefix = ""

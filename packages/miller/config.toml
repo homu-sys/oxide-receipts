@@ -1,0 +1,11 @@
+[package]
+name = "miller"
+version = "6.22.0"
+description = "Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON"
+homepage = "https://github.com/johnkerl/miller"
+arch = ["x86_64"]
+
+[archive]
+file = "miller-6.22.0-linux-amd64.tar.gz"
+url = "https://github.com/johnkerl/miller/releases/download/v6.22.0/miller-6.22.0-linux-amd64.tar.gz"
+strip_prefix = ""

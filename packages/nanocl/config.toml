@@ -1,0 +1,12 @@
+[package]
+name = "nanocl"
+version = "nanocl-0.18.1"
+description = "Work in progress distributed system that simplifies the orchestration of containers and virtual machines."
+homepage = "https://github.com/next-hat/nanocl"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "nanocl_0.18.1_linux_amd64.tar.gz"
+url = "https://github.com/next-hat/nanocl/releases/download/nanocl-0.18.1/nanocl_0.18.1_linux_amd64.tar.gz"
+strip_prefix = ""

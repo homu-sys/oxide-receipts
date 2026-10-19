@@ -1,0 +1,12 @@
+[package]
+name = "papeer"
+version = "0.9.1"
+description = "Scrape the web in the eink era. Convert websites into ebooks and markdown."
+homepage = "https://github.com/lapwat/papeer"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "papeer-v0.9.1-linux-amd64.tar.gz"
+url = "https://github.com/lapwat/papeer/releases/download/v0.9.1/papeer-v0.9.1-linux-amd64.tar.gz"
+strip_prefix = ""

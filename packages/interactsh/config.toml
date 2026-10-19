@@ -1,0 +1,12 @@
+[package]
+name = "interactsh"
+version = "1.4.1"
+description = "An OOB interaction gathering server and client library"
+homepage = "https://github.com/projectdiscovery/interactsh"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "interactsh-client_1.4.1_linux_amd64.zip"
+url = "https://github.com/projectdiscovery/interactsh/releases/download/v1.4.1/interactsh-client_1.4.1_linux_amd64.zip"
+strip_prefix = ""

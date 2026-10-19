@@ -1,0 +1,12 @@
+[package]
+name = "pyrefly"
+version = "1.4.0"
+description = "A fast type checker and language server for Python"
+homepage = "https://github.com/facebook/pyrefly"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "pyrefly-linux-x86_64-musl.tar.gz"
+url = "https://github.com/facebook/pyrefly/releases/download/1.4.0/pyrefly-linux-x86_64-musl.tar.gz"
+strip_prefix = ""

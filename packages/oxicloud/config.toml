@@ -1,0 +1,12 @@
+[package]
+name = "oxicloud"
+version = "0.9.3"
+description = "☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one place. Built in Rust."
+homepage = "https://github.com/AtalayaLabs/OxiCloud"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "oxicloud-0.9.3-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/AtalayaLabs/OxiCloud/releases/download/v0.9.3/oxicloud-0.9.3-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

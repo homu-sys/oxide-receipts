@@ -1,0 +1,12 @@
+[package]
+name = "squad"
+version = "1.0.1"
+description = "Squad: AI agent teams for any project"
+homepage = "https://github.com/bradygaster/squad"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "squad-linux-x64.tar.gz"
+url = "https://github.com/bradygaster/squad/releases/download/v1.0.1/squad-linux-x64.tar.gz"
+strip_prefix = ""

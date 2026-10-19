@@ -1,0 +1,12 @@
+[package]
+name = "gosivy"
+version = "0.2.0"
+description = "Real-time visualization tool for Go process metrics"
+homepage = "https://github.com/nakabonne/gosivy"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gosivy_0.2.0_linux_amd64.tar.gz"
+url = "https://github.com/nakabonne/gosivy/releases/download/v0.2.0/gosivy_0.2.0_linux_amd64.tar.gz"
+strip_prefix = ""

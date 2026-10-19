@@ -1,0 +1,12 @@
+[package]
+name = "lightcraft"
+version = "0.9.1"
+description = "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust"
+homepage = "https://github.com/storytold/lightcraft"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "lightcraft-0.9.1-linux-x86_64.tar.gz"
+url = "https://github.com/storytold/lightcraft/releases/download/v0.9.1/lightcraft-0.9.1-linux-x86_64.tar.gz"
+strip_prefix = ""

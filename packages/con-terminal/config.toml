@@ -1,0 +1,12 @@
+[package]
+name = "con-terminal"
+version = "0.1.0-beta.142"
+description = "The Native Terminal Emulator with a builtin AI Harness"
+homepage = "https://github.com/nowledge-co/con-terminal"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "con-0.1.0-beta.142-linux-x86_64.tar.gz"
+url = "https://github.com/nowledge-co/con-terminal/releases/download/v0.1.0-beta.142/con-0.1.0-beta.142-linux-x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "semaphore"
+version = "2.19.16"
+description = "Modern UI and powerful API for Ansible, Terraform/OpenTofu/Terragrunt, PowerShell and other DevOps tools."
+homepage = "https://github.com/semaphoreui/semaphore"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "semaphore_2.19.16_linux_amd64.tar.gz"
+url = "https://github.com/semaphoreui/semaphore/releases/download/v2.19.16/semaphore_2.19.16_linux_amd64.tar.gz"
+strip_prefix = ""

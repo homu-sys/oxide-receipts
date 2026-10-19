@@ -1,0 +1,12 @@
+[package]
+name = "models"
+version = "0.14.1"
+description = "TUI and CLI for browsing models.dev, benchmarks, coding agents, and statuses for AI providers."
+homepage = "https://github.com/reyamira/models"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "models-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/reyamira/models/releases/download/v0.14.1/models-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

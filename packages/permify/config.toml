@@ -1,0 +1,12 @@
+[package]
+name = "permify"
+version = "1.7.5"
+description = "An open-source authorization as a service inspired by Google Zanzibar, designed to build and manage fine-grained and scalable authorization systems for any application. — Permify is now part of FusionAuth 🎉"
+homepage = "https://github.com/Permify/permify"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "permify_1.7.5_linux_amd64.tar.gz"
+url = "https://github.com/Permify/permify/releases/download/v1.7.5/permify_1.7.5_linux_amd64.tar.gz"
+strip_prefix = ""

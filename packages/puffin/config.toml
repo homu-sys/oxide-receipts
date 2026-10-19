@@ -1,0 +1,12 @@
+[package]
+name = "puffin"
+version = "2.1.5"
+description = "A beautiful terminal dashboard for hledger 💰"
+homepage = "https://github.com/siddhantac/puffin"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "puffin_2.1.5_Linux_x86_64.tar.gz"
+url = "https://github.com/siddhantac/puffin/releases/download/v2.1.5/puffin_2.1.5_Linux_x86_64.tar.gz"
+strip_prefix = ""

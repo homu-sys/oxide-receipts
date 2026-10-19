@@ -1,0 +1,12 @@
+[package]
+name = "crosspaste-desktop"
+version = "2.2.1.2706"
+description = "Cross-device clipboard sync for macOS, Windows & Linux — end-to-end encrypted, LAN-only, no cloud. OCR, CLI and MCP server built in."
+homepage = "https://github.com/CrossPaste/crosspaste-desktop"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "crosspaste-2.2.1-2706-linux-amd64.tar.gz"
+url = "https://github.com/CrossPaste/crosspaste-desktop/releases/download/2.2.1.2706/crosspaste-2.2.1-2706-linux-amd64.tar.gz"
+strip_prefix = ""

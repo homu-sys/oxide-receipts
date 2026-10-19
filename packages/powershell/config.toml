@@ -1,0 +1,12 @@
+[package]
+name = "powershell"
+version = "7.6.7"
+description = "PowerShell for every system!"
+homepage = "https://github.com/PowerShell/PowerShell"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "powershell-7.6.7-linux-musl-x64.tar.gz"
+url = "https://github.com/PowerShell/PowerShell/releases/download/v7.6.7/powershell-7.6.7-linux-musl-x64.tar.gz"
+strip_prefix = ""

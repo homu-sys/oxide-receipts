@@ -1,0 +1,11 @@
+[package]
+name = "aqua"
+version = "2.64.0"
+description = "Declarative CLI Version manager written in Go. Support Lazy Install, Registry, and continuous update with Renovate. CLI version is switched seamlessly"
+homepage = "https://github.com/aquaproj/aqua"
+arch = ["x86_64"]
+
+[archive]
+file = "aqua_linux_amd64.tar.gz"
+url = "https://github.com/aquaproj/aqua/releases/download/v2.64.0/aqua_linux_amd64.tar.gz"
+strip_prefix = ""

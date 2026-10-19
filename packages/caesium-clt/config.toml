@@ -1,0 +1,11 @@
+[package]
+name = "caesium-clt"
+version = "1.5.0"
+description = "Caesium Command Line Tools - Lossy/lossless image compression tool"
+homepage = "https://github.com/Lymphatus/caesium-clt"
+arch = ["x86_64"]
+
+[archive]
+file = "caesiumclt-v1.5.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/Lymphatus/caesium-clt/releases/download/v1.5.0/caesiumclt-v1.5.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "pebrel"
+version = "2.2.2"
+description = "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows."
+homepage = "https://github.com/Kuddev/pebrel"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Pebrel-v2.2.2-linux-x64-preview.tar.gz"
+url = "https://github.com/Kuddev/pebrel/releases/download/v2.2.2/Pebrel-v2.2.2-linux-x64-preview.tar.gz"
+strip_prefix = ""

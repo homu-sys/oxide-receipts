@@ -1,0 +1,12 @@
+[package]
+name = "terragrunt"
+version = "1.1.6"
+description = "Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale."
+homepage = "https://github.com/gruntwork-io/terragrunt"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "terragrunt_linux_amd64.tar.gz"
+url = "https://github.com/gruntwork-io/terragrunt/releases/download/v1.1.6/terragrunt_linux_amd64.tar.gz"
+strip_prefix = ""

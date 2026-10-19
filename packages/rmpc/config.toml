@@ -1,0 +1,12 @@
+[package]
+name = "rmpc"
+version = "0.11.0"
+description = "A modern, configurable, terminal based MPD Client with album art support via various terminal image protocols"
+homepage = "https://github.com/mierak/rmpc"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "rmpc-v0.11.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/mierak/rmpc/releases/download/v0.11.0/rmpc-v0.11.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

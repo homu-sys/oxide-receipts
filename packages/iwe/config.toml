@@ -1,0 +1,12 @@
+[package]
+name = "iwe"
+version = "iwe-v0.28.0"
+description = "Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents"
+homepage = "https://github.com/iwe-org/iwe"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "iwe-v0.28.0-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/iwe-org/iwe/releases/download/iwe-v0.28.0/iwe-v0.28.0-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "kubefwd"
+version = "1.25.18"
+description = "Bulk port forwarding Kubernetes services for local development."
+homepage = "https://github.com/txn2/kubefwd"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kubefwd_Linux_x86_64.tar.gz"
+url = "https://github.com/txn2/kubefwd/releases/download/v1.25.18/kubefwd_Linux_x86_64.tar.gz"
+strip_prefix = ""

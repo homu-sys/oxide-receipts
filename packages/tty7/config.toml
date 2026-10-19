@@ -1,0 +1,12 @@
+[package]
+name = "tty7"
+version = "26.10.0"
+description = "The terminal that outlives its window. Shells survive quitting the app, agents can drive other agents, and remote machines work the same way. Pure Rust, GPU-rendered."
+homepage = "https://github.com/l0ng-ai/tty7"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "tty7-26.10.0-linux-x86_64.tar.gz"
+url = "https://github.com/l0ng-ai/tty7/releases/download/v26.10.0/tty7-26.10.0-linux-x86_64.tar.gz"
+strip_prefix = ""

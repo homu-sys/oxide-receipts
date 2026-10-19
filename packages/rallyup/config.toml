@@ -1,0 +1,12 @@
+[package]
+name = "rallyup"
+version = "0.1.0"
+description = "rallyup is a lightweight Wake-On-LAN (WOL) scheduler and dependency manager designed for small businesses and homelabs."
+homepage = "https://github.com/darwindarak/rallyup"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rallyup-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/darwindarak/rallyup/releases/download/v0.1.0/rallyup-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "traefik"
+version = "3.7.15"
+description = "The Cloud Native Application Proxy"
+homepage = "https://github.com/traefik/traefik"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "traefik_v3.7.15_linux_amd64.tar.gz"
+url = "https://github.com/traefik/traefik/releases/download/v3.7.15/traefik_v3.7.15_linux_amd64.tar.gz"
+strip_prefix = ""

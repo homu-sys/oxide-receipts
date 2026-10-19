@@ -1,0 +1,12 @@
+[package]
+name = "livekit"
+version = "1.13.10"
+description = "End-to-end realtime stack for connecting humans and AI"
+homepage = "https://github.com/livekit/livekit"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "livekit_1.13.10_linux_amd64.tar.gz"
+url = "https://github.com/livekit/livekit/releases/download/v1.13.10/livekit_1.13.10_linux_amd64.tar.gz"
+strip_prefix = ""

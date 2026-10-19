@@ -1,0 +1,12 @@
+[package]
+name = "emdash"
+version = "1.2.8"
+description = "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider."
+homepage = "https://github.com/generalaction/emdash"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "emdash-x64.zip"
+url = "https://github.com/generalaction/emdash/releases/download/v1.2.8/emdash-x64.zip"
+strip_prefix = ""

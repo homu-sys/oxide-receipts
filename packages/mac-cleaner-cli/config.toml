@@ -1,0 +1,12 @@
+[package]
+name = "mac-cleaner-cli"
+version = "1.4.0"
+description = "Free macOS CLI to clean disk space — caches, logs, Homebrew, Xcode. Open-source alternative to CleanMyMac"
+homepage = "https://github.com/guhcostan/mac-cleaner-cli"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "Mac-Cleaner-1.4.0-x64-mac.zip"
+url = "https://github.com/guhcostan/mac-cleaner-cli/releases/download/v1.4.0/Mac-Cleaner-1.4.0-x64-mac.zip"
+strip_prefix = ""

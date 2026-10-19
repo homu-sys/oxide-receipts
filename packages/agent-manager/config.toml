@@ -1,0 +1,12 @@
+[package]
+name = "agent-manager"
+version = "0.42.0"
+description = "The fastest developer workflow for every AI coding agent. Live status, quick prompts, worktrees, and diff review from one tmux TUI."
+homepage = "https://github.com/YoanWai/agent-manager"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "agent-manager_0.42.0_linux_amd64.tar.gz"
+url = "https://github.com/YoanWai/agent-manager/releases/download/v0.42.0/agent-manager_0.42.0_linux_amd64.tar.gz"
+strip_prefix = ""

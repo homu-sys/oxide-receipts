@@ -1,0 +1,12 @@
+[package]
+name = "lief"
+version = "1.0.0"
+description = "LIEF - Library to Instrument Executable Formats (C++, Python, Rust)"
+homepage = "https://github.com/lief-project/LIEF"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "LIEF-rs-x86_64-unknown-linux-musl.zip"
+url = "https://github.com/lief-project/LIEF/releases/download/1.0.0/LIEF-rs-x86_64-unknown-linux-musl.zip"
+strip_prefix = ""

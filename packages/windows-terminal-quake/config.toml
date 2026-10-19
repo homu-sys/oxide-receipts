@@ -1,0 +1,12 @@
+[package]
+name = "windows-terminal-quake"
+version = "2.1.0"
+description = "Enable Quake-style dropdown for (almost) any application."
+homepage = "https://github.com/flyingpie/windows-terminal-quake"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "linux-x64_framework-dependent.tar.gz"
+url = "https://github.com/flyingpie/windows-terminal-quake/releases/download/v2.1.0/linux-x64_framework-dependent.tar.gz"
+strip_prefix = ""

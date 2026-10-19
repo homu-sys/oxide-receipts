@@ -1,0 +1,12 @@
+[package]
+name = "glider"
+version = "0.16.4"
+description = "glider is a forward proxy with multiple protocols support, and also a dns/dhcp server with ipset management features."
+homepage = "https://github.com/nadoo/glider"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "glider_0.16.4_linux_amd64.tar.gz"
+url = "https://github.com/nadoo/glider/releases/download/v0.16.4/glider_0.16.4_linux_amd64.tar.gz"
+strip_prefix = ""

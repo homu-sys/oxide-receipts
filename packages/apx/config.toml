@@ -1,0 +1,12 @@
+[package]
+name = "apx"
+version = "3.1.2"
+description = "Apx (/à·peks/) is the default package manager in Vanilla OS. It is a wrapper around multiple package managers to install packages and run commands inside a managed container."
+homepage = "https://github.com/Vanilla-OS/apx"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "apx-amd64.tar.gz"
+url = "https://github.com/Vanilla-OS/apx/releases/download/v3.1.2/apx-amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,11 @@
+[package]
+name = "amass"
+version = "5.1.1"
+description = "In-depth attack surface mapping and asset discovery"
+homepage = "https://github.com/owasp-amass/amass"
+arch = ["x86_64"]
+
+[archive]
+file = "amass_linux_amd64.tar.gz"
+url = "https://github.com/owasp-amass/amass/releases/download/v5.1.1/amass_linux_amd64.tar.gz"
+strip_prefix = ""

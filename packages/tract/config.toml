@@ -1,0 +1,11 @@
+[package]
+name = "tract"
+version = "0.23.9"
+description = "Tiny, no-nonsense, self-contained, Tensorflow and ONNX inference"
+homepage = "https://github.com/sonos/tract"
+arch = ["x86_64"]
+
+[archive]
+file = "tract-x86_64-unknown-linux-musl-0.23.9.tgz"
+url = "https://github.com/sonos/tract/releases/download/v0.23.9/tract-x86_64-unknown-linux-musl-0.23.9.tgz"
+strip_prefix = ""

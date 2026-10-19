@@ -1,0 +1,12 @@
+[package]
+name = "openapi-tui"
+version = "0.10.2"
+description = "Terminal UI to list, browse and run APIs defined with openapi spec."
+homepage = "https://github.com/zaghaghi/openapi-tui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "openapi-tui-0.10.2-linux-x86_64.tar.gz"
+url = "https://github.com/zaghaghi/openapi-tui/releases/download/0.10.2/openapi-tui-0.10.2-linux-x86_64.tar.gz"
+strip_prefix = ""

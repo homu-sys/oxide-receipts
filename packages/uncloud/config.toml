@@ -1,0 +1,12 @@
+[package]
+name = "uncloud"
+version = "0.21.0"
+description = "A lightweight tool for deploying and managing containerised applications across a network of Docker hosts. Bridging the gap between Docker and Kubernetes ✨"
+homepage = "https://github.com/psviderski/uncloud"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "uc_linux_amd64.tar.gz"
+url = "https://github.com/psviderski/uncloud/releases/download/v0.21.0/uc_linux_amd64.tar.gz"
+strip_prefix = ""

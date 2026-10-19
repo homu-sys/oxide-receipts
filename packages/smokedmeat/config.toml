@@ -1,0 +1,12 @@
+[package]
+name = "smokedmeat"
+version = "0.3.1"
+description = "A CI/CD Red Team Framework for demonstrating Build Pipeline security risks."
+homepage = "https://github.com/boostsecurityio/smokedmeat"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "brisket_Linux_x86_64.tar.gz"
+url = "https://github.com/boostsecurityio/smokedmeat/releases/download/v0.3.1/brisket_Linux_x86_64.tar.gz"
+strip_prefix = ""

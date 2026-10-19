@@ -1,0 +1,12 @@
+[package]
+name = "carapace-bin"
+version = "1.8.1"
+description = "A multi-shell completion binary."
+homepage = "https://github.com/carapace-sh/carapace-bin"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "carapace-bin_1.8.1_linux_amd64.tar.gz"
+url = "https://github.com/carapace-sh/carapace-bin/releases/download/v1.8.1/carapace-bin_1.8.1_linux_amd64.tar.gz"
+strip_prefix = ""

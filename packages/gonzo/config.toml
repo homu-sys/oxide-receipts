@@ -1,0 +1,12 @@
+[package]
+name = "gonzo"
+version = "0.4.3"
+description = "Gonzo! The Go based TUI log analysis tool"
+homepage = "https://github.com/control-theory/gonzo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gonzo-0.4.3-linux-amd64.tar.gz"
+url = "https://github.com/control-theory/gonzo/releases/download/v0.4.3/gonzo-0.4.3-linux-amd64.tar.gz"
+strip_prefix = ""

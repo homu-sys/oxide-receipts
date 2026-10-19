@@ -1,0 +1,12 @@
+[package]
+name = "erdtree"
+version = "3.1.2"
+description = "A modern, cross-platform, multi-threaded, and general purpose filesystem and disk-usage utility that is aware of .gitignore and hidden file rules."
+homepage = "https://github.com/solidiquis/erdtree"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "erd-v3.1.2-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/solidiquis/erdtree/releases/download/v3.1.2/erd-v3.1.2-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

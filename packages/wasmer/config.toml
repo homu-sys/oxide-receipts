@@ -1,0 +1,12 @@
+[package]
+name = "wasmer"
+version = "7.5.0"
+description = "🚀 Fast and lightweight sandboxes for your apps and AI agents"
+homepage = "https://github.com/wasmerio/wasmer"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "wasmer-linux-amd64.tar.gz"
+url = "https://github.com/wasmerio/wasmer/releases/download/v7.5.0/wasmer-linux-amd64.tar.gz"
+strip_prefix = ""

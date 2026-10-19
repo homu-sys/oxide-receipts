@@ -1,0 +1,12 @@
+[package]
+name = "roadrunner"
+version = "3.0.0"
+description = "🤯 High-performance PHP application server, process manager written in Go and powered with plugins"
+homepage = "https://github.com/roadrunner-server/roadrunner"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "protoc-gen-php-grpc-3.0.0-unknown-musl-amd64.tar.gz"
+url = "https://github.com/roadrunner-server/roadrunner/releases/download/v3.0.0/protoc-gen-php-grpc-3.0.0-unknown-musl-amd64.tar.gz"
+strip_prefix = ""

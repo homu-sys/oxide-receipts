@@ -1,0 +1,12 @@
+[package]
+name = "watchtower"
+version = "1.23.1"
+description = "Automate Docker container image updates"
+homepage = "https://github.com/nicholas-fedor/watchtower"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "watchtower_linux_amd64_1.23.1.tar.gz"
+url = "https://github.com/nicholas-fedor/watchtower/releases/download/v1.23.1/watchtower_linux_amd64_1.23.1.tar.gz"
+strip_prefix = ""

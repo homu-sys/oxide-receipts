@@ -1,0 +1,12 @@
+[package]
+name = "inshellisense"
+version = "0.0.4"
+description = "IDE style command line auto complete"
+homepage = "https://github.com/microsoft/inshellisense"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "microsoft-inshellisense-linux-x64-0.0.4.tgz"
+url = "https://github.com/microsoft/inshellisense/releases/download/0.0.4/microsoft-inshellisense-linux-x64-0.0.4.tgz"
+strip_prefix = ""

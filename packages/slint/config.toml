@@ -1,0 +1,11 @@
+[package]
+name = "slint"
+version = "1.18.1"
+description = "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps."
+homepage = "https://github.com/slint-ui/slint"
+arch = ["x86_64"]
+
+[archive]
+file = "slint-compiler-Linux-x86_64.tar.gz"
+url = "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-compiler-Linux-x86_64.tar.gz"
+strip_prefix = ""

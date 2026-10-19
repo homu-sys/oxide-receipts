@@ -1,0 +1,12 @@
+[package]
+name = "roapi"
+version = "roapi-v0.13.0"
+description = "Create full-fledged APIs for slowly moving datasets without writing a single line of code."
+homepage = "https://github.com/roapi/roapi"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "roapi-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/roapi/roapi/releases/download/roapi-v0.13.0/roapi-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "linear-cli"
+version = "3.0.0"
+description = "linear without leaving the command line: list, start, and create PRs for linear issues. agent friendly."
+homepage = "https://github.com/schpet/linear-cli"
+license = "ISC"
+arch = ["x86_64"]
+
+[archive]
+file = "linear-x86_64-unknown-linux-gnu.tar.xz"
+url = "https://github.com/schpet/linear-cli/releases/download/v3.0.0/linear-x86_64-unknown-linux-gnu.tar.xz"
+strip_prefix = ""

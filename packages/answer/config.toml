@@ -1,0 +1,12 @@
+[package]
+name = "answer"
+version = "2.0.3"
+description = "A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer."
+homepage = "https://github.com/apache/answer"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "apache-answer-2.0.3-bin-linux-amd64.tar.gz"
+url = "https://github.com/apache/answer/releases/download/v2.0.3/apache-answer-2.0.3-bin-linux-amd64.tar.gz"
+strip_prefix = ""

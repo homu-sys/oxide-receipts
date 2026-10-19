@@ -1,0 +1,12 @@
+[package]
+name = "tianshu-harness"
+version = "3.34.0"
+description = "天枢harness是一个的终端编程智能体，它要回答的核心问题是：模型何以稳定地交付——目标不漂移、完成有证据、验证有闭环，不说\"应该修好了\"。为此它在模型与真实世界之间建立一层认知执行环境（CVM），把目标、状态、证据、资源、权限与终止条件从对话历史中外部化，由运行时持续管理。同时对deepseek v4极度优化。"
+homepage = "https://github.com/huiliyi37/Tianshu-harness"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Tianshu_3.34.0_x64.app.tar.gz"
+url = "https://github.com/huiliyi37/Tianshu-harness/releases/download/v3.34.0/Tianshu_3.34.0_x64.app.tar.gz"
+strip_prefix = ""

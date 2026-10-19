@@ -1,0 +1,12 @@
+[package]
+name = "xq"
+version = "1.5.1"
+description = "Command-line XML and HTML beautifier and content extractor"
+homepage = "https://github.com/sibprogrammer/xq"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "xq_1.5.1_linux_amd64.tar.gz"
+url = "https://github.com/sibprogrammer/xq/releases/download/v1.5.1/xq_1.5.1_linux_amd64.tar.gz"
+strip_prefix = ""

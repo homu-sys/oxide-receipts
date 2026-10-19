@@ -1,0 +1,12 @@
+[package]
+name = "nerva"
+version = "1.72.0"
+description = "Fast service fingerprinting CLI for 170+ protocols (TCP/UDP/SCTP) - built by Praetorian"
+homepage = "https://github.com/praetorian-inc/nerva"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "nerva_1.72.0_linux_amd64.tar.gz"
+url = "https://github.com/praetorian-inc/nerva/releases/download/v1.72.0/nerva_1.72.0_linux_amd64.tar.gz"
+strip_prefix = ""

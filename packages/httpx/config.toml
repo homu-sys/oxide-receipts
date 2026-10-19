@@ -1,0 +1,12 @@
+[package]
+name = "httpx"
+version = "1.12.0"
+description = "httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library."
+homepage = "https://github.com/projectdiscovery/httpx"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "httpx_1.12.0_linux_amd64.zip"
+url = "https://github.com/projectdiscovery/httpx/releases/download/v1.12.0/httpx_1.12.0_linux_amd64.zip"
+strip_prefix = ""

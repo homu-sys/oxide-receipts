@@ -1,0 +1,12 @@
+[package]
+name = "gut"
+version = "0.3.3"
+description = "A beginner friendly CLI for git"
+homepage = "https://github.com/julien040/gut"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gut_Linux_x86_64.tar.gz"
+url = "https://github.com/julien040/gut/releases/download/0.3.3/gut_Linux_x86_64.tar.gz"
+strip_prefix = ""

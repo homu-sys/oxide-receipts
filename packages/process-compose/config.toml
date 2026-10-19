@@ -1,0 +1,12 @@
+[package]
+name = "process-compose"
+version = "1.122.0"
+description = "Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications."
+homepage = "https://github.com/F1bonacc1/process-compose"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "process-compose_linux_amd64.tar.gz"
+url = "https://github.com/F1bonacc1/process-compose/releases/download/v1.122.0/process-compose_linux_amd64.tar.gz"
+strip_prefix = ""

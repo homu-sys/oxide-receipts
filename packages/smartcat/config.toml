@@ -1,0 +1,12 @@
+[package]
+name = "smartcat"
+version = "2.2.0"
+description = "Putting a brain behind `cat`🐈‍⬛ Integrating language models in the Unix commands ecosystem through text streams."
+homepage = "https://github.com/efugier/smartcat"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "sc--x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/efugier/smartcat/releases/download/2.2.0/sc--x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

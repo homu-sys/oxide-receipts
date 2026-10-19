@@ -1,0 +1,12 @@
+[package]
+name = "restfox"
+version = "0.40.0"
+description = "Offline-First Minimalistic HTTP & Socket Testing Client for the Web & Desktop"
+homepage = "https://github.com/flawiddsouza/Restfox"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "Restfox-win32-x64-0.40.0.zip"
+url = "https://github.com/flawiddsouza/Restfox/releases/download/v0.40.0/Restfox-win32-x64-0.40.0.zip"
+strip_prefix = ""

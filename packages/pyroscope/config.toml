@@ -1,0 +1,12 @@
+[package]
+name = "pyroscope"
+version = "2.4.0"
+description = "Continuous Profiling Platform. Debug performance issues down to a single line of code"
+homepage = "https://github.com/grafana/pyroscope"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "profilecli_2.4.0_linux_amd64.tar.gz"
+url = "https://github.com/grafana/pyroscope/releases/download/v2.4.0/profilecli_2.4.0_linux_amd64.tar.gz"
+strip_prefix = ""

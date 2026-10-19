@@ -1,0 +1,12 @@
+[package]
+name = "pvetui"
+version = "1.4.4"
+description = "Terminal UI for Proxmox VE"
+homepage = "https://github.com/devnullvoid/pvetui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "pvetui_1.4.4_linux_amd64.tar.gz"
+url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.4/pvetui_1.4.4_linux_amd64.tar.gz"
+strip_prefix = ""

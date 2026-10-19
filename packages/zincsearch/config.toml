@@ -1,0 +1,11 @@
+[package]
+name = "zincsearch"
+version = "1.0.0-beta3"
+description = "ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go."
+homepage = "https://github.com/zincsearch/zincsearch"
+arch = ["x86_64"]
+
+[archive]
+file = "zincsearch_1.0.0-beta3_linux_x86_64.tar.gz"
+url = "https://github.com/zincsearch/zincsearch/releases/download/v1.0.0-beta3/zincsearch_1.0.0-beta3_linux_x86_64.tar.gz"
+strip_prefix = ""

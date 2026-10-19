@@ -1,0 +1,12 @@
+[package]
+name = "openocta"
+version = "1.0.9"
+description = "OpenOcta is an open-source AIOps Agent installed on Windows & macOS."
+homepage = "https://github.com/openocta/openocta"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "openocta_1.0.9_linux_amd64.tar.gz"
+url = "https://github.com/openocta/openocta/releases/download/v1.0.9/openocta_1.0.9_linux_amd64.tar.gz"
+strip_prefix = ""

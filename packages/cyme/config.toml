@@ -1,0 +1,12 @@
+[package]
+name = "cyme"
+version = "3.0.2"
+description = "List system USB buses and devices. A modern cross-platform lsusb that attempts to maintain compatibility with, but also add new features"
+homepage = "https://github.com/tuna-f1sh/cyme"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

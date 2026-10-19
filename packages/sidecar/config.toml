@@ -1,0 +1,12 @@
+[package]
+name = "sidecar"
+version = "1.17.1"
+description = "Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td"
+homepage = "https://github.com/marcus/sidecar"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "sidecar_1.17.1_linux_amd64.tar.gz"
+url = "https://github.com/marcus/sidecar/releases/download/v1.17.1/sidecar_1.17.1_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "zeron"
+version = "0.2.114"
+description = "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents."
+homepage = "https://github.com/zeronsh/zeron"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "zeron-0.2.114-linux-x86_64.tar.gz"
+url = "https://github.com/zeronsh/zeron/releases/download/v0.2.114/zeron-0.2.114-linux-x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "gyroflow"
+version = "1.6.3"
+description = "Video stabilization using gyroscope data"
+homepage = "https://github.com/gyroflow/gyroflow"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Gyroflow-linux64.tar.gz"
+url = "https://github.com/gyroflow/gyroflow/releases/download/v1.6.3/Gyroflow-linux64.tar.gz"
+strip_prefix = ""

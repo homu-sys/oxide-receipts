@@ -1,0 +1,12 @@
+[package]
+name = "wrkflw"
+version = "0.8.0"
+description = "Validate and Run GitHub Actions locally."
+homepage = "https://github.com/bahdotsh/wrkflw"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "wrkflw-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/bahdotsh/wrkflw/releases/download/v0.8.0/wrkflw-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

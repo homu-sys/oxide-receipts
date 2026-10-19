@@ -1,0 +1,12 @@
+[package]
+name = "extraterm"
+version = "0.82.0"
+description = "The swiss army chainsaw of terminal emulators"
+homepage = "https://github.com/sedwards2009/extraterm"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "extratermqt-0.82.0-linux-x64.zip"
+url = "https://github.com/sedwards2009/extraterm/releases/download/v0.82.0/extratermqt-0.82.0-linux-x64.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "numa"
+version = "0.24.1"
+description = "Portable DNS resolver in Rust — .numa local domains, ad blocking, developer overrides"
+homepage = "https://github.com/razvandimescu/numa"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "numa-linux-x86_64.tar.gz"
+url = "https://github.com/razvandimescu/numa/releases/download/v0.24.1/numa-linux-x86_64.tar.gz"
+strip_prefix = ""

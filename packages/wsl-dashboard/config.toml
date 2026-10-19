@@ -1,0 +1,12 @@
+[package]
+name = "wsl-dashboard"
+version = "0.12.0"
+description = "A GUI manager for WSL featuring a modern UI — a lightweight, low‑memory, high‑performance dashboard to manage WSL instances.  Install, list, start, stop, unregister, and configure your WSL distros​ from one place."
+homepage = "https://github.com/owu/wsl-dashboard"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "WSLDashboard.0.12.0.Portable.x64.zip"
+url = "https://github.com/owu/wsl-dashboard/releases/download/v0.12.0/WSLDashboard.0.12.0.Portable.x64.zip"
+strip_prefix = ""

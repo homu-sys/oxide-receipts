@@ -1,0 +1,12 @@
+[package]
+name = "herdr-reviewr"
+version = "0.48.0"
+description = "Review your coding agent's diff in a terminal pane and send line comments back to Claude Code, Codex, OpenCode or Pi. A herdr plugin."
+homepage = "https://github.com/persiyanov/herdr-reviewr"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "herdr-reviewr-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/persiyanov/herdr-reviewr/releases/download/v0.48.0/herdr-reviewr-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

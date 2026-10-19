@@ -1,0 +1,12 @@
+[package]
+name = "spark"
+version = "0.2.1"
+description = "✨Spark is a web-based, cross-platform and full-featured Remote Administration Tool (RAT) written in Go that allows you control all your devices anywhere. Spark是一个Go编写的，网页UI、跨平台以及多功能的远程控制和监控工具，你可以随时随地监控和控制所有设备。"
+homepage = "https://github.com/XZB-1248/Spark"
+license = "BSD-2-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "server_linux_amd64.tar.gz"
+url = "https://github.com/XZB-1248/Spark/releases/download/v0.2.1/server_linux_amd64.tar.gz"
+strip_prefix = ""

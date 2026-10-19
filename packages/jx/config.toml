@@ -1,0 +1,12 @@
+[package]
+name = "jx"
+version = "3.17.116"
+description = "Jenkins X provides automated CI+CD for Kubernetes with Preview Environments on Pull Requests using Cloud Native pipelines from Tekton"
+homepage = "https://github.com/jenkins-x/jx"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "jx-linux-amd64.tar.gz"
+url = "https://github.com/jenkins-x/jx/releases/download/v3.17.116/jx-linux-amd64.tar.gz"
+strip_prefix = ""

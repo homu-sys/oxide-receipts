@@ -1,0 +1,12 @@
+[package]
+name = "sig"
+version = "0.3.0"
+description = "Interactive grep (for streaming)"
+homepage = "https://github.com/ynqa/sig"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "sigrs-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/ynqa/sig/releases/download/v0.3.0/sigrs-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

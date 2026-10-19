@@ -1,0 +1,12 @@
+[package]
+name = "ain"
+version = "1.6.0"
+description = "A HTTP API client for the terminal"
+homepage = "https://github.com/jonaslu/ain"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ain_1.6.0_linux_x86_64.tar.gz"
+url = "https://github.com/jonaslu/ain/releases/download/v1.6.0/ain_1.6.0_linux_x86_64.tar.gz"
+strip_prefix = ""

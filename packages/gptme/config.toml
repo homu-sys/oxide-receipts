@@ -1,0 +1,12 @@
+[package]
+name = "gptme"
+version = "0.35.1"
+description = "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!"
+homepage = "https://github.com/gptme/gptme"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gptme-server-bin-0.35.1-linux-x64.tar.gz"
+url = "https://github.com/gptme/gptme/releases/download/v0.35.1/gptme-server-bin-0.35.1-linux-x64.tar.gz"
+strip_prefix = ""

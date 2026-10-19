@@ -1,0 +1,12 @@
+[package]
+name = "go-micro"
+version = "6.15.1"
+description = "A framework for agents, tools and services"
+homepage = "https://github.com/micro/go-micro"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "micro_linux_amd64.tar.gz"
+url = "https://github.com/micro/go-micro/releases/download/v6.15.1/micro_linux_amd64.tar.gz"
+strip_prefix = ""

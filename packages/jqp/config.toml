@@ -1,0 +1,12 @@
+[package]
+name = "jqp"
+version = "0.8.0"
+description = "A TUI playground to experiment with jq"
+homepage = "https://github.com/noahgorstein/jqp"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "jqp_Linux_x86_64.tar.gz"
+url = "https://github.com/noahgorstein/jqp/releases/download/v0.8.0/jqp_Linux_x86_64.tar.gz"
+strip_prefix = ""

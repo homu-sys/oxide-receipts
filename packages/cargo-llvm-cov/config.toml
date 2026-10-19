@@ -1,0 +1,12 @@
+[package]
+name = "cargo-llvm-cov"
+version = "0.9.1"
+description = "Cargo subcommand to easily use LLVM source-based code coverage (-C instrument-coverage)."
+homepage = "https://github.com/taiki-e/cargo-llvm-cov"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cargo-llvm-cov-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.1/cargo-llvm-cov-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

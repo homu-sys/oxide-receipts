@@ -1,0 +1,12 @@
+[package]
+name = "multi-gitter"
+version = "0.63.1"
+description = "Update multiple repositories in with one command"
+homepage = "https://github.com/lindell/multi-gitter"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "multi-gitter_0.63.1_Linux_x86_64.tar.gz"
+url = "https://github.com/lindell/multi-gitter/releases/download/v0.63.1/multi-gitter_0.63.1_Linux_x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "basalt"
+version = "basalt/v0.13.0"
+description = "TUI Application to manage Obsidian notes directly from the terminal"
+homepage = "https://github.com/erikjuhani/basalt"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "basalt-0.13.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/erikjuhani/basalt/releases/download/basalt/v0.13.0/basalt-0.13.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

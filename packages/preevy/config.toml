@@ -1,0 +1,12 @@
+[package]
+name = "preevy"
+version = "0.0.67"
+description = "Quickly deploy preview environments to the cloud!"
+homepage = "https://github.com/livecycle/preevy"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "preevy-v0.0.67-linux-x64.tar.gz"
+url = "https://github.com/livecycle/preevy/releases/download/v0.0.67/preevy-v0.0.67-linux-x64.tar.gz"
+strip_prefix = ""

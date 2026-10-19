@@ -1,0 +1,12 @@
+[package]
+name = "opencodex"
+version = "2.89.0"
+description = "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code"
+homepage = "https://github.com/lidge-jun/opencodex"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ocx-2.89.0-bun-linux-x64.tar.gz"
+url = "https://github.com/lidge-jun/opencodex/releases/download/v2.89.0/ocx-2.89.0-bun-linux-x64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "participle"
+version = "2.1.4"
+description = "A parser library for Go"
+homepage = "https://github.com/alecthomas/participle"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "participle-2.1.4-linux-amd64.tar.gz"
+url = "https://github.com/alecthomas/participle/releases/download/v2.1.4/participle-2.1.4-linux-amd64.tar.gz"
+strip_prefix = ""

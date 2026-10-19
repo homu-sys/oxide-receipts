@@ -1,0 +1,12 @@
+[package]
+name = "xfr"
+version = "0.12.0"
+description = "A modern iperf3 alternative with a live TUI, multi-client server, and QUIC support. Built in Rust."
+homepage = "https://github.com/lance0/xfr"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "xfr-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/lance0/xfr/releases/download/v0.12.0/xfr-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

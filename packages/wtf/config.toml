@@ -1,0 +1,12 @@
+[package]
+name = "wtf"
+version = "0.51.0"
+description = "The personal information dashboard for your terminal"
+homepage = "https://github.com/wtfutil/wtf"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "tessera--v0.51.0--linux-amd64.tar.gz"
+url = "https://github.com/wtfutil/wtf/releases/download/v0.51.0/tessera--v0.51.0--linux-amd64.tar.gz"
+strip_prefix = ""

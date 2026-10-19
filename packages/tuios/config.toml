@@ -1,0 +1,12 @@
+[package]
+name = "tuios"
+version = "0.10.1"
+description = "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent."
+homepage = "https://github.com/Gaurav-Gosain/tuios"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tuios-ghostty_0.10.1_Linux_x86_64.tar.gz"
+url = "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.10.1/tuios-ghostty_0.10.1_Linux_x86_64.tar.gz"
+strip_prefix = ""

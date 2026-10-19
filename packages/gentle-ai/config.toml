@@ -1,0 +1,12 @@
+[package]
+name = "gentle-ai"
+version = "4.2.0"
+description = "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in."
+homepage = "https://github.com/Gentleman-Programming/gentle-ai"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gentle-ai_4.2.0_linux_amd64.tar.gz"
+url = "https://github.com/Gentleman-Programming/gentle-ai/releases/download/v4.2.0/gentle-ai_4.2.0_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "blendr"
+version = "1.3.3"
+description = "The hacker's BLE (bluetooth low energy) browser terminal app"
+homepage = "https://github.com/dmtrKovalenko/blendr"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "blendr-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/dmtrKovalenko/blendr/releases/download/v1.3.3/blendr-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

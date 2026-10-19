@@ -1,0 +1,12 @@
+[package]
+name = "uniterm"
+version = "1.10.1"
+description = "All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously."
+homepage = "https://github.com/ys-ll/uniterm"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "uniterm-linux-amd64-v1.10.1.tar.gz"
+url = "https://github.com/ys-ll/uniterm/releases/download/v1.10.1/uniterm-linux-amd64-v1.10.1.tar.gz"
+strip_prefix = ""

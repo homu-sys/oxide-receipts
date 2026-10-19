@@ -1,0 +1,12 @@
+[package]
+name = "herdr-gpui"
+version = "20261019.1"
+description = "Native client for Herdr on macOS, Linux, and Windows, built with Rust and GPUI. View terminal sessions, workspaces, Git worktrees, and agent activity through your local Herdr daemon."
+homepage = "https://github.com/penso/herdr-gpui"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Herdr-20261019.1-x86_64-unknown-linux-gnu.pkg.tar.zst"
+url = "https://github.com/penso/herdr-gpui/releases/download/v20261019.1/Herdr-20261019.1-x86_64-unknown-linux-gnu.pkg.tar.zst"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "rustfmt"
+version = "1.6.0"
+description = "Format Rust code"
+homepage = "https://github.com/rust-lang/rustfmt"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rustfmt_linux-x86_64_v1.6.0.tar.gz"
+url = "https://github.com/rust-lang/rustfmt/releases/download/v1.6.0/rustfmt_linux-x86_64_v1.6.0.tar.gz"
+strip_prefix = ""

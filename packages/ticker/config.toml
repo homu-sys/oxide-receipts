@@ -1,0 +1,12 @@
+[package]
+name = "ticker"
+version = "5.3.0"
+description = "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+homepage = "https://github.com/achannarasappa/ticker"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ticker-5.3.0-linux-amd64.tar.gz"
+url = "https://github.com/achannarasappa/ticker/releases/download/v5.3.0/ticker-5.3.0-linux-amd64.tar.gz"
+strip_prefix = ""

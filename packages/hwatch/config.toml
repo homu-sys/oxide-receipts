@@ -1,0 +1,12 @@
+[package]
+name = "hwatch"
+version = "0.4.2"
+description = "hwatch: alternative watch command with history, diff view, JSONL logging, and change hooks. since 2018."
+homepage = "https://github.com/blacknon/hwatch"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "hwatch-0.4.2.x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/blacknon/hwatch/releases/download/0.4.2/hwatch-0.4.2.x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

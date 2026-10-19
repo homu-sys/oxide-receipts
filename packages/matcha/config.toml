@@ -1,0 +1,12 @@
+[package]
+name = "matcha"
+version = "1.1.0"
+description = "A beautiful and functional email client for your terminal, built with Go and the charming Bubble Tea TUI library. Never leave your command line to check your inbox or send an email again!"
+homepage = "https://github.com/floatpane/matcha"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "matcha_1.1.0_linux_amd64.tar.gz"
+url = "https://github.com/floatpane/matcha/releases/download/v1.1.0/matcha_1.1.0_linux_amd64.tar.gz"
+strip_prefix = ""

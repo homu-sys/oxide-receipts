@@ -1,0 +1,12 @@
+[package]
+name = "fztea"
+version = "0.6.4"
+description = "🐬🧋  Remote control your flipper from the local terminal or over SSH"
+homepage = "https://github.com/jon4hz/fztea"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "fztea-v0.6.4-linux-amd64.tar.gz"
+url = "https://github.com/jon4hz/fztea/releases/download/v0.6.4/fztea-v0.6.4-linux-amd64.tar.gz"
+strip_prefix = ""

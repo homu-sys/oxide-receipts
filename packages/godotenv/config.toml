@@ -1,0 +1,12 @@
+[package]
+name = "godotenv"
+version = "1.5.1"
+description = "A Go port of Ruby's dotenv library (Loads environment variables from .env files)"
+homepage = "https://github.com/joho/godotenv"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "godotenv-linux-amd64.tar.gz"
+url = "https://github.com/joho/godotenv/releases/download/v1.5.1/godotenv-linux-amd64.tar.gz"
+strip_prefix = ""

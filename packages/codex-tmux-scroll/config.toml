@@ -1,0 +1,12 @@
+[package]
+name = "codex-tmux-scroll"
+version = "0.139.0-tmux.3"
+description = "Mouse-first fullscreen scrolling for Codex CLI, tuned for tmux workflows"
+homepage = "https://github.com/GuanhuaYe/codex-tmux-scroll"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "codex-tmux-scroll-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/GuanhuaYe/codex-tmux-scroll/releases/download/v0.139.0-tmux.3/codex-tmux-scroll-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

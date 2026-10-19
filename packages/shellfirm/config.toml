@@ -1,0 +1,12 @@
+[package]
+name = "shellfirm"
+version = "0.3.10"
+description = "Safety guardrails for ai coding agents and human terminal commands"
+homepage = "https://github.com/kaplanelad/shellfirm"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "shellfirm-v0.3.10-x86_64-linux.tar.xz"
+url = "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.10/shellfirm-v0.3.10-x86_64-linux.tar.xz"
+strip_prefix = ""

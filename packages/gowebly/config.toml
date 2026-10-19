@@ -1,0 +1,12 @@
+[package]
+name = "gowebly"
+version = "3.1.1"
+description = "🔥 A next-generation CLI tool that makes it easy to create amazing web applications with Go on the backend, using htmx, hyperscript or Alpine.js, and the most popular CSS frameworks on the frontend."
+homepage = "https://github.com/gowebly/gowebly"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "gowebly_3.1.1_linux_amd64.pkg.tar.zst"
+url = "https://github.com/gowebly/gowebly/releases/download/v3.1.1/gowebly_3.1.1_linux_amd64.pkg.tar.zst"
+strip_prefix = ""

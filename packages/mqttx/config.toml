@@ -1,0 +1,12 @@
+[package]
+name = "mqttx"
+version = "1.13.1"
+description = "A Powerful and All-in-One MQTT 5.0 client toolbox for Desktop, CLI and WebSocket."
+homepage = "https://github.com/emqx/MQTTX"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "MQTTX-1.13.1-x64-win.zip"
+url = "https://github.com/emqx/MQTTX/releases/download/v1.13.1/MQTTX-1.13.1-x64-win.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "godap"
+version = "2.12.2"
+description = "A complete terminal user interface (TUI) for LDAP."
+homepage = "https://github.com/Macmod/godap"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "godap-v2.12.2-linux-amd64.tar.gz"
+url = "https://github.com/Macmod/godap/releases/download/v2.12.2/godap-v2.12.2-linux-amd64.tar.gz"
+strip_prefix = ""

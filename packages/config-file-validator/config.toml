@@ -1,0 +1,12 @@
+[package]
+name = "config-file-validator"
+version = "3.0.0"
+description = "Cross-platform config file CLI toolchain. Validates syntax, schema compliance, and formatting across 18 different configuration file types. Written in Go."
+homepage = "https://github.com/Boeing/config-file-validator"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cfv-3.0.0-linux-amd64.tar.gz"
+url = "https://github.com/Boeing/config-file-validator/releases/download/v3.0.0/cfv-3.0.0-linux-amd64.tar.gz"
+strip_prefix = ""

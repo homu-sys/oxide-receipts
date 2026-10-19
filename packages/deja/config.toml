@@ -1,0 +1,12 @@
+[package]
+name = "deja"
+version = "0.4.2"
+description = "Predictive inline suggestions for zsh"
+homepage = "https://github.com/Giammarco-Ferranti/deja"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "deja_0.4.2_linux_amd64.tar.gz"
+url = "https://github.com/Giammarco-Ferranti/deja/releases/download/v0.4.2/deja_0.4.2_linux_amd64.tar.gz"
+strip_prefix = ""

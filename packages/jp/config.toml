@@ -1,0 +1,12 @@
+[package]
+name = "jp"
+version = "1.1.12"
+description = "dead simple terminal plots from JSON data. single binary, no dependencies. linux, osx, windows."
+homepage = "https://github.com/sgreben/jp"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "jp_1.1.12_linux_x86_64.zip"
+url = "https://github.com/sgreben/jp/releases/download/1.1.12/jp_1.1.12_linux_x86_64.zip"
+strip_prefix = ""

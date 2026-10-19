@@ -1,0 +1,12 @@
+[package]
+name = "hunk"
+version = "0.24.0"
+description = "Review-first terminal diff viewer for agentic coders"
+homepage = "https://github.com/modem-dev/hunk"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "hunkdiff-linux-x64.tar.gz"
+url = "https://github.com/modem-dev/hunk/releases/download/v0.24.0/hunkdiff-linux-x64.tar.gz"
+strip_prefix = ""

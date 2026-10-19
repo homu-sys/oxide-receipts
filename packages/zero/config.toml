@@ -1,0 +1,12 @@
+[package]
+name = "zero"
+version = "0.11.0"
+description = "The coding agent that answers to you, your model, your machine, your rules."
+homepage = "https://github.com/Twigpine/zero"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "zero-v0.11.0-linux-x64.tar.gz"
+url = "https://github.com/Twigpine/zero/releases/download/v0.11.0/zero-v0.11.0-linux-x64.tar.gz"
+strip_prefix = ""

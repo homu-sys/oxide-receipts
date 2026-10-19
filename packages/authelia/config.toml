@@ -1,0 +1,12 @@
+[package]
+name = "authelia"
+version = "4.39.28"
+description = "The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready."
+homepage = "https://github.com/authelia/authelia"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "authelia-v4.39.28-linux-amd64-musl.tar.gz"
+url = "https://github.com/authelia/authelia/releases/download/v4.39.28/authelia-v4.39.28-linux-amd64-musl.tar.gz"
+strip_prefix = ""

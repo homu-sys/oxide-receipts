@@ -1,0 +1,12 @@
+[package]
+name = "mediamtx"
+version = "1.21.2"
+description = "Ready-to-use Media-over-QUIC / SRT / WebRTC / RTSP / RTMP / LL-HLS / MPEG-TS / RTP live media server and media proxy that allows to read, publish, proxy, record and playback real-time video and audio streams."
+homepage = "https://github.com/bluenviron/mediamtx"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mediamtx_v1.21.2_linux_amd64.tar.gz"
+url = "https://github.com/bluenviron/mediamtx/releases/download/v1.21.2/mediamtx_v1.21.2_linux_amd64.tar.gz"
+strip_prefix = ""

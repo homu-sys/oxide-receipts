@@ -1,0 +1,12 @@
+[package]
+name = "databend"
+version = "1.2.881"
+description = "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  — rebuilt from scratch. Unified architecture on your S3."
+homepage = "https://github.com/databendlabs/databend"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "databend-debug-default-v1.2.881-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/databendlabs/databend/releases/download/v1.2.881/databend-debug-default-v1.2.881-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

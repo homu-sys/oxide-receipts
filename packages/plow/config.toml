@@ -1,0 +1,12 @@
+[package]
+name = "plow"
+version = "1.4.0"
+description = "A high-performance HTTP benchmarking tool that includes a real-time web UI and terminal display"
+homepage = "https://github.com/six-ddc/plow"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "plow_1.4.0_linux_amd64.tar.gz"
+url = "https://github.com/six-ddc/plow/releases/download/v1.4.0/plow_1.4.0_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "neuroapi"
+version = "2.1.1"
+description = "NeuroAPI: российский AI API для Codex CLI и Claude Code — безопасные one-click установщики для Windows и macOS."
+homepage = "https://github.com/neurogen-dev/NeuroAPI"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "NeuroGPT_x64.app.tar.gz"
+url = "https://github.com/neurogen-dev/NeuroAPI/releases/download/v2.1.1/NeuroGPT_x64.app.tar.gz"
+strip_prefix = ""

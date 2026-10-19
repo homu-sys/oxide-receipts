@@ -1,0 +1,12 @@
+[package]
+name = "treemd"
+version = "0.10.0"
+description = "A (TUI/CLI) markdown navigator with tree-based structural navigation."
+homepage = "https://github.com/Epistates/treemd"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "treemd-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/Epistates/treemd/releases/download/v0.10.0/treemd-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

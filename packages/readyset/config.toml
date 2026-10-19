@@ -1,0 +1,11 @@
+[package]
+name = "readyset"
+version = "stable-260924"
+description = "Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the results of cached select statements and incrementally updates these results over time as the underlying data changes."
+homepage = "https://github.com/readysettech/readyset"
+arch = ["x86_64"]
+
+[archive]
+file = "readyset-mcp-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/readysettech/readyset/releases/download/stable-260924/readyset-mcp-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

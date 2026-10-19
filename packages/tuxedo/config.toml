@@ -1,0 +1,12 @@
+[package]
+name = "tuxedo"
+version = "2026.8.1"
+description = "A fast, keyboard-driven terminal UI for todo.txt."
+homepage = "https://github.com/webstonehq/tuxedo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tuxedo-v2026.8.1-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/webstonehq/tuxedo/releases/download/v2026.8.1/tuxedo-v2026.8.1-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

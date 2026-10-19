@@ -1,0 +1,12 @@
+[package]
+name = "cw"
+version = "4.1.3"
+description = "The best way to tail AWS CloudWatch Logs from your terminal"
+homepage = "https://github.com/lucagrulla/cw"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cw_4.1.3_Linux_x86_64.tar.gz"
+url = "https://github.com/lucagrulla/cw/releases/download/v4.1.3/cw_4.1.3_Linux_x86_64.tar.gz"
+strip_prefix = ""

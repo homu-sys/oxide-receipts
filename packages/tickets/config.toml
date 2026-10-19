@@ -1,0 +1,12 @@
+[package]
+name = "tickets"
+version = "0.6.1"
+description = "大麦网(大麦）、bilibili(B站)会员购 演唱会调用接口的抢票软件，余票监控，微信通知。"
+homepage = "https://github.com/shiyutim/tickets"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tickets_x64.app.tar.gz"
+url = "https://github.com/shiyutim/tickets/releases/download/v0.6.1/tickets_x64.app.tar.gz"
+strip_prefix = ""

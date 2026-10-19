@@ -1,0 +1,12 @@
+[package]
+name = "kpt"
+version = "1.0.1"
+description = "Automate Kubernetes Configuration Editing"
+homepage = "https://github.com/kptdev/kpt"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kpt_linux_amd64-1.0.1.tar.gz"
+url = "https://github.com/kptdev/kpt/releases/download/v1.0.1/kpt_linux_amd64-1.0.1.tar.gz"
+strip_prefix = ""

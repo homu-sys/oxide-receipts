@@ -1,0 +1,12 @@
+[package]
+name = "wayle"
+version = "0.7.0"
+description = "Wayland Elements -  A compositor agnostic shell with extensive customization"
+homepage = "https://github.com/wayle-rs/wayle"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "wayle-0.7.0-x86_64-linux.tar.gz"
+url = "https://github.com/wayle-rs/wayle/releases/download/v0.7.0/wayle-0.7.0-x86_64-linux.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,11 @@
+[package]
+name = "flipt"
+version = "2.14.0"
+description = "Enterprise-ready, Git native feature management solution"
+homepage = "https://github.com/flipt-io/flipt"
+arch = ["x86_64"]
+
+[archive]
+file = "flipt_linux_x86_64.tar.gz"
+url = "https://github.com/flipt-io/flipt/releases/download/v2.14.0/flipt_linux_x86_64.tar.gz"
+strip_prefix = ""

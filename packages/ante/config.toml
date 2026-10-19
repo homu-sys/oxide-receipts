@@ -1,0 +1,12 @@
+[package]
+name = "ante"
+version = "0.2.13"
+description = "Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints."
+homepage = "https://github.com/AntigmaLabs/ante"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ante-v0.2.13-linux-x86_64-musl.tar.gz"
+url = "https://github.com/AntigmaLabs/ante/releases/download/v0.2.13/ante-v0.2.13-linux-x86_64-musl.tar.gz"
+strip_prefix = ""

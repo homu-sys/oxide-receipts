@@ -1,0 +1,12 @@
+[package]
+name = "nextest"
+version = "cargo-nextest-0.9.148"
+description = "A next-generation test runner for Rust."
+homepage = "https://github.com/nextest-rs/nextest"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cargo-nextest-0.9.148-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.148/cargo-nextest-0.9.148-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "ollama"
+version = "0.40.6"
+description = "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+homepage = "https://github.com/ollama/ollama"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ollama-linux-amd64-mlx.tar.zst"
+url = "https://github.com/ollama/ollama/releases/download/v0.40.6/ollama-linux-amd64-mlx.tar.zst"
+strip_prefix = ""

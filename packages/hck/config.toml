@@ -1,0 +1,12 @@
+[package]
+name = "hck"
+version = "0.11.6"
+description = "A sharp cut(1) clone."
+homepage = "https://github.com/sstadick/hck"
+license = "Unlicense"
+arch = ["x86_64"]
+
+[archive]
+file = "hck-linux-amd64-src.tar.gz"
+url = "https://github.com/sstadick/hck/releases/download/v0.11.6/hck-linux-amd64-src.tar.gz"
+strip_prefix = ""

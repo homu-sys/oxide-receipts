@@ -1,0 +1,11 @@
+[package]
+name = "cube"
+version = "1.8.8"
+description = "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics"
+homepage = "https://github.com/cube-js/cube"
+arch = ["x86_64"]
+
+[archive]
+file = "cube-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/cube-js/cube/releases/download/v1.8.8/cube-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

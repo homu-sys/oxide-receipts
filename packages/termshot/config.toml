@@ -1,0 +1,12 @@
+[package]
+name = "termshot"
+version = "0.6.1"
+description = "Creates screenshots based on terminal command output"
+homepage = "https://github.com/homeport/termshot"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "termshot_0.6.1_linux_amd64.tar.gz"
+url = "https://github.com/homeport/termshot/releases/download/v0.6.1/termshot_0.6.1_linux_amd64.tar.gz"
+strip_prefix = ""

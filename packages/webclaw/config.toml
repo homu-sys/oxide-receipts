@@ -1,0 +1,12 @@
+[package]
+name = "webclaw"
+version = "0.6.23"
+description = "Fast, local-first web content extraction for LLMs. Scrape, crawl, extract structured data — all from Rust. CLI, REST API, and MCP server."
+homepage = "https://github.com/0xMassi/webclaw"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "webclaw-v0.6.23-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/0xMassi/webclaw/releases/download/v0.6.23/webclaw-v0.6.23-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

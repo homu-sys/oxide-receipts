@@ -1,0 +1,11 @@
+[package]
+name = "cabal-cli"
+version = "13.4.1"
+description = "Terminal client for Cabal, the p2p chat platform."
+homepage = "https://github.com/cabal-club/cabal-cli"
+arch = ["x86_64"]
+
+[archive]
+file = "cabal-13.4.1-linux-x64.zip"
+url = "https://github.com/cabal-club/cabal-cli/releases/download/v13.4.1/cabal-13.4.1-linux-x64.zip"
+strip_prefix = ""

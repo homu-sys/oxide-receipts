@@ -1,0 +1,12 @@
+[package]
+name = "video-compare"
+version = "20261004"
+description = "Split-screen video comparison tool using FFmpeg and SDL2"
+homepage = "https://github.com/pixop/video-compare"
+license = "GPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "video-compare-20261004-win10-x86_64.zip"
+url = "https://github.com/pixop/video-compare/releases/download/20261004/video-compare-20261004-win10-x86_64.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "framework-tool-tui"
+version = "0.8.6"
+description = "A TUI for controlling and monitoring Framework Computers hardware built in Rust"
+homepage = "https://github.com/grouzen/framework-tool-tui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "framework-tool-tui-v0.8.6-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/grouzen/framework-tool-tui/releases/download/v0.8.6/framework-tool-tui-v0.8.6-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

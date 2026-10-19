@@ -1,0 +1,12 @@
+[package]
+name = "dnsglobe"
+version = "0.5.0"
+description = "Global DNS propagation checker TUI — watch a DNS record propagate across 34 public resolvers worldwide, on a world map in your terminal"
+homepage = "https://github.com/514-labs/dnsglobe"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dnsglobe-x86_64-unknown-linux-gnu.tar.xz"
+url = "https://github.com/514-labs/dnsglobe/releases/download/v0.5.0/dnsglobe-x86_64-unknown-linux-gnu.tar.xz"
+strip_prefix = ""

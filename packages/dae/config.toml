@@ -1,0 +1,12 @@
+[package]
+name = "dae"
+version = "2.1.1"
+description = "eBPF-based Linux high-performance transparent proxy solution."
+homepage = "https://github.com/daeuniverse/dae"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "dae-linux-x86_64.pkg.tar.zst"
+url = "https://github.com/daeuniverse/dae/releases/download/v2.1.1/dae-linux-x86_64.pkg.tar.zst"
+strip_prefix = ""

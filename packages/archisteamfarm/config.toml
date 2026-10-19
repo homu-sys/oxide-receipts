@@ -1,0 +1,12 @@
+[package]
+name = "archisteamfarm"
+version = "6.3.10.6"
+description = "C# application with primary purpose of farming Steam cards from multiple accounts simultaneously."
+homepage = "https://github.com/JustArchiNET/ArchiSteamFarm"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ASF-linux-x64.zip"
+url = "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.10.6/ASF-linux-x64.zip"
+strip_prefix = ""

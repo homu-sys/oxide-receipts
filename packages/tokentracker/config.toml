@@ -1,0 +1,12 @@
+[package]
+name = "tokentracker"
+version = "1.4.6"
+description = "Local-first AI token usage & cost tracker for 31 coding tools incl. Claude Code, Codex, Cursor, Gemini & DeepSeek Harness—with native apps. Never reads prompts."
+homepage = "https://github.com/xiufengsun/TokenTracker"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "TokenTracker-win-x64.zip"
+url = "https://github.com/xiufengsun/TokenTracker/releases/download/v1.4.6/TokenTracker-win-x64.zip"
+strip_prefix = ""

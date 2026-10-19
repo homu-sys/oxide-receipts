@@ -1,0 +1,12 @@
+[package]
+name = "openscreen"
+version = "2.1.2"
+description = "Record your screen, ship a demo. Free and open-source, GPU-accelerated, no watermarks, no subscriptions. Windows, macOS, Linux. Actively maintained."
+homepage = "https://github.com/getopenscreen/openscreen"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "Openscreen-Mac-x64-2.1.2.zip"
+url = "https://github.com/getopenscreen/openscreen/releases/download/v2.1.2/Openscreen-Mac-x64-2.1.2.zip"
+strip_prefix = ""

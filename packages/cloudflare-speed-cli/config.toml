@@ -1,0 +1,12 @@
+[package]
+name = "cloudflare-speed-cli"
+version = "1.0.10"
+description = "CLI for internet speed test via cloudflare"
+homepage = "https://github.com/kavehtehrani/cloudflare-speed-cli"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cloudflare-speed-cli-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/kavehtehrani/cloudflare-speed-cli/releases/download/v1.0.10/cloudflare-speed-cli-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

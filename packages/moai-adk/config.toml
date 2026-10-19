@@ -1,0 +1,12 @@
+[package]
+name = "moai-adk"
+version = "3.1.2"
+description = "Agentic development harness for Claude Code — SPEC-driven plan/run/sync, TRUST 5 quality gates, model+effort routing, and Claude×GLM multi-LLM cost control. Single Go binary, 16 languages, zero deps."
+homepage = "https://github.com/modu-ai/moai-adk"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "moai-adk_3.1.2_linux_amd64.tar.gz"
+url = "https://github.com/modu-ai/moai-adk/releases/download/v3.1.2/moai-adk_3.1.2_linux_amd64.tar.gz"
+strip_prefix = ""

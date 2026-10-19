@@ -1,0 +1,12 @@
+[package]
+name = "wasm-bindgen"
+version = "0.2.129"
+description = "Facilitating high-level interactions between Wasm modules and JavaScript"
+homepage = "https://github.com/wasm-bindgen/wasm-bindgen"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "wasm-bindgen-0.2.129-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/wasm-bindgen/wasm-bindgen/releases/download/0.2.129/wasm-bindgen-0.2.129-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

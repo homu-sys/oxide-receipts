@@ -1,0 +1,12 @@
+[package]
+name = "budget-tracker-tui"
+version = "1.7.0"
+description = "A TUI budget tracker app built in rust. Designed to track income and expenses and help visualize and gather basic insights from your transactions."
+homepage = "https://github.com/Feromond/budget-tracker-tui"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "budget-tracker-1.7.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/Feromond/budget-tracker-tui/releases/download/v1.7.0/budget-tracker-1.7.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

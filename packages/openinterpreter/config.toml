@@ -1,0 +1,12 @@
+[package]
+name = "openinterpreter"
+version = "rust-v0.0.56"
+description = "A coding agent for open models like Kimi K3 and GLM 5.3"
+homepage = "https://github.com/openinterpreter/openinterpreter"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "bwrap-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/openinterpreter/openinterpreter/releases/download/rust-v0.0.56/bwrap-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

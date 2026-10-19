@@ -1,0 +1,12 @@
+[package]
+name = "filmcraft"
+version = "0.9.0"
+description = "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust"
+homepage = "https://github.com/storytold/filmcraft"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "filmcraft-0.9.0-linux-x86_64.tar.gz"
+url = "https://github.com/storytold/filmcraft/releases/download/v0.9.0/filmcraft-0.9.0-linux-x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,11 @@
+[package]
+name = "clients"
+version = "desktop-v2026.10.0"
+description = "Bitwarden client apps (web, browser extension, desktop, and cli)."
+homepage = "https://github.com/bitwarden/clients"
+arch = ["x86_64"]
+
+[archive]
+file = "bitwarden_2026.10.0_x64.tar.gz"
+url = "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.0/bitwarden_2026.10.0_x64.tar.gz"
+strip_prefix = ""

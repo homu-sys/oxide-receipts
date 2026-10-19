@@ -1,0 +1,12 @@
+[package]
+name = "lunatic"
+version = "0.13.2"
+description = "Lunatic is an Erlang-inspired runtime for WebAssembly"
+homepage = "https://github.com/lunatic-solutions/lunatic"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "lunatic-linux-amd64.tar.gz"
+url = "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-linux-amd64.tar.gz"
+strip_prefix = ""

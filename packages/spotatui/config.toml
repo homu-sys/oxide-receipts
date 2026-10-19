@@ -1,0 +1,12 @@
+[package]
+name = "spotatui"
+version = "0.46.0"
+description = "A fast, standalone terminal music player in Rust: native Spotify streaming plus local, Subsonic, radio, Qobuz and Youtube sources"
+homepage = "https://github.com/LargeModGames/spotatui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "spotatui-linux-x86_64.tar.gz"
+url = "https://github.com/LargeModGames/spotatui/releases/download/v0.46.0/spotatui-linux-x86_64.tar.gz"
+strip_prefix = ""

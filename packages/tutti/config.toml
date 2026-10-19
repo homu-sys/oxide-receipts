@@ -1,0 +1,12 @@
+[package]
+name = "tutti"
+version = "0.2.33"
+description = "Where people and agents build in tune."
+homepage = "https://github.com/tutti-os/tutti"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Tutti-0.2.33-mac-x64.zip"
+url = "https://github.com/tutti-os/tutti/releases/download/v0.2.33/Tutti-0.2.33-mac-x64.zip"
+strip_prefix = ""

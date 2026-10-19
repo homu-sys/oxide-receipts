@@ -1,0 +1,12 @@
+[package]
+name = "yearning"
+version = "3.1.9.1"
+description = "🐳 A most popular sql audit platform for mysql"
+homepage = "https://github.com/cookieY/Yearning"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Yearning-v3.1.9.1-linux-amd64.zip"
+url = "https://github.com/cookieY/Yearning/releases/download/v3.1.9.1/Yearning-v3.1.9.1-linux-amd64.zip"
+strip_prefix = ""

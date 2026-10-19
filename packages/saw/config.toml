@@ -1,0 +1,12 @@
+[package]
+name = "saw"
+version = "0.2.2"
+description = "Fast, multi-purpose tool for AWS CloudWatch Logs"
+homepage = "https://github.com/TylerBrock/saw"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "saw_0.2.2_linux_amd64.tar.gz"
+url = "https://github.com/TylerBrock/saw/releases/download/v0.2.2/saw_0.2.2_linux_amd64.tar.gz"
+strip_prefix = ""

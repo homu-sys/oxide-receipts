@@ -1,0 +1,12 @@
+[package]
+name = "betteralign"
+version = "0.15.3"
+description = "Detect and fix suboptimal struct field layout in Go: reduces padding and GC pointer bytes, rewrites files while preserving comments. A drop-in fieldalignment replacement."
+homepage = "https://github.com/dkorunic/betteralign"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "betteralign_Linux_x86_64.tar.gz"
+url = "https://github.com/dkorunic/betteralign/releases/download/v0.15.3/betteralign_Linux_x86_64.tar.gz"
+strip_prefix = ""

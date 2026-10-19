@@ -1,0 +1,12 @@
+[package]
+name = "sun-panel"
+version = "1.8.1"
+description = "A server, NAS navigation panel, Homepage, browser homepage. | 一个服务器、NAS导航面板、Homepage、浏览器首页。"
+homepage = "https://github.com/hslr-s/sun-panel"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "sun-panel_v1.8.1_linux_musl_amd64.tar.gz"
+url = "https://github.com/hslr-s/sun-panel/releases/download/v1.8.1/sun-panel_v1.8.1_linux_musl_amd64.tar.gz"
+strip_prefix = ""

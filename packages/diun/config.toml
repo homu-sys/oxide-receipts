@@ -1,0 +1,12 @@
+[package]
+name = "diun"
+version = "4.33.0"
+description = "Receive notifications when an image is updated on a Docker registry"
+homepage = "https://github.com/crazy-max/diun"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "diun_4.33.0_linux_amd64.tar.gz"
+url = "https://github.com/crazy-max/diun/releases/download/v4.33.0/diun_4.33.0_linux_amd64.tar.gz"
+strip_prefix = ""

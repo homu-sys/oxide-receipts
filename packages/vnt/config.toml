@@ -1,0 +1,12 @@
+[package]
+name = "vnt"
+version = "2.0.11"
+description = "An efficient VPN. 简便高效的异地组网、内网穿透工具"
+homepage = "https://github.com/vnt-dev/vnt"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "vnt2-x86_64-unknown-linux-musl-v2.0.11.zip"
+url = "https://github.com/vnt-dev/vnt/releases/download/v2.0.11/vnt2-x86_64-unknown-linux-musl-v2.0.11.zip"
+strip_prefix = ""

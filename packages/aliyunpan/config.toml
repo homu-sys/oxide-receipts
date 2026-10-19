@@ -1,0 +1,12 @@
+[package]
+name = "aliyunpan"
+version = "3.0.9-939570b"
+description = "阿里云盘cli"
+homepage = "https://github.com/wxy1343/aliyunpan"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "aliyunpan-cli-Linux-x86_64-v3.0.9-939570b.tar.gz"
+url = "https://github.com/wxy1343/aliyunpan/releases/download/v3.0.9-939570b/aliyunpan-cli-Linux-x86_64-v3.0.9-939570b.tar.gz"
+strip_prefix = ""

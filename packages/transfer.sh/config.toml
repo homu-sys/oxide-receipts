@@ -1,0 +1,12 @@
+[package]
+name = "transfer.sh"
+version = "1.6.1"
+description = "Easy and fast file sharing from the command-line."
+homepage = "https://github.com/dutchcoders/transfer.sh"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "transfersh-v1.6.1-linux-amd64.tar.gz"
+url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.6.1/transfersh-v1.6.1-linux-amd64.tar.gz"
+strip_prefix = ""

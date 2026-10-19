@@ -1,0 +1,12 @@
+[package]
+name = "vtcode"
+version = "0.179.6"
+description = "VT Code is an open-source Rust terminal coding agent."
+homepage = "https://github.com/vinhnx/VTCode"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "vtcode-0.179.6-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/vinhnx/VTCode/releases/download/0.179.6/vtcode-0.179.6-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

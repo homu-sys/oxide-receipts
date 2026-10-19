@@ -1,0 +1,12 @@
+[package]
+name = "voltius"
+version = "0.60.0"
+description = "A lightning-fast, modern, local-first SSH/SFTP/Serial client. Real-time E2EE sync, Team vaults, live sharing, plugins and more. Open-source Termius alternative for Windows, Linux, macOS & Android. Built with Rust/Tauri."
+homepage = "https://github.com/VoltiusApp/voltius"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Voltius_0.60.0_x64.app.tar.gz"
+url = "https://github.com/VoltiusApp/voltius/releases/download/v0.60.0/Voltius_0.60.0_x64.app.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "orbiton"
+version = "2.74.6"
+description = "Snappy and configuration-free text editor/IDE for the terminal. Suitable for writing git commit messages, editing Markdown, config files, source code, man pages and for quick edit-format-compile cycles when programming. Has syntax highlighting, jump-to-error, rainbow parentheses, macros, copy/paste portals, gdb, dlv and LSP support."
+homepage = "https://github.com/xyproto/orbiton"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "orbiton-2.74.6-linux_x86_64_static.tar.xz"
+url = "https://github.com/xyproto/orbiton/releases/download/v2.74.6/orbiton-2.74.6-linux_x86_64_static.tar.xz"
+strip_prefix = ""

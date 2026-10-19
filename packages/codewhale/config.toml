@@ -1,0 +1,12 @@
+[package]
+name = "codewhale"
+version = "0.10.1"
+description = "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts."
+homepage = "https://github.com/codewhale-hq/Codewhale"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "codewhale-linux-x64.tar.gz"
+url = "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.1/codewhale-linux-x64.tar.gz"
+strip_prefix = ""

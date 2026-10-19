@@ -1,0 +1,12 @@
+[package]
+name = "ultralist"
+version = "1.7.0"
+description = "Simple task management for tech folks."
+homepage = "https://github.com/gammons/ultralist"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ultralistlinux_amd64.tar.gz"
+url = "https://github.com/gammons/ultralist/releases/download/1.7.0/ultralistlinux_amd64.tar.gz"
+strip_prefix = ""

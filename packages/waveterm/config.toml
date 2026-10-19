@@ -1,0 +1,12 @@
+[package]
+name = "waveterm"
+version = "0.14.5"
+description = "An open-source, AI-integrated, cross-platform terminal for seamless workflows"
+homepage = "https://github.com/wavetermdev/waveterm"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "waveterm-linux-x64-0.14.5.zip"
+url = "https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/waveterm-linux-x64-0.14.5.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "smolvm"
+version = "1.30.1"
+description = "An embeddable, portable, branchable virtual machine to safely run Agents locally."
+homepage = "https://github.com/smol-machines/smolvm"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "smolvm-1.30.1-linux-x86_64.tar.gz"
+url = "https://github.com/smol-machines/smolvm/releases/download/v1.30.1/smolvm-1.30.1-linux-x86_64.tar.gz"
+strip_prefix = ""

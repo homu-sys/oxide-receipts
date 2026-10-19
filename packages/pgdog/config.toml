@@ -1,0 +1,12 @@
+[package]
+name = "pgdog"
+version = "0.1.62"
+description = "PostgreSQL connection pooler, load balancer and database sharder."
+homepage = "https://github.com/pgdogdev/pgdog"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "pgdog-v0.1.62-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/pgdogdev/pgdog/releases/download/v0.1.62/pgdog-v0.1.62-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

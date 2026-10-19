@@ -1,0 +1,12 @@
+[package]
+name = "gittype"
+version = "0.10.3"
+description = "A CLI code-typing game that turns your source code into typing challenges"
+homepage = "https://github.com/unhappychoice/gittype"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gittype-v0.10.3-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/unhappychoice/gittype/releases/download/v0.10.3/gittype-v0.10.3-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

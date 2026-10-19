@@ -1,0 +1,12 @@
+[package]
+name = "ctx"
+version = "2.2.8"
+description = "Instant recall for coding agents. Search the history already on your machine. Git blame, but for agent sessions."
+homepage = "https://github.com/ctxrs/ctx"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ctx-onnxruntime-linux-x64.tar.gz"
+url = "https://github.com/ctxrs/ctx/releases/download/v2.2.8/ctx-onnxruntime-linux-x64.tar.gz"
+strip_prefix = ""

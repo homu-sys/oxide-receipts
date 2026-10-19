@@ -1,0 +1,12 @@
+[package]
+name = "edit"
+version = "2.0.0"
+description = "We all edit."
+homepage = "https://github.com/microsoft/edit"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "edit-2.0.0-x86_64-linux-gnu.tar.gz"
+url = "https://github.com/microsoft/edit/releases/download/v2.0.0/edit-2.0.0-x86_64-linux-gnu.tar.gz"
+strip_prefix = ""

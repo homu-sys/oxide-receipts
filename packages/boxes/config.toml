@@ -1,0 +1,12 @@
+[package]
+name = "boxes"
+version = "2.3.2"
+description = "Command line ASCII boxes unlimited!"
+homepage = "https://github.com/ascii-boxes/boxes"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "boxes-2.3.2-intel-x64.zip"
+url = "https://github.com/ascii-boxes/boxes/releases/download/v2.3.2/boxes-2.3.2-intel-x64.zip"
+strip_prefix = ""

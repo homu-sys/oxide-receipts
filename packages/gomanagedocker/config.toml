@@ -1,0 +1,12 @@
+[package]
+name = "gomanagedocker"
+version = "1.5"
+description = "TUI tool to manage your docker images, containers and volumes 🚀"
+homepage = "https://github.com/ajayd-san/gomanagedocker"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gomanagedocker_linux_amd64_v1.5.tar.gz"
+url = "https://github.com/ajayd-san/gomanagedocker/releases/download/v1.5/gomanagedocker_linux_amd64_v1.5.tar.gz"
+strip_prefix = ""

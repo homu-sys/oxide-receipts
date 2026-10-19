@@ -1,0 +1,12 @@
+[package]
+name = "clidle"
+version = "0.1.0"
+description = "Play Wordle over SSH."
+homepage = "https://github.com/ajeetdsouza/clidle"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "clidle_Linux_x86_64.tar.gz"
+url = "https://github.com/ajeetdsouza/clidle/releases/download/v0.1.0/clidle_Linux_x86_64.tar.gz"
+strip_prefix = ""

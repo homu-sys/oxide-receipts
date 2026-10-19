@@ -1,0 +1,12 @@
+[package]
+name = "badger"
+version = "4.9.6"
+description = "Fast key-value DB in Go."
+homepage = "https://github.com/dgraph-io/badger"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "badger-linux-amd64.tar.gz"
+url = "https://github.com/dgraph-io/badger/releases/download/v4.9.6/badger-linux-amd64.tar.gz"
+strip_prefix = ""

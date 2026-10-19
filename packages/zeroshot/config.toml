@@ -1,0 +1,12 @@
+[package]
+name = "zeroshot"
+version = "10.15.0"
+description = "Open-source orchestration for coding agents. Define your own workflows, reviewers and repair loops. zeroshot enforces the process you configure."
+homepage = "https://github.com/the-open-engine/zeroshot"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "zeroshot-v10.15.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/the-open-engine/zeroshot/releases/download/v10.15.0/zeroshot-v10.15.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

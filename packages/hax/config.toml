@@ -1,0 +1,12 @@
+[package]
+name = "hax"
+version = "0.6.1"
+description = "A minimalist, terminal-native coding agent written in C."
+homepage = "https://github.com/OleksandrChekhovskyi/hax"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "hax-0.6.1-linux-x86_64.tar.gz"
+url = "https://github.com/OleksandrChekhovskyi/hax/releases/download/v0.6.1/hax-0.6.1-linux-x86_64.tar.gz"
+strip_prefix = ""

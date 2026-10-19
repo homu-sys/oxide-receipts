@@ -1,0 +1,12 @@
+[package]
+name = "bob"
+version = "4.2.0"
+description = "A version manager for neovim"
+homepage = "https://github.com/MordechaiHadad/bob"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "bob-linux-x86_64-appimage.zip"
+url = "https://github.com/MordechaiHadad/bob/releases/download/v4.2.0/bob-linux-x86_64-appimage.zip"
+strip_prefix = ""

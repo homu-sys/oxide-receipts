@@ -1,0 +1,11 @@
+[package]
+name = "restate"
+version = "1.8.0"
+description = "Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD."
+homepage = "https://github.com/restatedev/restate"
+arch = ["x86_64"]
+
+[archive]
+file = "restate-cli-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/restatedev/restate/releases/download/v1.8.0/restate-cli-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

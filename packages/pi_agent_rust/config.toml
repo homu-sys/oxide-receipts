@@ -1,0 +1,11 @@
+[package]
+name = "pi_agent_rust"
+version = "0.8.0"
+description = "High-performance AI coding agent CLI written in Rust with zero unsafe code"
+homepage = "https://github.com/Dicklesworthstone/pi_agent_rust"
+arch = ["x86_64"]
+
+[archive]
+file = "pi-linux-amd64.tar.xz"
+url = "https://github.com/Dicklesworthstone/pi_agent_rust/releases/download/v0.8.0/pi-linux-amd64.tar.xz"
+strip_prefix = ""

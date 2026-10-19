@@ -1,0 +1,12 @@
+[package]
+name = "lldap"
+version = "0.6.3"
+description = "Light LDAP implementation"
+homepage = "https://github.com/lldap/lldap"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "amd64-lldap.tar.gz"
+url = "https://github.com/lldap/lldap/releases/download/v0.6.3/amd64-lldap.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "libredesk"
+version = "2.8.0"
+description = "Open-source, self-hosted customer support desk in a single binary. A lightweight alternative to Intercom, Zendesk, Chatwoot."
+homepage = "https://github.com/abhinavxd/libredesk"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "libredesk_2.8.0_linux_amd64.tar.gz"
+url = "https://github.com/abhinavxd/libredesk/releases/download/v2.8.0/libredesk_2.8.0_linux_amd64.tar.gz"
+strip_prefix = ""

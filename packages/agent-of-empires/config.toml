@@ -1,0 +1,12 @@
+[package]
+name = "agent-of-empires"
+version = "1.20.0"
+description = "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding."
+homepage = "https://github.com/agent-of-empires/agent-of-empires"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "aoe-linux-amd64.tar.gz"
+url = "https://github.com/agent-of-empires/agent-of-empires/releases/download/v1.20.0/aoe-linux-amd64.tar.gz"
+strip_prefix = ""

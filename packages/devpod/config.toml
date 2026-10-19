@@ -1,0 +1,12 @@
+[package]
+name = "devpod"
+version = "0.6.15"
+description = "Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker."
+homepage = "https://github.com/loft-sh/devpod"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "DevPod_linux_x86_64.tar.gz"
+url = "https://github.com/loft-sh/devpod/releases/download/v0.6.15/DevPod_linux_x86_64.tar.gz"
+strip_prefix = ""

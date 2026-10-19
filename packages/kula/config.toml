@@ -1,0 +1,12 @@
+[package]
+name = "kula"
+version = "0.21.0"
+description = "Lightweight, self-contained Linux® server monitoring tool"
+homepage = "https://github.com/c0m4r/kula"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kula-0.21.0-amd64.tar.gz"
+url = "https://github.com/c0m4r/kula/releases/download/0.21.0/kula-0.21.0-amd64.tar.gz"
+strip_prefix = ""

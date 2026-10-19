@@ -1,0 +1,12 @@
+[package]
+name = "whosthere"
+version = "0.9.0"
+description = "Local Area Network discovery tool with an interactive Terminal User Interface (TUI) written in Go.  Discover, explore, and understand your LAN in an intuitive way. Knock Knock.. who's there? 🚪"
+homepage = "https://github.com/ramonvermeulen/whosthere"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "whosthere_0.9.0_linux_amd64.tar.gz"
+url = "https://github.com/ramonvermeulen/whosthere/releases/download/v0.9.0/whosthere_0.9.0_linux_amd64.tar.gz"
+strip_prefix = ""

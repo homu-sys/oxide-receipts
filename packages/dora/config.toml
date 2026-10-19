@@ -1,0 +1,12 @@
+[package]
+name = "dora"
+version = "1.1.0"
+description = "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines."
+homepage = "https://github.com/dora-rs/dora"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "dora-c-libraries-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/dora-rs/dora/releases/download/v1.1.0/dora-c-libraries-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "slides"
+version = "0.9.0"
+description = "Terminal based presentation tool"
+homepage = "https://github.com/maaslalani/slides"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "slides_0.9.0_linux_amd64.tar.gz"
+url = "https://github.com/maaslalani/slides/releases/download/v0.9.0/slides_0.9.0_linux_amd64.tar.gz"
+strip_prefix = ""

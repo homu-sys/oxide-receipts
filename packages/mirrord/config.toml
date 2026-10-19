@@ -1,0 +1,12 @@
+[package]
+name = "mirrord"
+version = "3.275.0"
+description = "Run any process, on your machine or in an AI agent's environment, as if it were a pod in your Kubernetes cluster: real env vars, DNS, network, traffic."
+homepage = "https://github.com/metalbear-co/mirrord"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mirrord_linux_x86_64.zip"
+url = "https://github.com/metalbear-co/mirrord/releases/download/3.275.0/mirrord_linux_x86_64.zip"
+strip_prefix = ""

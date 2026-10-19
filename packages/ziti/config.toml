@@ -1,0 +1,12 @@
+[package]
+name = "ziti"
+version = "2.0.8"
+description = "The parent project for OpenZiti. Here you will find the executables for a fully zero-trust, programmable network @OpenZiti"
+homepage = "https://github.com/openziti/ziti"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ziti-linux-amd64-2.0.8.tar.gz"
+url = "https://github.com/openziti/ziti/releases/download/v2.0.8/ziti-linux-amd64-2.0.8.tar.gz"
+strip_prefix = ""

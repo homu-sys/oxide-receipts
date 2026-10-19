@@ -1,0 +1,12 @@
+[package]
+name = "natpass"
+version = "0.13.0"
+description = "🔥居家办公，远程开发神器"
+homepage = "https://github.com/lwch/natpass"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "natpass_0.13.0_linux_amd64.tar.gz"
+url = "https://github.com/lwch/natpass/releases/download/v0.13.0/natpass_0.13.0_linux_amd64.tar.gz"
+strip_prefix = ""

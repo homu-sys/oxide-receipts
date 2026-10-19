@@ -1,0 +1,12 @@
+[package]
+name = "dotenvx"
+version = "2.38.0"
+description = "a secure dotenv—from the creator of `dotenv`"
+homepage = "https://github.com/dotenvx/dotenvx"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "dotenvx-2.38.0-linux-x86_64.tar.gz"
+url = "https://github.com/dotenvx/dotenvx/releases/download/v2.38.0/dotenvx-2.38.0-linux-x86_64.tar.gz"
+strip_prefix = ""

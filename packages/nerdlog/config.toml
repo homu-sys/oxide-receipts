@@ -1,0 +1,12 @@
+[package]
+name = "nerdlog"
+version = "1.13.0"
+description = "Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server"
+homepage = "https://github.com/dimonomid/nerdlog"
+license = "BSD-2-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "nerdlog_1.13.0_linux_amd64.tar.gz"
+url = "https://github.com/dimonomid/nerdlog/releases/download/v1.13.0/nerdlog_1.13.0_linux_amd64.tar.gz"
+strip_prefix = ""

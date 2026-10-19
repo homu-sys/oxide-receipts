@@ -1,0 +1,12 @@
+[package]
+name = "cosmos-sdk"
+version = "cosmovisor/v1.7.3"
+description = "Framework for building performant, customizable blockchains with native interoperability"
+homepage = "https://github.com/cosmos/cosmos-sdk"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cosmovisor-v1.7.3-linux-amd64.tar.gz"
+url = "https://github.com/cosmos/cosmos-sdk/releases/download/cosmovisor/v1.7.3/cosmovisor-v1.7.3-linux-amd64.tar.gz"
+strip_prefix = ""

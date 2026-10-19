@@ -1,0 +1,12 @@
+[package]
+name = "ttl"
+version = "0.24.0"
+description = "Fast, modern traceroute with real-time TUI, per-hop stats, ASN/geo lookup, ECMP detection, and MPLS label parsing. A better mtr."
+homepage = "https://github.com/lance0/ttl"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ttl-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/lance0/ttl/releases/download/v0.24.0/ttl-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

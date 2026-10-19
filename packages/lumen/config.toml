@@ -1,0 +1,12 @@
+[package]
+name = "lumen"
+version = "2.32.0"
+description = "Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI"
+homepage = "https://github.com/jnsahaj/lumen"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lumen-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/jnsahaj/lumen/releases/download/v2.32.0/lumen-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

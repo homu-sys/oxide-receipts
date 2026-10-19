@@ -1,0 +1,12 @@
+[package]
+name = "servo"
+version = "0.7.0"
+description = "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
+homepage = "https://github.com/servo/servo"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "servo-x86_64-linux-gnu.tar.gz"
+url = "https://github.com/servo/servo/releases/download/v0.7.0/servo-x86_64-linux-gnu.tar.gz"
+strip_prefix = ""

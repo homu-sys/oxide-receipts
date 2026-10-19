@@ -1,0 +1,12 @@
+[package]
+name = "bongocat"
+version = "2.3.1"
+description = "🐱 BongoCat — A cross-platform interactive desktop pet that brings fun to your desktop!"
+homepage = "https://github.com/ayangweb/BongoCat"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "BongoCat-2.3.1-x64.app.tar.gz"
+url = "https://github.com/ayangweb/BongoCat/releases/download/v2.3.1/BongoCat-2.3.1-x64.app.tar.gz"
+strip_prefix = ""

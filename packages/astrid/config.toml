@@ -1,0 +1,12 @@
+[package]
+name = "astrid"
+version = "2026.10.1"
+description = "Astrid is a portable, capability-secure operating system for composable software."
+homepage = "https://github.com/astrid-runtime/astrid"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "astrid-2026.10.1-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/astrid-runtime/astrid/releases/download/v2026.10.1/astrid-2026.10.1-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

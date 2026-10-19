@@ -1,0 +1,12 @@
+[package]
+name = "grpcui"
+version = "1.5.4"
+description = "An interactive web UI for gRPC, along the lines of postman"
+homepage = "https://github.com/fullstorydev/grpcui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "grpcui_1.5.4_linux_x86_64.tar.gz"
+url = "https://github.com/fullstorydev/grpcui/releases/download/v1.5.4/grpcui_1.5.4_linux_x86_64.tar.gz"
+strip_prefix = ""

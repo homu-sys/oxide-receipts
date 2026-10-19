@@ -1,0 +1,12 @@
+[package]
+name = "soft-serve"
+version = "0.12.3"
+description = "The mighty, self-hostable Git server for the command line🍦"
+homepage = "https://github.com/charmbracelet/soft-serve"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "soft-serve_0.12.3_Linux_x86_64.tar.gz"
+url = "https://github.com/charmbracelet/soft-serve/releases/download/v0.12.3/soft-serve_0.12.3_Linux_x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "circleci-cli"
+version = "1.7.0"
+description = "Use CircleCI from the command line"
+homepage = "https://github.com/CircleCI-Public/circleci-cli"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "circleci-cli_1.7.0_linux_amd64.tar.gz"
+url = "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.7.0/circleci-cli_1.7.0_linux_amd64.tar.gz"
+strip_prefix = ""

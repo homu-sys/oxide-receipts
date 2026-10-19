@@ -1,0 +1,12 @@
+[package]
+name = "tere"
+version = "1.6.0"
+description = "Terminal file explorer"
+homepage = "https://github.com/mgunyho/tere"
+license = "EUPL-1.2"
+arch = ["x86_64"]
+
+[archive]
+file = "tere-1.6.0-x86_64-unknown-linux-musl.zip"
+url = "https://github.com/mgunyho/tere/releases/download/v1.6.0/tere-1.6.0-x86_64-unknown-linux-musl.zip"
+strip_prefix = ""

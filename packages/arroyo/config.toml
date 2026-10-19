@@ -1,0 +1,12 @@
+[package]
+name = "arroyo"
+version = "0.15.0"
+description = "Distributed stream processing engine in Rust"
+homepage = "https://github.com/ArroyoSystems/arroyo"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "arroyo-linux-x86_64-python.tar.gz"
+url = "https://github.com/ArroyoSystems/arroyo/releases/download/v0.15.0/arroyo-linux-x86_64-python.tar.gz"
+strip_prefix = ""

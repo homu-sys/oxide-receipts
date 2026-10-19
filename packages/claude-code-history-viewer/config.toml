@@ -1,0 +1,12 @@
+[package]
+name = "claude-code-history-viewer"
+version = "1.32.0"
+description = "Desktop app and web server to browse, search and analyze your AI coding assistant history — Claude Code, Codex CLI, GitHub Copilot, Gemini CLI, Cursor, OpenCode and more. 100% offline."
+homepage = "https://github.com/jhlee0409/claude-code-history-viewer"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "cchv-server-linux-x64.tar.gz"
+url = "https://github.com/jhlee0409/claude-code-history-viewer/releases/download/v1.32.0/cchv-server-linux-x64.tar.gz"
+strip_prefix = ""

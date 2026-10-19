@@ -1,0 +1,12 @@
+[package]
+name = "upterm"
+version = "0.38.0"
+description = "Instant Terminal Sharing"
+homepage = "https://github.com/owenthereal/upterm"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "uptermd_linux_amd64.tar.gz"
+url = "https://github.com/owenthereal/upterm/releases/download/v0.38.0/uptermd_linux_amd64.tar.gz"
+strip_prefix = ""

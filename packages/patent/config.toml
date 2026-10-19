@@ -1,0 +1,12 @@
+[package]
+name = "patent"
+version = "0.14.1"
+description = "A prior-art search for your code ideas — has this dev tool already been shipped?"
+homepage = "https://github.com/r14dd/patent"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "patent-x86_64-unknown-linux-gnu.tar.xz"
+url = "https://github.com/r14dd/patent/releases/download/v0.14.1/patent-x86_64-unknown-linux-gnu.tar.xz"
+strip_prefix = ""

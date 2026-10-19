@@ -1,0 +1,12 @@
+[package]
+name = "go2rtc"
+version = "1.9.14"
+description = "Ultimate camera streaming application"
+homepage = "https://github.com/AlexxIT/go2rtc"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "go2rtc_mac_amd64.zip"
+url = "https://github.com/AlexxIT/go2rtc/releases/download/v1.9.14/go2rtc_mac_amd64.zip"
+strip_prefix = ""

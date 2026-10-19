@@ -1,0 +1,12 @@
+[package]
+name = "fselect"
+version = "0.10.3"
+description = "Find files with SQL-like queries"
+homepage = "https://github.com/jhspetersson/fselect"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "fselect-x86_64-win.zip"
+url = "https://github.com/jhspetersson/fselect/releases/download/0.10.3/fselect-x86_64-win.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "rip"
+version = "0.7.0"
+description = "Fuzzy find and kill processes from your terminal"
+homepage = "https://github.com/cesarferreira/rip"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "rip-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/cesarferreira/rip/releases/download/v0.7.0/rip-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

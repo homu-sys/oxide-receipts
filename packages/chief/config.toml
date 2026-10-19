@@ -1,0 +1,12 @@
+[package]
+name = "chief"
+version = "0.8.0"
+description = "Build big projects with Claude. Chief breaks your work into tasks and runs Claude Code in a loop until they're done."
+homepage = "https://github.com/MiniCodeMonkey/chief"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "chief_0.8.0_linux_amd64.tar.gz"
+url = "https://github.com/MiniCodeMonkey/chief/releases/download/v0.8.0/chief_0.8.0_linux_amd64.tar.gz"
+strip_prefix = ""

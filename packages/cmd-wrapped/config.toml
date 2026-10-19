@@ -1,0 +1,12 @@
+[package]
+name = "cmd-wrapped"
+version = "0.4.1"
+description = "👩‍💻 A CLI Tool for Command Line Insights"
+homepage = "https://github.com/YiNNx/cmd-wrapped"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "cmd-wrapped-x86_64-linux.zip"
+url = "https://github.com/YiNNx/cmd-wrapped/releases/download/v0.4.1/cmd-wrapped-x86_64-linux.zip"
+strip_prefix = ""

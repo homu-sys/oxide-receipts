@@ -1,0 +1,12 @@
+[package]
+name = "upsnap"
+version = "5.7.2"
+description = "A simple wake on lan web app written with SvelteKit, Go and PocketBase."
+homepage = "https://github.com/seriousm4x/UpSnap"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "UpSnap_5.7.2_linux_amd64.zip"
+url = "https://github.com/seriousm4x/UpSnap/releases/download/5.7.2/UpSnap_5.7.2_linux_amd64.zip"
+strip_prefix = ""

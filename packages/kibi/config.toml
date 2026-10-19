@@ -1,0 +1,12 @@
+[package]
+name = "kibi"
+version = "0.3.3"
+description = "A text editor in ≤1024 lines of code, written in Rust"
+homepage = "https://github.com/ilai-deutel/kibi"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kibi-v0.3.3-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

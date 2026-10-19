@@ -1,0 +1,11 @@
+[package]
+name = "connect"
+version = "4.114.0"
+description = "Fancy stream processing made operationally mundane"
+homepage = "https://github.com/redpanda-data/connect"
+arch = ["x86_64"]
+
+[archive]
+file = "redpanda-connect-cgo_4.114.0_linux_amd64.tar.gz"
+url = "https://github.com/redpanda-data/connect/releases/download/v4.114.0/redpanda-connect-cgo_4.114.0_linux_amd64.tar.gz"
+strip_prefix = ""

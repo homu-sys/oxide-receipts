@@ -1,0 +1,12 @@
+[package]
+name = "repeater"
+version = "0.1.10"
+description = "Spaced repetition, in your terminal"
+homepage = "https://github.com/shaankhosla/repeater"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "repeater-x86_64-unknown-linux-gnu.tar.xz"
+url = "https://github.com/shaankhosla/repeater/releases/download/v0.1.10/repeater-x86_64-unknown-linux-gnu.tar.xz"
+strip_prefix = ""

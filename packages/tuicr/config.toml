@@ -1,0 +1,12 @@
+[package]
+name = "tuicr"
+version = "0.27.0"
+description = "a code review TUI with vim keybindings"
+homepage = "https://github.com/agavra/tuicr"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tuicr-0.27.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/agavra/tuicr/releases/download/v0.27.0/tuicr-0.27.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

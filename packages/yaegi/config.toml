@@ -1,0 +1,12 @@
+[package]
+name = "yaegi"
+version = "0.16.1"
+description = "Yaegi is Another Elegant Go Interpreter"
+homepage = "https://github.com/traefik/yaegi"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "yaegi_v0.16.1_linux_amd64.tar.gz"
+url = "https://github.com/traefik/yaegi/releases/download/v0.16.1/yaegi_v0.16.1_linux_amd64.tar.gz"
+strip_prefix = ""

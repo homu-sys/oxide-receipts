@@ -1,0 +1,12 @@
+[package]
+name = "greenlight"
+version = "0.2.0"
+description = "Pre-submission compliance scanner for the Apple App Store and Google Play. Scans code, privacy manifests, Android manifests, and IPA/APK/AAB binaries against the review guidelines. Offline, no account."
+homepage = "https://github.com/RevylAI/greenlight"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "greenlight_0.2.0_linux_amd64.tar.gz"
+url = "https://github.com/RevylAI/greenlight/releases/download/v0.2.0/greenlight_0.2.0_linux_amd64.tar.gz"
+strip_prefix = ""

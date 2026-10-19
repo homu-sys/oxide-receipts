@@ -1,0 +1,12 @@
+[package]
+name = "go-qo"
+version = "0.5.1"
+description = "qo is an interactive TUI to query JSON and CSV using SQL."
+homepage = "https://github.com/kiki-ki/go-qo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "qo_0.5.1_linux_amd64.tar.gz"
+url = "https://github.com/kiki-ki/go-qo/releases/download/v0.5.1/qo_0.5.1_linux_amd64.tar.gz"
+strip_prefix = ""

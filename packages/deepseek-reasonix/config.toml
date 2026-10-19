@@ -1,0 +1,12 @@
+[package]
+name = "deepseek-reasonix"
+version = "studio-v2.45.0"
+description = "A reliable coding agent for complex software engineering tasks."
+homepage = "https://github.com/esengine/DeepSeek-Reasonix"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "reasonix-linux-amd64.tar.gz"
+url = "https://github.com/esengine/DeepSeek-Reasonix/releases/download/studio-v2.45.0/reasonix-linux-amd64.tar.gz"
+strip_prefix = ""

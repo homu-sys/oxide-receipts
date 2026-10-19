@@ -1,0 +1,12 @@
+[package]
+name = "steampipe"
+version = "2.4.7"
+description = "Zero-ETL, infinite possibilities. Live query APIs, code & more with SQL. No DB required."
+homepage = "https://github.com/turbot/steampipe"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "steampipe_linux_amd64.tar.gz"
+url = "https://github.com/turbot/steampipe/releases/download/v2.4.7/steampipe_linux_amd64.tar.gz"
+strip_prefix = ""

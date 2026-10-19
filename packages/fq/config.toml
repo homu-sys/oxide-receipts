@@ -1,0 +1,11 @@
+[package]
+name = "fq"
+version = "0.18.0"
+description = "fq - jq for binary formats. Tool, language and decoders for working with binary formats."
+homepage = "https://github.com/wader/fq"
+arch = ["x86_64"]
+
+[archive]
+file = "fq_0.18.0_linux_amd64.tar.gz"
+url = "https://github.com/wader/fq/releases/download/v0.18.0/fq_0.18.0_linux_amd64.tar.gz"
+strip_prefix = ""

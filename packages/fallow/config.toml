@@ -1,0 +1,12 @@
+[package]
+name = "fallow"
+version = "3.34.1"
+description = "Codebase intelligence for TypeScript and JavaScript. Health, complexity hotspots, duplication, architecture boundaries, circular dependencies, design-system drift, and unused code, from one graph. CLI, GitHub Action, LSP, MCP, and VS Code. Rust, MIT licensed."
+homepage = "https://github.com/fallow-rs/fallow"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "fallow-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/fallow-rs/fallow/releases/download/v3.34.1/fallow-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "agent-deck"
+version = "1.16.30"
+description = "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more."
+homepage = "https://github.com/asheshgoplani/agent-deck"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "agent-deck_1.16.30_linux_amd64.tar.gz"
+url = "https://github.com/asheshgoplani/agent-deck/releases/download/v1.16.30/agent-deck_1.16.30_linux_amd64.tar.gz"
+strip_prefix = ""

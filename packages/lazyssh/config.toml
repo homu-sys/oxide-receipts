@@ -1,0 +1,12 @@
+[package]
+name = "lazyssh"
+version = "0.3.0"
+description = "A terminal-based SSH manager inspired by lazydocker and k9s - Written in go"
+homepage = "https://github.com/Adembc/lazyssh"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "lazyssh_Linux_x86_64.tar.gz"
+url = "https://github.com/Adembc/lazyssh/releases/download/v0.3.0/lazyssh_Linux_x86_64.tar.gz"
+strip_prefix = ""

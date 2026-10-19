@@ -1,0 +1,12 @@
+[package]
+name = "payload-dumper-go"
+version = "2.1.0"
+description = "an android OTA payload dumper written in Go"
+homepage = "https://github.com/ssut/payload-dumper-go"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "payload-dumper-go_2.1.0_linux_amd64.tar.gz"
+url = "https://github.com/ssut/payload-dumper-go/releases/download/2.1.0/payload-dumper-go_2.1.0_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "fsql"
+version = "0.5.2"
+description = "Search for files using a fun query language"
+homepage = "https://github.com/kashav/fsql"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "fsql-0.5.2-fsql-linux-amd64.tar.gz"
+url = "https://github.com/kashav/fsql/releases/download/v0.5.2/fsql-0.5.2-fsql-linux-amd64.tar.gz"
+strip_prefix = ""

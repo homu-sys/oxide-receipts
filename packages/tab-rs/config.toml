@@ -1,0 +1,12 @@
+[package]
+name = "tab-rs"
+version = "0.5.7"
+description = "The intuitive, config-driven terminal multiplexer designed for software & systems engineers"
+homepage = "https://github.com/austinjones/tab-rs"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tab-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/austinjones/tab-rs/releases/download/v0.5.7/tab-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

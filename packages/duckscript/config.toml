@@ -1,0 +1,12 @@
+[package]
+name = "duckscript"
+version = "0.11.1"
+description = "Simple, extendable and embeddable scripting language."
+homepage = "https://github.com/sagiegurari/duckscript"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "duckscript-v0.11.1-x86_64-unknown-linux-musl.zip"
+url = "https://github.com/sagiegurari/duckscript/releases/download/0.11.1/duckscript-v0.11.1-x86_64-unknown-linux-musl.zip"
+strip_prefix = ""

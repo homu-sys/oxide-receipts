@@ -1,0 +1,12 @@
+[package]
+name = "sonar"
+version = "0.10.0"
+description = "CLI tool for inspecting and managing services listening on localhost ports"
+homepage = "https://github.com/raskrebs/sonar"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "sonar_linux_amd64.tar.gz"
+url = "https://github.com/raskrebs/sonar/releases/download/v0.10.0/sonar_linux_amd64.tar.gz"
+strip_prefix = ""

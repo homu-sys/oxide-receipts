@@ -1,0 +1,12 @@
+[package]
+name = "k6"
+version = "2.3.0"
+description = "A modern load testing tool, using Go and JavaScript"
+homepage = "https://github.com/grafana/k6"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "k6-v2.3.0-linux-amd64.tar.gz"
+url = "https://github.com/grafana/k6/releases/download/v2.3.0/k6-v2.3.0-linux-amd64.tar.gz"
+strip_prefix = ""

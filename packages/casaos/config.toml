@@ -1,0 +1,12 @@
+[package]
+name = "casaos"
+version = "0.4.15"
+description = "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system."
+homepage = "https://github.com/IceWhaleTech/CasaOS"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "linux-amd64-casaos-migration-tool-v0.4.15.tar.gz"
+url = "https://github.com/IceWhaleTech/CasaOS/releases/download/v0.4.15/linux-amd64-casaos-migration-tool-v0.4.15.tar.gz"
+strip_prefix = ""

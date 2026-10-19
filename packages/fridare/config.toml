@@ -1,0 +1,12 @@
+[package]
+name = "fridare"
+version = "4.0.8"
+description = "强大的 Frida 重打包工具，用于 iOS 和 Android。轻松修改 Frida 特征，增强隐蔽性，绕过检测。简化逆向工程和安全测试。Powerful Frida repackaging tool for iOS and Android. Easily modify Frida servers to enhance stealth and bypass detection. Streamlines reverse engineering and security testing."
+homepage = "https://github.com/suifei/fridare"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "fridare-v4.0.8-linux-amd64.zip"
+url = "https://github.com/suifei/fridare/releases/download/v4.0.8/fridare-v4.0.8-linux-amd64.zip"
+strip_prefix = ""

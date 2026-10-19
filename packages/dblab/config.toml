@@ -1,0 +1,12 @@
+[package]
+name = "dblab"
+version = "0.53.0"
+description = "The database client every command line junkie deserves."
+homepage = "https://github.com/danvergara/dblab"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dblab_0.53.0_linux_amd64.tar.gz"
+url = "https://github.com/danvergara/dblab/releases/download/v0.53.0/dblab_0.53.0_linux_amd64.tar.gz"
+strip_prefix = ""

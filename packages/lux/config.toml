@@ -1,0 +1,12 @@
+[package]
+name = "lux"
+version = "0.24.1"
+description = "👾 Fast and simple video download library and CLI tool written in Go"
+homepage = "https://github.com/iawia002/lux"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lux_0.24.1_Linux_x86_64.tar.gz"
+url = "https://github.com/iawia002/lux/releases/download/v0.24.1/lux_0.24.1_Linux_x86_64.tar.gz"
+strip_prefix = ""

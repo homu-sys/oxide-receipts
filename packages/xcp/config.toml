@@ -1,0 +1,12 @@
+[package]
+name = "xcp"
+version = "xcp-v0.24.8"
+description = "An extended `cp`"
+homepage = "https://github.com/tarka/xcp"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "xcp-v0.24.8-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/tarka/xcp/releases/download/xcp-v0.24.8/xcp-v0.24.8-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "greptimedb"
+version = "1.2.1"
+description = "The open-source observability database. One columnar engine for metrics, logs, and traces, on object storage."
+homepage = "https://github.com/GreptimeTeam/greptimedb"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "greptime-linux-amd64-centos-v1.2.1.tar.gz"
+url = "https://github.com/GreptimeTeam/greptimedb/releases/download/v1.2.1/greptime-linux-amd64-centos-v1.2.1.tar.gz"
+strip_prefix = ""

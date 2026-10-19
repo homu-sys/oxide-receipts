@@ -1,0 +1,12 @@
+[package]
+name = "agent-desktop"
+version = "0.10.1"
+description = "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels."
+homepage = "https://github.com/lahfir/agent-desktop"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "agent-desktop-ffi-v0.10.1-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/lahfir/agent-desktop/releases/download/v0.10.1/agent-desktop-ffi-v0.10.1-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

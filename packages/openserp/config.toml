@@ -1,0 +1,12 @@
+[package]
+name = "openserp"
+version = "0.8.12"
+description = "Self-hosted SERP API for AI, SEO & automation. Browser-rendered Google, Bing, Yandex, Baidu, DuckDuckGo and Ecosia search with page extraction 🎉"
+homepage = "https://github.com/karust/openserp"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "openserp-linux-amd64-0.8.12.tgz"
+url = "https://github.com/karust/openserp/releases/download/v0.8.12/openserp-linux-amd64-0.8.12.tgz"
+strip_prefix = ""

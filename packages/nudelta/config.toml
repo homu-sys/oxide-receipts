@@ -1,0 +1,12 @@
+[package]
+name = "nudelta"
+version = "0.10.0"
+description = "Open source NuPhy Console alternative"
+homepage = "https://github.com/donn/nudelta"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "nudelta-x64.exe.zip"
+url = "https://github.com/donn/nudelta/releases/download/0.10.0/nudelta-x64.exe.zip"
+strip_prefix = ""

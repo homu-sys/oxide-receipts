@@ -1,0 +1,12 @@
+[package]
+name = "best-claude-hud"
+version = "0.1.11"
+description = "Minimal Claude Code statusline HUD powered by Rust."
+homepage = "https://github.com/GaoSSR/best-claude-hud"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "best-claude-hud-linux-x64-musl.tar.gz"
+url = "https://github.com/GaoSSR/best-claude-hud/releases/download/v0.1.11/best-claude-hud-linux-x64-musl.tar.gz"
+strip_prefix = ""

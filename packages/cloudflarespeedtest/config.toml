@@ -1,0 +1,12 @@
+[package]
+name = "cloudflarespeedtest"
+version = "2.3.5"
+description = "🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 多个解析 IP 的网站 ~"
+homepage = "https://github.com/XIU2/CloudflareSpeedTest"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cfst_linux_amd64.tar.gz"
+url = "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.5/cfst_linux_amd64.tar.gz"
+strip_prefix = ""

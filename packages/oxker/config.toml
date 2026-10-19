@@ -1,0 +1,12 @@
+[package]
+name = "oxker"
+version = "0.13.4"
+description = "A simple tui to view & control docker containers"
+homepage = "https://github.com/mrjackwills/oxker"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "oxker_linux_x86_64.tar.gz"
+url = "https://github.com/mrjackwills/oxker/releases/download/v0.13.4/oxker_linux_x86_64.tar.gz"
+strip_prefix = ""

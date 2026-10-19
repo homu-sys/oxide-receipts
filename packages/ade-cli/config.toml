@@ -1,0 +1,12 @@
+[package]
+name = "ade-cli"
+version = "1.0.5"
+description = "The official CLI for Agentic Document Extraction (ADE) by LandingAI — parse documents and extract schema-shaped data from your terminal"
+homepage = "https://github.com/landing-ai/ade-cli"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ade-cli-linux-x86_64.tar.gz"
+url = "https://github.com/landing-ai/ade-cli/releases/download/v1.0.5/ade-cli-linux-x86_64.tar.gz"
+strip_prefix = ""

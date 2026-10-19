@@ -1,0 +1,12 @@
+[package]
+name = "ipsw"
+version = "3.1.739"
+description = "iOS/macOS Research Swiss Army Knife"
+homepage = "https://github.com/blacktop/ipsw"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ipswd_3.1.739_linux_x86_64.pkg.tar.zst"
+url = "https://github.com/blacktop/ipsw/releases/download/v3.1.739/ipswd_3.1.739_linux_x86_64.pkg.tar.zst"
+strip_prefix = ""

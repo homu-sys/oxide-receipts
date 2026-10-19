@@ -1,0 +1,12 @@
+[package]
+name = "klog"
+version = "7.2"
+description = "Command-line tool for time tracking in a human-readable, plain-text file format."
+homepage = "https://github.com/jotaen/klog"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "klog-linux-amd64.zip"
+url = "https://github.com/jotaen/klog/releases/download/v7.2/klog-linux-amd64.zip"
+strip_prefix = ""

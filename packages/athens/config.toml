@@ -1,0 +1,12 @@
+[package]
+name = "athens"
+version = "0.19.2"
+description = "A Go module datastore and proxy"
+homepage = "https://github.com/gomods/athens"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "athens_0.19.2_linux_amd64.tar.gz"
+url = "https://github.com/gomods/athens/releases/download/v0.19.2/athens_0.19.2_linux_amd64.tar.gz"
+strip_prefix = ""

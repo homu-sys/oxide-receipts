@@ -1,0 +1,12 @@
+[package]
+name = "ov"
+version = "0.55.0"
+description = "🎑Feature-rich terminal-based text viewer.  It is a so-called terminal pager."
+homepage = "https://github.com/noborus/ov"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ov_0.55.0_linux_amd64.zip"
+url = "https://github.com/noborus/ov/releases/download/v0.55.0/ov_0.55.0_linux_amd64.zip"
+strip_prefix = ""

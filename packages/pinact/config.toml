@@ -1,0 +1,12 @@
+[package]
+name = "pinact"
+version = "5.0.0"
+description = "pinact is a CLI to edit GitHub Workflow and Composite action files and pin versions of Actions and Reusable Workflows. pinact can also update their versions and verify version annotations."
+homepage = "https://github.com/suzuki-shunsuke/pinact"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "pinact_linux_amd64.tar.gz"
+url = "https://github.com/suzuki-shunsuke/pinact/releases/download/v5.0.0/pinact_linux_amd64.tar.gz"
+strip_prefix = ""

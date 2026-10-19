@@ -1,0 +1,12 @@
+[package]
+name = "dashbeam"
+version = "0.7.2"
+description = "Share files nearby and beyond."
+homepage = "https://github.com/tonyantony300/dashbeam"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "DashBeam_0.7.2_x64.app.tar.gz"
+url = "https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_x64.app.tar.gz"
+strip_prefix = ""

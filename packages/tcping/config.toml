@@ -1,0 +1,12 @@
+[package]
+name = "tcping"
+version = "2.8.0"
+description = "Ping TCP ports using tcping. Inspired by Linux's ping utility. Written in Go"
+homepage = "https://github.com/pouriyajamshidi/tcping"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tcping-linux-amd64-dynamic.tar.gz"
+url = "https://github.com/pouriyajamshidi/tcping/releases/download/v2.8.0/tcping-linux-amd64-dynamic.tar.gz"
+strip_prefix = ""

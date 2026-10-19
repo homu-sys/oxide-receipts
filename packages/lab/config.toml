@@ -1,0 +1,12 @@
+[package]
+name = "lab"
+version = "0.25.1"
+description = "Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab"
+homepage = "https://github.com/zaquestion/lab"
+license = "CC0-1.0"
+arch = ["x86_64"]
+
+[archive]
+file = "lab_0.25.1_linux_amd64.tar.gz"
+url = "https://github.com/zaquestion/lab/releases/download/v0.25.1/lab_0.25.1_linux_amd64.tar.gz"
+strip_prefix = ""

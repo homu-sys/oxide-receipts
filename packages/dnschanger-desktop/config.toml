@@ -1,0 +1,12 @@
+[package]
+name = "dnschanger-desktop"
+version = "2.3.14"
+description = "DNS Changer for Windows, Linux, Mac operating systems"
+homepage = "https://github.com/DnsChanger/dnsChanger-desktop"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "DNS-Changer-prelease-win-x64-2.3.14.zip"
+url = "https://github.com/DnsChanger/dnsChanger-desktop/releases/download/v2.3.14/DNS-Changer-prelease-win-x64-2.3.14.zip"
+strip_prefix = ""

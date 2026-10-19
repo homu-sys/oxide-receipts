@@ -1,0 +1,12 @@
+[package]
+name = "subtitle-translator"
+version = "3.2.1"
+description = "Translate a whole season of subtitles in one pass — .srt/.ass/.vtt/.lrc, 120+ languages, 27 LLM providers, timing untouched ｜ 整季字幕一次译完，时轴不动，支持 120+ 语言"
+homepage = "https://github.com/rockbenben/subtitle-translator"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "SubtitleTranslator_3.2.1_x64.app.tar.gz"
+url = "https://github.com/rockbenben/subtitle-translator/releases/download/v3.2.1/SubtitleTranslator_3.2.1_x64.app.tar.gz"
+strip_prefix = ""

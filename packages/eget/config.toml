@@ -1,0 +1,12 @@
+[package]
+name = "eget"
+version = "1.3.4"
+description = "Easily install prebuilt binaries from GitHub."
+homepage = "https://github.com/zyedidia/eget"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "eget-1.3.4-linux_amd64.tar.gz"
+url = "https://github.com/zyedidia/eget/releases/download/v1.3.4/eget-1.3.4-linux_amd64.tar.gz"
+strip_prefix = ""

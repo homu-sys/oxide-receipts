@@ -1,0 +1,12 @@
+[package]
+name = "upt"
+version = "0.9.0"
+description = "Universal Package-management Tool for any OS."
+homepage = "https://github.com/sigoden/upt"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "upt-v0.9.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/sigoden/upt/releases/download/v0.9.0/upt-v0.9.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

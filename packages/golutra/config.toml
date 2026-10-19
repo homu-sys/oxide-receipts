@@ -1,0 +1,11 @@
+[package]
+name = "golutra"
+version = "0.3.4"
+description = "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace."
+homepage = "https://github.com/golutra/golutra"
+arch = ["x86_64"]
+
+[archive]
+file = "golutra-server-0.3.4-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/golutra/golutra/releases/download/v0.3.4/golutra-server-0.3.4-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

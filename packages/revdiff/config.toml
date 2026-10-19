@@ -1,0 +1,12 @@
+[package]
+name = "revdiff"
+version = "1.13.0"
+description = "TUI for reviewing diffs, files, and documents with inline annotations"
+homepage = "https://github.com/umputun/revdiff"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "revdiff_1.13.0_linux_amd64.tar.gz"
+url = "https://github.com/umputun/revdiff/releases/download/v1.13.0/revdiff_1.13.0_linux_amd64.tar.gz"
+strip_prefix = ""

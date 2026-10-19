@@ -1,0 +1,12 @@
+[package]
+name = "xidel"
+version = "Xidel_0.9.8"
+description = "Command line tool to download and extract data from HTML/XML pages or JSON-APIs, using CSS, XPath 3.0, XQuery 3.0, JSONiq or pattern matching.  It can also create new or transformed XML/HTML/JSON documents."
+homepage = "https://github.com/benibela/xidel"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "xidel-0.9.8.linux64.tar.gz"
+url = "https://github.com/benibela/xidel/releases/download/Xidel_0.9.8/xidel-0.9.8.linux64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,11 @@
+[package]
+name = "sealos"
+version = "5.1.1"
+description = "Deploy real projects from GitHub or your AI coding agent, then keep them running with AI-powered operations."
+homepage = "https://github.com/labring/sealos"
+arch = ["x86_64"]
+
+[archive]
+file = "sealos_5.1.1_linux_amd64.tar.gz"
+url = "https://github.com/labring/sealos/releases/download/v5.1.1/sealos_5.1.1_linux_amd64.tar.gz"
+strip_prefix = ""

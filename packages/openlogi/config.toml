@@ -1,0 +1,12 @@
+[package]
+name = "openlogi"
+version = "0.8.14"
+description = "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry."
+homepage = "https://github.com/AprilNEA/OpenLogi"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "openlogi-v0.8.14-linux-amd64.pkg.tar.zst"
+url = "https://github.com/AprilNEA/OpenLogi/releases/download/v0.8.14/openlogi-v0.8.14-linux-amd64.pkg.tar.zst"
+strip_prefix = ""

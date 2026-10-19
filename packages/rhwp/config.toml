@@ -1,0 +1,12 @@
+[package]
+name = "rhwp"
+version = "0.8.7"
+description = "아래한글 hwp viewer and editor by rust and wasm"
+homepage = "https://github.com/edwardkim/rhwp"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "rhwp-v0.8.7-linux-x86_64.tar.gz"
+url = "https://github.com/edwardkim/rhwp/releases/download/v0.8.7/rhwp-v0.8.7-linux-x86_64.tar.gz"
+strip_prefix = ""

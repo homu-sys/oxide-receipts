@@ -1,0 +1,12 @@
+[package]
+name = "hula"
+version = "3.0.9"
+description = "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）"
+homepage = "https://github.com/HuLaSpark/HuLa"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "HuLa_x64.app.tar.gz"
+url = "https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_x64.app.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "apiark"
+version = "0.4.6"
+description = "Privacy-first API platform built with Tauri v2. No login, no cloud, ~60 MB RAM. A lightweight Postman alternative."
+homepage = "https://github.com/berbicanes/apiark"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ApiArk_0.4.6_amd64.AppImage.tar.gz"
+url = "https://github.com/berbicanes/apiark/releases/download/v0.4.6/ApiArk_0.4.6_amd64.AppImage.tar.gz"
+strip_prefix = ""

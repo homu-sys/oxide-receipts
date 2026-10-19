@@ -1,0 +1,12 @@
+[package]
+name = "svix-webhooks"
+version = "2.8.0"
+description = "The open source and enterprise-ready webhooks service 🦀"
+homepage = "https://github.com/svix/svix-webhooks"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "svix-cli-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/svix/svix-webhooks/releases/download/v2.8.0/svix-cli-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

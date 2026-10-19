@@ -1,0 +1,12 @@
+[package]
+name = "argonaut"
+version = "2.20.0"
+description = "Keyboard-first terminal UI for Argo CD. Browse apps, scope by clusters/namespaces/projects, stream live resource status, trigger syncs, inspect diffs, and roll back safely — all without leaving your terminal."
+homepage = "https://github.com/darksworm/argonaut"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "argonaut-2.20.0-linux-amd64.tar.gz"
+url = "https://github.com/darksworm/argonaut/releases/download/v2.20.0/argonaut-2.20.0-linux-amd64.tar.gz"
+strip_prefix = ""

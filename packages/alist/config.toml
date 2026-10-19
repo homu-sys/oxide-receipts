@@ -1,0 +1,12 @@
+[package]
+name = "alist"
+version = "3.65.0"
+description = "🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。"
+homepage = "https://github.com/AlistGo/alist"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "alist-linux-musl-amd64.tar.gz"
+url = "https://github.com/AlistGo/alist/releases/download/v3.65.0/alist-linux-musl-amd64.tar.gz"
+strip_prefix = ""

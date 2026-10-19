@@ -1,0 +1,12 @@
+[package]
+name = "httplab"
+version = "0.4.0"
+description = "The interactive web server"
+homepage = "https://github.com/qustavo/httplab"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "httplab_0.4.0_linux_amd64.tar.gz"
+url = "https://github.com/qustavo/httplab/releases/download/v0.4.0/httplab_0.4.0_linux_amd64.tar.gz"
+strip_prefix = ""

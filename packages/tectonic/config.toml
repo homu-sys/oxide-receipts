@@ -1,0 +1,11 @@
+[package]
+name = "tectonic"
+version = "tectonic@0.17.0"
+description = "A modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive."
+homepage = "https://github.com/tectonic-typesetting/tectonic"
+arch = ["x86_64"]
+
+[archive]
+file = "tectonic-0.17.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

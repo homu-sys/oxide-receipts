@@ -1,0 +1,12 @@
+[package]
+name = "jscpd"
+version = "5.4.1"
+description = "Copy/paste detector for source code. 220+ languages, Rust engine, SARIF/HTML/badge reporters, GitHub Action, MCP server for AI agents."
+homepage = "https://github.com/kucherenko/jscpd"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "jscpd-linux-x64-musl.tar.gz"
+url = "https://github.com/kucherenko/jscpd/releases/download/v5.4.1/jscpd-linux-x64-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "garden"
+version = "0.14.20"
+description = "Automation for Kubernetes development and testing. Spin up production-like environments for development, testing, and CI on demand. Use the same configuration and workflows at every step of the process. Speed up your builds and test runs via shared result caching"
+homepage = "https://github.com/garden-io/garden"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "garden-0.14.20-linux-amd64.tar.gz"
+url = "https://github.com/garden-io/garden/releases/download/0.14.20/garden-0.14.20-linux-amd64.tar.gz"
+strip_prefix = ""

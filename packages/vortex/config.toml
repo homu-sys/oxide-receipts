@@ -1,0 +1,12 @@
+[package]
+name = "vortex"
+version = "0.88.0"
+description = "An extensible, state-of-the-art framework for columnar compression, and the fastest FOSS columnar file format. Formerly at @spiraldb, now an Incubation Stage project at LFAI&Data, part of the Linux Foundation."
+homepage = "https://github.com/vortex-data/vortex"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "vx-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/vortex-data/vortex/releases/download/0.88.0/vx-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

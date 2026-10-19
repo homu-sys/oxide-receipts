@@ -1,0 +1,12 @@
+[package]
+name = "rucola"
+version = "0.10.0"
+description = "Terminal-based markdown note manager."
+homepage = "https://github.com/Linus-Mussmaecher/rucola"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rucola-notes-x86_64-unknown-linux-gnu.tar.xz"
+url = "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.10.0/rucola-notes-x86_64-unknown-linux-gnu.tar.xz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "kanata"
+version = "1.12.0"
+description = "Improve keyboard comfort and usability with advanced customization"
+homepage = "https://github.com/jtroo/kanata"
+license = "LGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "linux-binaries-x64.zip"
+url = "https://github.com/jtroo/kanata/releases/download/v1.12.0/linux-binaries-x64.zip"
+strip_prefix = ""

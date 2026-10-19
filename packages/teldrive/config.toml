@@ -1,0 +1,11 @@
+[package]
+name = "teldrive"
+version = "2.0.7"
+description = "Teldrive"
+homepage = "https://github.com/tgdrive/teldrive"
+arch = ["x86_64"]
+
+[archive]
+file = "teldrive-2.0.7-linux-amd64.tar.gz"
+url = "https://github.com/tgdrive/teldrive/releases/download/2.0.7/teldrive-2.0.7-linux-amd64.tar.gz"
+strip_prefix = ""

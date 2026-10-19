@@ -1,0 +1,11 @@
+[package]
+name = "popeye"
+version = "0.22.1"
+description = "👀 A Kubernetes cluster resource sanitizer"
+homepage = "https://github.com/derailed/popeye"
+arch = ["x86_64"]
+
+[archive]
+file = "popeye_linux_amd64.tar.gz"
+url = "https://github.com/derailed/popeye/releases/download/v0.22.1/popeye_linux_amd64.tar.gz"
+strip_prefix = ""

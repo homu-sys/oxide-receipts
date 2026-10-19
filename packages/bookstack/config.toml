@@ -1,0 +1,12 @@
+[package]
+name = "bookstack"
+version = "2.12"
+description = "BookStack，基于MinDoc，使用Beego开发的在线文档管理系统，功能类似Gitbook和看云。"
+homepage = "https://github.com/TruthHun/BookStack"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "BookStack_v2.12_linux_amd64.zip"
+url = "https://github.com/TruthHun/BookStack/releases/download/v2.12/BookStack_v2.12_linux_amd64.zip"
+strip_prefix = ""

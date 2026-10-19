@@ -1,0 +1,12 @@
+[package]
+name = "ripwire"
+version = "0.6.7"
+description = "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant — blast radius, tests-to-run, quality deltas. Signatures at 74.7% fewer bytes than bodies; every guess labelled, every loss published. Paddle out with a map."
+homepage = "https://github.com/redhat-et/ripwire"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ripwire-0.6.7-linux-x64.tar.gz"
+url = "https://github.com/redhat-et/ripwire/releases/download/v0.6.7/ripwire-0.6.7-linux-x64.tar.gz"
+strip_prefix = ""

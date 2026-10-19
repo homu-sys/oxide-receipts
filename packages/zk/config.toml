@@ -1,0 +1,12 @@
+[package]
+name = "zk"
+version = "0.15.7"
+description = "A plain text note-taking assistant"
+homepage = "https://github.com/zk-org/zk"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "zk-v0.15.7-linux-amd64.tar.gz"
+url = "https://github.com/zk-org/zk/releases/download/v0.15.7/zk-v0.15.7-linux-amd64.tar.gz"
+strip_prefix = ""

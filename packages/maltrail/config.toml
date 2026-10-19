@@ -1,0 +1,12 @@
+[package]
+name = "maltrail"
+version = "3.5"
+description = "Malicious traffic detection system"
+homepage = "https://github.com/stamparm/maltrail"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "maltrail-sensor-3.5-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/stamparm/maltrail/releases/download/3.5/maltrail-sensor-3.5-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

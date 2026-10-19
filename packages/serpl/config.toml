@@ -1,0 +1,12 @@
+[package]
+name = "serpl"
+version = "0.3.11"
+description = "A simple terminal UI for search and replace, ala VS Code."
+homepage = "https://github.com/yassinebridi/serpl"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "serpl-0.3.11-linux-x86_64.tar.gz"
+url = "https://github.com/yassinebridi/serpl/releases/download/0.3.11/serpl-0.3.11-linux-x86_64.tar.gz"
+strip_prefix = ""

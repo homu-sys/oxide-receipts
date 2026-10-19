@@ -1,0 +1,12 @@
+[package]
+name = "better-agent-terminal"
+version = "3.2.15"
+description = "Multi-workspace terminal aggregator with Claude Code AI integration"
+homepage = "https://github.com/tony1223/better-agent-terminal"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "bat-server-linux-x86_64.tar.gz"
+url = "https://github.com/tony1223/better-agent-terminal/releases/download/v3.2.15/bat-server-linux-x86_64.tar.gz"
+strip_prefix = ""

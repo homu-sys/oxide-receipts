@@ -1,0 +1,12 @@
+[package]
+name = "extism"
+version = "1.41.0"
+description = "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+homepage = "https://github.com/extism/extism"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "libextism-x86_64-unknown-linux-musl-v1.41.0.tar.gz"
+url = "https://github.com/extism/extism/releases/download/v1.41.0/libextism-x86_64-unknown-linux-musl-v1.41.0.tar.gz"
+strip_prefix = ""

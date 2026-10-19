@@ -1,0 +1,12 @@
+[package]
+name = "timr-tui"
+version = "1.11.1"
+description = "TUI to organize your time: Pomodoro, Tabata, Countdown, Timer, Event."
+homepage = "https://github.com/sectore/timr-tui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "timr-tui-1.11.1-linux_x86_64.tar.gz"
+url = "https://github.com/sectore/timr-tui/releases/download/v1.11.1/timr-tui-1.11.1-linux_x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "claude-squad"
+version = "1.0.20"
+description = "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp."
+homepage = "https://github.com/smtg-ai/claude-squad"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "claude-squad_1.0.20_linux_amd64.tar.gz"
+url = "https://github.com/smtg-ai/claude-squad/releases/download/v1.0.20/claude-squad_1.0.20_linux_amd64.tar.gz"
+strip_prefix = ""

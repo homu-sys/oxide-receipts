@@ -1,0 +1,11 @@
+[package]
+name = "surrealdb"
+version = "3.3.4"
+description = "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+homepage = "https://github.com/surrealdb/surrealdb"
+arch = ["x86_64"]
+
+[archive]
+file = "surreal-v3.3.4.linux-amd64.tgz"
+url = "https://github.com/surrealdb/surrealdb/releases/download/v3.3.4/surreal-v3.3.4.linux-amd64.tgz"
+strip_prefix = ""

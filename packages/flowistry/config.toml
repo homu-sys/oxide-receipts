@@ -1,0 +1,12 @@
+[package]
+name = "flowistry"
+version = "0.5.44"
+description = "Flowistry is an IDE plugin for Rust that helps you focus on relevant code."
+homepage = "https://github.com/willcrichton/flowistry"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "x86_64-unknown-linux-gnu.zip"
+url = "https://github.com/willcrichton/flowistry/releases/download/v0.5.44/x86_64-unknown-linux-gnu.zip"
+strip_prefix = ""

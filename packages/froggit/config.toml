@@ -1,0 +1,12 @@
+[package]
+name = "froggit"
+version = "1.4.0-beta"
+description = "Simplify your Git workflow with visual feedback, keyboard-driven controls, and a streamlined experience."
+homepage = "https://github.com/thewizardshell/froggit"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "linux-amd64.zip"
+url = "https://github.com/thewizardshell/froggit/releases/download/v1.4.0-beta/linux-amd64.zip"
+strip_prefix = ""

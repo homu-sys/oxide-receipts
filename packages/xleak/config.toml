@@ -1,0 +1,12 @@
+[package]
+name = "xleak"
+version = "0.2.6"
+description = "A fast terminal Excel viewer with an interactive TUI. Features full-text search, formula display, lazy loading for large files, clipboard support, and export to CSV/JSON. Built with Rust and ratatui."
+homepage = "https://github.com/bgreenwell/xleak"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "xleak-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/bgreenwell/xleak/releases/download/v0.2.6/xleak-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "awless"
+version = "0.1.11"
+description = "A Mighty CLI for AWS"
+homepage = "https://github.com/wallix/awless"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "awless-linux-amd64.tar.gz"
+url = "https://github.com/wallix/awless/releases/download/v0.1.11/awless-linux-amd64.tar.gz"
+strip_prefix = ""

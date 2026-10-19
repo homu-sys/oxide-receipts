@@ -1,0 +1,12 @@
+[package]
+name = "juicefs"
+version = "1.4.1"
+description = "JuiceFS is a distributed POSIX file system built on top of Redis and S3."
+homepage = "https://github.com/juicedata/juicefs"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "juicefs-1.4.1-linux-amd64.tar.gz"
+url = "https://github.com/juicedata/juicefs/releases/download/v1.4.1/juicefs-1.4.1-linux-amd64.tar.gz"
+strip_prefix = ""

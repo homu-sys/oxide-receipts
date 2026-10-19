@@ -1,0 +1,12 @@
+[package]
+name = "spacedrive"
+version = "0.4.3"
+description = "Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust."
+homepage = "https://github.com/spacedriveapp/spacedrive"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Spacedrive-frontend-linux-x86_64.tar.xz"
+url = "https://github.com/spacedriveapp/spacedrive/releases/download/0.4.3/Spacedrive-frontend-linux-x86_64.tar.xz"
+strip_prefix = ""

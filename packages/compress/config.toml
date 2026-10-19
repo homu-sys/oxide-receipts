@@ -1,0 +1,11 @@
+[package]
+name = "compress"
+version = "1.20.3"
+description = "Optimized Go Compression Packages"
+homepage = "https://github.com/klauspost/compress"
+arch = ["x86_64"]
+
+[archive]
+file = "s2-linux_amd64.tar.gz"
+url = "https://github.com/klauspost/compress/releases/download/v1.20.3/s2-linux_amd64.tar.gz"
+strip_prefix = ""

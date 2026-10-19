@@ -1,0 +1,12 @@
+[package]
+name = "rovr"
+version = "0.10.3"
+description = "a stylish, batteries-included terminal file manager."
+homepage = "https://github.com/NSPC911/rovr"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "rovr-linux-x64-nuitka.zip"
+url = "https://github.com/NSPC911/rovr/releases/download/v0.10.3/rovr-linux-x64-nuitka.zip"
+strip_prefix = ""

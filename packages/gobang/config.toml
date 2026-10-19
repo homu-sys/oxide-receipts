@@ -1,0 +1,12 @@
+[package]
+name = "gobang"
+version = "0.1.0-alpha.5"
+description = "A cross-platform TUI database management tool written in Rust"
+homepage = "https://github.com/TaKO8Ki/gobang"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gobang-0.1.0-alpha.5-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/TaKO8Ki/gobang/releases/download/v0.1.0-alpha.5/gobang-0.1.0-alpha.5-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

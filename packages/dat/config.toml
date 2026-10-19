@@ -1,0 +1,12 @@
+[package]
+name = "dat"
+version = "14.0.2"
+description = ":floppy_disk: peer-to-peer sharing & live syncronization of files via command line"
+homepage = "https://github.com/dat-ecosystem/dat"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "dat-14.0.2-linux-x64.zip"
+url = "https://github.com/dat-ecosystem/dat/releases/download/v14.0.2/dat-14.0.2-linux-x64.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "gitlogue"
+version = "0.12.1"
+description = "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story."
+homepage = "https://github.com/unhappychoice/gitlogue"
+license = "ISC"
+arch = ["x86_64"]
+
+[archive]
+file = "gitlogue-v0.12.1-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/unhappychoice/gitlogue/releases/download/v0.12.1/gitlogue-v0.12.1-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

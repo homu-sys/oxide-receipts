@@ -1,0 +1,11 @@
+[package]
+name = "heynote"
+version = "2.9.1"
+description = "A dedicated scratchpad for power users"
+homepage = "https://github.com/heyman/heynote"
+arch = ["x86_64"]
+
+[archive]
+file = "Heynote_2.9.1_x64.zip"
+url = "https://github.com/heyman/heynote/releases/download/v2.9.1/Heynote_2.9.1_x64.zip"
+strip_prefix = ""

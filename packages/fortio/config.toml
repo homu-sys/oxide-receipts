@@ -1,0 +1,12 @@
+[package]
+name = "fortio"
+version = "1.76.0"
+description = "Fortio load testing library, command line tool, advanced echo server and web UI in go (golang). Allows to specify a set query-per-second load and record latency histograms and other useful stats."
+homepage = "https://github.com/fortio/fortio"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "fortio-linux_amd64-1.76.0.tgz"
+url = "https://github.com/fortio/fortio/releases/download/v1.76.0/fortio-linux_amd64-1.76.0.tgz"
+strip_prefix = ""

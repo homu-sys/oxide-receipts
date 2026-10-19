@@ -1,0 +1,11 @@
+[package]
+name = "annas-mcp"
+version = "0.1"
+description = "MCP server and CLI tool for searching and downloading documents from Anna's Archive"
+homepage = "https://github.com/iosifache/annas-mcp"
+arch = ["x86_64"]
+
+[archive]
+file = "annas-mcp_0.1_linux_amd64.tar.xz"
+url = "https://github.com/iosifache/annas-mcp/releases/download/v0.1/annas-mcp_0.1_linux_amd64.tar.xz"
+strip_prefix = ""

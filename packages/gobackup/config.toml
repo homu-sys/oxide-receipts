@@ -1,0 +1,12 @@
+[package]
+name = "gobackup"
+version = "3.1.1"
+description = "🗄 CLI tool for backup your databases, files to cloud storages in schedully."
+homepage = "https://github.com/gobackup/gobackup"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gobackup-linux-amd64.tar.gz"
+url = "https://github.com/gobackup/gobackup/releases/download/v3.1.1/gobackup-linux-amd64.tar.gz"
+strip_prefix = ""

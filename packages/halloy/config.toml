@@ -1,0 +1,12 @@
+[package]
+name = "halloy"
+version = "2026.9"
+description = "IRC application written in Rust"
+homepage = "https://github.com/squidowl/halloy"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "halloy-2026.9-x86_64-linux.tar.gz"
+url = "https://github.com/squidowl/halloy/releases/download/2026.9/halloy-2026.9-x86_64-linux.tar.gz"
+strip_prefix = ""

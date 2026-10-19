@@ -1,0 +1,11 @@
+[package]
+name = "navop"
+version = "0.20.3"
+description = "A native, all-in-one workspace for databases, SSH, SFTP, terminals, remote desktop, monitoring, and AI."
+homepage = "https://github.com/feigeCode/navop"
+arch = ["x86_64"]
+
+[archive]
+file = "navop-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/feigeCode/navop/releases/download/v0.20.3/navop-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "openfga"
+version = "1.22.0"
+description = "A high-performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar."
+homepage = "https://github.com/openfga/openfga"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "openfga_1.22.0_linux_amd64.tar.gz"
+url = "https://github.com/openfga/openfga/releases/download/v1.22.0/openfga_1.22.0_linux_amd64.tar.gz"
+strip_prefix = ""

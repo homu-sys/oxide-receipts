@@ -1,0 +1,12 @@
+[package]
+name = "sem"
+version = "0.28.1"
+description = "Semantic version control => entity-level diffs, blame, and impact analysis on top of git. 28 languages via tree-sitter. Built for coding agents."
+homepage = "https://github.com/Ataraxy-Labs/sem"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "sem-linux-x86_64.tar.gz"
+url = "https://github.com/Ataraxy-Labs/sem/releases/download/v0.28.1/sem-linux-x86_64.tar.gz"
+strip_prefix = ""

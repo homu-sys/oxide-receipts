@@ -1,0 +1,12 @@
+[package]
+name = "martin"
+version = "martin-v1.16.1"
+description = "Blazing fast and lightweight PostGIS, MBtiles and PMtiles tile server, tile generation, and mbtiles tooling."
+homepage = "https://github.com/maplibre/martin"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "martin-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/maplibre/martin/releases/download/martin-v1.16.1/martin-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

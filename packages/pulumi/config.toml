@@ -1,0 +1,12 @@
+[package]
+name = "pulumi"
+version = "3.270.0"
+description = "Pulumi - Infrastructure as Code in any programming language 🚀"
+homepage = "https://github.com/pulumi/pulumi"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "pulumi-v3.270.0-linux-x64.tar.gz"
+url = "https://github.com/pulumi/pulumi/releases/download/v3.270.0/pulumi-v3.270.0-linux-x64.tar.gz"
+strip_prefix = ""

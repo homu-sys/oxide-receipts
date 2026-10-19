@@ -1,0 +1,12 @@
+[package]
+name = "nova"
+version = "nova-v1.4.0"
+description = "Yazelix Nova is a Nix-packaged terminal workspace built from focused first-party components, including Nova Rio, Nova Zellij, Nova Helix, Yazi, Nushell, Ratconfig, popups, status widgets, cursors, and Anima."
+homepage = "https://github.com/Yazelix/nova"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "yazelix-nova-1.4.0-x86_64-unknown-linux-gnu-no-rio-language-runtime-notices.tar.gz"
+url = "https://github.com/Yazelix/nova/releases/download/nova-v1.4.0/yazelix-nova-1.4.0-x86_64-unknown-linux-gnu-no-rio-language-runtime-notices.tar.gz"
+strip_prefix = ""

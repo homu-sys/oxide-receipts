@@ -1,0 +1,11 @@
+[package]
+name = "rmux"
+version = "0.10.0"
+description = "Universal Rust multiplexer with a typed SDK — drive any CLI or TUI app from code. Native on Linux, macOS, and Windows."
+homepage = "https://github.com/Helvesec/rmux"
+arch = ["x86_64"]
+
+[archive]
+file = "rmux-0.10.0-linux-x86_64.tar.gz"
+url = "https://github.com/Helvesec/rmux/releases/download/v0.10.0/rmux-0.10.0-linux-x86_64.tar.gz"
+strip_prefix = ""

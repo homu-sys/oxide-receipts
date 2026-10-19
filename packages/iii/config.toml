@@ -1,0 +1,11 @@
+[package]
+name = "iii"
+version = "iii/v0.24.6"
+description = "Effortlessly compose, extend, and observe every service in real-time for the first time ever."
+homepage = "https://github.com/iii-hq/iii"
+arch = ["x86_64"]
+
+[archive]
+file = "iii-console-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/iii-hq/iii/releases/download/iii/v0.24.6/iii-console-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

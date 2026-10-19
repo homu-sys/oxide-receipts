@@ -1,0 +1,12 @@
+[package]
+name = "kubeedge"
+version = "1.23.1"
+description = "Kubernetes Native Edge Computing Framework (project under CNCF)"
+homepage = "https://github.com/kubeedge/kubeedge"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "edgesite-v1.23.1-linux-amd64.tar.gz"
+url = "https://github.com/kubeedge/kubeedge/releases/download/v1.23.1/edgesite-v1.23.1-linux-amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "evans"
+version = "0.10.11"
+description = "Evans: more expressive universal gRPC client"
+homepage = "https://github.com/ktr0731/evans"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "evans_linux_amd64.tar.gz"
+url = "https://github.com/ktr0731/evans/releases/download/v0.10.11/evans_linux_amd64.tar.gz"
+strip_prefix = ""

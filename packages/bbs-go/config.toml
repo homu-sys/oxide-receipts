@@ -1,0 +1,12 @@
+[package]
+name = "bbs-go"
+version = "4.4.6"
+description = "A lightweight community and Q&A platform for forums, knowledge bases, and discussions.一个轻量级社区和问答平台。"
+homepage = "https://github.com/mlogclub/bbs-go"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "bbs-go-linux-amd64-g77451959.tar.gz"
+url = "https://github.com/mlogclub/bbs-go/releases/download/v4.4.6/bbs-go-linux-amd64-g77451959.tar.gz"
+strip_prefix = ""

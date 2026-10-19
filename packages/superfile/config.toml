@@ -1,0 +1,12 @@
+[package]
+name = "superfile"
+version = "1.6.0"
+description = "Pretty fancy and modern terminal file manager"
+homepage = "https://github.com/yorukot/superfile"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "superfile-linux-v1.6.0-amd64.tar.gz"
+url = "https://github.com/yorukot/superfile/releases/download/v1.6.0/superfile-linux-v1.6.0-amd64.tar.gz"
+strip_prefix = ""

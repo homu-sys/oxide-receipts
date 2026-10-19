@@ -1,0 +1,12 @@
+[package]
+name = "jupiter"
+version = "0.11.21"
+description = "Jupiter: Governance-oriented Microservice Framework."
+homepage = "https://github.com/douyu/jupiter"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "jupiter_0.11.21_linux_amd64.tar.gz"
+url = "https://github.com/douyu/jupiter/releases/download/v0.11.21/jupiter_0.11.21_linux_amd64.tar.gz"
+strip_prefix = ""

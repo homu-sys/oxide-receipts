@@ -1,0 +1,12 @@
+[package]
+name = "gortex"
+version = "0.64.8"
+description = "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d"
+homepage = "https://github.com/zzet/gortex"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "gortex_linux_amd64.tar.gz"
+url = "https://github.com/zzet/gortex/releases/download/v0.64.8/gortex_linux_amd64.tar.gz"
+strip_prefix = ""

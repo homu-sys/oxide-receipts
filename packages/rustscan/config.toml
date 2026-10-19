@@ -1,0 +1,12 @@
+[package]
+name = "rustscan"
+version = "2.4.1"
+description = "🤖 The Modern Port Scanner 🤖"
+homepage = "https://github.com/bee-san/RustScan"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "x86_64-linux-rustscan.tar.gz.1.zip"
+url = "https://github.com/bee-san/RustScan/releases/download/2.4.1/x86_64-linux-rustscan.tar.gz.1.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "temporal"
+version = "1.32.1"
+description = "Temporal service"
+homepage = "https://github.com/temporalio/temporal"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "temporal_1.32.1_linux_amd64.tar.gz"
+url = "https://github.com/temporalio/temporal/releases/download/v1.32.1/temporal_1.32.1_linux_amd64.tar.gz"
+strip_prefix = ""

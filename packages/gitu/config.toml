@@ -1,0 +1,12 @@
+[package]
+name = "gitu"
+version = "0.43.0"
+description = "A TUI Git client inspired by Magit"
+homepage = "https://github.com/altsem/gitu"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gitu-v0.43.0-x86_64-unknown-linux-musl.zip"
+url = "https://github.com/altsem/gitu/releases/download/v0.43.0/gitu-v0.43.0-x86_64-unknown-linux-musl.zip"
+strip_prefix = ""

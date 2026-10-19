@@ -1,0 +1,12 @@
+[package]
+name = "muxy"
+version = "2.2.0"
+description = "Lightweight and Memory efficient terminal multiplexer"
+homepage = "https://github.com/muxy-app/muxy"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "muxy-2.2.0-linux-x86_64.tar.gz"
+url = "https://github.com/muxy-app/muxy/releases/download/v2.2.0/muxy-2.2.0-linux-x86_64.tar.gz"
+strip_prefix = ""

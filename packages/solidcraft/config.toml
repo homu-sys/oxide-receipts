@@ -1,0 +1,12 @@
+[package]
+name = "solidcraft"
+version = "0.16.2"
+description = "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP."
+homepage = "https://github.com/tangency-labs/solidcraft"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "solidcraft-0.16.2-linux-x86_64.tar.gz"
+url = "https://github.com/tangency-labs/solidcraft/releases/download/v0.16.2/solidcraft-0.16.2-linux-x86_64.tar.gz"
+strip_prefix = ""

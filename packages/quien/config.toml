@@ -1,0 +1,12 @@
+[package]
+name = "quien"
+version = "0.12.0"
+description = "A better whois and domain intelligence toolkit"
+homepage = "https://github.com/retlehs/quien"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "quien_linux_amd64.tar.gz"
+url = "https://github.com/retlehs/quien/releases/download/v0.12.0/quien_linux_amd64.tar.gz"
+strip_prefix = ""

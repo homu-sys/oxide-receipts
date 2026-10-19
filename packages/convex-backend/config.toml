@@ -1,0 +1,11 @@
+[package]
+name = "convex-backend"
+version = "precompiled-2026-10-10-72ce13c"
+description = "The open-source reactive database for app developers"
+homepage = "https://github.com/convex/convex-backend"
+arch = ["x86_64"]
+
+[archive]
+file = "convex-local-backend-x86_64-unknown-linux-gnu.zip"
+url = "https://github.com/convex/convex-backend/releases/download/precompiled-2026-10-10-72ce13c/convex-local-backend-x86_64-unknown-linux-gnu.zip"
+strip_prefix = ""

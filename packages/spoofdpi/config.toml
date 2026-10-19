@@ -1,0 +1,12 @@
+[package]
+name = "spoofdpi"
+version = "1.5.5"
+description = "Simple and fast anti-censorship tool written in Go"
+homepage = "https://github.com/xvzc/spoofdpi"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "spoofdpi_1.5.5_linux_x86_64.tar.gz"
+url = "https://github.com/xvzc/spoofdpi/releases/download/v1.5.5/spoofdpi_1.5.5_linux_x86_64.tar.gz"
+strip_prefix = ""

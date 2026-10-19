@@ -1,0 +1,12 @@
+[package]
+name = "katana"
+version = "1.8.0"
+description = "A next-generation crawling and spidering framework."
+homepage = "https://github.com/projectdiscovery/katana"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "katana_1.8.0_linux_amd64.zip"
+url = "https://github.com/projectdiscovery/katana/releases/download/v1.8.0/katana_1.8.0_linux_amd64.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "nuclear"
+version = "player@1.51.2"
+description = "Streaming music player that finds free music for you"
+homepage = "https://github.com/nukeop/nuclear"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Nuclear_1.51.2_x64.app.tar.gz"
+url = "https://github.com/nukeop/nuclear/releases/download/player%401.51.2/Nuclear_1.51.2_x64.app.tar.gz"
+strip_prefix = ""

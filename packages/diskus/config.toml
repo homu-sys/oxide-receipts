@@ -1,0 +1,12 @@
+[package]
+name = "diskus"
+version = "0.9.0"
+description = "A minimal, fast alternative to 'du -sh'"
+homepage = "https://github.com/sharkdp/diskus"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "diskus-v0.9.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

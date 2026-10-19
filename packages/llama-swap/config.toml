@@ -1,0 +1,12 @@
+[package]
+name = "llama-swap"
+version = "265"
+description = "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc"
+homepage = "https://github.com/mostlygeek/llama-swap"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "llama-swap_265_linux_amd64.tar.gz"
+url = "https://github.com/mostlygeek/llama-swap/releases/download/v265/llama-swap_265_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "grepai"
+version = "0.37.0"
+description = "Semantic Search & Call Graphs for AI Agents (100% Local)"
+homepage = "https://github.com/yoanbernabeu/grepai"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "grepai_0.37.0_linux_amd64.tar.gz"
+url = "https://github.com/yoanbernabeu/grepai/releases/download/v0.37.0/grepai_0.37.0_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "jcode"
+version = "0.99.0"
+description = "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows"
+homepage = "https://github.com/1jehuang/jcode"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "jcode-linux-x86_64.tar.gz"
+url = "https://github.com/1jehuang/jcode/releases/download/v0.99.0/jcode-linux-x86_64.tar.gz"
+strip_prefix = ""

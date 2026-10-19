@@ -1,0 +1,12 @@
+[package]
+name = "livego"
+version = "0.0.20"
+description = "live video streaming server in golang"
+homepage = "https://github.com/gwuhaolin/livego"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "livego_0.0.20_linux_amd64.tar.gz"
+url = "https://github.com/gwuhaolin/livego/releases/download/0.0.20/livego_0.0.20_linux_amd64.tar.gz"
+strip_prefix = ""

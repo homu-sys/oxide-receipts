@@ -1,0 +1,11 @@
+[package]
+name = "beads_viewer"
+version = "0.25.2"
+description = "Graph-aware TUI for the Beads issue tracker: PageRank, critical path, kanban, dependency DAG visualization, and robot-mode JSON API"
+homepage = "https://github.com/Dicklesworthstone/beads_viewer"
+arch = ["x86_64"]
+
+[archive]
+file = "bv_0.25.2_linux_amd64.tar.gz"
+url = "https://github.com/Dicklesworthstone/beads_viewer/releases/download/v0.25.2/bv_0.25.2_linux_amd64.tar.gz"
+strip_prefix = ""

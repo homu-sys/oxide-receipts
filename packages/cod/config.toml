@@ -1,0 +1,12 @@
+[package]
+name = "cod"
+version = "0.1.0"
+description = "cod is a completion daemon for bash/fish/zsh"
+homepage = "https://github.com/dim-an/cod"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cod-linux-amd64.tgz"
+url = "https://github.com/dim-an/cod/releases/download/v0.1.0/cod-linux-amd64.tgz"
+strip_prefix = ""

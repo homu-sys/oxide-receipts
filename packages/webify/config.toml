@@ -1,0 +1,12 @@
+[package]
+name = "webify"
+version = "1.5.0"
+description = "Turn shell commands into web services"
+homepage = "https://github.com/beefsack/webify"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "webify-v1.5.0-linux-amd64.tar.gz"
+url = "https://github.com/beefsack/webify/releases/download/v1.5.0/webify-v1.5.0-linux-amd64.tar.gz"
+strip_prefix = ""

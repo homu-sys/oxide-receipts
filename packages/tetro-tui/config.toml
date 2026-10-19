@@ -1,0 +1,12 @@
+[package]
+name = "tetro-tui"
+version = "3.6.2"
+description = "Terminal-based but modern tetromino-stacking game that is customizable and cross-platform"
+homepage = "https://github.com/Strophox/tetro-tui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tetro-tui-v3.6.2-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/Strophox/tetro-tui/releases/download/v3.6.2/tetro-tui-v3.6.2-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

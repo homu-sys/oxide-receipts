@@ -1,0 +1,12 @@
+[package]
+name = "rustdesk"
+version = "1.5.0"
+description = "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer."
+homepage = "https://github.com/rustdesk/rustdesk"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rustdesk-1.5.0-0-x86_64.pkg.tar.zst"
+url = "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-0-x86_64.pkg.tar.zst"
+strip_prefix = ""

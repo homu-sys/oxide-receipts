@@ -1,0 +1,12 @@
+[package]
+name = "reth"
+version = "2.7.0"
+description = "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust"
+homepage = "https://github.com/paradigmxyz/reth"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "reth-v2.7.0-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/paradigmxyz/reth/releases/download/v2.7.0/reth-v2.7.0-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

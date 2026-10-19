@@ -1,0 +1,12 @@
+[package]
+name = "lap"
+version = "0.3.3"
+description = "An offline-first photo manager for large local libraries"
+homepage = "https://github.com/julyx10/lap"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Lap_x86_64.app.tar.gz"
+url = "https://github.com/julyx10/lap/releases/download/v0.3.3/Lap_x86_64.app.tar.gz"
+strip_prefix = ""

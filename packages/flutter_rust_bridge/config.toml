@@ -1,0 +1,12 @@
+[package]
+name = "flutter_rust_bridge"
+version = "2.14.0-beta.2"
+description = "Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple."
+homepage = "https://github.com/fzyzcjy/flutter_rust_bridge"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "flutter_rust_bridge_codegen-x86_64-unknown-linux-musl-v2.14.0-beta.2.tgz"
+url = "https://github.com/fzyzcjy/flutter_rust_bridge/releases/download/v2.14.0-beta.2/flutter_rust_bridge_codegen-x86_64-unknown-linux-musl-v2.14.0-beta.2.tgz"
+strip_prefix = ""

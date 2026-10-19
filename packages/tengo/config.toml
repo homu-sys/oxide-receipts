@@ -1,0 +1,12 @@
+[package]
+name = "tengo"
+version = "3.0.0"
+description = "A fast script language for Go"
+homepage = "https://github.com/d5/tengo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tengo_3.0.0_linux_amd64.tar.gz"
+url = "https://github.com/d5/tengo/releases/download/v3.0.0/tengo_3.0.0_linux_amd64.tar.gz"
+strip_prefix = ""

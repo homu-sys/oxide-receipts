@@ -1,0 +1,12 @@
+[package]
+name = "tracexec"
+version = "1.0.0"
+description = "Tracer for execve{,at} and pre-exec behavior, launcher for debuggers."
+homepage = "https://github.com/kxxt/tracexec"
+license = "GPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "tracexec-x86_64-unknown-linux-gnu-static.tar.gz"
+url = "https://github.com/kxxt/tracexec/releases/download/v1.0.0/tracexec-x86_64-unknown-linux-gnu-static.tar.gz"
+strip_prefix = ""

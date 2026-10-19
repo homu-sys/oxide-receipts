@@ -1,0 +1,12 @@
+[package]
+name = "openscience"
+version = "2.0.152"
+description = "The open-source AI workbench for scientific research"
+homepage = "https://github.com/synthetic-sciences/openscience"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "openscience-linux-x64-baseline-musl.tar.gz"
+url = "https://github.com/synthetic-sciences/openscience/releases/download/v2.0.152/openscience-linux-x64-baseline-musl.tar.gz"
+strip_prefix = ""

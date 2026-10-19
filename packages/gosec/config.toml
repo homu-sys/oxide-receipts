@@ -1,0 +1,12 @@
+[package]
+name = "gosec"
+version = "2.29.0"
+description = "Go security checker"
+homepage = "https://github.com/securego/gosec"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "gosec_2.29.0_linux_amd64.tar.gz"
+url = "https://github.com/securego/gosec/releases/download/v2.29.0/gosec_2.29.0_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "thclaws"
+version = "0.141.0"
+description = "Open-source AI agent harness in native Rust — GUI, CLI, headless, and webapp from one binary. Multi-provider, MCP, skills, plugins, agent teams."
+homepage = "https://github.com/thClaws/thClaws"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "thclaws-v0.141.0-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/thClaws/thClaws/releases/download/v0.141.0/thclaws-v0.141.0-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

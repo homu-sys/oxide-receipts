@@ -1,0 +1,12 @@
+[package]
+name = "csvq"
+version = "1.18.1"
+description = "SQL-like query language for csv"
+homepage = "https://github.com/mithrandie/csvq"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "csvq-v1.18.1-linux-amd64.tar.gz"
+url = "https://github.com/mithrandie/csvq/releases/download/v1.18.1/csvq-v1.18.1-linux-amd64.tar.gz"
+strip_prefix = ""

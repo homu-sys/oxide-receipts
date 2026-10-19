@@ -1,0 +1,12 @@
+[package]
+name = "turm"
+version = "0.16.0"
+description = "TUI for the Slurm Workload Manager"
+homepage = "https://github.com/karimknaebel/turm"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "turm-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/karimknaebel/turm/releases/download/v0.16.0/turm-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "evolver"
+version = "2.0.44"
+description = "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai"
+homepage = "https://github.com/EvoMap/evolver"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "evolver-linux-x64.tar.gz"
+url = "https://github.com/EvoMap/evolver/releases/download/v2.0.44/evolver-linux-x64.tar.gz"
+strip_prefix = ""

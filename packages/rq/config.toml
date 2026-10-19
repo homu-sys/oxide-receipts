@@ -1,0 +1,12 @@
+[package]
+name = "rq"
+version = "1.0.2"
+description = "Record Query - A tool for doing record analysis and transformation"
+homepage = "https://github.com/dflemstr/rq"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rq-v1.0.2-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/dflemstr/rq/releases/download/v1.0.2/rq-v1.0.2-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

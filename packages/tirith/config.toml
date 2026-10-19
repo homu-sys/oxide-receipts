@@ -1,0 +1,12 @@
+[package]
+name = "tirith"
+version = "0.4.2"
+description = "Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, data exfiltration, and malicious AI skills/configs before they execute."
+homepage = "https://github.com/sheeki03/tirith"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "tirith-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/sheeki03/tirith/releases/download/v0.4.2/tirith-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "devtui"
+version = "0.34.2"
+description = "A Swiss-army app for developers"
+homepage = "https://github.com/skatkov/devtui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "devtui_Linux_x86_64.tar.gz"
+url = "https://github.com/skatkov/devtui/releases/download/0.34.2/devtui_Linux_x86_64.tar.gz"
+strip_prefix = ""

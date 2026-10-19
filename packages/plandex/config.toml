@@ -1,0 +1,12 @@
+[package]
+name = "plandex"
+version = "cli/v2.2.1"
+description = "Open source AI coding agent. Designed for large projects and real world tasks."
+homepage = "https://github.com/plandex-ai/plandex"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "plandex_2.2.1_linux_amd64.tar.gz"
+url = "https://github.com/plandex-ai/plandex/releases/download/cli/v2.2.1/plandex_2.2.1_linux_amd64.tar.gz"
+strip_prefix = ""

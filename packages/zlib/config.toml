@@ -1,0 +1,12 @@
+[package]
+name = "zlib"
+version = "0.0.10"
+description = "A command-line tool for Z-Library. Search, download, send to Kindle, and integrate with AI agents."
+homepage = "https://github.com/heartleo/zlib"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "zlib_0.0.10_linux_x86_64.tar.gz"
+url = "https://github.com/heartleo/zlib/releases/download/v0.0.10/zlib_0.0.10_linux_x86_64.tar.gz"
+strip_prefix = ""

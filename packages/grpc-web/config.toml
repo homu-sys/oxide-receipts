@@ -1,0 +1,12 @@
+[package]
+name = "grpc-web"
+version = "0.15.0"
+description = "gRPC Web implementation for Golang and TypeScript"
+homepage = "https://github.com/improbable-eng/grpc-web"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "grpcwebproxy-v0.15.0-linux-x86_64.zip"
+url = "https://github.com/improbable-eng/grpc-web/releases/download/v0.15.0/grpcwebproxy-v0.15.0-linux-x86_64.zip"
+strip_prefix = ""

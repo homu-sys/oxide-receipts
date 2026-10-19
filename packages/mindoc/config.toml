@@ -1,0 +1,12 @@
+[package]
+name = "mindoc"
+version = "2.2-beta.2"
+description = "Golang实现的基于beego框架的接口在线文档管理系统"
+homepage = "https://github.com/mindoc-org/mindoc"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "mindoc_linux_musl_amd64.zip"
+url = "https://github.com/mindoc-org/mindoc/releases/download/v2.2-beta.2/mindoc_linux_musl_amd64.zip"
+strip_prefix = ""

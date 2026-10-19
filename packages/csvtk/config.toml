@@ -1,0 +1,12 @@
+[package]
+name = "csvtk"
+version = "0.38.0"
+description = "A cross-platform, efficient and practical CSV/TSV toolkit in Golang"
+homepage = "https://github.com/shenwei356/csvtk"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "csvtk_linux_amd64.tar.gz"
+url = "https://github.com/shenwei356/csvtk/releases/download/v0.38.0/csvtk_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "go-whatsapp-web-multidevice"
+version = "9.6.0"
+description = "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use."
+homepage = "https://github.com/aldinokemal/go-whatsapp-web-multidevice"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "whatsapp_9.6.0_linux_amd64.zip"
+url = "https://github.com/aldinokemal/go-whatsapp-web-multidevice/releases/download/v9.6.0/whatsapp_9.6.0_linux_amd64.zip"
+strip_prefix = ""

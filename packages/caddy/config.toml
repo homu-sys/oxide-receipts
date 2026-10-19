@@ -1,0 +1,12 @@
+[package]
+name = "caddy"
+version = "2.11.7"
+description = "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS"
+homepage = "https://github.com/caddyserver/caddy"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "caddy_2.11.7_linux_amd64.tar.gz"
+url = "https://github.com/caddyserver/caddy/releases/download/v2.11.7/caddy_2.11.7_linux_amd64.tar.gz"
+strip_prefix = ""

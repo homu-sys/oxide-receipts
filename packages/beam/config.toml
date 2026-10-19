@@ -1,0 +1,12 @@
+[package]
+name = "beam"
+version = "2.77.0"
+description = "Apache Beam is a unified programming model for Batch and Streaming data processing."
+homepage = "https://github.com/apache/beam"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "apache_beam-v2.77.0-prism-linux-amd64.zip"
+url = "https://github.com/apache/beam/releases/download/v2.77.0/apache_beam-v2.77.0-prism-linux-amd64.zip"
+strip_prefix = ""

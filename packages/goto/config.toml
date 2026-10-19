@@ -1,0 +1,12 @@
+[package]
+name = "goto"
+version = "1.6.1"
+description = "Easy to use terminal SSH manager with advanced features. Binaries included! 😉"
+homepage = "https://github.com/grafviktor/goto"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "goto_1.6.1_linux_amd64.tar.gz"
+url = "https://github.com/grafviktor/goto/releases/download/v1.6.1/goto_1.6.1_linux_amd64.tar.gz"
+strip_prefix = ""

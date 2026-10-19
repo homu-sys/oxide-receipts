@@ -1,0 +1,12 @@
+[package]
+name = "aws-nuke"
+version = "3.68.3"
+description = "Remove all the resources from an AWS account"
+homepage = "https://github.com/ekristen/aws-nuke"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "aws-nuke-v3.68.3-linux-amd64.tar.gz"
+url = "https://github.com/ekristen/aws-nuke/releases/download/v3.68.3/aws-nuke-v3.68.3-linux-amd64.tar.gz"
+strip_prefix = ""

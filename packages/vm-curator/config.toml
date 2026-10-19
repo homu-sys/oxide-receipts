@@ -1,0 +1,12 @@
+[package]
+name = "vm-curator"
+version = "1.5.0"
+description = "vm-curator is a fast and friendly TUI to build and manage QEMU/KVM virtual machines for desktop use with working 3D acceleration (para-virtualized and pass-through.)"
+homepage = "https://github.com/mroboff/vm-curator"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "vm-curator-v1.5.0-linux-x86_64.tar.gz"
+url = "https://github.com/mroboff/vm-curator/releases/download/v1.5.0/vm-curator-v1.5.0-linux-x86_64.tar.gz"
+strip_prefix = ""

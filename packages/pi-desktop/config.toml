@@ -1,0 +1,12 @@
+[package]
+name = "pi-desktop"
+version = "0.20.1"
+description = "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins"
+homepage = "https://github.com/vastsa/PI-Desktop"
+license = "LGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "pi-host-0.20.1-linux-x64.tar.gz"
+url = "https://github.com/vastsa/PI-Desktop/releases/download/v0.20.1/pi-host-0.20.1-linux-x64.tar.gz"
+strip_prefix = ""

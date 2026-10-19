@@ -1,0 +1,12 @@
+[package]
+name = "nixpacks"
+version = "1.41.0"
+description = "App source + Nix packages + Docker = Image"
+homepage = "https://github.com/railwayapp/nixpacks"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "nixpacks-v1.41.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/railwayapp/nixpacks/releases/download/v1.41.0/nixpacks-v1.41.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

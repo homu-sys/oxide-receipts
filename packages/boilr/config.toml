@@ -1,0 +1,12 @@
+[package]
+name = "boilr"
+version = "0.3.0"
+description = ":zap: boilerplate template manager that generates files or directories from template repositories"
+homepage = "https://github.com/tmrts/boilr"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "boilr-0.3.0-linux_amd64.tgz"
+url = "https://github.com/tmrts/boilr/releases/download/0.3.0/boilr-0.3.0-linux_amd64.tgz"
+strip_prefix = ""

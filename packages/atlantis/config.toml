@@ -1,0 +1,12 @@
+[package]
+name = "atlantis"
+version = "0.48.1"
+description = "Terraform Pull Request Automation"
+homepage = "https://github.com/runatlantis/atlantis"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "atlantis_linux_amd64.zip"
+url = "https://github.com/runatlantis/atlantis/releases/download/v0.48.1/atlantis_linux_amd64.zip"
+strip_prefix = ""

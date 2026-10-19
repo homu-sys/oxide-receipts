@@ -1,0 +1,12 @@
+[package]
+name = "csvtotable"
+version = "3.2.0"
+description = "Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, filters, and sorting"
+homepage = "https://github.com/vividvilla/csvtotable"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "csvtotable-3.2.0-linux-x64.tar.gz"
+url = "https://github.com/vividvilla/csvtotable/releases/download/v3.2.0/csvtotable-3.2.0-linux-x64.tar.gz"
+strip_prefix = ""

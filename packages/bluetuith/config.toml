@@ -1,0 +1,12 @@
+[package]
+name = "bluetuith"
+version = "0.2.7"
+description = "A cross-platform TUI bluetooth manager."
+homepage = "https://github.com/bluetuith-org/bluetuith"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "bluetuith_0.2.7_Linux_x86_64.tar.gz"
+url = "https://github.com/bluetuith-org/bluetuith/releases/download/v0.2.7/bluetuith_0.2.7_Linux_x86_64.tar.gz"
+strip_prefix = ""

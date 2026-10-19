@@ -1,0 +1,12 @@
+[package]
+name = "updo"
+version = "0.4.8"
+description = "Uptime monitoring CLI tool with alerting and advanced settings"
+homepage = "https://github.com/Owloops/updo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "updo_0.4.8_linux_amd64.pkg.tar.zst"
+url = "https://github.com/Owloops/updo/releases/download/v0.4.8/updo_0.4.8_linux_amd64.pkg.tar.zst"
+strip_prefix = ""

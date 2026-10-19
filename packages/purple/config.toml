@@ -1,0 +1,12 @@
+[package]
+name = "purple"
+version = "3.30.0"
+description = "Free, open-source terminal SSH manager and SSH config editor in Rust for macOS and Linux that keeps ~/.ssh/config in sync with 18 cloud providers, monitors live SSH tunnels and manages Docker and Podman containers fleet-wide. Plus scp, Vault SSH certs and an MCP server for AI agents."
+homepage = "https://github.com/erickochen/purple"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "purple-3.30.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/erickochen/purple/releases/download/v3.30.0/purple-3.30.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

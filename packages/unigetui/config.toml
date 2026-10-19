@@ -1,0 +1,12 @@
+[package]
+name = "unigetui"
+version = "2026.3.2"
+description = "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers"
+homepage = "https://github.com/Devolutions/UniGetUI"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "UniGetUI.linux-x64.tar.gz"
+url = "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.linux-x64.tar.gz"
+strip_prefix = ""

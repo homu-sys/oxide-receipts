@@ -1,0 +1,12 @@
+[package]
+name = "anymd"
+version = "8.5.5"
+description = "Any file → clean Markdown for AI agents: PDF, Word, PowerPoint, Excel, EPUB, HTML and web pages, images (OCR), audio and video (metadata, subtitles, transcripts). A fast Rust MCP server and CLI that runs on your machine. No API key."
+homepage = "https://github.com/SylphxAI/anymd"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "anymd-linux-x64-gnu.tar.gz"
+url = "https://github.com/SylphxAI/anymd/releases/download/v8.5.5/anymd-linux-x64-gnu.tar.gz"
+strip_prefix = ""

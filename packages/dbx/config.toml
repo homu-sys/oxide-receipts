@@ -1,0 +1,12 @@
+[package]
+name = "dbx"
+version = "0.6.48"
+description = "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。"
+homepage = "https://github.com/t8y2/dbx"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "dbx-web_0.6.48_x86_64-browser-static.zip"
+url = "https://github.com/t8y2/dbx/releases/download/v0.6.48/dbx-web_0.6.48_x86_64-browser-static.zip"
+strip_prefix = ""

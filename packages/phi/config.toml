@@ -1,0 +1,12 @@
+[package]
+name = "phi"
+version = "0.29.0"
+description = "A fast coding agent, rpc plugin, sub-agents, hashline edits, and mcp"
+homepage = "https://github.com/pulseaiclub/phi"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "phi_0.29.0_linux_amd64.tar.gz"
+url = "https://github.com/pulseaiclub/phi/releases/download/v0.29.0/phi_0.29.0_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "jiascheduler"
+version = "2.0.1"
+description = "A high-performance, scalable, dynamically configured job scheduler developed with rust"
+homepage = "https://github.com/jiawesoft/jiascheduler"
+license = "Unlicense"
+arch = ["x86_64"]
+
+[archive]
+file = "jiascheduler-v2.0.1-linux-amd64.zip"
+url = "https://github.com/jiawesoft/jiascheduler/releases/download/v2.0.1/jiascheduler-v2.0.1-linux-amd64.zip"
+strip_prefix = ""

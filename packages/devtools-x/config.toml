@@ -1,0 +1,12 @@
+[package]
+name = "devtools-x"
+version = "devtoolsx-v3.4.1"
+description = "Collection of offline first developer utilities available as non-electron desktop application. all in one place, cross-platform, 10MB app!"
+homepage = "https://github.com/fosslife/devtools-x"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "devtools-x_x64.app.tar.gz"
+url = "https://github.com/fosslife/devtools-x/releases/download/devtoolsx-v3.4.1/devtools-x_x64.app.tar.gz"
+strip_prefix = ""

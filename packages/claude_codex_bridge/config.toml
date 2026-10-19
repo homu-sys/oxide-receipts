@@ -1,0 +1,11 @@
+[package]
+name = "claude_codex_bridge"
+version = "8.7.12"
+description = "Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents"
+homepage = "https://github.com/SeemSeam/claude_codex_bridge"
+arch = ["x86_64"]
+
+[archive]
+file = "ccb-agent-sidebar-linux-x86_64.tar.gz"
+url = "https://github.com/SeemSeam/claude_codex_bridge/releases/download/v8.7.12/ccb-agent-sidebar-linux-x86_64.tar.gz"
+strip_prefix = ""

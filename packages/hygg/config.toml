@@ -1,0 +1,12 @@
+[package]
+name = "hygg"
+version = "0.1.27"
+description = "📚 Simplifying the way you read. Minimalistic Vim-like TUI document reader."
+homepage = "https://github.com/kruseio/hygg"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "hygg-cli-0.1.27-x86_64-linux.tar.gz"
+url = "https://github.com/kruseio/hygg/releases/download/0.1.27/hygg-cli-0.1.27-x86_64-linux.tar.gz"
+strip_prefix = ""

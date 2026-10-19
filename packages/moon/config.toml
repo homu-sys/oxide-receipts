@@ -1,0 +1,12 @@
+[package]
+name = "moon"
+version = "2.6.2"
+description = "A build system and monorepo management tool for the web ecosystem, written in Rust."
+homepage = "https://github.com/moonrepo/moon"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "moon_cli-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/moonrepo/moon/releases/download/v2.6.2/moon_cli-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

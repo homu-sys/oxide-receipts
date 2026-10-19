@@ -1,0 +1,12 @@
+[package]
+name = "mcat"
+version = "0.6.5"
+description = "Terminal image, video, PDF, and Markdown viewer"
+homepage = "https://github.com/Skardyy/mcat"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mcat-v0.6.5-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/Skardyy/mcat/releases/download/v0.6.5/mcat-v0.6.5-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

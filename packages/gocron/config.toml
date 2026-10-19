@@ -1,0 +1,12 @@
+[package]
+name = "gocron"
+version = "1.5.3"
+description = "定时任务管理系统"
+homepage = "https://github.com/ouqiang/gocron"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gocron-node-v1.5.3-linux-amd64.tar.gz"
+url = "https://github.com/ouqiang/gocron/releases/download/v1.5.3/gocron-node-v1.5.3-linux-amd64.tar.gz"
+strip_prefix = ""

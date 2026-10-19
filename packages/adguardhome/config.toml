@@ -1,0 +1,12 @@
+[package]
+name = "adguardhome"
+version = "0.107.79"
+description = "Network-wide ads & trackers blocking DNS server"
+homepage = "https://github.com/AdguardTeam/AdGuardHome"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "AdGuardHome_linux_amd64.tar.gz"
+url = "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.79/AdGuardHome_linux_amd64.tar.gz"
+strip_prefix = ""

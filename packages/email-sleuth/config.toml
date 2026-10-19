@@ -1,0 +1,12 @@
+[package]
+name = "email-sleuth"
+version = "1.1.3"
+description = "Discover and verify professional emails using names + domains"
+homepage = "https://github.com/buyukakyuz/email-sleuth"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "email-sleuth-v1.1.3-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/buyukakyuz/email-sleuth/releases/download/v1.1.3/email-sleuth-v1.1.3-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

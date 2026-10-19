@@ -1,0 +1,12 @@
+[package]
+name = "ironclaw"
+version = "ironclaw-v1.4.1"
+description = "IronClaw is an Agent OS focused on privacy, security and extensibility"
+homepage = "https://github.com/nearai/ironclaw"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ironclaw-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/nearai/ironclaw/releases/download/ironclaw-v1.4.1/ironclaw-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

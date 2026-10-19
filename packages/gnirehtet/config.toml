@@ -1,0 +1,12 @@
+[package]
+name = "gnirehtet"
+version = "2.5.1"
+description = "Gnirehtet provides reverse tethering for Android"
+homepage = "https://github.com/Genymobile/gnirehtet"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "gnirehtet-rust-linux64-v2.5.1.zip"
+url = "https://github.com/Genymobile/gnirehtet/releases/download/v2.5.1/gnirehtet-rust-linux64-v2.5.1.zip"
+strip_prefix = ""

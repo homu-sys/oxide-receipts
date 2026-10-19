@@ -1,0 +1,12 @@
+[package]
+name = "kftray"
+version = "0.32.5"
+description = "kubectl port-forward manager and reverse tunnel (ngrok-like) for exposing local  services publicly, with TLS termination, HTTP traffic inspection, UDP forwarding,  multi-hop proxy routing through k8s clusters, stateful config via filesystem or  git - GUI and TUI available"
+homepage = "https://github.com/hcavarsan/kftray"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kftui_linux_amd64.tar.gz"
+url = "https://github.com/hcavarsan/kftray/releases/download/v0.32.5/kftui_linux_amd64.tar.gz"
+strip_prefix = ""

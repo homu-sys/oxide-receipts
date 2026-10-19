@@ -1,0 +1,12 @@
+[package]
+name = "sql-studio"
+version = "0.1.53"
+description = "SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB, Microsoft SQL Server]"
+homepage = "https://github.com/frectonz/sql-studio"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "sql-studio-x86_64-unknown-linux-musl.tar.xz"
+url = "https://github.com/frectonz/sql-studio/releases/download/0.1.53/sql-studio-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = ""

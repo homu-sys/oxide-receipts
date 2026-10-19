@@ -1,0 +1,12 @@
+[package]
+name = "gmailctl"
+version = "0.13.0"
+description = "Declarative configuration for Gmail filters"
+homepage = "https://github.com/mbrt/gmailctl"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gmailctl_0.13.0_linux_amd64.tar.gz"
+url = "https://github.com/mbrt/gmailctl/releases/download/v0.13.0/gmailctl_0.13.0_linux_amd64.tar.gz"
+strip_prefix = ""

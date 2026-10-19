@@ -1,0 +1,12 @@
+[package]
+name = "html-to-markdown"
+version = "2.5.2"
+description = "⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules."
+homepage = "https://github.com/JohannesKaufmann/html-to-markdown"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "html-to-markdown_Linux_x86_64.tar.gz"
+url = "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v2.5.2/html-to-markdown_Linux_x86_64.tar.gz"
+strip_prefix = ""

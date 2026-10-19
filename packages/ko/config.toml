@@ -1,0 +1,12 @@
+[package]
+name = "ko"
+version = "0.19.1"
+description = "Build and deploy Go applications"
+homepage = "https://github.com/ko-build/ko"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ko_0.19.1_Linux_x86_64.tar.gz"
+url = "https://github.com/ko-build/ko/releases/download/v0.19.1/ko_0.19.1_Linux_x86_64.tar.gz"
+strip_prefix = ""

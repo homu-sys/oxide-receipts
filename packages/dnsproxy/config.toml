@@ -1,0 +1,12 @@
+[package]
+name = "dnsproxy"
+version = "0.86.0"
+description = "Simple DNS proxy with DoH, DoT, DoQ and DNSCrypt support"
+homepage = "https://github.com/AdguardTeam/dnsproxy"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "dnsproxy-linux-amd64-v0.86.0.tar.gz"
+url = "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.86.0/dnsproxy-linux-amd64-v0.86.0.tar.gz"
+strip_prefix = ""

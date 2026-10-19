@@ -1,0 +1,12 @@
+[package]
+name = "meteor"
+version = "0.31.0"
+description = "A highly configurable CLI tool for writing conventional commits"
+homepage = "https://github.com/stefanlogue/meteor"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "meteor-linux-amd64.zip"
+url = "https://github.com/stefanlogue/meteor/releases/download/v0.31.0/meteor-linux-amd64.zip"
+strip_prefix = ""

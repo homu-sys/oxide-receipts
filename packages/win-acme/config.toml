@@ -1,0 +1,12 @@
+[package]
+name = "win-acme"
+version = "2.2.9.1701"
+description = "Automate SSL/TLS certificates on Windows with ease"
+homepage = "https://github.com/win-acme/win-acme"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "gnutls.v2.2.9.1701.x64.zip"
+url = "https://github.com/win-acme/win-acme/releases/download/v2.2.9.1701/gnutls.v2.2.9.1701.x64.zip"
+strip_prefix = ""

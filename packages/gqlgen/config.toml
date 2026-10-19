@@ -1,0 +1,12 @@
+[package]
+name = "gqlgen"
+version = "0.17.95"
+description = "go generate based graphql server library"
+homepage = "https://github.com/99designs/gqlgen"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gqlgen_Linux_x86_64.tar.gz"
+url = "https://github.com/99designs/gqlgen/releases/download/v0.17.95/gqlgen_Linux_x86_64.tar.gz"
+strip_prefix = ""

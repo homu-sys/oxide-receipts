@@ -1,0 +1,12 @@
+[package]
+name = "pakeplus"
+version = "PakePlus-v2.2.8"
+description = "Turn any webpage/HTML/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/HTML/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app"
+homepage = "https://github.com/Sjj1024/PakePlus"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "PakePlus_x64.app.tar.gz"
+url = "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.2.8/PakePlus_x64.app.tar.gz"
+strip_prefix = ""

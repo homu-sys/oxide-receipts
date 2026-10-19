@@ -1,0 +1,12 @@
+[package]
+name = "openhuman"
+version = "0.64.15"
+description = "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS."
+homepage = "https://github.com/tinyhumansai/openhuman"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "openhuman-core-0.64.15-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/openhuman-core-0.64.15-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

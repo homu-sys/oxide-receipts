@@ -1,0 +1,11 @@
+[package]
+name = "jvm-mon"
+version = "1.3"
+description = "Console-based JVM monitoring tool"
+homepage = "https://github.com/ajermakovics/jvm-mon"
+arch = ["x86_64"]
+
+[archive]
+file = "jvm-mon-linux-x64.tgz"
+url = "https://github.com/ajermakovics/jvm-mon/releases/download/1.3/jvm-mon-linux-x64.tgz"
+strip_prefix = ""

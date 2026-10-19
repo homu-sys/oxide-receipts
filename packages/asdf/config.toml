@@ -1,0 +1,12 @@
+[package]
+name = "asdf"
+version = "0.20.2"
+description = "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more"
+homepage = "https://github.com/asdf-vm/asdf"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "asdf-v0.20.2-linux-amd64.tar.gz"
+url = "https://github.com/asdf-vm/asdf/releases/download/v0.20.2/asdf-v0.20.2-linux-amd64.tar.gz"
+strip_prefix = ""

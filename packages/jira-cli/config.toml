@@ -1,0 +1,12 @@
+[package]
+name = "jira-cli"
+version = "1.7.0"
+description = "🔥 Feature-rich interactive Jira command line."
+homepage = "https://github.com/ankitpokhrel/jira-cli"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "jira_1.7.0_linux_x86_64.tar.gz"
+url = "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.7.0/jira_1.7.0_linux_x86_64.tar.gz"
+strip_prefix = ""

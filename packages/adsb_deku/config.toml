@@ -1,0 +1,12 @@
+[package]
+name = "adsb_deku"
+version = "2025.05.03"
+description = "✈️ Rust ADS-B decoder + tui radar application"
+homepage = "https://github.com/rsadsb/adsb_deku"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "1090-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/rsadsb/adsb_deku/releases/download/v2025.05.03/1090-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

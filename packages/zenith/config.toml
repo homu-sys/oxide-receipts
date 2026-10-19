@@ -1,0 +1,12 @@
+[package]
+name = "zenith"
+version = "0.15.1"
+description = "Zenith - sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage"
+homepage = "https://github.com/bvaisvil/zenith"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "zenith-Linux-musl-x86_64.tar.gz"
+url = "https://github.com/bvaisvil/zenith/releases/download/0.15.1/zenith-Linux-musl-x86_64.tar.gz"
+strip_prefix = ""

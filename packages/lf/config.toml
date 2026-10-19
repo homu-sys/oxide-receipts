@@ -1,0 +1,12 @@
+[package]
+name = "lf"
+version = "r42"
+description = "Terminal file manager"
+homepage = "https://github.com/gokcehan/lf"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lf-linux-amd64.tar.gz"
+url = "https://github.com/gokcehan/lf/releases/download/r42/lf-linux-amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "ctool"
+version = "2.3.0"
+description = "程序开发常用工具 chrome / edge / firefox / utools / windows / linux / mac"
+homepage = "https://github.com/baiy/Ctool"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ctool_electron_linux_x64.tar.gz"
+url = "https://github.com/baiy/Ctool/releases/download/v2.3.0/ctool_electron_linux_x64.tar.gz"
+strip_prefix = ""

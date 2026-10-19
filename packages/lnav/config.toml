@@ -1,0 +1,12 @@
+[package]
+name = "lnav"
+version = "0.14.1"
+description = "Log file navigator"
+homepage = "https://github.com/tstack/lnav"
+license = "BSD-2-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "lnav-0.14.1-linux-musl-x86_64.zip"
+url = "https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1-linux-musl-x86_64.zip"
+strip_prefix = ""

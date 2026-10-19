@@ -1,0 +1,12 @@
+[package]
+name = "usbtree"
+version = "0.1.1"
+description = "Live USB device tree in your terminal. Rust TUI, no root, no libusb. Full activity metrics on Linux; device tree on macOS/Windows."
+homepage = "https://github.com/gnomeria/usbtree"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "usbtree_0.1.1_linux-amd64.tar.gz"
+url = "https://github.com/gnomeria/usbtree/releases/download/v0.1.1/usbtree_0.1.1_linux-amd64.tar.gz"
+strip_prefix = ""

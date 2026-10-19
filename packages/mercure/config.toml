@@ -1,0 +1,12 @@
+[package]
+name = "mercure"
+version = "1.1.2"
+description = "🪽 An open, easy, fast, reliable and battery-efficient solution for real-time communications"
+homepage = "https://github.com/dunglas/mercure"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "mercure_Linux_x86_64.tar.gz"
+url = "https://github.com/dunglas/mercure/releases/download/v1.1.2/mercure_Linux_x86_64.tar.gz"
+strip_prefix = ""

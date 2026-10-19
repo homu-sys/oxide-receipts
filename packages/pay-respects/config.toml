@@ -1,0 +1,12 @@
+[package]
+name = "pay-respects"
+version = "0.8.8"
+description = "Command suggestions, command-not-found and thefuck replacement written in Rust"
+homepage = "https://github.com/iffse/pay-respects"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "pay-respects-0.8.8-x86_64-unknown-linux-musl.tar.zst"
+url = "https://github.com/iffse/pay-respects/releases/download/v0.8.8/pay-respects-0.8.8-x86_64-unknown-linux-musl.tar.zst"
+strip_prefix = ""

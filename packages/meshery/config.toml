@@ -1,0 +1,12 @@
+[package]
+name = "meshery"
+version = "1.0.71"
+description = "Meshery, the cloud native manager"
+homepage = "https://github.com/meshery/meshery"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "mesheryctl_1.0.71_Linux_x86_64.tar.gz"
+url = "https://github.com/meshery/meshery/releases/download/v1.0.71/mesheryctl_1.0.71_Linux_x86_64.tar.gz"
+strip_prefix = ""

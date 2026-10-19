@@ -1,0 +1,12 @@
+[package]
+name = "lean-ctx"
+version = "3.11.4"
+description = "LeanCTX is the Context Gateway for AI Systems. Select task-relevant context, apply supported controls, connect local knowledge and inspect recorded evidence. Open-source Engine: CLI, MCP, hooks and supported proxy paths."
+homepage = "https://github.com/yvgude/lean-ctx"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "lean-ctx-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/yvgude/lean-ctx/releases/download/v3.11.4/lean-ctx-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "gotty"
+version = "1.0.1"
+description = "Share your terminal as a web application"
+homepage = "https://github.com/yudai/gotty"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gotty_linux_amd64.tar.gz"
+url = "https://github.com/yudai/gotty/releases/download/v1.0.1/gotty_linux_amd64.tar.gz"
+strip_prefix = ""

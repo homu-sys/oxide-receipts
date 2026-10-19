@@ -1,0 +1,12 @@
+[package]
+name = "rush"
+version = "0.11.0"
+description = "A cross-platform command-line tool for executing jobs in parallel"
+homepage = "https://github.com/shenwei356/rush"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "rush_linux_amd64.tar.gz"
+url = "https://github.com/shenwei356/rush/releases/download/v0.11.0/rush_linux_amd64.tar.gz"
+strip_prefix = ""

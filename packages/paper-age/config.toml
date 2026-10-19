@@ -1,0 +1,12 @@
+[package]
+name = "paper-age"
+version = "1.5.0"
+description = "Easy and secure paper backups of secrets"
+homepage = "https://github.com/matiaskorhonen/paper-age"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "paper-age-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/matiaskorhonen/paper-age/releases/download/v1.5.0/paper-age-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

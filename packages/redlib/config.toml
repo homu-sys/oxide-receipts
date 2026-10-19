@@ -1,0 +1,12 @@
+[package]
+name = "redlib"
+version = "0.36.0"
+description = "Private front-end for Reddit"
+homepage = "https://github.com/redlib-org/redlib"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "redlib-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/redlib-org/redlib/releases/download/v0.36.0/redlib-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

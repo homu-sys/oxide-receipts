@@ -1,0 +1,12 @@
+[package]
+name = "nnn"
+version = "5.3"
+description = "n³ The unorthodox terminal file manager"
+homepage = "https://github.com/jarun/nnn"
+license = "BSD-2-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "nnn-musl-emoji-static-5.3.x86_64.tar.gz"
+url = "https://github.com/jarun/nnn/releases/download/v5.3/nnn-musl-emoji-static-5.3.x86_64.tar.gz"
+strip_prefix = ""

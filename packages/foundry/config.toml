@@ -1,0 +1,12 @@
+[package]
+name = "foundry"
+version = "1.8.5"
+description = "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+homepage = "https://github.com/foundry-rs/foundry"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "foundry_v1.8.5_linux_amd64.tar.gz"
+url = "https://github.com/foundry-rs/foundry/releases/download/v1.8.5/foundry_v1.8.5_linux_amd64.tar.gz"
+strip_prefix = ""

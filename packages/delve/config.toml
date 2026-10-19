@@ -1,0 +1,12 @@
+[package]
+name = "delve"
+version = "1.27.2"
+description = "Delve is a debugger for the Go programming language."
+homepage = "https://github.com/go-delve/delve"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dlv_1.27.2_linux_amd64.tar.gz"
+url = "https://github.com/go-delve/delve/releases/download/v1.27.2/dlv_1.27.2_linux_amd64.tar.gz"
+strip_prefix = ""

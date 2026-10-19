@@ -1,0 +1,12 @@
+[package]
+name = "tilix"
+version = "1.9.6"
+description = "A tiling terminal emulator for Linux using GTK+ 3"
+homepage = "https://github.com/gnunn1/tilix"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "tilix-1.9.6_x86_64-linux-gnu.tar.gz"
+url = "https://github.com/gnunn1/tilix/releases/download/1.9.6/tilix-1.9.6_x86_64-linux-gnu.tar.gz"
+strip_prefix = ""

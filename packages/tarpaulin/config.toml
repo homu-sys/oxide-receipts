@@ -1,0 +1,12 @@
+[package]
+name = "tarpaulin"
+version = "0.37.5"
+description = "A code coverage tool for Rust projects"
+homepage = "https://github.com/xd009642/tarpaulin"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cargo-tarpaulin-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/xd009642/tarpaulin/releases/download/0.37.5/cargo-tarpaulin-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

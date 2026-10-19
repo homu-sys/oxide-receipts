@@ -1,0 +1,12 @@
+[package]
+name = "hoard"
+version = "1.4.2"
+description = "cli command organizer written in rust"
+homepage = "https://github.com/Hyde46/hoard"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "hoard_v1.4.2_x86_64-unknown-linux-musl.zip"
+url = "https://github.com/Hyde46/hoard/releases/download/v1.4.2/hoard_v1.4.2_x86_64-unknown-linux-musl.zip"
+strip_prefix = ""

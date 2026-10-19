@@ -1,0 +1,12 @@
+[package]
+name = "veloren"
+version = "nightly"
+description = "[mirror of https://gitlab.com/veloren/veloren] An open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. This repository is a mirror. Please submit all PRs and issues on our GitLab page."
+homepage = "https://github.com/veloren/veloren"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "nightly-linux-x86_64-2024-08-21T17_04.zip"
+url = "https://github.com/veloren/veloren/releases/download/nightly/nightly-linux-x86_64-2024-08-21T17_04.zip"
+strip_prefix = ""

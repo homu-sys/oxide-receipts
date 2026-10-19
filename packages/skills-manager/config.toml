@@ -1,0 +1,12 @@
+[package]
+name = "skills-manager"
+version = "2.2.0"
+description = "Free, open-source desktop manager for AI Agent Skills. Write a skill once, sync it to 32 AI coding tools (Claude Code, Codex, Cursor, Gemini CLI, and more) via symlinks. Local-first, MIT licensed. macOS, Windows, Linux."
+homepage = "https://github.com/jiweiyeah/Skills-Manager"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "skm-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/jiweiyeah/Skills-Manager/releases/download/v2.2.0/skm-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "cloudlist"
+version = "1.5.0"
+description = "Cloudlist is a tool for listing Assets from multiple Cloud Providers."
+homepage = "https://github.com/projectdiscovery/cloudlist"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "cloudlist_1.5.0_linux_amd64.zip"
+url = "https://github.com/projectdiscovery/cloudlist/releases/download/v1.5.0/cloudlist_1.5.0_linux_amd64.zip"
+strip_prefix = ""

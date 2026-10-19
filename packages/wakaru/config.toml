@@ -1,0 +1,12 @@
+[package]
+name = "wakaru"
+version = "1.14.0"
+description = "🔪📦 Javascript decompiler for modern frontend"
+homepage = "https://github.com/pionxzh/wakaru"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "wakaru-linux-x64.tar.gz"
+url = "https://github.com/pionxzh/wakaru/releases/download/v1.14.0/wakaru-linux-x64.tar.gz"
+strip_prefix = ""

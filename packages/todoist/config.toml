@@ -1,0 +1,12 @@
+[package]
+name = "todoist"
+version = "0.24.0"
+description = "Todoist CLI Client. I ❤️ Todoist and CLI."
+homepage = "https://github.com/sachaos/todoist"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "todoist_Linux_x86_64.tar.gz"
+url = "https://github.com/sachaos/todoist/releases/download/v0.24.0/todoist_Linux_x86_64.tar.gz"
+strip_prefix = ""

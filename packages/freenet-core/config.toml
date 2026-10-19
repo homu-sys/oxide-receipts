@@ -1,0 +1,11 @@
+[package]
+name = "freenet-core"
+version = "0.2.147"
+description = "Declare your digital independence"
+homepage = "https://github.com/freenet/freenet-core"
+arch = ["x86_64"]
+
+[archive]
+file = "fdev-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/freenet/freenet-core/releases/download/v0.2.147/fdev-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

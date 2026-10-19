@@ -1,0 +1,12 @@
+[package]
+name = "buildkit"
+version = "0.34.0"
+description = "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+homepage = "https://github.com/moby/buildkit"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "buildkit-v0.34.0.linux-amd64.tar.gz"
+url = "https://github.com/moby/buildkit/releases/download/v0.34.0/buildkit-v0.34.0.linux-amd64.tar.gz"
+strip_prefix = ""

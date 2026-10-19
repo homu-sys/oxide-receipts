@@ -1,0 +1,12 @@
+[package]
+name = "wakapi"
+version = "2.18.2"
+description = "📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics"
+homepage = "https://github.com/muety/wakapi"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "wakapi_linux_amd64.zip"
+url = "https://github.com/muety/wakapi/releases/download/2.18.2/wakapi_linux_amd64.zip"
+strip_prefix = ""

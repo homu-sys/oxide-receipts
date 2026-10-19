@@ -1,0 +1,12 @@
+[package]
+name = "lrcget"
+version = "2.2.0"
+description = "Utility for mass-downloading LRC synced lyrics for your offline music library."
+homepage = "https://github.com/tranxuanthang/lrcget"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "LRCGET_x64.app.tar.gz"
+url = "https://github.com/tranxuanthang/lrcget/releases/download/2.2.0/LRCGET_x64.app.tar.gz"
+strip_prefix = ""

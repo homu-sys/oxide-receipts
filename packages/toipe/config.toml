@@ -1,0 +1,12 @@
+[package]
+name = "toipe"
+version = "0.5.0"
+description = "yet another typing test, but crab flavoured"
+homepage = "https://github.com/Samyak2/toipe"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "toipe_v0.5.0_x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/Samyak2/toipe/releases/download/v0.5.0/toipe_v0.5.0_x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

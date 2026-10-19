@@ -1,0 +1,12 @@
+[package]
+name = "kubevpn"
+version = "2.11.10"
+description = "KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network."
+homepage = "https://github.com/kubenetworks/kubevpn"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "kubevpn_v2.11.10_linux_amd64.zip"
+url = "https://github.com/kubenetworks/kubevpn/releases/download/v2.11.10/kubevpn_v2.11.10_linux_amd64.zip"
+strip_prefix = ""

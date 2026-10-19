@@ -1,0 +1,12 @@
+[package]
+name = "bttf"
+version = "0.1.4"
+description = "A command line tool for datetime arithmetic, parsing, formatting and more."
+homepage = "https://github.com/BurntSushi/bttf"
+license = "Unlicense"
+arch = ["x86_64"]
+
+[archive]
+file = "bttf-0.1.4-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/BurntSushi/bttf/releases/download/0.1.4/bttf-0.1.4-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

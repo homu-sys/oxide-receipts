@@ -1,0 +1,11 @@
+[package]
+name = "goclaw"
+version = "3.14.0"
+description = "GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security, and native concurrency. Deploy AI agent teams at scale without compromising on safety."
+homepage = "https://github.com/nextlevelbuilder/goclaw"
+arch = ["x86_64"]
+
+[archive]
+file = "goclaw-3.14.0-linux-amd64.tar.gz"
+url = "https://github.com/nextlevelbuilder/goclaw/releases/download/v3.14.0/goclaw-3.14.0-linux-amd64.tar.gz"
+strip_prefix = ""

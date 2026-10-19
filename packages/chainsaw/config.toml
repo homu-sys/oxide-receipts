@@ -1,0 +1,12 @@
+[package]
+name = "chainsaw"
+version = "2.17.1"
+description = "Rapidly Search and Hunt through Windows Forensic Artefacts"
+homepage = "https://github.com/WithSecureOpenSource/chainsaw"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "chainsaw_x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/WithSecureOpenSource/chainsaw/releases/download/v2.17.1/chainsaw_x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

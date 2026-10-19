@@ -1,0 +1,12 @@
+[package]
+name = "lurk"
+version = "0.3.14"
+description = "A pretty (simple) alternative to strace."
+homepage = "https://github.com/JakWai01/lurk"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "lurk-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/JakWai01/lurk/releases/download/v0.3.14/lurk-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

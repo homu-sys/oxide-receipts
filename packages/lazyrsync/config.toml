@@ -1,0 +1,12 @@
+[package]
+name = "lazyrsync"
+version = "0.3.0"
+description = "🦀 A friendly terminal UI for rsync, written in Rust. Reusable profiles, an honest dry-run diff, and live progress, even over SSH."
+homepage = "https://github.com/westpoint-io/lazyrsync"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lazyrsync-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/westpoint-io/lazyrsync/releases/download/v0.3.0/lazyrsync-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

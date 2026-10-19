@@ -1,0 +1,12 @@
+[package]
+name = "ubi"
+version = "0.12.0"
+description = "The Universal Binary Installer"
+homepage = "https://github.com/houseabsolute/ubi"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ubi-Linux-musl-x86_64.tar.gz"
+url = "https://github.com/houseabsolute/ubi/releases/download/v0.12.0/ubi-Linux-musl-x86_64.tar.gz"
+strip_prefix = ""

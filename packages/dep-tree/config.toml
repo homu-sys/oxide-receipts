@@ -1,0 +1,12 @@
+[package]
+name = "dep-tree"
+version = "0.23.4"
+description = "Tool for helping developers keep their code bases clean and decoupled. It allows visualising a code base complexity using a 3d force-directed graph of files and the dependencies between them."
+homepage = "https://github.com/gabotechs/dep-tree"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dep-tree_0.23.4_linux_amd64.tar.gz"
+url = "https://github.com/gabotechs/dep-tree/releases/download/v0.23.4/dep-tree_0.23.4_linux_amd64.tar.gz"
+strip_prefix = ""

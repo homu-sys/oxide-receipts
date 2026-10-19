@@ -1,0 +1,11 @@
+[package]
+name = "collab-public"
+version = "0.8.4"
+description = "Collaborator is a place to create with agents."
+homepage = "https://github.com/collabs-inc/collab-public"
+arch = ["x86_64"]
+
+[archive]
+file = "Collaborator-0.8.4-x64-mac.zip"
+url = "https://github.com/collabs-inc/collab-public/releases/download/v0.8.4/Collaborator-0.8.4-x64-mac.zip"
+strip_prefix = ""

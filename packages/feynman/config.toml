@@ -1,0 +1,12 @@
+[package]
+name = "feynman"
+version = "0.5.51"
+description = "The open source AI research agent."
+homepage = "https://github.com/Companion-Inc/feynman"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "feynman-0.5.51-linux-x64.tar.gz"
+url = "https://github.com/Companion-Inc/feynman/releases/download/v0.5.51/feynman-0.5.51-linux-x64.tar.gz"
+strip_prefix = ""

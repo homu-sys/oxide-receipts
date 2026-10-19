@@ -1,0 +1,12 @@
+[package]
+name = "mimo-code"
+version = "0.1.15"
+description = "MiMo Code: Where Models and Agents Co-Evolve"
+homepage = "https://github.com/XiaomiMiMo/MiMo-Code"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mimocode-linux-x64-baseline-musl.tar.gz"
+url = "https://github.com/XiaomiMiMo/MiMo-Code/releases/download/v0.1.15/mimocode-linux-x64-baseline-musl.tar.gz"
+strip_prefix = ""

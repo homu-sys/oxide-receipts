@@ -1,0 +1,12 @@
+[package]
+name = "curlie"
+version = "1.8.2"
+description = "The power of curl, the ease of use of httpie."
+homepage = "https://github.com/rs/curlie"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "curlie_1.8.2_linux_amd64.tar.gz"
+url = "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_linux_amd64.tar.gz"
+strip_prefix = ""

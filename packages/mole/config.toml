@@ -1,0 +1,12 @@
+[package]
+name = "mole"
+version = "2.0.0"
+description = "CLI application to create ssh tunnels focused on resiliency and user experience."
+homepage = "https://github.com/davrodpin/mole"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mole2.0.0.linux-amd64.tar.gz"
+url = "https://github.com/davrodpin/mole/releases/download/v2.0.0/mole2.0.0.linux-amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "carapace"
+version = "1.16.3"
+description = "A multi-shell completion library."
+homepage = "https://github.com/carapace-sh/carapace"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "example_linux_amd64.tar.gz"
+url = "https://github.com/carapace-sh/carapace/releases/download/v1.16.3/example_linux_amd64.tar.gz"
+strip_prefix = ""

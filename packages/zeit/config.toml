@@ -1,0 +1,11 @@
+[package]
+name = "zeit"
+version = "1.1.0"
+description = "Zeit, erfassen. A command line tool for tracking time. (https://tty.fail/mrus/zeit)"
+homepage = "https://github.com/mrusme/zeit"
+arch = ["x86_64"]
+
+[archive]
+file = "zeit_1.1.0_linux_amd64.tar.gz"
+url = "https://github.com/mrusme/zeit/releases/download/v1.1.0/zeit_1.1.0_linux_amd64.tar.gz"
+strip_prefix = ""

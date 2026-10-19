@@ -1,0 +1,12 @@
+[package]
+name = "dscode"
+version = "0.7.49"
+description = "A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry"
+homepage = "https://github.com/qiz029/dscode"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dscode-0.7.49-linux-x64-standalone.tar.gz"
+url = "https://github.com/qiz029/dscode/releases/download/v0.7.49/dscode-0.7.49-linux-x64-standalone.tar.gz"
+strip_prefix = ""

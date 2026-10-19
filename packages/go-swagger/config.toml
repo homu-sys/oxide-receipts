@@ -1,0 +1,12 @@
+[package]
+name = "go-swagger"
+version = "0.36.6"
+description = "Swagger 2.0 implementation for go"
+homepage = "https://github.com/go-swagger/go-swagger"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "swagger_0.36.6_Linux_x86_64.tar.gz"
+url = "https://github.com/go-swagger/go-swagger/releases/download/v0.36.6/swagger_0.36.6_Linux_x86_64.tar.gz"
+strip_prefix = ""

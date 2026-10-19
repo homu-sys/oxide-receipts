@@ -1,0 +1,11 @@
+[package]
+name = "glide"
+version = "0.13.3"
+description = "Package Management for Golang"
+homepage = "https://github.com/Masterminds/glide"
+arch = ["x86_64"]
+
+[archive]
+file = "glide-v0.13.3-linux-amd64.tar.gz"
+url = "https://github.com/Masterminds/glide/releases/download/v0.13.3/glide-v0.13.3-linux-amd64.tar.gz"
+strip_prefix = ""

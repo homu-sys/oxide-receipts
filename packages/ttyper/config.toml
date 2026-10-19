@@ -1,0 +1,12 @@
+[package]
+name = "ttyper"
+version = "1.6.0"
+description = "Terminal-based typing test."
+homepage = "https://github.com/max-niederman/ttyper"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ttyper-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

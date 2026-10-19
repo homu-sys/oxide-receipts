@@ -1,0 +1,12 @@
+[package]
+name = "openfang"
+version = "0.6.9"
+description = "Open-source Agent Operating System"
+homepage = "https://github.com/RightNow-AI/openfang"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "openfang-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/RightNow-AI/openfang/releases/download/v0.6.9/openfang-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

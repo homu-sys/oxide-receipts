@@ -1,0 +1,12 @@
+[package]
+name = "presenterm"
+version = "0.16.1"
+description = "A markdown terminal slideshow tool"
+homepage = "https://github.com/mfontanini/presenterm"
+license = "BSD-2-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "presenterm-0.16.1-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

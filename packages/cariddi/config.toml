@@ -1,0 +1,12 @@
+[package]
+name = "cariddi"
+version = "1.4.6"
+description = "Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more"
+homepage = "https://github.com/edoardottt/cariddi"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cariddi_1.4.6_linux_amd64.zip"
+url = "https://github.com/edoardottt/cariddi/releases/download/v1.4.6/cariddi_1.4.6_linux_amd64.zip"
+strip_prefix = ""

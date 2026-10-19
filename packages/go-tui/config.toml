@@ -1,0 +1,12 @@
+[package]
+name = "go-tui"
+version = "0.22.1"
+description = "A declarative terminal UI framework for Go."
+homepage = "https://github.com/grindlemire/go-tui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "go-tui_0.22.1_linux_amd64.tar.gz"
+url = "https://github.com/grindlemire/go-tui/releases/download/v0.22.1/go-tui_0.22.1_linux_amd64.tar.gz"
+strip_prefix = ""

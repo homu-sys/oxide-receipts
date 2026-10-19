@@ -1,0 +1,11 @@
+[package]
+name = "convoy"
+version = "26.9.1"
+description = "The Cloud Native Webhooks Gateway"
+homepage = "https://github.com/frain-dev/convoy"
+arch = ["x86_64"]
+
+[archive]
+file = "convoy_26.9.1_linux_amd64.tar.gz"
+url = "https://github.com/frain-dev/convoy/releases/download/v26.9.1/convoy_26.9.1_linux_amd64.tar.gz"
+strip_prefix = ""

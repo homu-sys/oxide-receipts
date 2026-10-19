@@ -1,0 +1,12 @@
+[package]
+name = "hledger"
+version = "1.52.4"
+description = "Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces."
+homepage = "https://github.com/hledgerorg/hledger"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "hledger-linux-x64.tar.gz"
+url = "https://github.com/hledgerorg/hledger/releases/download/1.52.4/hledger-linux-x64.tar.gz"
+strip_prefix = ""

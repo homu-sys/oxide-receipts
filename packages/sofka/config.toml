@@ -1,0 +1,12 @@
+[package]
+name = "sofka"
+version = "0.31.13"
+description = "A Kubernetes TUI, reimagined in Rust - built on kube-rs and ratatui, async-first from the ground up."
+homepage = "https://github.com/nklmilojevic/sofka"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "sofka-v0.31.13-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/nklmilojevic/sofka/releases/download/v0.31.13/sofka-v0.31.13-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

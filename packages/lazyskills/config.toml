@@ -1,0 +1,12 @@
+[package]
+name = "lazyskills"
+version = "1.2.0"
+description = "mission control for agent skills"
+homepage = "https://github.com/alvinunreal/lazyskills"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lazyskills_Linux_x86_64.tar.gz"
+url = "https://github.com/alvinunreal/lazyskills/releases/download/v1.2.0/lazyskills_Linux_x86_64.tar.gz"
+strip_prefix = ""

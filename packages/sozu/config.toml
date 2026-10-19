@@ -1,0 +1,12 @@
+[package]
+name = "sozu"
+version = "2.3.2"
+description = "Sōzu HTTP reverse proxy, configurable at runtime, fast and safe, built in Rust. It is awesome!"
+homepage = "https://github.com/sozu-proxy/sozu"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "sozu-2.3.2-x86_64-unknown-linux-musl-crypto-aws-lc-rs.tar.gz"
+url = "https://github.com/sozu-proxy/sozu/releases/download/2.3.2/sozu-2.3.2-x86_64-unknown-linux-musl-crypto-aws-lc-rs.tar.gz"
+strip_prefix = ""

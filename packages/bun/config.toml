@@ -1,0 +1,11 @@
+[package]
+name = "bun"
+version = "bun-v1.4.3"
+description = "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one"
+homepage = "https://github.com/oven-sh/bun"
+arch = ["x86_64"]
+
+[archive]
+file = "bun-linux-x64-musl-baseline-profile.zip"
+url = "https://github.com/oven-sh/bun/releases/download/bun-v1.4.3/bun-linux-x64-musl-baseline-profile.zip"
+strip_prefix = ""

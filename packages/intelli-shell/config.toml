@@ -1,0 +1,12 @@
+[package]
+name = "intelli-shell"
+version = "3.4.6"
+description = "Like IntelliSense, but for shells"
+homepage = "https://github.com/lasantosr/intelli-shell"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "intelli-shell-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/lasantosr/intelli-shell/releases/download/v3.4.6/intelli-shell-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

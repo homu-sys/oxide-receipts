@@ -1,0 +1,12 @@
+[package]
+name = "gowall"
+version = "0.2.4"
+description = "A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Traditional & Hybrid, Image Compression ,color palette extraction,  image upsacling with Adversarial Networks  and more image processing features."
+homepage = "https://github.com/Achno/gowall"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gowall-amd64-linux.tar.gz"
+url = "https://github.com/Achno/gowall/releases/download/v0.2.4/gowall-amd64-linux.tar.gz"
+strip_prefix = ""

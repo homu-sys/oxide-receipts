@@ -1,0 +1,12 @@
+[package]
+name = "mermaid-rs-renderer"
+version = "0.3.1"
+description = "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli."
+homepage = "https://github.com/1jehuang/mermaid-rs-renderer"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mmdr-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.3.1/mmdr-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

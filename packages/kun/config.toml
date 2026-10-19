@@ -1,0 +1,11 @@
+[package]
+name = "kun"
+version = "0.4.1"
+description = "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI."
+homepage = "https://github.com/KunAgent/Kun"
+arch = ["x86_64"]
+
+[archive]
+file = "Kun-0.4.1-mac-x64.zip"
+url = "https://github.com/KunAgent/Kun/releases/download/v0.4.1/Kun-0.4.1-mac-x64.zip"
+strip_prefix = ""

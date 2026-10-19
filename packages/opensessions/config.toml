@@ -1,0 +1,11 @@
+[package]
+name = "opensessions"
+version = "0.2.0-alpha.12"
+description = "tmux sidebar for coding agents — Amp, Claude Code, Codex, OpenCode. Per-thread markers, local HTTP API, live session state."
+homepage = "https://github.com/Ataraxy-Labs/opensessions"
+arch = ["x86_64"]
+
+[archive]
+file = "opensessions-sidebar-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/Ataraxy-Labs/opensessions/releases/download/v0.2.0-alpha.12/opensessions-sidebar-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

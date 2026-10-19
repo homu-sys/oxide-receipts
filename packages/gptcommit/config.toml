@@ -1,0 +1,12 @@
+[package]
+name = "gptcommit"
+version = "0.6.0"
+description = "A git prepare-commit-msg hook for authoring commit messages with LLMs."
+homepage = "https://github.com/zurawiki/gptcommit"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gptcommit-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/zurawiki/gptcommit/releases/download/v0.6.0/gptcommit-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

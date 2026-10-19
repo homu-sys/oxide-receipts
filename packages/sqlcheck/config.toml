@@ -1,0 +1,12 @@
+[package]
+name = "sqlcheck"
+version = "1.3"
+description = "Automatically identify anti-patterns in SQL queries"
+homepage = "https://github.com/jarulraj/sqlcheck"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "sqlcheck-x86_64.tar.gz"
+url = "https://github.com/jarulraj/sqlcheck/releases/download/v1.3/sqlcheck-x86_64.tar.gz"
+strip_prefix = ""

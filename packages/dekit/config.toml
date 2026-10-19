@@ -1,0 +1,12 @@
+[package]
+name = "dekit"
+version = "0.10.2"
+description = "Process manager for dev and prod"
+homepage = "https://github.com/pvolok/dekit"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dekit-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/pvolok/dekit/releases/download/v0.10.2/dekit-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

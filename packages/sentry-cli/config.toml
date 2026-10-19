@@ -1,0 +1,10 @@
+[package]
+name = "sentry-cli"
+version = "3.8.0"
+homepage = "https://github.com/getsentry/sentry-cli"
+arch = ["x86_64"]
+
+[archive]
+file = "sentry-cli-linux-x64-3.8.0.tgz"
+url = "https://github.com/getsentry/sentry-cli/releases/download/3.8.0/sentry-cli-linux-x64-3.8.0.tgz"
+strip_prefix = ""

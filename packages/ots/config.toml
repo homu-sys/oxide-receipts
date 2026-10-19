@@ -1,0 +1,12 @@
+[package]
+name = "ots"
+version = "0.3.1"
+description = "🔐 Share end-to-end encrypted secrets with others via a one-time URL"
+homepage = "https://github.com/sniptt-official/ots"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ots_0.3.1_linux_amd64.tar.gz"
+url = "https://github.com/sniptt-official/ots/releases/download/v0.3.1/ots_0.3.1_linux_amd64.tar.gz"
+strip_prefix = ""

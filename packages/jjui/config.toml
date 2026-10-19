@@ -1,0 +1,12 @@
+[package]
+name = "jjui"
+version = "0.10.12"
+description = "jjui is a TUI designed for interacting with the Jujutsu version control system."
+homepage = "https://github.com/idursun/jjui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "jjui-0.10.12-linux-amd64.zip"
+url = "https://github.com/idursun/jjui/releases/download/v0.10.12/jjui-0.10.12-linux-amd64.zip"
+strip_prefix = ""

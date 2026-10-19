@@ -1,0 +1,12 @@
+[package]
+name = "prompthub"
+version = "0.6.0"
+description = "一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control"
+homepage = "https://github.com/legeling/PromptHub"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "PromptHub-0.6.0-x64.zip"
+url = "https://github.com/legeling/PromptHub/releases/download/v0.6.0/PromptHub-0.6.0-x64.zip"
+strip_prefix = ""

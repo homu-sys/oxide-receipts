@@ -1,0 +1,12 @@
+[package]
+name = "coder"
+version = "2.37.4"
+description = "Secure environments for developers and their agents"
+homepage = "https://github.com/coder/coder"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "coder_2.37.4_linux_amd64.tar.gz"
+url = "https://github.com/coder/coder/releases/download/v2.37.4/coder_2.37.4_linux_amd64.tar.gz"
+strip_prefix = ""

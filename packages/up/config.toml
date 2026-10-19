@@ -1,0 +1,12 @@
+[package]
+name = "up"
+version = "1.7.1"
+description = "Deploy infinitely scalable serverless apps, apis, and sites in seconds to AWS."
+homepage = "https://github.com/apex/up"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "up_1.7.1_linux_amd64.tar.gz"
+url = "https://github.com/apex/up/releases/download/v1.7.1/up_1.7.1_linux_amd64.tar.gz"
+strip_prefix = ""

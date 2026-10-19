@@ -1,0 +1,12 @@
+[package]
+name = "zsh-patina"
+version = "1.11.0"
+description = "$ A blazingly fast Zsh syntax highlighter 🌈"
+homepage = "https://github.com/michel-kraemer/zsh-patina"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "zsh-patina-v1.11.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/michel-kraemer/zsh-patina/releases/download/1.11.0/zsh-patina-v1.11.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

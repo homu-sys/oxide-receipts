@@ -1,0 +1,12 @@
+[package]
+name = "atomic-agent"
+version = "0.6.9"
+description = "Atomic Agent is a local-first AI agent. Runs open-weight models on your own machine via llama.cpp."
+homepage = "https://github.com/AtomicBot-ai/atomic-agent"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "atomic-agent-linux-x64.tar.gz"
+url = "https://github.com/AtomicBot-ai/atomic-agent/releases/download/v0.6.9/atomic-agent-linux-x64.tar.gz"
+strip_prefix = ""

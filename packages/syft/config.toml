@@ -1,0 +1,12 @@
+[package]
+name = "syft"
+version = "1.54.1"
+description = "CLI tool and library for generating a Software Bill of Materials from container images and filesystems"
+homepage = "https://github.com/anchore/syft"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "syft_1.54.1_linux_amd64.tar.gz"
+url = "https://github.com/anchore/syft/releases/download/v1.54.1/syft_1.54.1_linux_amd64.tar.gz"
+strip_prefix = ""

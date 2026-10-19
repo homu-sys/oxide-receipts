@@ -1,0 +1,12 @@
+[package]
+name = "cyclops"
+version = "0.21.1"
+description = "Developer Friendly Kubernetes 👁️"
+homepage = "https://github.com/cyclops-ui/cyclops"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cyctl_linux_amd64_v0.21.1.tar.gz"
+url = "https://github.com/cyclops-ui/cyclops/releases/download/v0.21.1/cyctl_linux_amd64_v0.21.1.tar.gz"
+strip_prefix = ""

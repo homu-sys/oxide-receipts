@@ -1,0 +1,12 @@
+[package]
+name = "pi-harness"
+version = "2.2.1"
+description = "The operational superset of Pi Coding Agent — everything Pi, plus observability, governance, recovery, evaluation and multi-agent orchestration. Pi Coding Agent 的运维超集——完整继承 Pi 的核心能力，并进一步扩展可观测性、治理、故障恢复、评估和多 Agent 编排。"
+homepage = "https://github.com/wangmiaozero/pi-harness"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Pi-Harness-2.2.1-x64-nomascot.zip"
+url = "https://github.com/wangmiaozero/pi-harness/releases/download/v2.2.1/Pi-Harness-2.2.1-x64-nomascot.zip"
+strip_prefix = ""

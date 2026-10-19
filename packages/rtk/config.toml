@@ -1,0 +1,12 @@
+[package]
+name = "rtk"
+version = "1.0.1"
+description = "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
+homepage = "https://github.com/rtk-ai/rtk"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rtk-oss-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/rtk-ai/rtk/releases/download/v1.0.1/rtk-oss-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

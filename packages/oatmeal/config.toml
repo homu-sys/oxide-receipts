@@ -1,0 +1,12 @@
+[package]
+name = "oatmeal"
+version = "0.13.0"
+description = "Terminal UI to chat with large language models (LLM) using different model backends, and integrations with your favourite editors!"
+homepage = "https://github.com/dustinblackman/oatmeal"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "DEBUG-0.13.0_linux-musl_amd64.tar.gz"
+url = "https://github.com/dustinblackman/oatmeal/releases/download/v0.13.0/DEBUG-0.13.0_linux-musl_amd64.tar.gz"
+strip_prefix = ""

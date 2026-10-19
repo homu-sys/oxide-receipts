@@ -1,0 +1,12 @@
+[package]
+name = "espanso"
+version = "2.4.1"
+description = "A Privacy-first, Cross-platform Text Expander written in Rust"
+homepage = "https://github.com/espanso/espanso"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Espanso-Win-Portable-x86_64.zip"
+url = "https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Win-Portable-x86_64.zip"
+strip_prefix = ""

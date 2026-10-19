@@ -1,0 +1,12 @@
+[package]
+name = "frps-onekey"
+version = "0.71.1"
+description = "Frp server one-click configuration script. The script obtains the latest Frp version by default"
+homepage = "https://github.com/mvscode/frps-onekey"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "frp_0.71.1_linux_amd64.tar.gz"
+url = "https://github.com/mvscode/frps-onekey/releases/download/v0.71.1/frp_0.71.1_linux_amd64.tar.gz"
+strip_prefix = ""

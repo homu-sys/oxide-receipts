@@ -1,0 +1,12 @@
+[package]
+name = "notesmd-cli"
+version = "0.3.8"
+description = "Obsidian CLI (Community) -  Interact with Obsidian in the terminal!"
+homepage = "https://github.com/Yakitrak/notesmd-cli"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "notesmd-cli_0.3.8_linux_amd64.tar.gz"
+url = "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.8/notesmd-cli_0.3.8_linux_amd64.tar.gz"
+strip_prefix = ""

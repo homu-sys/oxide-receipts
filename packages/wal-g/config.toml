@@ -1,0 +1,11 @@
+[package]
+name = "wal-g"
+version = "3.0.9"
+description = "Archival and Restoration for databases in the Cloud"
+homepage = "https://github.com/wal-g/wal-g"
+arch = ["x86_64"]
+
+[archive]
+file = "wal-g-fdb-20.04-amd64.tar.gz"
+url = "https://github.com/wal-g/wal-g/releases/download/v3.0.9/wal-g-fdb-20.04-amd64.tar.gz"
+strip_prefix = ""

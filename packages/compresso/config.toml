@@ -1,0 +1,12 @@
+[package]
+name = "compresso"
+version = "3.0.0"
+description = "Convert any video/image into a tiny size. 100% free & open-source. Available for Mac, Windows & Linux."
+homepage = "https://github.com/codeforreal1/compressO"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "CompressO_3.0.0_x64.app.tar.gz"
+url = "https://github.com/codeforreal1/compressO/releases/download/3.0.0/CompressO_3.0.0_x64.app.tar.gz"
+strip_prefix = ""

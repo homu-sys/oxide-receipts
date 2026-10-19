@@ -1,0 +1,12 @@
+[package]
+name = "termpair"
+version = "1.2.0"
+description = "View and control terminals from your browser with end-to-end encryption 🔒"
+homepage = "https://github.com/cs01/termpair"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "termpair-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/cs01/termpair/releases/download/v1.2.0/termpair-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

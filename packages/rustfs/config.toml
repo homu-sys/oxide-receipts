@@ -1,0 +1,12 @@
+[package]
+name = "rustfs"
+version = "1.0.3"
+description = "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph."
+homepage = "https://github.com/rustfs/rustfs"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rustfs-linux-x86_64-musl-latest.zip"
+url = "https://github.com/rustfs/rustfs/releases/download/1.0.3/rustfs-linux-x86_64-musl-latest.zip"
+strip_prefix = ""

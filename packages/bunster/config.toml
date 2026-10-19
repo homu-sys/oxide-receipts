@@ -1,0 +1,12 @@
+[package]
+name = "bunster"
+version = "0.14.0"
+description = "Compile shell scripts to static binaries."
+homepage = "https://github.com/yassinebenaid/bunster"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "bunster_linux-amd64.tar.gz"
+url = "https://github.com/yassinebenaid/bunster/releases/download/v0.14.0/bunster_linux-amd64.tar.gz"
+strip_prefix = ""

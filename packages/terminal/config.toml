@@ -1,0 +1,12 @@
+[package]
+name = "terminal"
+version = "0.1.8"
+description = "Terminal UI to get stuff done in the browser"
+homepage = "https://github.com/browser-use/terminal"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "browser-use-terminal-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/browser-use/terminal/releases/download/v0.1.8/browser-use-terminal-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

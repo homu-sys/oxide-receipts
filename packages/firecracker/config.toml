@@ -1,0 +1,12 @@
+[package]
+name = "firecracker"
+version = "1.17.0"
+description = "Secure and fast microVMs for serverless computing."
+homepage = "https://github.com/firecracker-microvm/firecracker"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "firecracker-v1.17.0-x86_64.tgz"
+url = "https://github.com/firecracker-microvm/firecracker/releases/download/v1.17.0/firecracker-v1.17.0-x86_64.tgz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "fsel"
+version = "4.0.0"
+description = "Fast TUI app launcher and fuzzy finder for GNU/Linux and *BSD"
+homepage = "https://github.com/Mjoyufull/fsel"
+license = "BSD-2-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "fsel-x86_64-unknown-linux-gnu.tar.xz"
+url = "https://github.com/Mjoyufull/fsel/releases/download/4.0.0/fsel-x86_64-unknown-linux-gnu.tar.xz"
+strip_prefix = ""

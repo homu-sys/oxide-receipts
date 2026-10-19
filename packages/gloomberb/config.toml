@@ -1,0 +1,11 @@
+[package]
+name = "gloomberb"
+version = "0.17.6"
+description = "Finance terminal, in your terminal."
+homepage = "https://github.com/gloom-sh/gloomberb"
+arch = ["x86_64"]
+
+[archive]
+file = "stable-win-x64-Gloomberb.tar.zst"
+url = "https://github.com/gloom-sh/gloomberb/releases/download/v0.17.6/stable-win-x64-Gloomberb.tar.zst"
+strip_prefix = ""

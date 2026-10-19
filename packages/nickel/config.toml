@@ -1,0 +1,12 @@
+[package]
+name = "nickel"
+version = "1.18.0"
+description = "Better configuration for less"
+homepage = "https://github.com/nickel-lang/nickel"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "nickel-x86_64-docker-image.tar.gz"
+url = "https://github.com/nickel-lang/nickel/releases/download/1.18.0/nickel-x86_64-docker-image.tar.gz"
+strip_prefix = ""

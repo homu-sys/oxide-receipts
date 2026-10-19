@@ -1,0 +1,12 @@
+[package]
+name = "plock"
+version = "0.1.3"
+description = "From anywhere you can type, query and stream the output of any script (e.g. an LLM)"
+homepage = "https://github.com/jasonjmcghee/plock"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "plock_x64.app.tar.gz"
+url = "https://github.com/jasonjmcghee/plock/releases/download/v0.1.3/plock_x64.app.tar.gz"
+strip_prefix = ""

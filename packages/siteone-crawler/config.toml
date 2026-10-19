@@ -1,0 +1,12 @@
+[package]
+name = "siteone-crawler"
+version = "2.5.1"
+description = "SiteOne Crawler is a cross-platform website crawler and analyzer for SEO, security, accessibility, and performance optimization—ideal for developers, DevOps, QA engineers, and consultants. Supports Windows, macOS, and Linux (x64 and arm64)."
+homepage = "https://github.com/janreges/siteone-crawler"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "siteone-crawler-v2.5.1-linux-musl-x64.tar.gz"
+url = "https://github.com/janreges/siteone-crawler/releases/download/v2.5.1/siteone-crawler-v2.5.1-linux-musl-x64.tar.gz"
+strip_prefix = ""

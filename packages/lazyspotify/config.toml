@@ -1,0 +1,12 @@
+[package]
+name = "lazyspotify"
+version = "0.5.2"
+description = "Terminal Spotify client for macOS and Linux"
+homepage = "https://github.com/dubeyKartikay/lazyspotify"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lazyspotify-v0.5.2-arch-amd64.tar.gz"
+url = "https://github.com/dubeyKartikay/lazyspotify/releases/download/v0.5.2/lazyspotify-v0.5.2-arch-amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "iroh"
+version = "1.3.0"
+description = "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps."
+homepage = "https://github.com/n0-computer/iroh"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "iroh-dns-server-v1.3.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/n0-computer/iroh/releases/download/v1.3.0/iroh-dns-server-v1.3.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

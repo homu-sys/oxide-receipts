@@ -1,0 +1,12 @@
+[package]
+name = "sherif"
+version = "1.13.0"
+description = "Opinionated, zero-config linter for TypeScript & JavaScript monorepos"
+homepage = "https://github.com/QuiiBz/sherif"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "sherif-x86_64-unknown-linux-musl.zip"
+url = "https://github.com/QuiiBz/sherif/releases/download/v1.13.0/sherif-x86_64-unknown-linux-musl.zip"
+strip_prefix = ""

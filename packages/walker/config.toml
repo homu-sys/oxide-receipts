@@ -1,0 +1,12 @@
+[package]
+name = "walker"
+version = "2.17.2"
+description = "Multi-Purpose Launcher with a lot of features. Highly Customizable and fast."
+homepage = "https://github.com/abenz1267/walker"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "walker-v2.17.2-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/abenz1267/walker/releases/download/v2.17.2/walker-v2.17.2-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

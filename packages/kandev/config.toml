@@ -1,0 +1,12 @@
+[package]
+name = "kandev"
+version = "0.97.0"
+description = "AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry."
+homepage = "https://github.com/kdlbs/kandev"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kandev-desktop-linux-x64-Kandev_0.97.0_amd64.AppImage.tar.gz"
+url = "https://github.com/kdlbs/kandev/releases/download/v0.97.0/kandev-desktop-linux-x64-Kandev_0.97.0_amd64.AppImage.tar.gz"
+strip_prefix = ""

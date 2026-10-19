@@ -1,0 +1,12 @@
+[package]
+name = "carbonyl"
+version = "0.0.3"
+description = "Chromium running inside your terminal"
+homepage = "https://github.com/fathyb/carbonyl"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "carbonyl.linux-amd64.zip"
+url = "https://github.com/fathyb/carbonyl/releases/download/v0.0.3/carbonyl.linux-amd64.zip"
+strip_prefix = ""

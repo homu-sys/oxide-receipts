@@ -1,0 +1,12 @@
+[package]
+name = "netease-cloud-music"
+version = "0.8.1"
+description = "✨ 网易云音乐 Golang 🎵"
+homepage = "https://github.com/chaunsin/netease-cloud-music"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "ncmctl_Linux_x86_64.tar.gz"
+url = "https://github.com/chaunsin/netease-cloud-music/releases/download/v0.8.1/ncmctl_Linux_x86_64.tar.gz"
+strip_prefix = ""

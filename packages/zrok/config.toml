@@ -1,0 +1,12 @@
+[package]
+name = "zrok"
+version = "2.0.8"
+description = "Secure internet sharing made simple."
+homepage = "https://github.com/openziti/zrok"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "zrok_2.0.8_linux_amd64.tar.gz"
+url = "https://github.com/openziti/zrok/releases/download/v2.0.8/zrok_2.0.8_linux_amd64.tar.gz"
+strip_prefix = ""

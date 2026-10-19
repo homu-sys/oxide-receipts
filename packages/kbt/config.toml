@@ -1,0 +1,12 @@
+[package]
+name = "kbt"
+version = "2.1.0"
+description = "Keyboard tester in terminal"
+homepage = "https://github.com/bloznelis/kbt"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "kbt-2.1.0-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/bloznelis/kbt/releases/download/2.1.0/kbt-2.1.0-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

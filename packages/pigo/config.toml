@@ -1,0 +1,12 @@
+[package]
+name = "pigo"
+version = "1.4.6"
+description = "Fast face detection, pupil/eyes localization and facial landmark points detection library in pure Go."
+homepage = "https://github.com/esimov/pigo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "pigo-1.4.6-linux-amd64.tar.gz"
+url = "https://github.com/esimov/pigo/releases/download/v1.4.6/pigo-1.4.6-linux-amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "boo"
+version = "0.6.4"
+description = "A GNU screen style terminal multiplexer built on libghostty."
+homepage = "https://github.com/coder/boo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "boo-x86_64-linux.tar.gz"
+url = "https://github.com/coder/boo/releases/download/v0.6.4/boo-x86_64-linux.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "rage"
+version = "0.12.1"
+description = "A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability."
+homepage = "https://github.com/str4d/rage"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "rage-v0.12.1-x86_64-linux.tar.gz"
+url = "https://github.com/str4d/rage/releases/download/v0.12.1/rage-v0.12.1-x86_64-linux.tar.gz"
+strip_prefix = ""

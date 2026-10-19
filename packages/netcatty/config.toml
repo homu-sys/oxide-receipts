@@ -1,0 +1,12 @@
+[package]
+name = "netcatty"
+version = "1.1.85"
+description = "SSH workspace, SFTP, and terminals in one"
+homepage = "https://github.com/binaricat/Netcatty"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Netcatty-1.1.85-mac-x64.zip"
+url = "https://github.com/binaricat/Netcatty/releases/download/v1.1.85/Netcatty-1.1.85-mac-x64.zip"
+strip_prefix = ""

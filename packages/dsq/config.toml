@@ -1,0 +1,11 @@
+[package]
+name = "dsq"
+version = "0.23.0"
+description = "Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more."
+homepage = "https://github.com/multiprocessio/dsq"
+arch = ["x86_64"]
+
+[archive]
+file = "dsq-linux-x64-v0.23.0.zip"
+url = "https://github.com/multiprocessio/dsq/releases/download/v0.23.0/dsq-linux-x64-v0.23.0.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "kubectl-ai"
+version = "0.0.31"
+description = "AI powered Kubernetes Assistant"
+homepage = "https://github.com/GoogleCloudPlatform/kubectl-ai"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kubectl-ai_Linux_x86_64.tar.gz"
+url = "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.31/kubectl-ai_Linux_x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "dalfox"
+version = "3.2.4"
+description = "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation."
+homepage = "https://github.com/hahwul/dalfox"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dalfox-v3.2.4-linux-x86_64-musl.tar.gz"
+url = "https://github.com/hahwul/dalfox/releases/download/v3.2.4/dalfox-v3.2.4-linux-x86_64-musl.tar.gz"
+strip_prefix = ""

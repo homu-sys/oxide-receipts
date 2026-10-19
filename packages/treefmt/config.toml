@@ -1,0 +1,12 @@
+[package]
+name = "treefmt"
+version = "2.6.0"
+description = "the formatter multiplexer [maintainers=@zimbatm,@brianmcgee]"
+homepage = "https://github.com/numtide/treefmt"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "treefmt_2.6.0_linux_amd64.tar.gz"
+url = "https://github.com/numtide/treefmt/releases/download/v2.6.0/treefmt_2.6.0_linux_amd64.tar.gz"
+strip_prefix = ""

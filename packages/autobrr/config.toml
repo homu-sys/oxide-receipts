@@ -1,0 +1,12 @@
+[package]
+name = "autobrr"
+version = "1.88.0"
+description = "Modern, easy to use download automation for torrents and usenet."
+homepage = "https://github.com/autobrr/autobrr"
+license = "GPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "autobrr_1.88.0_linux_x86_64.tar.gz"
+url = "https://github.com/autobrr/autobrr/releases/download/v1.88.0/autobrr_1.88.0_linux_x86_64.tar.gz"
+strip_prefix = ""

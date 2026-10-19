@@ -1,0 +1,12 @@
+[package]
+name = "terminal-code"
+version = "0.4.3"
+description = "VS Code in the terminal"
+homepage = "https://github.com/zenbu-labs/terminal-code"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tode-linux-x64.tar.gz"
+url = "https://github.com/zenbu-labs/terminal-code/releases/download/v0.4.3/tode-linux-x64.tar.gz"
+strip_prefix = ""

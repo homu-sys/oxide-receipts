@@ -1,0 +1,12 @@
+[package]
+name = "terraform-docs"
+version = "0.24.0"
+description = "Generate documentation from Terraform modules in various output formats"
+homepage = "https://github.com/terraform-docs/terraform-docs"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "terraform-docs-v0.24.0-linux-amd64.tar.gz"
+url = "https://github.com/terraform-docs/terraform-docs/releases/download/v0.24.0/terraform-docs-v0.24.0-linux-amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "zoetrope"
+version = "0.2.0"
+description = "Watch a Claude Code or Codex session as a live flow graph, in your terminal or your browser."
+homepage = "https://github.com/furkankly/zoetrope"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "zoetrope-0.2.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/furkankly/zoetrope/releases/download/v0.2.0/zoetrope-0.2.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

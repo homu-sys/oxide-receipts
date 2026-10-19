@@ -1,0 +1,12 @@
+[package]
+name = "evil-helix"
+version = "release-20250915"
+description = "Bringing the Helix editor to the evil side"
+homepage = "https://github.com/usagi-flow/evil-helix"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "evil-helix-amd64-linux-musl.tar.gz"
+url = "https://github.com/usagi-flow/evil-helix/releases/download/release-20250915/evil-helix-amd64-linux-musl.tar.gz"
+strip_prefix = ""

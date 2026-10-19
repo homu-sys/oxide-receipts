@@ -1,0 +1,12 @@
+[package]
+name = "masterhttprelayvpn-rust"
+version = "1.9.38"
+description = "Rust port of @masterking32's MasterHttpRelayVPN — all credit to @masterking32 for the original idea and Python implementation. Free DPI bypass via a Google Apps Script relay with TLS SNI concealment. CLI + cross-platform desktop UI, HTTP + SOCKS5 proxy, no runtime deps."
+homepage = "https://github.com/therealaleph/MasterHttpRelayVPN-RUST"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mhrv-rs-linux-musl-amd64.tar.gz"
+url = "https://github.com/therealaleph/MasterHttpRelayVPN-RUST/releases/download/v1.9.38/mhrv-rs-linux-musl-amd64.tar.gz"
+strip_prefix = ""

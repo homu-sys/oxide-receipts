@@ -1,0 +1,12 @@
+[package]
+name = "summoner"
+version = "2.2.0.0"
+description = "🔮 🔧 Tool for scaffolding batteries-included production-level Haskell projects"
+homepage = "https://github.com/kowainik/summoner"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "summoner-2.2.0.0-linux-x86_64.tar.gz"
+url = "https://github.com/kowainik/summoner/releases/download/v2.2.0.0/summoner-2.2.0.0-linux-x86_64.tar.gz"
+strip_prefix = ""

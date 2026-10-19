@@ -1,0 +1,12 @@
+[package]
+name = "page-spy-web"
+version = "2.4.10"
+description = "A remote debugging platform you'll definitely find useful. Lightweight, cross-platform, out-of-box debugging tool"
+homepage = "https://github.com/HuolalaTech/page-spy-web"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "page-spy-api-linux-amd64.tar.gz"
+url = "https://github.com/HuolalaTech/page-spy-web/releases/download/v2.4.10/page-spy-api-linux-amd64.tar.gz"
+strip_prefix = ""

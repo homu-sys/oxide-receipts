@@ -1,0 +1,12 @@
+[package]
+name = "tabularis"
+version = "0.28.0"
+description = "Open-source desktop SQL workspace with 3 built-in database drivers and 24 shipped driver plugins, including SQL Server, DuckDB, ClickHouse and Redis. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN."
+homepage = "https://github.com/TabularisDB/tabularis"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "tabularis_0.28.0_x64.app.tar.gz"
+url = "https://github.com/TabularisDB/tabularis/releases/download/v0.28.0/tabularis_0.28.0_x64.app.tar.gz"
+strip_prefix = ""

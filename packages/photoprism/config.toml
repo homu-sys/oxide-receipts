@@ -1,0 +1,11 @@
+[package]
+name = "photoprism"
+version = "261007-65faaae5d"
+description = "AI-Powered Photos App 🌈💎✨"
+homepage = "https://github.com/photoprism/photoprism"
+arch = ["x86_64"]
+
+[archive]
+file = "photoprism_261007-65faaae5d-linux-amd64.tar.gz"
+url = "https://github.com/photoprism/photoprism/releases/download/261007-65faaae5d/photoprism_261007-65faaae5d-linux-amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "libsql"
+version = "libsql-server-v0.24.32"
+description = "libSQL is a fork of SQLite that is both Open Source, and Open Contributions."
+homepage = "https://github.com/tursodatabase/libsql"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "libsql-server-x86_64-unknown-linux-gnu.tar.xz"
+url = "https://github.com/tursodatabase/libsql/releases/download/libsql-server-v0.24.32/libsql-server-x86_64-unknown-linux-gnu.tar.xz"
+strip_prefix = ""

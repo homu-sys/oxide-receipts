@@ -1,0 +1,12 @@
+[package]
+name = "ecapture"
+version = "2.8.2"
+description = "Capture SSL/TLS plaintext with eBPF—no MITM proxy or custom CA installation. Supports Linux and Android on x86_64 and arm64."
+homepage = "https://github.com/gojue/ecapture"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ecapture-v2.8.2-linux-amd64.tar.gz"
+url = "https://github.com/gojue/ecapture/releases/download/v2.8.2/ecapture-v2.8.2-linux-amd64.tar.gz"
+strip_prefix = ""

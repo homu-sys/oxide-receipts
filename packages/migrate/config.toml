@@ -1,0 +1,11 @@
+[package]
+name = "migrate"
+version = "4.20.1"
+description = "Database migrations. CLI and Golang library."
+homepage = "https://github.com/golang-migrate/migrate"
+arch = ["x86_64"]
+
+[archive]
+file = "migrate.linux-amd64.tar.gz"
+url = "https://github.com/golang-migrate/migrate/releases/download/v4.20.1/migrate.linux-amd64.tar.gz"
+strip_prefix = ""

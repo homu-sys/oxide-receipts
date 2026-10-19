@@ -1,0 +1,12 @@
+[package]
+name = "qqqa"
+version = "1.0.0"
+description = "Fast, stateless LLM for your shell: qq answers; qa runs commands"
+homepage = "https://github.com/iagooar/qqqa"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "qqqa-v1.0.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/iagooar/qqqa/releases/download/v1.0.0/qqqa-v1.0.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

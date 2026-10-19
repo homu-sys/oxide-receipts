@@ -1,0 +1,12 @@
+[package]
+name = "circumflex"
+version = "5.1"
+description = "🌿 It's Hacker News in your terminal"
+homepage = "https://github.com/bensadeh/circumflex"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "circumflex_5.1_linux_amd64.tar.gz"
+url = "https://github.com/bensadeh/circumflex/releases/download/5.1/circumflex_5.1_linux_amd64.tar.gz"
+strip_prefix = ""

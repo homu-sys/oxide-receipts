@@ -1,0 +1,12 @@
+[package]
+name = "claurst"
+version = "0.2.0"
+description = "Agentic Coding for Builders who Ship"
+homepage = "https://github.com/Kuberwastaken/claurst"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "claurst-linux-x86_64.tar.gz"
+url = "https://github.com/Kuberwastaken/claurst/releases/download/v0.2.0/claurst-linux-x86_64.tar.gz"
+strip_prefix = ""

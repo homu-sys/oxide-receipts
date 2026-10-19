@@ -1,0 +1,12 @@
+[package]
+name = "petdex"
+version = "desktop-v0.9.2"
+description = "A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more."
+homepage = "https://github.com/crafter-station/petdex"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "petdex-desktop-native-linux-x64.tar.gz"
+url = "https://github.com/crafter-station/petdex/releases/download/desktop-v0.9.2/petdex-desktop-native-linux-x64.tar.gz"
+strip_prefix = ""

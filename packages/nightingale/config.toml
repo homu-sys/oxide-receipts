@@ -1,0 +1,12 @@
+[package]
+name = "nightingale"
+version = "9.2.0"
+description = "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP server."
+homepage = "https://github.com/ccfos/nightingale"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "n9e-v9.2.0-linux-amd64.tar.gz"
+url = "https://github.com/ccfos/nightingale/releases/download/v9.2.0/n9e-v9.2.0-linux-amd64.tar.gz"
+strip_prefix = ""

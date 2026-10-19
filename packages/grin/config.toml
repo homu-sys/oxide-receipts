@@ -1,0 +1,12 @@
+[package]
+name = "grin"
+version = "5.5.2"
+description = "Minimal implementation of the Mimblewimble protocol."
+homepage = "https://github.com/mimblewimble/grin"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "grin-v5.5.2-linux-x86_64.tar.gz"
+url = "https://github.com/mimblewimble/grin/releases/download/v5.5.2/grin-v5.5.2-linux-x86_64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "gopeed"
+version = "1.9.3"
+description = "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter."
+homepage = "https://github.com/GopeedLab/gopeed"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "gopeed-web-v1.9.3-linux-amd64.zip"
+url = "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/gopeed-web-v1.9.3-linux-amd64.zip"
+strip_prefix = ""

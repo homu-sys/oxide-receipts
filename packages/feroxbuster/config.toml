@@ -1,0 +1,12 @@
+[package]
+name = "feroxbuster"
+version = "2.13.1"
+description = "A fast, simple, recursive content discovery tool written in Rust."
+homepage = "https://github.com/epi052/feroxbuster"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "x86_64-linux-feroxbuster.tar.gz"
+url = "https://github.com/epi052/feroxbuster/releases/download/v2.13.1/x86_64-linux-feroxbuster.tar.gz"
+strip_prefix = ""

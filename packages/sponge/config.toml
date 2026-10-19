@@ -1,0 +1,12 @@
+[package]
+name = "sponge"
+version = "1.16.1"
+description = "A powerful and easy-to-use Go development framework that enables you to effortlessly build stable, reliable, and high-performance backend services with a \"low-code\" approach."
+homepage = "https://github.com/go-dev-frame/sponge"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "sponge_1.16.1_linux_amd64.zip"
+url = "https://github.com/go-dev-frame/sponge/releases/download/v1.16.1/sponge_1.16.1_linux_amd64.zip"
+strip_prefix = ""

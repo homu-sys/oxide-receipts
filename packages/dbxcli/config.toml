@@ -1,0 +1,11 @@
+[package]
+name = "dbxcli"
+version = "3.7.4"
+description = "A scriptable Dropbox CLI for files, shared links, teams, and automation workflows"
+homepage = "https://github.com/dropbox/dbxcli"
+arch = ["x86_64"]
+
+[archive]
+file = "dbxcli_3.7.4_linux_amd64.tar.gz"
+url = "https://github.com/dropbox/dbxcli/releases/download/v3.7.4/dbxcli_3.7.4_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "so-novel"
+version = "1.11.0"
+description = "小说下载｜网文下载 | 网络小说"
+homepage = "https://github.com/freeok/so-novel"
+license = "AGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "sonovel-linux_x64.tar.gz"
+url = "https://github.com/freeok/so-novel/releases/download/v1.11.0/sonovel-linux_x64.tar.gz"
+strip_prefix = ""

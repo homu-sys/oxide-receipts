@@ -1,0 +1,12 @@
+[package]
+name = "trailbase"
+version = "0.35.1"
+description = "An open, sub-millisecond, single-executable Firebase alternative with type-safe APIs, built-in WebAssembly runtime, realtime subscriptions, auth, MCP and admin UI built on Rust, SQLite (PG) & Wasmtime."
+homepage = "https://github.com/trailbaseio/trailbase"
+license = "OSL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "trailbase_v0.35.1_x86_64_linux.zip"
+url = "https://github.com/trailbaseio/trailbase/releases/download/v0.35.1/trailbase_v0.35.1_x86_64_linux.zip"
+strip_prefix = ""

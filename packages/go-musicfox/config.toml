@@ -1,0 +1,12 @@
+[package]
+name = "go-musicfox"
+version = "5.1.0"
+description = "go-musicfox是用Go写的又一款网易云音乐命令行客户端，支持UnblockNeteaseMusic、各种音质级别、lastfm、MPRIS、MacOS交互响应（睡眠暂停、蓝牙耳机连接断开响应、菜单栏控制等）..."
+homepage = "https://github.com/go-musicfox/go-musicfox"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "go-musicfox_5.1.0_linux_amd64.pkg.tar.zst"
+url = "https://github.com/go-musicfox/go-musicfox/releases/download/v5.1.0/go-musicfox_5.1.0_linux_amd64.pkg.tar.zst"
+strip_prefix = ""

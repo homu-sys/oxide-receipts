@@ -1,0 +1,12 @@
+[package]
+name = "aspire"
+version = "13.6.1"
+description = "Aspire is the tool for code-first, extensible, observable dev and deploy."
+homepage = "https://github.com/microsoft/aspire"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "aspire-cli-linux-musl-x64-13.6.1.tar.gz"
+url = "https://github.com/microsoft/aspire/releases/download/v13.6.1/aspire-cli-linux-musl-x64-13.6.1.tar.gz"
+strip_prefix = ""

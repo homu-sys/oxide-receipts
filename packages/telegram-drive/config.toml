@@ -1,0 +1,11 @@
+[package]
+name = "telegram-drive"
+version = "4.1.2"
+description = "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React."
+homepage = "https://github.com/caamer20/Telegram-Drive"
+arch = ["x86_64"]
+
+[archive]
+file = "telegram-drive-bin-4.1.2-1-x86_64.pkg.tar.zst"
+url = "https://github.com/caamer20/Telegram-Drive/releases/download/v4.1.2/telegram-drive-bin-4.1.2-1-x86_64.pkg.tar.zst"
+strip_prefix = ""

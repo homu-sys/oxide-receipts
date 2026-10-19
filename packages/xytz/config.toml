@@ -1,0 +1,12 @@
+[package]
+name = "xytz"
+version = "0.9.3"
+description = "A Beautiful YouTube Downloader/Player TUI"
+homepage = "https://github.com/xdagiz/xytz"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "xytz-v0.9.3-linux-amd64.tar.gz"
+url = "https://github.com/xdagiz/xytz/releases/download/v0.9.3/xytz-v0.9.3-linux-amd64.tar.gz"
+strip_prefix = ""

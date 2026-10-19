@@ -1,0 +1,12 @@
+[package]
+name = "bitchat-tui"
+version = "0.1.0"
+description = "🔒 Secure, anonymous, peer-to-peer (P2P) Bluetooth chat in your terminal. An off-grid, encrypted TUI messenger built with Rust."
+homepage = "https://github.com/vaibhav-mattoo/bitchat-tui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "bitchat-tui-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/vaibhav-mattoo/bitchat-tui/releases/download/v0.1.0/bitchat-tui-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

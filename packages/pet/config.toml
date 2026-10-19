@@ -1,0 +1,12 @@
+[package]
+name = "pet"
+version = "1.0.1"
+description = "Simple command-line snippet manager"
+homepage = "https://github.com/knqyf263/pet"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "pet_1.0.1_linux_amd64.tar.gz"
+url = "https://github.com/knqyf263/pet/releases/download/v1.0.1/pet_1.0.1_linux_amd64.tar.gz"
+strip_prefix = ""

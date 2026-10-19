@@ -1,0 +1,12 @@
+[package]
+name = "modd"
+version = "0.8"
+description = "A flexible developer tool that runs processes and responds to filesystem changes"
+homepage = "https://github.com/cortesi/modd"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "modd-0.8-linux64.tgz"
+url = "https://github.com/cortesi/modd/releases/download/v0.8/modd-0.8-linux64.tgz"
+strip_prefix = ""

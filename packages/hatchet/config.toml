@@ -1,0 +1,12 @@
+[package]
+name = "hatchet"
+version = "0.110.5"
+description = "🪓 An orchestration engine for background tasks, AI agents, and durable workflows"
+homepage = "https://github.com/hatchet-dev/hatchet"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "hatchet_0.110.5_Linux_x86_64.tar.gz"
+url = "https://github.com/hatchet-dev/hatchet/releases/download/v0.110.5/hatchet_0.110.5_Linux_x86_64.tar.gz"
+strip_prefix = ""

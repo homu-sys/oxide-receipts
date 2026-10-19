@@ -1,0 +1,12 @@
+[package]
+name = "ascii-movie"
+version = "1.9.7"
+description = "Star Wars SSH + Telnet server written in Go."
+homepage = "https://github.com/gabe565/ascii-movie"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ascii-movie_1.9.7_linux_amd64.tar.gz"
+url = "https://github.com/gabe565/ascii-movie/releases/download/v1.9.7/ascii-movie_1.9.7_linux_amd64.tar.gz"
+strip_prefix = ""

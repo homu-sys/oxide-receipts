@@ -1,0 +1,12 @@
+[package]
+name = "rye"
+version = "0.2.65"
+description = "Programming and interaction language. Flexible about syntax, strict about state."
+homepage = "https://github.com/refaktor/rye"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "rye_Linux_x86_64.tar.gz"
+url = "https://github.com/refaktor/rye/releases/download/v0.2.65/rye_Linux_x86_64.tar.gz"
+strip_prefix = ""

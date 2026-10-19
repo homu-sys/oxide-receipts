@@ -1,0 +1,12 @@
+[package]
+name = "ktea"
+version = "0.8.1"
+description = "Kafka TUI client"
+homepage = "https://github.com/jonas-grgt/ktea"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "ktea_0.8.1_linux_amd64.tar.gz"
+url = "https://github.com/jonas-grgt/ktea/releases/download/v0.8.1/ktea_0.8.1_linux_amd64.tar.gz"
+strip_prefix = ""

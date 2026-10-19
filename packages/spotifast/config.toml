@@ -1,0 +1,12 @@
+[package]
+name = "spotifast"
+version = "0.13.3"
+description = "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows."
+homepage = "https://github.com/crmne/spotifast"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "spotifast-v0.13.3-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/crmne/spotifast/releases/download/v0.13.3/spotifast-v0.13.3-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

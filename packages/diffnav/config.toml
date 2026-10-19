@@ -1,0 +1,12 @@
+[package]
+name = "diffnav"
+version = "0.13.0"
+description = "A git diff pager based on delta but with a file tree, à la GitHub."
+homepage = "https://github.com/dlvhdr/diffnav"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "diffnav_Linux_x86_64.tar.gz"
+url = "https://github.com/dlvhdr/diffnav/releases/download/v0.13.0/diffnav_Linux_x86_64.tar.gz"
+strip_prefix = ""

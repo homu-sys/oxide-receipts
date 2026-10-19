@@ -1,0 +1,12 @@
+[package]
+name = "aurora"
+version = "2.2"
+description = "Cross-platform beanstalkd queue server admin console."
+homepage = "https://github.com/xuri/aurora"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "aurora_linux_amd64_v2.2.tar.gz"
+url = "https://github.com/xuri/aurora/releases/download/2.2/aurora_linux_amd64_v2.2.tar.gz"
+strip_prefix = ""

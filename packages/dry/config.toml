@@ -1,0 +1,12 @@
+[package]
+name = "dry"
+version = "0.13.0"
+description = "dry - A Docker manager for the terminal @"
+homepage = "https://github.com/moncho/dry"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dry-linux-amd64.tar.gz"
+url = "https://github.com/moncho/dry/releases/download/v0.13.0/dry-linux-amd64.tar.gz"
+strip_prefix = ""

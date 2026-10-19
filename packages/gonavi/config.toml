@@ -1,0 +1,12 @@
+[package]
+name = "gonavi"
+version = "1.1.4"
+description = "High-performance multi-data-source database client — ~30MB, AI & MCP ready, zero Electron bloat. | 高性能多数据源数据库客户端：约 30MB，AI 与 MCP 就绪，告别 Electron 膨胀。"
+homepage = "https://github.com/Syngnat/GoNavi"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "GoNavi-1.1.4-Linux-Amd64-WebKit41.tar.gz"
+url = "https://github.com/Syngnat/GoNavi/releases/download/v1.1.4/GoNavi-1.1.4-Linux-Amd64-WebKit41.tar.gz"
+strip_prefix = ""

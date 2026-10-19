@@ -1,0 +1,12 @@
+[package]
+name = "bruno"
+version = "4.2.1"
+description = "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)"
+homepage = "https://github.com/usebruno/bruno"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "bruno_4.2.1_x64_mac.zip"
+url = "https://github.com/usebruno/bruno/releases/download/v4.2.1/bruno_4.2.1_x64_mac.zip"
+strip_prefix = ""

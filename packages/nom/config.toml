@@ -1,0 +1,12 @@
+[package]
+name = "nom"
+version = "3.3.3"
+description = "RSS reader for the terminal"
+homepage = "https://github.com/guyfedwards/nom"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "nom_3.3.3_linux_amd64.tar.gz"
+url = "https://github.com/guyfedwards/nom/releases/download/v3.3.3/nom_3.3.3_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "cross"
+version = "0.2.5"
+description = "“Zero setup” cross compilation and “cross testing” of Rust crates"
+homepage = "https://github.com/cross-rs/cross"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "cross-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/cross-rs/cross/releases/download/v0.2.5/cross-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

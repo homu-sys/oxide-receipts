@@ -1,0 +1,12 @@
+[package]
+name = "clash-nyanpasu"
+version = "2.0.0-rc.2"
+description = "Clash Nyanpasu～(∠・ω< )⌒☆​"
+homepage = "https://github.com/libnyanpasu/clash-nyanpasu"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "Clash.Nyanpasu.x86_64.app.tar.gz"
+url = "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v2.0.0-rc.2/Clash.Nyanpasu.x86_64.app.tar.gz"
+strip_prefix = ""

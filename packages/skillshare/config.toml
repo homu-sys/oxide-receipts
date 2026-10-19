@@ -1,0 +1,12 @@
+[package]
+name = "skillshare"
+version = "0.25.13"
+description = "📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and simplify team sharing."
+homepage = "https://github.com/runkids/skillshare"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "skillshare_0.25.13_linux_amd64.tar.gz"
+url = "https://github.com/runkids/skillshare/releases/download/v0.25.13/skillshare_0.25.13_linux_amd64.tar.gz"
+strip_prefix = ""

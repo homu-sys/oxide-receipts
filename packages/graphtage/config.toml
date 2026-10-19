@@ -1,0 +1,12 @@
+[package]
+name = "graphtage"
+version = "0.5.0"
+description = "A semantic diff utility and library for tree-like files such as JSON, JSON5, XML, HTML, YAML, and CSV."
+homepage = "https://github.com/trailofbits/graphtage"
+license = "LGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "graphtage-0.5.0-linux-x86_64.zip"
+url = "https://github.com/trailofbits/graphtage/releases/download/v0.5.0/graphtage-0.5.0-linux-x86_64.zip"
+strip_prefix = ""

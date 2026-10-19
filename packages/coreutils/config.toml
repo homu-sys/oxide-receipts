@@ -1,0 +1,12 @@
+[package]
+name = "coreutils"
+version = "0.12.0"
+description = "Cross-platform Rust rewrite of the GNU coreutils"
+homepage = "https://github.com/uutils/coreutils"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "coreutils-0.12.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "gollama"
+version = "2.0.6"
+description = "Go manage your Ollama models"
+homepage = "https://github.com/sammcj/gollama"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "gollama-linux-amd64.zip"
+url = "https://github.com/sammcj/gollama/releases/download/v2.0.6/gollama-linux-amd64.zip"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "bud"
+version = "0.2.8"
+description = "The Full-Stack Web Framework for Go"
+homepage = "https://github.com/livebud/bud"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "bud_v0.2.8_linux_amd64.tar.gz"
+url = "https://github.com/livebud/bud/releases/download/v0.2.8/bud_v0.2.8_linux_amd64.tar.gz"
+strip_prefix = ""

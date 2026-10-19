@@ -1,0 +1,11 @@
+[package]
+name = "shellz"
+version = "1.6.0"
+description = "shellz is a small utility to manage your ssh, telnet, kubernetes, winrm, web or any custom shell in a single place."
+homepage = "https://github.com/evilsocket/shellz"
+arch = ["x86_64"]
+
+[archive]
+file = "shellz_1.6.0_linux_amd64.tar.gz"
+url = "https://github.com/evilsocket/shellz/releases/download/v1.6.0/shellz_1.6.0_linux_amd64.tar.gz"
+strip_prefix = ""

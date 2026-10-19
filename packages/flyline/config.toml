@@ -1,0 +1,12 @@
+[package]
+name = "flyline"
+version = "1.10.0"
+description = "Flyline: a Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more!"
+homepage = "https://github.com/HalFrgrd/flyline"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "libflyline-v1.10.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/HalFrgrd/flyline/releases/download/v1.10.0/libflyline-v1.10.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

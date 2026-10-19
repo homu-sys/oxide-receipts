@@ -1,0 +1,12 @@
+[package]
+name = "mistral.rs"
+version = "0.9.5"
+description = "Fast, flexible LLM inference"
+homepage = "https://github.com/EricLBuehler/mistral.rs"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mistralrs-cpu-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/EricLBuehler/mistral.rs/releases/download/v0.9.5/mistralrs-cpu-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

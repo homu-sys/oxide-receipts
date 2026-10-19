@@ -1,0 +1,12 @@
+[package]
+name = "snarkos"
+version = "4.12.0"
+description = "A Decentralized Operating System for ZK Applications"
+homepage = "https://github.com/aleo-labs-protocol/snarkOS"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "aleo-v4.12.0-x86_64-unknown-linux-gnu.zip"
+url = "https://github.com/aleo-labs-protocol/snarkOS/releases/download/v4.12.0/aleo-v4.12.0-x86_64-unknown-linux-gnu.zip"
+strip_prefix = ""

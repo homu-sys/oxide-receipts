@@ -1,0 +1,12 @@
+[package]
+name = "lla"
+version = "0.6.6"
+description = "blazing fast `ls` replacement with superpowers"
+homepage = "https://github.com/chaqchase/lla"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lla-0.6.6-1-x86_64.pkg.tar.zst"
+url = "https://github.com/chaqchase/lla/releases/download/v0.6.6/lla-0.6.6-1-x86_64.pkg.tar.zst"
+strip_prefix = ""

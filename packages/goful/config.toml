@@ -1,0 +1,12 @@
+[package]
+name = "goful"
+version = "0.2.1"
+description = "Goful is a CUI file manager written in Go."
+homepage = "https://github.com/anmitsu/goful"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "goful_linux_x86_64.tar.gz"
+url = "https://github.com/anmitsu/goful/releases/download/v0.2.1/goful_linux_x86_64.tar.gz"
+strip_prefix = ""

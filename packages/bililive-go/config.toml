@@ -1,0 +1,12 @@
+[package]
+name = "bililive-go"
+version = "0.8.3"
+description = "一个直播录制工具"
+homepage = "https://github.com/bililive-go/bililive-go"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "bililive-linux-amd64.tar.gz"
+url = "https://github.com/bililive-go/bililive-go/releases/download/v0.8.3/bililive-linux-amd64.tar.gz"
+strip_prefix = ""

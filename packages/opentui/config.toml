@@ -1,0 +1,12 @@
+[package]
+name = "opentui"
+version = "0.6.6"
+description = "OpenTUI is a library to build terminal user interfaces (TUI)"
+homepage = "https://github.com/anomalyco/opentui"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "opentui-native-v0.6.6-linux-x64-musl.zip"
+url = "https://github.com/anomalyco/opentui/releases/download/v0.6.6/opentui-native-v0.6.6-linux-x64-musl.zip"
+strip_prefix = ""

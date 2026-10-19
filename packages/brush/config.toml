@@ -1,0 +1,12 @@
+[package]
+name = "brush"
+version = "brush-shell-v0.4.0"
+description = "🐚bash/POSIX-compatible shell implemented in Rust 🦀"
+homepage = "https://github.com/reubeno/brush"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "brush-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/reubeno/brush/releases/download/brush-shell-v0.4.0/brush-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

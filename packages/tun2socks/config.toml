@@ -1,0 +1,12 @@
+[package]
+name = "tun2socks"
+version = "2.7.0"
+description = "tun2socks - powered by gVisor TCP/IP stack"
+homepage = "https://github.com/xjasonlyu/tun2socks"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tun2socks-linux-amd64-v3.zip"
+url = "https://github.com/xjasonlyu/tun2socks/releases/download/v2.7.0/tun2socks-linux-amd64-v3.zip"
+strip_prefix = ""

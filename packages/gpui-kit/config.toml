@@ -1,0 +1,11 @@
+[package]
+name = "gpui-kit"
+version = "0.8.0"
+description = "Rust GUI components for building fantastic cross-platform desktop application by using GPUI."
+homepage = "https://github.com/longbridge/gpui-kit"
+arch = ["x86_64"]
+
+[archive]
+file = "gpui-shell-x86_64-unknown-linux-gnu.tar.gz"
+url = "https://github.com/longbridge/gpui-kit/releases/download/v0.8.0/gpui-shell-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = ""

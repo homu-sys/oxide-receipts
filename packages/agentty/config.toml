@@ -1,0 +1,12 @@
+[package]
+name = "agentty"
+version = "0.9.29"
+description = "AI pair programming in your terminal — one static binary, sub-ms startup, any model"
+homepage = "https://github.com/agentty-org/agentty"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "agentty-bin-0.9.29-1-x86_64.pkg.tar.zst"
+url = "https://github.com/agentty-org/agentty/releases/download/v0.9.29/agentty-bin-0.9.29-1-x86_64.pkg.tar.zst"
+strip_prefix = ""

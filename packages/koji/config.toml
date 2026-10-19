@@ -1,0 +1,12 @@
+[package]
+name = "koji"
+version = "3.4.0"
+description = "🦊 An interactive CLI for creating conventional commits."
+homepage = "https://github.com/cococonscious/koji"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "koji-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

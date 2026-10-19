@@ -1,0 +1,12 @@
+[package]
+name = "imsg"
+version = "0.17.0"
+description = "CLI for Apple's Messages.app so your agent can send and receive text messages/iMessages."
+homepage = "https://github.com/openclaw/imsg"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "imsg-linux-x86_64.tar.gz"
+url = "https://github.com/openclaw/imsg/releases/download/v0.17.0/imsg-linux-x86_64.tar.gz"
+strip_prefix = ""

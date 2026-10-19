@@ -1,0 +1,12 @@
+[package]
+name = "dotstate"
+version = "0.4.1"
+description = "A modern, secure, and user-friendly dotfile manager built with Rust"
+homepage = "https://github.com/serkanyersen/dotstate"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dotstate-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/serkanyersen/dotstate/releases/download/v0.4.1/dotstate-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

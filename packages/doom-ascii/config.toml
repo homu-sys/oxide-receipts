@@ -1,0 +1,12 @@
+[package]
+name = "doom-ascii"
+version = "0.3.2"
+description = "DooM in the terminal!"
+homepage = "https://github.com/wojciech-graj/doom-ascii"
+license = "GPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "doom-ascii-0.3.2-x86_64-linux.zip"
+url = "https://github.com/wojciech-graj/doom-ascii/releases/download/v0.3.2/doom-ascii-0.3.2-x86_64-linux.zip"
+strip_prefix = ""

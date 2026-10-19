@@ -1,0 +1,12 @@
+[package]
+name = "tgv"
+version = "0.4.0"
+description = "Genome viewer for you and your agents."
+homepage = "https://github.com/zeqianli/tgv"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "tgv-x86_64-linux-musl.tar.gz"
+url = "https://github.com/zeqianli/tgv/releases/download/v0.4.0/tgv-x86_64-linux-musl.tar.gz"
+strip_prefix = ""

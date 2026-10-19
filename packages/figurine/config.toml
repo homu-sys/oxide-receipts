@@ -1,0 +1,12 @@
+[package]
+name = "figurine"
+version = "2.1.1"
+description = "Print your name in style"
+homepage = "https://github.com/arsham/figurine"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "figurine_linux_amd64_v2.1.1.tar.gz"
+url = "https://github.com/arsham/figurine/releases/download/v2.1.1/figurine_linux_amd64_v2.1.1.tar.gz"
+strip_prefix = ""

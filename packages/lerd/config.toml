@@ -1,0 +1,12 @@
+[package]
+name = "lerd"
+version = "1.37.0"
+description = "Open-source local PHP development environment for Linux, macOS and Windows (WSL2). Automatic .test domains, per-project PHP/Node isolation, one-command TLS. Podman-native, rootless."
+homepage = "https://github.com/lerd-env/lerd"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lerd_1.37.0_linux_amd64.tar.gz"
+url = "https://github.com/lerd-env/lerd/releases/download/v1.37.0/lerd_1.37.0_linux_amd64.tar.gz"
+strip_prefix = ""

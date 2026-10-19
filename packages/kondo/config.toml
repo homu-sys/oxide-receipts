@@ -1,0 +1,12 @@
+[package]
+name = "kondo"
+version = "0.9"
+description = "Cleans dependencies and build artifacts from your projects."
+homepage = "https://github.com/tbillington/kondo"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "kondo-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/tbillington/kondo/releases/download/v0.9/kondo-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

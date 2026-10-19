@@ -1,0 +1,12 @@
+[package]
+name = "mob"
+version = "5.4.2"
+description = "Tool for smooth git handover."
+homepage = "https://github.com/remotemobprogramming/mob"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mob_5.4.2_linux_amd64.tar.gz"
+url = "https://github.com/remotemobprogramming/mob/releases/download/5.4.2/mob_5.4.2_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "microbin"
+version = "2.1.0"
+description = "A secure, configurable file-sharing and URL shortening web app written in Rust."
+homepage = "https://github.com/szabodanika/microbin"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[archive]
+file = "microbin-v2.1.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/szabodanika/microbin/releases/download/v2.1.0/microbin-v2.1.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

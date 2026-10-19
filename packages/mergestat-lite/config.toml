@@ -1,0 +1,12 @@
+[package]
+name = "mergestat-lite"
+version = "0.6.2"
+description = "Query git repositories with SQL. Generate reports, perform status checks, analyze codebases. 🔍 📊"
+homepage = "https://github.com/mergestat/mergestat-lite"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "mergestat-linux-amd64.tar.gz"
+url = "https://github.com/mergestat/mergestat-lite/releases/download/v0.6.2/mergestat-linux-amd64.tar.gz"
+strip_prefix = ""

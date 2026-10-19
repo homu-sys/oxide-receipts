@@ -1,0 +1,12 @@
+[package]
+name = "qrcp"
+version = "0.11.7"
+description = ":zap: Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal."
+homepage = "https://github.com/claudiodangelis/qrcp"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "qrcp_0.11.7_linux_amd64.tar.gz"
+url = "https://github.com/claudiodangelis/qrcp/releases/download/v0.11.7/qrcp_0.11.7_linux_amd64.tar.gz"
+strip_prefix = ""

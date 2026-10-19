@@ -1,0 +1,12 @@
+[package]
+name = "dnote"
+version = "cli-v0.17.0"
+description = "A simple command line notebook"
+homepage = "https://github.com/dnote/dnote"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "dnote_0.17.0_linux_amd64.tar.gz"
+url = "https://github.com/dnote/dnote/releases/download/cli-v0.17.0/dnote_0.17.0_linux_amd64.tar.gz"
+strip_prefix = ""

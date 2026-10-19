@@ -1,0 +1,12 @@
+[package]
+name = "bold-brew"
+version = "2.3.2"
+description = "Bold Brew (bbrew) - A Homebrew TUI Manager"
+homepage = "https://github.com/Valkyrie00/bold-brew"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "bbrew_2.3.2_linux_amd64.tar.gz"
+url = "https://github.com/Valkyrie00/bold-brew/releases/download/v2.3.2/bbrew_2.3.2_linux_amd64.tar.gz"
+strip_prefix = ""

@@ -1,0 +1,12 @@
+[package]
+name = "mpv.net"
+version = "7.1.2.0"
+description = "🎞 mpv.net is a media player for Windows with a modern GUI."
+homepage = "https://github.com/mpvnet-player/mpv.net"
+license = "GPL-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "mpv.net-v7.1.2.0-portable-x64.zip"
+url = "https://github.com/mpvnet-player/mpv.net/releases/download/v7.1.2.0/mpv.net-v7.1.2.0-portable-x64.zip"
+strip_prefix = ""

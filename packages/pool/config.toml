@@ -1,0 +1,11 @@
+[package]
+name = "pool"
+version = "1.0.16"
+description = "pool is Poolside’s coding agent that runs in your terminal or integrates with any ACP-compatible editor"
+homepage = "https://github.com/poolsideai/pool"
+arch = ["x86_64"]
+
+[archive]
+file = "pool-linux-amd64.tar.gz"
+url = "https://github.com/poolsideai/pool/releases/download/v1.0.16/pool-linux-amd64.tar.gz"
+strip_prefix = ""

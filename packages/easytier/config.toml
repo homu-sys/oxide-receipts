@@ -1,0 +1,12 @@
+[package]
+name = "easytier"
+version = "2.6.4"
+description = "A simple, decentralized mesh VPN with WireGuard support."
+homepage = "https://github.com/EasyTier/EasyTier"
+license = "LGPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "easytier-linux-x86_64-v2.6.4.zip"
+url = "https://github.com/EasyTier/EasyTier/releases/download/v2.6.4/easytier-linux-x86_64-v2.6.4.zip"
+strip_prefix = ""

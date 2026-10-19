@@ -1,0 +1,12 @@
+[package]
+name = "spotifyd"
+version = "0.4.2"
+description = "A spotify daemon"
+homepage = "https://github.com/Spotifyd/spotifyd"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[archive]
+file = "spotifyd-linux-x86_64-default.tar.gz"
+url = "https://github.com/Spotifyd/spotifyd/releases/download/v0.4.2/spotifyd-linux-x86_64-default.tar.gz"
+strip_prefix = ""

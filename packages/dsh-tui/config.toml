@@ -1,0 +1,12 @@
+[package]
+name = "dsh-tui"
+version = "0.16.1"
+description = "DSH's officially top-recommended TUI plugin — high performance, low overhead, cute pixel whale, smooth mouse interaction. One-command install via npm. / DSH 官方首推的 TUI 插件，高性能低占用，可爱像素鲸鱼，流畅鼠标交互，npm 一键安装"
+homepage = "https://github.com/ccch1mneyyy/dsh-TUI"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "dsh-tui-standalone-linux-x64.tar.gz"
+url = "https://github.com/ccch1mneyyy/dsh-TUI/releases/download/v0.16.1/dsh-tui-standalone-linux-x64.tar.gz"
+strip_prefix = ""

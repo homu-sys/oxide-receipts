@@ -1,0 +1,12 @@
+[package]
+name = "kyanos"
+version = "1.6.0"
+description = "Kyanos is a networking analysis tool using eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient."
+homepage = "https://github.com/hengyoush/kyanos"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "kyanos_1.6.0_linux_amd64.tar.gz"
+url = "https://github.com/hengyoush/kyanos/releases/download/v1.6.0/kyanos_1.6.0_linux_amd64.tar.gz"
+strip_prefix = ""

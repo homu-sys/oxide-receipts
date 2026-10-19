@@ -1,0 +1,12 @@
+[package]
+name = "wasm-pack"
+version = "0.15.0"
+description = "📦✨ your favorite rust -> wasm workflow tool!"
+homepage = "https://github.com/wasm-bindgen/wasm-pack"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "wasm-pack-v0.15.0-x86_64-unknown-linux-musl.tar.gz"
+url = "https://github.com/wasm-bindgen/wasm-pack/releases/download/v0.15.0/wasm-pack-v0.15.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""

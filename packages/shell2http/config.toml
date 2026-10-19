@@ -1,0 +1,12 @@
+[package]
+name = "shell2http"
+version = "1.18.0"
+description = "Executing shell commands via HTTP server"
+homepage = "https://github.com/msoap/shell2http"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "shell2http_1.18.0_linux_amd64.tar.gz"
+url = "https://github.com/msoap/shell2http/releases/download/v1.18.0/shell2http_1.18.0_linux_amd64.tar.gz"
+strip_prefix = ""
