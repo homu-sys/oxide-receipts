@@ -1,6 +1,6 @@
 use anyhow::{bail, Context, Result};
 use std::collections::{HashMap, HashSet};
-use std::path::Path;
+use std::path::{Path, PathBuf};
 
 use crate::extract;
 use crate::manifest::Manifest;
@@ -109,13 +109,7 @@ fn install_one(
     explicit: bool,
 ) -> Result<()> {
     let name = &manifest.package.name;
-    let archive_path = registry.package_dir(name).join(&manifest.archive.file);
-    if !archive_path.exists() {
-        bail!(
-            "archive {} missing from registry — re-run `oxide sync`",
-            manifest.archive.file
-        );
-    }
+    let archive_path = resolve_archive(paths, registry, manifest)?;
 
     let old = Receipt::load(paths, name).ok();
     let hold = old.as_ref().is_some_and(|r| r.hold);
@@ -220,6 +214,57 @@ fn install_one(
         receipt.files.len()
     );
     Ok(())
+}
+
+/// Locate the package archive: prefer the copy committed to the registry,
+/// otherwise download from the manifest's `url` into the cache.
+fn resolve_archive(paths: &Paths, registry: &Registry, manifest: &Manifest) -> Result<PathBuf> {
+    let name = &manifest.package.name;
+    let local = registry.package_dir(name).join(&manifest.archive.file);
+    if local.exists() {
+        return Ok(local);
+    }
+
+    let Some(url) = manifest.archive.url.as_deref() else {
+        bail!(
+            "archive {} missing from registry and no download url set — re-run `oxide sync`",
+            manifest.archive.file
+        );
+    };
+
+    let cache = paths.cache();
+    std::fs::create_dir_all(&cache).with_context(|| format!("creating {}", cache.display()))?;
+    let dest = cache.join(&manifest.archive.file);
+
+    if dest.exists() {
+        let fresh = match manifest.archive.sha256.as_deref() {
+            Some(expect) => util::sha256_file(&dest)? == expect.to_ascii_lowercase(),
+            None => true,
+        };
+        if fresh {
+            return Ok(dest);
+        }
+        let _ = std::fs::remove_file(&dest);
+    }
+
+    println!(
+        "{} {name} {} from {url}",
+        term::dim("↓"),
+        manifest.package.version
+    );
+    util::download(url, &dest)?;
+
+    if let Some(expect) = manifest.archive.sha256.as_deref() {
+        let got = util::sha256_file(&dest)?;
+        if got != expect.to_ascii_lowercase() {
+            let _ = std::fs::remove_file(&dest);
+            bail!(
+                "sha256 mismatch for {}: expected {expect}, got {got}",
+                manifest.archive.file
+            );
+        }
+    }
+    Ok(dest)
 }
 
 /// Split a `bins` entry into (path relative to the install prefix, symlink name).

@@ -16,6 +16,7 @@ flate2 = { version = "1", default-features = false, features = ["rust_backend"] 
 xz2 = "0.1"
 zstd = "0.13"
 tar = "0.4"
+zip = { version = "2", default-features = false, features = ["deflate"] }
 walkdir = "2"
 owo-colors = { version = "4", features = ["supports-colors"] }
 semver = "1"

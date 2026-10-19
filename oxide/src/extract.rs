@@ -21,6 +21,8 @@ pub fn extract_archive(archive: &Path, dest: &Path, strip_prefix: &str) -> Resul
         untar(decoder, dest, strip)
     } else if name.ends_with(".tar") {
         untar(File::open(archive)?, dest, strip)
+    } else if name.ends_with(".zip") {
+        unzip(archive, dest, strip)
     } else {
         bail!("unsupported archive format: {name}");
     }
@@ -69,6 +71,48 @@ fn untar<R: Read>(reader: R, dest: &Path, strip: usize) -> Result<()> {
             std::fs::create_dir_all(parent)?;
         }
         entry.unpack(&out)?;
+    }
+    Ok(())
+}
+
+fn unzip(archive: &Path, dest: &Path, strip: usize) -> Result<()> {
+    let file = File::open(archive)?;
+    let mut zip = zip::ZipArchive::new(file).context("opening zip archive")?;
+    for i in 0..zip.len() {
+        let mut entry = zip.by_index(i).context("reading zip entry")?;
+        let raw = entry.name().to_string();
+        let components: Vec<&str> = raw
+            .split('/')
+            .filter(|c| !c.is_empty() && *c != ".")
+            .collect();
+        if components.iter().any(|c| *c == "..") {
+            bail!("archive contains unsafe path: {raw}");
+        }
+        if components.len() <= strip {
+            continue;
+        }
+        let rel: PathBuf = components[strip..].iter().collect();
+        if rel.as_os_str().is_empty() {
+            continue;
+        }
+        let out = dest.join(&rel);
+
+        if entry.is_dir() {
+            std::fs::create_dir_all(&out)?;
+            continue;
+        }
+        if let Some(parent) = out.parent() {
+            std::fs::create_dir_all(parent)?;
+        }
+        let mut f = File::create(&out)?;
+        std::io::copy(&mut entry, &mut f)?;
+        drop(f);
+
+        #[cfg(unix)]
+        if let Some(mode) = entry.unix_mode() {
+            use std::os::unix::fs::PermissionsExt;
+            let _ = std::fs::set_permissions(&out, std::fs::Permissions::from_mode(mode));
+        }
     }
     Ok(())
 }

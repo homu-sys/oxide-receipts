@@ -255,11 +255,15 @@ pub fn verify(paths: &Paths, names: &[String]) -> Result<()> {
 }
 
 pub fn clean(paths: &Paths) -> Result<()> {
-    let staging = paths.staging();
-    if staging.exists() {
-        std::fs::remove_dir_all(&staging)?;
-        println!("cleaned {}", staging.display());
-    } else {
+    let mut cleaned = false;
+    for dir in [paths.staging(), paths.cache()] {
+        if dir.exists() {
+            std::fs::remove_dir_all(&dir)?;
+            println!("cleaned {}", dir.display());
+            cleaned = true;
+        }
+    }
+    if !cleaned {
         println!("nothing to clean");
     }
     Ok(())

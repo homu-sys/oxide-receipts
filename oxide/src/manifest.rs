@@ -35,12 +35,27 @@ pub struct Archive {
     pub file: String,
     #[serde(default)]
     pub strip_prefix: String,
+    /// Download location used when the archive is not committed to the registry.
+    /// A redirect (e.g. a GitHub `releases/latest/download/...` link) is followed.
+    pub url: Option<String>,
+    /// Optional expected SHA-256 of the (downloaded) archive.
+    pub sha256: Option<String>,
 }
 
 #[derive(Debug, Clone, Default, Deserialize)]
 pub struct Install {
     #[serde(default)]
     pub bins: Vec<String>,
+    /// Paths (relative to the package dir) of `.desktop` files to install into
+    /// `<root>/usr/share/applications`.
+    #[serde(default)]
+    pub desktop: Vec<String>,
+    /// Paths (relative to the package dir) of icon files to install into
+    /// `<root>/usr/share/pixmaps`.
+    #[serde(default)]
+    pub icons: Vec<String>,
+    /// Override the `Exec=` line of installed `.desktop` files.
+    pub exec: Option<String>,
 }
 
 impl Manifest {

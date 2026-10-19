@@ -1,7 +1,8 @@
 use anyhow::{Context, Result};
 use sha2::{Digest, Sha256};
 use std::io::Read;
-use std::path::Path;
+use std::path::{Path, PathBuf};
+use std::process::Command;
 
 pub fn current_arch() -> &'static str {
     std::env::consts::ARCH
@@ -38,4 +39,47 @@ pub fn version_gt(a: &str, b: &str) -> bool {
         (Ok(a), Ok(b)) => a > b,
         _ => a != b,
     }
+}
+
+fn on_path(name: &str) -> bool {
+    std::env::var_os("PATH").is_some_and(|paths| {
+        std::env::split_paths(&paths).any(|dir| dir.join(name).is_file())
+    })
+}
+
+/// Download `url` to `dest`, following redirects, via curl (or wget).
+pub fn download(url: &str, dest: &Path) -> Result<()> {
+    if let Some(parent) = dest.parent() {
+        std::fs::create_dir_all(parent)
+            .with_context(|| format!("creating {}", parent.display()))?;
+    }
+    let mut part = dest.as_os_str().to_os_string();
+    part.push(".part");
+    let part = PathBuf::from(part);
+
+    let status = if on_path("curl") {
+        Command::new("curl")
+            .args(["-fsSL", "--retry", "3", "-o"])
+            .arg(&part)
+            .arg(url)
+            .status()
+            .context("running curl")?
+    } else if on_path("wget") {
+        Command::new("wget")
+            .args(["-q", "-O"])
+            .arg(&part)
+            .arg(url)
+            .status()
+            .context("running wget")?
+    } else {
+        anyhow::bail!("need curl or wget to download {url}");
+    };
+
+    if !status.success() {
+        let _ = std::fs::remove_file(&part);
+        anyhow::bail!("download failed: {url}");
+    }
+    std::fs::rename(&part, dest)
+        .with_context(|| format!("moving download into {}", dest.display()))?;
+    Ok(())
 }
