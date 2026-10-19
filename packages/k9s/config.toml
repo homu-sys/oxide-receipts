@@ -1,0 +1,17 @@
+[package]
+name = "k9s"
+version = "0.51.0"
+description = "Kubernetes CLI to manage your clusters in style"
+homepage = "https://github.com/derailed/k9s"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "k9s_Linux_amd64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["k9s"]

@@ -1,0 +1,17 @@
+[package]
+name = "jj"
+version = "0.46.0"
+description = "A Git-compatible VCS that is both simple and powerful"
+homepage = "https://github.com/jj-vcs/jj"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "jj-v0.46.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["jj"]

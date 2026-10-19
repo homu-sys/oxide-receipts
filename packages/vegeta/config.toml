@@ -1,0 +1,17 @@
+[package]
+name = "vegeta"
+version = "12.13.0"
+description = "HTTP load testing tool and library"
+homepage = "https://github.com/tsenart/vegeta"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "vegeta_12.13.0_linux_amd64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["vegeta"]

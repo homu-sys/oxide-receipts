@@ -1,0 +1,17 @@
+[package]
+name = "grpcurl"
+version = "1.9.4"
+description = "Like cURL, but for gRPC"
+homepage = "https://github.com/fullstorydev/grpcurl"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "grpcurl_1.9.4_linux_x86_64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["grpcurl"]

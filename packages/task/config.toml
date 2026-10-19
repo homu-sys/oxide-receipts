@@ -1,0 +1,17 @@
+[package]
+name = "task"
+version = "3.54.0"
+description = "A task runner and simpler Make alternative written in Go"
+homepage = "https://github.com/go-task/task"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "task_linux_amd64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["task"]

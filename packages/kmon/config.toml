@@ -1,0 +1,17 @@
+[package]
+name = "kmon"
+version = "1.7.1"
+description = "Linux kernel manager and activity monitor"
+homepage = "https://github.com/orhun/kmon"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "kmon-1.7.1-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "kmon-1.7.1"
+
+[install]
+bins = ["kmon"]

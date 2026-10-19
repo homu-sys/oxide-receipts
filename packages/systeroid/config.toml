@@ -1,0 +1,17 @@
+[package]
+name = "systeroid"
+version = "0.4.6"
+description = "A more powerful alternative to sysctl"
+homepage = "https://github.com/orhun/systeroid"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "systeroid-0.4.6-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "systeroid-0.4.6"
+
+[install]
+bins = ["systeroid", "systeroid-tui"]

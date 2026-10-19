@@ -1,0 +1,17 @@
+[package]
+name = "difftastic"
+version = "0.71.0"
+description = "A structural diff that understands syntax"
+homepage = "https://github.com/Wilfred/difftastic"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "difft-0.71.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["difft"]

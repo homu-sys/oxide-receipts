@@ -1,0 +1,17 @@
+[package]
+name = "golangci-lint"
+version = "2.15.0"
+description = "Fast linters runner for Go"
+homepage = "https://github.com/golangci/golangci-lint"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "golangci-lint-2.15.0-linux-amd64.tar.gz"
+strip_prefix = "golangci-lint-2.15.0-linux-amd64"
+
+[install]
+bins = ["golangci-lint"]

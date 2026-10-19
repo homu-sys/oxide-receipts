@@ -1,0 +1,17 @@
+[package]
+name = "menyoki"
+version = "1.8.0"
+description = "Screenshot, screencast and perform ImageOps on the command line"
+homepage = "https://github.com/orhun/menyoki"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "menyoki-1.8.0-x86_64-unknown-linux-gnu.tar.gz"
+strip_prefix = "menyoki-1.8.0"
+
+[install]
+bins = ["menyoki"]

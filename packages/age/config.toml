@@ -1,0 +1,17 @@
+[package]
+name = "age"
+version = "1.3.2"
+description = "A simple, modern and secure file encryption tool"
+homepage = "https://github.com/FiloSottile/age"
+license = "BSD-3-Clause"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "age-v1.3.2-linux-amd64.tar.gz"
+strip_prefix = "age"
+
+[install]
+bins = ["age", "age-keygen"]

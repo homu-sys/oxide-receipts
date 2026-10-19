@@ -1,0 +1,17 @@
+[package]
+name = "uv"
+version = "0.13.1"
+description = "An extremely fast Python package and project manager"
+homepage = "https://github.com/astral-sh/uv"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "uv-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "uv-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["uv", "uvx"]

@@ -1,0 +1,17 @@
+[package]
+name = "ruff"
+version = "0.17.1"
+description = "An extremely fast Python linter and code formatter"
+homepage = "https://github.com/astral-sh/ruff"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "ruff-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "ruff-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["ruff"]

@@ -1,0 +1,17 @@
+[package]
+name = "shellcheck"
+version = "0.11.0"
+description = "Shell script analysis tool"
+homepage = "https://github.com/koalaman/shellcheck"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "shellcheck-v0.11.0.linux.x86_64.tar.gz"
+strip_prefix = "shellcheck-v0.11.0"
+
+[install]
+bins = ["shellcheck"]

@@ -1,0 +1,17 @@
+[package]
+name = "act"
+version = "0.2.89"
+description = "Run your GitHub Actions locally"
+homepage = "https://github.com/nektos/act"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "act_Linux_x86_64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["act"]

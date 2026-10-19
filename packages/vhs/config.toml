@@ -1,0 +1,17 @@
+[package]
+name = "vhs"
+version = "0.12.1"
+description = "Your CLI home video recorder"
+homepage = "https://github.com/charmbracelet/vhs"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "vhs_0.12.1_Linux_x86_64.tar.gz"
+strip_prefix = "vhs_0.12.1_Linux_x86_64"
+
+[install]
+bins = ["vhs"]

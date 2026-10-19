@@ -1,0 +1,17 @@
+[package]
+name = "buf"
+version = "1.74.0"
+description = "A tool for working with Protocol Buffers"
+homepage = "https://github.com/bufbuild/buf"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "buf-Linux-x86_64.tar.gz"
+strip_prefix = "buf"
+
+[install]
+bins = ["bin/buf"]

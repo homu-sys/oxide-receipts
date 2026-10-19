@@ -1,0 +1,17 @@
+[package]
+name = "dive"
+version = "0.13.1"
+description = "A tool for exploring each layer in a docker image"
+homepage = "https://github.com/wagoodman/dive"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "dive_0.13.1_linux_amd64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["dive"]

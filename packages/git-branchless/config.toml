@@ -1,0 +1,17 @@
+[package]
+name = "git-branchless"
+version = "0.11.1"
+description = "High-velocity, monorepo-scale workflow for Git"
+homepage = "https://github.com/arxanas/git-branchless"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "git-branchless-v0.11.1-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["git-branchless"]

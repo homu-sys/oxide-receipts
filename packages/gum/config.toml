@@ -1,0 +1,17 @@
+[package]
+name = "gum"
+version = "2.0.2"
+description = "A tool for glamorous shell scripts"
+homepage = "https://github.com/charmbracelet/gum"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "gum_2.0.2_Linux_x86_64.tar.gz"
+strip_prefix = "gum_2.0.2_Linux_x86_64"
+
+[install]
+bins = ["gum"]

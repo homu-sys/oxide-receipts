@@ -1,0 +1,17 @@
+[package]
+name = "television"
+version = "0.15.9"
+description = "A very fast, portable and hackable fuzzy finder"
+homepage = "https://github.com/alexpasmantier/television"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "tv-0.15.9-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "tv-0.15.9-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["tv"]
