@@ -6,6 +6,7 @@ use std::time::Instant;
 
 use crate::manifest::{self, Manifest};
 use crate::paths::Paths;
+use crate::term;
 
 pub struct Registry {
     path: PathBuf,
@@ -25,7 +26,11 @@ impl Registry {
             if !status.success() {
                 bail!("git pull failed in {}", dest.display());
             }
-            println!("registry updated in {:.2}s", start.elapsed().as_secs_f64());
+            println!(
+                "{} in {:.2}s",
+                term::green("registry updated"),
+                start.elapsed().as_secs_f64()
+            );
         } else {
             if dest.exists() {
                 std::fs::remove_dir_all(&dest)
@@ -49,7 +54,8 @@ impl Registry {
                 bail!("git clone of {url} failed");
             }
             println!(
-                "registry synced from {url} in {:.2}s",
+                "{} from {url} in {:.2}s",
+                term::green("registry synced"),
                 start.elapsed().as_secs_f64()
             );
         }

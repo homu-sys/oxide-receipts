@@ -1,4 +1,4 @@
-use clap::{Parser, Subcommand};
+use clap::{Parser, Subcommand, ValueEnum};
 use std::path::PathBuf;
 
 #[derive(Parser, Debug)]
@@ -16,8 +16,20 @@ pub struct Cli {
     #[arg(long, global = true, env = "OXIDE_ROOT")]
     pub root: Option<PathBuf>,
 
+    /// When to colorize output
+    #[arg(long, global = true, value_name = "WHEN", default_value = "auto")]
+    pub color: ColorChoice,
+
     #[command(subcommand)]
     pub command: Command,
+}
+
+#[derive(Clone, Copy, Debug, Default, ValueEnum)]
+pub enum ColorChoice {
+    #[default]
+    Auto,
+    Always,
+    Never,
 }
 
 #[derive(Subcommand, Debug)]
@@ -66,6 +78,10 @@ pub enum Command {
     /// List files owned by a package
     Files { package: String },
 
+    /// Show which package owns a file
+    #[command(alias = "owns")]
+    Owner { path: PathBuf },
+
     /// Verify integrity of installed packages
     Verify { packages: Vec<String> },
 
@@ -74,6 +90,9 @@ pub enum Command {
 
     /// Show a package's dependency tree (from the registry)
     Deps { package: String },
+
+    /// Show a tree of installed packages and what pulls them in
+    Tree { package: Option<String> },
 
     /// List orphaned packages (dependencies nothing needs anymore)
     Orphans,
@@ -101,4 +120,31 @@ pub enum Command {
 
     /// Remove cached data
     Clean,
+
+    /// Diagnose the environment and oxide state
+    Doctor,
+
+    /// Generate a shell completion script
+    Completions {
+        /// Shell to generate completions for
+        shell: clap_complete::Shell,
+    },
+}
+
+/// Print a completion script for the given shell to stdout.
+///
+/// Generated into a buffer first so that a closed stdout (e.g. `| head`)
+/// yields a silent exit instead of a panic inside clap_complete.
+pub fn print_completions(shell: clap_complete::Shell) {
+    use clap::CommandFactory;
+    use std::io::Write;
+
+    let mut cmd = Cli::command();
+    let name = cmd.get_name().to_string();
+    let mut buf = Vec::new();
+    clap_complete::generate(shell, &mut cmd, name, &mut buf);
+
+    let mut out = std::io::stdout();
+    let _ = out.write_all(&buf);
+    let _ = out.flush();
 }

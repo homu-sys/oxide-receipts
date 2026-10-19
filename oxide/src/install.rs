@@ -1,5 +1,4 @@
 use anyhow::{bail, Context, Result};
-use owo_colors::OwoColorize;
 use std::collections::{HashMap, HashSet};
 use std::path::Path;
 
@@ -8,6 +7,7 @@ use crate::manifest::Manifest;
 use crate::receipt::{FileEntry, LinkEntry, Receipt, ReceiptPackage};
 use crate::registry::Registry;
 use crate::paths::Paths;
+use crate::term;
 use crate::util;
 use walkdir::WalkDir;
 
@@ -36,7 +36,7 @@ pub fn install_packages(paths: &Paths, registry: &Registry, names: &[String]) ->
         let explicit = explicit_targets.contains(name);
         match installed.get(name) {
             Some(receipt) if receipt.package.version == manifest.package.version => {
-                println!(" {} {name} is up to date", "=".dimmed());
+                println!(" {} {name} is up to date", term::dim("="));
             }
             Some(receipt) => {
                 println!(
@@ -214,7 +214,7 @@ fn install_one(
 
     println!(
         "{} {name} {} ({} files)",
-        "installed".green().bold(),
+        term::green_bold("installed"),
         manifest.package.version,
         receipt.files.len()
     );

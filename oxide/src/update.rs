@@ -1,10 +1,10 @@
 use anyhow::Result;
-use owo_colors::OwoColorize;
 
 use crate::install;
 use crate::paths::Paths;
 use crate::receipt::Receipt;
 use crate::registry::Registry;
+use crate::term;
 use crate::util;
 
 pub fn update_packages(paths: &Paths, registry: &Registry, names: &[String]) -> Result<()> {
@@ -18,13 +18,13 @@ pub fn update_packages(paths: &Paths, registry: &Registry, names: &[String]) -> 
     let mut targets = Vec::new();
     for name in &requested {
         let Some(receipt) = installed.iter().find(|r| &r.package.name == name) else {
-            println!("{} '{name}' is not installed", "warning:".yellow());
+            println!("{} '{name}' is not installed", term::yellow("warning:"));
             continue;
         };
         if receipt.hold {
             println!(
                 "{} {} {} (held)",
-                "skipping".dimmed(),
+                term::dim("skipping"),
                 name,
                 receipt.package.version
             );

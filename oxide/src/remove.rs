@@ -1,8 +1,8 @@
 use anyhow::{bail, Result};
-use owo_colors::OwoColorize;
 
 use crate::paths::Paths;
 use crate::receipt::Receipt;
+use crate::term;
 
 pub fn remove_packages(paths: &Paths, names: &[String], force: bool) -> Result<()> {
     let all = Receipt::load_all(paths)?;
@@ -34,7 +34,7 @@ pub fn remove_packages(paths: &Paths, names: &[String], force: bool) -> Result<(
         Receipt::delete(paths, name)?;
         println!(
             "{} {name} {}",
-            "removed".red().bold(),
+            term::red_bold("removed"),
             receipt.package.version
         );
     }

@@ -8,12 +8,13 @@ mod query;
 mod receipt;
 mod registry;
 mod remove;
+mod term;
 mod update;
 mod util;
 
 use anyhow::Result;
 use clap::Parser;
-use cli::{Cli, Command};
+use cli::{Cli, ColorChoice, Command};
 use paths::Paths;
 use std::process::Command as SysCommand;
 
@@ -86,7 +87,7 @@ fn run(cli: &Cli) -> Result<()> {
     let paths = Paths::new(cli.root.clone());
 
     if needs_root(&cli.command) && paths.is_system() && util::euid() != 0 {
-        eprintln!("root required — re-running with sudo...");
+        eprintln!("{} re-running with sudo...", term::yellow("root required —"));
         reexec_with_sudo();
     }
 
@@ -138,6 +139,8 @@ fn run(cli: &Cli) -> Result<()> {
 
         Command::Files { package } => query::files(&paths, package),
 
+        Command::Owner { path } => query::owner(&paths, path),
+
         Command::Verify { packages } => query::verify(&paths, packages),
 
         Command::Why { package } => query::why(&paths, package),
@@ -146,6 +149,8 @@ fn run(cli: &Cli) -> Result<()> {
             let registry = registry::Registry::load(&paths)?;
             query::deps(&registry, package)
         }
+
+        Command::Tree { package } => query::tree(&paths, package.as_deref()),
 
         Command::Orphans => query::orphans(&paths),
 
@@ -177,14 +182,28 @@ fn run(cli: &Cli) -> Result<()> {
         Command::Check => query::check(&paths),
 
         Command::Clean => query::clean(&paths),
+
+        Command::Doctor => query::doctor(&paths),
+
+        Command::Completions { shell } => {
+            cli::print_completions(*shell);
+            Ok(())
+        }
     }
 }
 
 fn main() {
     let args = translate_argv(std::env::args().collect());
     let cli = Cli::parse_from(args);
+
+    match cli.color {
+        ColorChoice::Always => owo_colors::set_override(true),
+        ColorChoice::Never => owo_colors::set_override(false),
+        ColorChoice::Auto => owo_colors::unset_override(),
+    }
+
     if let Err(err) = run(&cli) {
-        eprintln!("error: {err:#}");
+        eprintln!("{} {err:#}", term::error("error:"));
         std::process::exit(1);
     }
 }

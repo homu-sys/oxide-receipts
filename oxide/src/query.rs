@@ -1,10 +1,11 @@
 use anyhow::{Context, Result};
-use owo_colors::OwoColorize;
+use std::collections::HashMap;
 use std::path::Path;
 
 use crate::paths::Paths;
 use crate::receipt::Receipt;
 use crate::registry::Registry;
+use crate::term;
 use crate::util;
 
 pub fn list_installed(paths: &Paths) -> Result<()> {
@@ -20,7 +21,7 @@ pub fn list_installed(paths: &Paths) -> Result<()> {
         .unwrap_or(0);
     for r in &receipts {
         let padded = format!("{:width$}", r.package.name, width = width);
-        println!("{}  {}", padded.bold(), r.package.version);
+        println!("{}  {}", term::bold(&padded), r.package.version);
     }
     println!("\n{} package(s) installed", receipts.len());
     Ok(())
@@ -36,7 +37,7 @@ pub fn outdated(paths: &Paths, registry: &Registry) -> Result<()> {
                     "{:width$}  {} → {}",
                     r.package.name,
                     r.package.version,
-                    m.package.version.green(),
+                    term::green(&m.package.version),
                     width = r.package.name.len().max(12)
                 );
                 found = true;
@@ -66,9 +67,9 @@ pub fn search(registry: &Registry, query: &str) -> Result<()> {
     for m in matches {
         println!(
             "{} {} {}",
-            m.package.name.bold(),
+            term::bold(&m.package.name),
             m.package.version,
-            m.package.description.as_deref().unwrap_or("").dimmed()
+            term::dim(m.package.description.as_deref().unwrap_or(""))
         );
     }
     Ok(())
@@ -78,7 +79,7 @@ pub fn info(paths: &Paths, registry: &Registry, name: &str) -> Result<()> {
     let manifest = registry.get(name)?;
     let p = &manifest.package;
 
-    println!("{}", p.name.bold());
+    println!("{}", term::bold(&p.name));
     println!("  version:      {}", p.version);
     if let Some(desc) = &p.description {
         println!("  description:  {desc}");
@@ -100,10 +101,10 @@ pub fn info(paths: &Paths, registry: &Registry, name: &str) -> Result<()> {
     match Receipt::load(paths, name) {
         Ok(r) => println!(
             "  status:       {} ({})",
-            "installed".green(),
+            term::green("installed"),
             r.package.version
         ),
-        Err(_) => println!("  status:       {}", "not installed".dimmed()),
+        Err(_) => println!("  status:       {}", term::dim("not installed")),
     }
     Ok(())
 }
@@ -111,10 +112,48 @@ pub fn info(paths: &Paths, registry: &Registry, name: &str) -> Result<()> {
 pub fn files(paths: &Paths, name: &str) -> Result<()> {
     let receipt = Receipt::load(paths, name)?;
     for link in &receipt.links {
-        println!("{} {}", "link".cyan(), link.path);
+        println!("{} {}", term::cyan("link"), link.path);
     }
     for file in &receipt.files {
-        println!("{} {}/{}", "file".dimmed(), receipt.prefix, file.path);
+        println!("{} {}/{}", term::dim("file"), receipt.prefix, file.path);
+    }
+    Ok(())
+}
+
+pub fn owner(paths: &Paths, path: &Path) -> Result<()> {
+    let target = std::fs::canonicalize(path).unwrap_or_else(|_| path.to_path_buf());
+    let receipts = Receipt::load_all(paths)?;
+    let mut found = false;
+
+    for r in &receipts {
+        let mut owned = r.links.iter().any(|link| {
+            let lp = Path::new(&link.path);
+            let lt = std::fs::canonicalize(lp).unwrap_or_else(|_| lp.to_path_buf());
+            lt == target || lp == target
+        });
+
+        if !owned {
+            let prefix = Path::new(&r.prefix);
+            owned = r.files.iter().any(|file| {
+                let p = prefix.join(&file.path);
+                let pc = std::fs::canonicalize(&p).unwrap_or_else(|_| p.clone());
+                p == target || pc == target
+            });
+        }
+
+        if owned {
+            println!(
+                "{} is owned by {} {}",
+                target.display(),
+                term::bold(&r.package.name),
+                r.package.version
+            );
+            found = true;
+        }
+    }
+
+    if !found {
+        println!("{}", term::yellow("no package owns this file"));
     }
     Ok(())
 }
@@ -145,7 +184,7 @@ pub fn verify(paths: &Paths, names: &[String]) -> Result<()> {
                 Ok(_) => {
                     println!(
                         "  {} {name}: modified: {}",
-                        "!!".red(),
+                        term::red("!!"),
                         file.path,
                         name = receipt.package.name
                     );
@@ -154,7 +193,7 @@ pub fn verify(paths: &Paths, names: &[String]) -> Result<()> {
                 Err(_) => {
                     println!(
                         "  {} {name}: missing: {}",
-                        "!!".red(),
+                        term::red("!!"),
                         file.path,
                         name = receipt.package.name
                     );
@@ -169,7 +208,7 @@ pub fn verify(paths: &Paths, names: &[String]) -> Result<()> {
                 _ => {
                     println!(
                         "  {} {name}: broken link: {}",
-                        "!!".red(),
+                        term::red("!!"),
                         link.path,
                         name = receipt.package.name
                     );
@@ -180,7 +219,7 @@ pub fn verify(paths: &Paths, names: &[String]) -> Result<()> {
         if ok {
             println!(
                 "{} {} {}",
-                "ok".green().bold(),
+                term::green_bold("ok"),
                 receipt.package.name,
                 receipt.package.version
             );
@@ -221,7 +260,12 @@ pub fn why(paths: &Paths, name: &str) -> Result<()> {
     if !dependents.is_empty() {
         println!("'{name}' is required by:");
         for d in &dependents {
-            println!("  {} {} {}", d.package.name.bold(), d.package.version, "← explicit dependency".dimmed());
+            println!(
+                "  {} {} {}",
+                term::bold(&d.package.name),
+                d.package.version,
+                term::dim("← explicit dependency")
+            );
         }
     } else if receipt.explicit {
         println!("'{name}' was explicitly installed");
@@ -238,14 +282,14 @@ pub fn why(paths: &Paths, name: &str) -> Result<()> {
 
 pub fn deps(registry: &Registry, name: &str) -> Result<()> {
     let manifest = registry.get(name)?;
-    println!("{}", manifest.package.name.bold());
+    println!("{}", term::bold(&manifest.package.name));
     print_deps(registry, name, "  ", &mut Vec::new())?;
     Ok(())
 }
 
 fn print_deps(registry: &Registry, name: &str, indent: &str, seen: &mut Vec<String>) -> Result<()> {
     if seen.iter().any(|s| s == name) {
-        println!("{indent}{} (cycle)", name.dimmed());
+        println!("{indent}{} (cycle)", term::dim(name));
         return Ok(());
     }
     seen.push(name.to_string());
@@ -257,6 +301,65 @@ fn print_deps(registry: &Registry, name: &str, indent: &str, seen: &mut Vec<Stri
     }
     seen.pop();
     Ok(())
+}
+
+pub fn tree(paths: &Paths, package: Option<&str>) -> Result<()> {
+    let receipts = Receipt::load_all(paths)?;
+    if receipts.is_empty() {
+        println!("no packages installed");
+        return Ok(());
+    }
+    let by_name: HashMap<&str, &Receipt> =
+        receipts.iter().map(|r| (r.package.name.as_str(), r)).collect();
+
+    let roots: Vec<&Receipt> = match package {
+        Some(name) => vec![by_name
+            .get(name)
+            .copied()
+            .with_context(|| format!("package '{name}' is not installed"))?],
+        None => receipts.iter().filter(|r| r.explicit).collect(),
+    };
+
+    let mut seen: Vec<String> = Vec::new();
+    for root in roots {
+        if seen.iter().any(|s| s == &root.package.name) {
+            continue;
+        }
+        seen.push(root.package.name.clone());
+        println!(
+            "{} {}",
+            term::bold(&root.package.name),
+            term::dim(&root.package.version)
+        );
+        print_dep_tree(&by_name, root, "", &mut seen);
+    }
+    Ok(())
+}
+
+fn print_dep_tree(
+    by_name: &HashMap<&str, &Receipt>,
+    receipt: &Receipt,
+    prefix: &str,
+    seen: &mut Vec<String>,
+) {
+    let n = receipt.depends.len();
+    for (i, dep) in receipt.depends.iter().enumerate() {
+        let last = i + 1 == n;
+        let branch = if last { "└── " } else { "├── " };
+        let cont = if last { "    " } else { "│   " };
+        match by_name.get(dep.as_str()) {
+            Some(r) => {
+                if seen.iter().any(|s| s == dep) {
+                    println!("{prefix}{branch}{}", term::dim(&r.package.name));
+                } else {
+                    seen.push(dep.clone());
+                    println!("{prefix}{branch}{}", term::bold(&r.package.name));
+                    print_dep_tree(by_name, r, &format!("{prefix}{cont}"), seen);
+                }
+            }
+            None => println!("{prefix}{branch}{} {}", dep, term::red("(missing)")),
+        }
+    }
 }
 
 pub fn orphans(paths: &Paths) -> Result<()> {
@@ -272,9 +375,9 @@ pub fn orphans(paths: &Paths) -> Result<()> {
         if !required {
             println!(
                 "{} {} {}",
-                r.package.name.bold(),
+                term::bold(&r.package.name),
                 r.package.version,
-                "(orphan)".dimmed()
+                term::dim("(orphan)")
             );
             found = true;
         }
@@ -293,14 +396,14 @@ pub fn set_hold(paths: &Paths, names: &[String], hold: bool) -> Result<()> {
         if hold {
             println!(
                 "{} {} {} — skipped by `oxide update`",
-                "held".yellow().bold(),
+                term::yellow_bold("held"),
                 name,
                 receipt.package.version
             );
         } else {
             println!(
                 "{} {} {}",
-                "unheld".green(),
+                term::green("unheld"),
                 name,
                 receipt.package.version
             );
@@ -321,8 +424,8 @@ pub fn log(paths: &Paths) -> Result<()> {
         let kind = if r.explicit { "" } else { " (dep)" };
         println!(
             "{}  {} {}{}{}",
-            r.package.installed_at.dimmed(),
-            r.package.name.bold(),
+            term::dim(&r.package.installed_at),
+            term::bold(&r.package.name),
             r.package.version,
             kind,
             held
@@ -364,17 +467,18 @@ pub fn stats(paths: &Paths) -> Result<()> {
     sizes.sort_by(|a, b| b.2.cmp(&a.2));
     let width = sizes.iter().map(|(n, ..)| n.len()).max().unwrap_or(0);
     for (name, version, size) in &sizes {
+        let padded = format!("{name:<width$}");
         println!(
-            "{:width$}  {version:>10}  {:>10}",
-            name.bold(),
-            human_size(*size),
-            width = width
+            "{}  {version:>10}  {:>10}",
+            term::bold(&padded),
+            human_size(*size)
         );
     }
+    let label = format!("{:<width$}", "total");
     println!(
-        "{}{}  {:>10}",
-        "total".bold(),
-        " ".repeat(width.saturating_sub(5)),
+        "{}  {:>10}  {:>10}",
+        term::bold(&label),
+        "",
         human_size(total)
     );
     Ok(())
@@ -415,7 +519,7 @@ pub fn check(paths: &Paths) -> Result<()> {
             if !installed.iter().any(|r| &r.package.name == dep) {
                 println!(
                     "  {} {}: missing dependency '{dep}'",
-                    "!!".red(),
+                    term::red("!!"),
                     receipt.package.name
                 );
                 pkg_problems += 1;
@@ -439,7 +543,7 @@ pub fn check(paths: &Paths) -> Result<()> {
         if pkg_problems > 0 {
             println!(
                 "{} {} {}: {pkg_problems} problem(s)",
-                "!!".red(),
+                term::red("!!"),
                 receipt.package.name,
                 receipt.package.version
             );
@@ -452,8 +556,94 @@ pub fn check(paths: &Paths) -> Result<()> {
     }
     println!(
         "{} {} package(s) consistent",
-        "ok".green().bold(),
+        term::green_bold("ok"),
         installed.len()
     );
+    Ok(())
+}
+
+pub fn doctor(paths: &Paths) -> Result<()> {
+    use std::process::Command;
+
+    println!("{}", term::bold("oxide doctor"));
+    let mut issues = 0usize;
+
+    let check = |ok: bool, label: &str, detail: &str, issues: &mut usize| {
+        if ok {
+            println!("  {} {label} {}", term::green("✓"), term::dim(detail));
+        } else {
+            println!("  {} {label} {}", term::red("✗"), term::dim(detail));
+            *issues += 1;
+        }
+    };
+
+    let root = paths.root.display().to_string();
+    check(true, "root", &format!("{root}"), &mut issues);
+
+    // git is needed by `oxide sync`.
+    let git = Command::new("git")
+        .arg("--version")
+        .output()
+        .map(|o| o.status.success())
+        .unwrap_or(false);
+    check(git, "git", if git { "found" } else { "missing — sync will fail" }, &mut issues);
+
+    // Registry present?
+    let registry_dir = paths.registry().join("packages");
+    if registry_dir.is_dir() {
+        let count = std::fs::read_dir(&registry_dir)
+            .map(|d| d.filter_map(|e| e.ok()).filter(|e| e.path().is_dir()).count())
+            .unwrap_or(0);
+        check(true, "registry", &format!("{count} package(s)"), &mut issues);
+    } else {
+        check(false, "registry", "not synced — run `oxide sync`", &mut issues);
+    }
+
+    // Receipts readable?
+    let receipts = Receipt::load_all(paths)?;
+    check(
+        true,
+        "receipts",
+        &format!("{} package(s) installed", receipts.len()),
+        &mut issues,
+    );
+
+    // orphans
+    let orphans = receipts
+        .iter()
+        .filter(|r| {
+            !r.explicit
+                && !receipts
+                    .iter()
+                    .any(|x| x.depends.iter().any(|d| d == &r.package.name))
+        })
+        .count();
+    if orphans > 0 {
+        println!(
+            "  {} orphans {}",
+            term::yellow("!"),
+            term::dim(&format!("{orphans} package(s) — see `oxide orphans`"))
+        );
+    }
+
+    // /usr/local/bin on PATH?
+    let path_ok = std::env::var_os("PATH")
+        .map(|p| std::env::split_paths(&p).any(|d| d == Path::new("/usr/local/bin")))
+        .unwrap_or(false);
+    check(
+        path_ok,
+        "PATH",
+        if path_ok { "contains /usr/local/bin" } else { "missing /usr/local/bin" },
+        &mut issues,
+    );
+
+    if issues == 0 {
+        println!("\n{}", term::green_bold("all good"));
+    } else {
+        println!(
+            "\n{}",
+            term::yellow_bold(&format!("{issues} issue(s) found"))
+        );
+    }
     Ok(())
 }
