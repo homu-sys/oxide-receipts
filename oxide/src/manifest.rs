@@ -64,6 +64,18 @@ impl Manifest {
     }
 }
 
+/// Load every package from a single JSON `index` file (the sync format).
+pub fn load_index(index: &Path) -> Result<HashMap<String, Manifest>> {
+    let content = std::fs::read_to_string(index)
+        .with_context(|| format!("reading {}", index.display()))?;
+    let list: Vec<Manifest> = serde_json::from_str(&content)
+        .with_context(|| format!("parsing {}", index.display()))?;
+    Ok(list
+        .into_iter()
+        .map(|m| (m.package.name.clone(), m))
+        .collect())
+}
+
 pub fn load_all(packages_dir: &Path) -> Result<HashMap<String, Manifest>> {
     let mut manifests = HashMap::new();
     if !packages_dir.is_dir() {

@@ -5,7 +5,7 @@ use std::path::PathBuf;
 #[command(
     name = "oxide",
     version,
-    about = "A fast, simple system package manager with a git-backed registry"
+    about = "A fast, simple system package manager with a single-file registry index"
 )]
 pub struct Cli {
     /// Override the registry URL or local path
@@ -34,7 +34,7 @@ pub enum ColorChoice {
 
 #[derive(Subcommand, Debug)]
 pub enum Command {
-    /// Sync the package registry from the repo
+    /// Sync the package registry index
     Sync,
 
     /// Install packages

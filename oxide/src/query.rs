@@ -604,17 +604,27 @@ pub fn doctor(paths: &Paths) -> Result<()> {
     let root = paths.root.display().to_string();
     check(true, "root", &format!("{root}"), &mut issues);
 
-    // git is needed by `oxide sync`.
-    let git = Command::new("git")
+    // curl or wget is needed by `oxide sync`.
+    let curl = Command::new("curl")
         .arg("--version")
         .output()
         .map(|o| o.status.success())
         .unwrap_or(false);
-    check(git, "git", if git { "found" } else { "missing — sync will fail" }, &mut issues);
+    let wget = Command::new("wget")
+        .arg("--version")
+        .output()
+        .map(|o| o.status.success())
+        .unwrap_or(false);
+    let dl = if curl { "curl" } else if wget { "wget" } else { "missing — sync will fail" };
+    check(curl || wget, "download", dl, &mut issues);
 
-    // Registry present?
+    // Registry index present?
+    let index = paths.index();
     let registry_dir = paths.registry().join("packages");
-    if registry_dir.is_dir() {
+    if index.is_file() {
+        let count = crate::manifest::load_index(&index).map(|m| m.len()).unwrap_or(0);
+        check(true, "registry", &format!("{count} package(s)"), &mut issues);
+    } else if registry_dir.is_dir() {
         let count = std::fs::read_dir(&registry_dir)
             .map(|d| d.filter_map(|e| e.ok()).filter(|e| e.path().is_dir()).count())
             .unwrap_or(0);

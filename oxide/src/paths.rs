@@ -20,6 +20,11 @@ impl Paths {
         self.root.join("var/lib/oxide/registry")
     }
 
+    /// The single registry index file fetched by `oxide sync`.
+    pub fn index(&self) -> PathBuf {
+        self.registry().join("index")
+    }
+
     pub fn receipts(&self) -> PathBuf {
         self.root.join("var/lib/oxide/receipts")
     }
