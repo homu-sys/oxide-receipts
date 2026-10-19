@@ -1,0 +1,14 @@
+[package]
+name = "lapce"
+version = "nightly"
+description = "Lightning-fast and powerful code editor written in Rust"
+homepage = "https://github.com/lapce/lapce"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[archive]
+file = "lapce-linux-amd64.tar.gz"
+strip_prefix = "Lapce"
+
+[install]
+bins = ["lapce"]

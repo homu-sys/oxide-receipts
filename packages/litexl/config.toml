@@ -1,0 +1,14 @@
+[package]
+name = "lite-xl"
+version = "2.1.8"
+description = "A lightweight, fast, and customizable text editor"
+homepage = "https://github.com/lite-xl/lite-xl"
+license = "MIT"
+arch = ["x86_64"]
+
+[archive]
+file = "lite-xl-v2.1.8-linux-x86_64-portable.tar.gz"
+strip_prefix = "lite-xl"
+
+[install]
+bins = ["lite-xl"]

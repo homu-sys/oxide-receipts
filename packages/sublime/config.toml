@@ -1,0 +1,13 @@
+[package]
+name = "sublime-text"
+version = "4215"
+description = "Sophisticated text editor for code, markup and prose"
+homepage = "https://www.sublimetext.com"
+arch = ["x86_64"]
+
+[archive]
+file = "sublime_text_build_4215_x64.tar.xz"
+strip_prefix = "sublime_text"
+
+[install]
+bins = ["sublime_text"]
