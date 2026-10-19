@@ -9,7 +9,8 @@ use crate::util;
 
 pub fn update_packages(paths: &Paths, registry: &Registry, names: &[String]) -> Result<()> {
     let installed = Receipt::load_all(paths)?;
-    let requested: Vec<String> = if names.is_empty() {
+    let full = names.is_empty();
+    let requested: Vec<String> = if full {
         installed.iter().map(|r| r.package.name.clone()).collect()
     } else {
         names.to_vec()
@@ -33,20 +34,43 @@ pub fn update_packages(paths: &Paths, registry: &Registry, names: &[String]) -> 
         targets.push(name.clone());
     }
 
-    let mut updated = 0usize;
+    // Packages with a registry version newer than what is installed.
+    let mut upgrades: Vec<(String, String, String)> = Vec::new();
     for name in &targets {
         let receipt = installed.iter().find(|r| &r.package.name == name).unwrap();
         if let Ok(manifest) = registry.get(name) {
             if util::version_gt(&manifest.package.version, &receipt.package.version) {
-                updated += 1;
+                upgrades.push((
+                    name.clone(),
+                    receipt.package.version.clone(),
+                    manifest.package.version.clone(),
+                ));
             }
         }
     }
 
-    if updated == 0 {
-        println!("everything is up to date");
+    if upgrades.is_empty() {
+        println!("{}", term::dim("there is nothing to do"));
         return Ok(());
     }
 
+    println!(
+        "{}",
+        term::bold(if full {
+            ":: Starting full system upgrade..."
+        } else {
+            ":: Upgrading packages..."
+        })
+    );
+    print!(
+        "{}",
+        term::bold(&format!("Packages ({}):", upgrades.len()))
+    );
+    for (name, _, new) in &upgrades {
+        print!(" {name}-{new}");
+    }
+    println!("\n");
+
+    let targets: Vec<String> = upgrades.iter().map(|(n, _, _)| n.clone()).collect();
     install::install_packages(paths, registry, &targets)
 }

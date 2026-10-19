@@ -20,6 +20,20 @@ impl Registry {
         let index_url = index_url_for(url);
         let dest = paths.index();
 
+        // Snapshot the current index so we can report what changed.
+        let before: HashMap<String, String> = if dest.is_file() {
+            manifest::load_index(&dest)
+                .map(|m| {
+                    m.into_iter()
+                        .map(|(k, v)| (k, v.package.version))
+                        .collect()
+                })
+                .unwrap_or_default()
+        } else {
+            HashMap::new()
+        };
+
+        println!("{}", term::bold(":: Synchronizing package index..."));
         util::download(&index_url, &dest)
             .with_context(|| format!("fetching the index from {index_url}"))?;
 
@@ -28,13 +42,46 @@ impl Registry {
         if packages.is_empty() {
             bail!("index at {index_url} contains no packages");
         }
-        println!(
-            "{} {} packages from {} in {:.2}s",
-            term::green("registry synced:"),
-            packages.len(),
-            index_url,
-            start.elapsed().as_secs_f64()
-        );
+        let secs = start.elapsed().as_secs_f64();
+        let size = std::fs::metadata(&dest).map(|m| m.len()).unwrap_or(0);
+        let size = util::human_size(size);
+
+        if before.is_empty() {
+            println!(
+                "{} {} packages ({size}) from {index_url} in {secs:.2}s",
+                term::green("synced:"),
+                packages.len(),
+            );
+            return Ok(());
+        }
+
+        let mut added = 0usize;
+        let mut upgraded = 0usize;
+        for (name, manifest) in &packages {
+            match before.get(name) {
+                None => added += 1,
+                Some(old) if old != &manifest.package.version => upgraded += 1,
+                _ => {}
+            }
+        }
+        let removed = before.keys().filter(|k| !packages.contains_key(*k)).count();
+
+        if added == 0 && upgraded == 0 && removed == 0 {
+            println!(
+                "{} ({} packages) in {secs:.2}s",
+                term::green("index is up to date"),
+                packages.len(),
+            );
+        } else {
+            println!(
+                "{} {} new, {} upgraded, {} removed ({} packages) in {secs:.2}s",
+                term::green("index updated:"),
+                term::bold(&added.to_string()),
+                term::bold(&upgraded.to_string()),
+                term::bold(&removed.to_string()),
+                packages.len(),
+            );
+        }
         Ok(())
     }
 
