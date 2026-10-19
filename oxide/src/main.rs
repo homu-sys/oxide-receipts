@@ -46,6 +46,7 @@ fn translate_argv(args: Vec<String>) -> Vec<String> {
         "-Syu" => map("update", &["--sync"]),
         "-Su" => map("update", &[]),
         "-Ss" => map("search", &[]),
+        "-Sl" => map("request", &[]),
         "-Si" => map("info", &[]),
         "-Sc" => map("clean", &[]),
         "-R" | "-Rn" | "-Rns" => map("detain", &[]),
@@ -125,6 +126,11 @@ fn run(cli: &Cli) -> Result<()> {
             query::search(&registry, query)
         }
 
+        Command::Request => {
+            let registry = registry::Registry::load(&paths)?;
+            query::request(&registry)
+        }
+
         Command::Info { package } => {
             let registry = registry::Registry::load(&paths)?;
             query::info(&paths, &registry, package)
@@ -192,8 +198,33 @@ fn run(cli: &Cli) -> Result<()> {
     }
 }
 
+/// Let `--color` also steer clap's own `--help`/error coloring, which is
+/// rendered before our owo-colors override is installed.
+fn prescan_color(args: &[String]) {
+    let mut i = 0;
+    while i < args.len() {
+        let a = &args[i];
+        let value = if a == "--color" {
+            i += 1;
+            args.get(i).map(String::as_str)
+        } else {
+            a.strip_prefix("--color=")
+        };
+        match value {
+            Some("never") => std::env::set_var("NO_COLOR", "1"),
+            Some("always") => {
+                std::env::remove_var("NO_COLOR");
+                std::env::set_var("CLICOLOR_FORCE", "1");
+            }
+            _ => {}
+        }
+        i += 1;
+    }
+}
+
 fn main() {
     let args = translate_argv(std::env::args().collect());
+    prescan_color(&args);
     let cli = Cli::parse_from(args);
 
     match cli.color {

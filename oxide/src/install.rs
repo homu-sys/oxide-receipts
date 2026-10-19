@@ -154,11 +154,12 @@ fn install_one(
 
     let mut links = Vec::new();
     for bin in &bins {
-        let src = prefix.join(bin);
+        let (rel, link_name) = split_bin(bin);
+        let src = prefix.join(rel);
         if !src.is_file() {
-            bail!("manifest references missing binary '{bin}' in package {name}");
+            bail!("manifest references missing binary '{rel}' in package {name}");
         }
-        let link_path = bindir.join(src.file_name().unwrap());
+        let link_path = bindir.join(link_name);
         if link_path.symlink_metadata().is_ok() {
             let meta = link_path.symlink_metadata()?;
             if meta.file_type().is_symlink() {
@@ -219,6 +220,18 @@ fn install_one(
         receipt.files.len()
     );
     Ok(())
+}
+
+/// Split a `bins` entry into (path relative to the install prefix, symlink name).
+/// Accepts `"path"` (name defaults to the file name) or `"path -> name"`.
+fn split_bin(spec: &str) -> (&str, &str) {
+    match spec.split_once("->") {
+        Some((path, name)) => (path.trim(), name.trim()),
+        None => {
+            let path = spec.trim();
+            (path, path.rsplit('/').next().unwrap_or(path))
+        }
+    }
 }
 
 fn auto_detect_executables(staging: &Path) -> Result<Vec<String>> {

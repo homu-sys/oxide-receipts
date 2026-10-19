@@ -75,6 +75,26 @@ pub fn search(registry: &Registry, query: &str) -> Result<()> {
     Ok(())
 }
 
+pub fn request(registry: &Registry) -> Result<()> {
+    let mut all: Vec<_> = registry.all().collect();
+    if all.is_empty() {
+        println!("registry is empty");
+        return Ok(());
+    }
+    all.sort_by(|a, b| a.package.name.cmp(&b.package.name));
+    let width = all.iter().map(|m| m.package.name.len()).max().unwrap_or(0);
+    for m in &all {
+        println!(
+            "{} {} {}",
+            term::bold(&format!("{:width$}", m.package.name, width = width)),
+            m.package.version,
+            term::dim(m.package.description.as_deref().unwrap_or(""))
+        );
+    }
+    println!("\n{} package(s) available", all.len());
+    Ok(())
+}
+
 pub fn info(paths: &Paths, registry: &Registry, name: &str) -> Result<()> {
     let manifest = registry.get(name)?;
     let p = &manifest.package;

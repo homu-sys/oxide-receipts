@@ -65,6 +65,10 @@ pub enum Command {
     #[command(alias = "s")]
     Search { query: String },
 
+    /// Show every package available in the registry
+    #[command(alias = "av")]
+    Request,
+
     /// Show package details
     Info { package: String },
 

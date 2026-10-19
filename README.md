@@ -45,6 +45,7 @@ sudo cp target/release/oxide /usr/local/bin/
 | `oxide remove <pkg>...` | Remove packages (`--force` to override dependents) |
 | `oxide update [pkg...]` | Upgrade installed packages (`--sync` to pull first) |
 | `oxide search <query>` | Search the registry |
+| `oxide request` | List all packages available in the registry |
 | `oxide info <pkg>` | Show package details |
 | `oxide list` | List installed packages |
 | `oxide outdated` | Show packages with updates available |
@@ -52,7 +53,7 @@ sudo cp target/release/oxide /usr/local/bin/
 | `oxide verify [pkg...]` | Check installed files against receipt hashes |
 | `oxide clean` | Remove cached staging data |
 
-pacman-style aliases work too: `-S`, `-Sy`, `-Syu`, `-Su`, `-Ss`, `-Si`, `-Sc`, `-R`, `-Q`, `-Qi`, `-Ql`, `-Qu`.
+pacman-style aliases work too: `-S`, `-Sy`, `-Syu`, `-Su`, `-Ss`, `-Sl`, `-Si`, `-Sc`, `-R`, `-Q`, `-Qi`, `-Ql`, `-Qu`.
 
 Registry URL defaults to this repository; override with `--registry <url-or-path>`, `OXIDE_REGISTRY`, or `/etc/oxide/config.toml`:
 
@@ -83,6 +84,7 @@ strip_prefix = "ripgrep-15.2.0-x86_64-unknown-linux-musl"
 
 [install]
 bins = ["rg"]               # paths relative to extracted root; omit to auto-detect executables
+# rename on install with "src -> name", e.g. bins = ["yq_linux_amd64 -> yq"]
 ```
 
 Supported archive formats: `.tar.gz`, `.tgz`, `.tar.xz`, `.tar.zst`, `.tar`.

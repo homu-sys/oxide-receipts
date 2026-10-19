@@ -6,7 +6,7 @@ description = "A fast, simple system package manager with a git-backed registry"
 
 [dependencies]
 anyhow = "1"
-clap = { version = "4", features = ["derive", "env"] }
+clap = { version = "4", features = ["derive", "env", "color", "wrap_help"] }
 clap_complete = "4"
 serde = { version = "1", features = ["derive"] }
 toml = "0.9"
