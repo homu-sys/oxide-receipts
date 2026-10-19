@@ -1,0 +1,17 @@
+[package]
+name = "duf"
+version = "0.9.1"
+description = "Disk usage and free space utility"
+homepage = "https://github.com/muesli/duf"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "duf_0.9.1_linux_x86_64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["duf"]

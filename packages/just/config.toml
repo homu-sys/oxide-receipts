@@ -1,0 +1,17 @@
+[package]
+name = "just"
+version = "1.59.0"
+description = "Just a command runner"
+homepage = "https://github.com/casey/just"
+license = "CC0-1.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "just-1.59.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["just"]

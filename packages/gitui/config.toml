@@ -1,0 +1,17 @@
+[package]
+name = "gitui"
+version = "0.28.1"
+description = "Blazing fast terminal UI for git"
+homepage = "https://github.com/gitui-org/gitui"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "gitui-linux-x86_64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["gitui"]

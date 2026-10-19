@@ -1,0 +1,17 @@
+[package]
+name = "eza"
+version = "0.23.5"
+description = "A modern replacement for ls"
+homepage = "https://github.com/eza-community/eza"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "eza_x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["eza"]

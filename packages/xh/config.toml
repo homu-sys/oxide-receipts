@@ -1,0 +1,17 @@
+[package]
+name = "xh"
+version = "0.26.2"
+description = "A friendly and fast tool for sending HTTP requests"
+homepage = "https://github.com/ducaale/xh"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "xh-v0.26.2-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "xh-v0.26.2-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["xh"]

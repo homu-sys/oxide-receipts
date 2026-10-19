@@ -1,0 +1,17 @@
+[package]
+name = "bottom"
+version = "0.14.9"
+description = "A customizable cross-platform graphical process/system monitor"
+homepage = "https://github.com/ClementTsang/bottom"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "bottom_x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["btm"]

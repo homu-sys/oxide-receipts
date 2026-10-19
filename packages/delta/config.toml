@@ -1,0 +1,17 @@
+[package]
+name = "delta"
+version = "0.20.1"
+description = "A syntax-highlighting pager for git, diff, and grep output"
+homepage = "https://github.com/dandavison/delta"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "delta-0.20.1-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "delta-0.20.1-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["delta"]
