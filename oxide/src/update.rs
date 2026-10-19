@@ -49,28 +49,46 @@ pub fn update_packages(paths: &Paths, registry: &Registry, names: &[String]) -> 
         }
     }
 
-    if upgrades.is_empty() {
-        println!("{}", term::dim("there is nothing to do"));
-        return Ok(());
-    }
+    let held = installed.iter().filter(|r| r.hold).count();
 
     println!(
         "{}",
         term::bold(if full {
-            ":: Starting full system upgrade..."
+            ":: Starting full system upgrade"
         } else {
-            ":: Upgrading packages..."
+            ":: Upgrading packages"
         })
     );
-    print!(
-        "{}",
-        term::bold(&format!("Packages ({}):", upgrades.len()))
+    println!("   {:<11} {}", term::dim("installed"), installed.len());
+    println!(
+        "   {:<11} {}",
+        term::dim("upgradable"),
+        term::yellow(&upgrades.len().to_string())
     );
-    for (name, _, new) in &upgrades {
-        print!(" {name}-{new}");
+    if held > 0 {
+        println!("   {:<11} {}", term::dim("held"), held);
     }
-    println!("\n");
+
+    if upgrades.is_empty() {
+        println!("   {:<11} {}", term::dim("status"), term::green("up to date"));
+        return Ok(());
+    }
+
+    println!();
+    for (name, old, new) in &upgrades {
+        println!(
+            "   {} {} {} {}",
+            term::green_bold(name),
+            term::dim(old),
+            term::dim("->"),
+            term::green(new)
+        );
+    }
+    println!();
 
     let targets: Vec<String> = upgrades.iter().map(|(n, _, _)| n.clone()).collect();
-    install::install_packages(paths, registry, &targets)
+    let count = targets.len();
+    install::install_packages(paths, registry, &targets)?;
+    println!("\n{} {count} package(s) upgraded", term::green_bold(":: done:"));
+    Ok(())
 }

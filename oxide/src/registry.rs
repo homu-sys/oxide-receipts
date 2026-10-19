@@ -33,7 +33,7 @@ impl Registry {
             HashMap::new()
         };
 
-        println!("{}", term::bold(":: Synchronizing package index..."));
+        println!("{}", term::bold(":: Synchronizing package index"));
         util::download(&index_url, &dest)
             .with_context(|| format!("fetching the index from {index_url}"))?;
 
@@ -44,14 +44,15 @@ impl Registry {
         }
         let secs = start.elapsed().as_secs_f64();
         let size = std::fs::metadata(&dest).map(|m| m.len()).unwrap_or(0);
-        let size = util::human_size(size);
+
+        println!("   {:<10} {}", term::dim("source"), index_url);
+        println!("   {:<10} {}", term::dim("size"), util::human_size(size));
+        println!("   {:<10} {}", term::dim("packages"), packages.len());
+        println!("   {:<10} {:.2}s", term::dim("fetched"), secs);
+        println!("   {:<10} {}", term::dim("store"), paths.registry().display());
 
         if before.is_empty() {
-            println!(
-                "{} {} packages ({size}) from {index_url} in {secs:.2}s",
-                term::green("synced:"),
-                packages.len(),
-            );
+            println!("   {:<10} {}", term::dim("status"), term::green("synced"));
             return Ok(());
         }
 
@@ -67,19 +68,20 @@ impl Registry {
         let removed = before.keys().filter(|k| !packages.contains_key(*k)).count();
 
         if added == 0 && upgraded == 0 && removed == 0 {
-            println!(
-                "{} ({} packages) in {secs:.2}s",
-                term::green("index is up to date"),
-                packages.len(),
-            );
+            println!("   {:<10} {}", term::dim("status"), term::green("up to date"));
+            println!("   {:<10} {}", term::dim("changed"), term::dim("nothing"));
         } else {
+            println!("   {:<10} {}", term::dim("status"), term::green("updated"));
+            println!("   {:<10} {} new", term::dim("added"), term::green(&format!("+{added}")));
             println!(
-                "{} {} new, {} upgraded, {} removed ({} packages) in {secs:.2}s",
-                term::green("index updated:"),
-                term::bold(&added.to_string()),
-                term::bold(&upgraded.to_string()),
-                term::bold(&removed.to_string()),
-                packages.len(),
+                "   {:<10} {}",
+                term::dim("upgraded"),
+                term::yellow(&format!("~{upgraded}"))
+            );
+            println!(
+                "   {:<10} {}",
+                term::dim("removed"),
+                term::red(&format!("-{removed}"))
             );
         }
         Ok(())
