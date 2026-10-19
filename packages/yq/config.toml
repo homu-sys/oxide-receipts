@@ -1,0 +1,17 @@
+[package]
+name = "yq"
+version = "4.54.1"
+description = "A lightweight and portable command-line YAML, JSON and XML processor"
+homepage = "https://github.com/mikefarah/yq"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "yq_linux_amd64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["yq_linux_amd64 -> yq"]

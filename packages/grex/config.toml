@@ -1,0 +1,17 @@
+[package]
+name = "grex"
+version = "1.4.6"
+description = "Generate regular expressions from user-provided test cases"
+homepage = "https://github.com/pemistahl/grex"
+license = "Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "grex-v1.4.6-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["grex"]

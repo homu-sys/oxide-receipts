@@ -1,0 +1,17 @@
+[package]
+name = "lazydocker"
+version = "0.25.2"
+description = "The lazier way to manage everything docker"
+homepage = "https://github.com/jesseduffield/lazydocker"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "lazydocker_0.25.2_Linux_x86_64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["lazydocker"]

@@ -1,0 +1,17 @@
+[package]
+name = "gping"
+version = "1.21.0"
+description = "Ping, but with a graph"
+homepage = "https://github.com/orf/gping"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "gping-Linux-musl-x86_64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["gping"]

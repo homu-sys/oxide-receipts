@@ -1,0 +1,17 @@
+[package]
+name = "skim"
+version = "5.7.4"
+description = "Fuzzy Finder in rust"
+homepage = "https://github.com/skim-rs/skim"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "skim-x86_64-unknown-linux-musl.tar.xz"
+strip_prefix = "skim-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["sk"]

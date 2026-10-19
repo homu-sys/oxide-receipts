@@ -1,0 +1,17 @@
+[package]
+name = "sheldon"
+version = "0.8.5"
+description = "A fast, configurable shell plugin manager"
+homepage = "https://github.com/rossmacarthur/sheldon"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "sheldon-0.8.5-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["sheldon"]

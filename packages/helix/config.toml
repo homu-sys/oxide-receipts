@@ -1,0 +1,17 @@
+[package]
+name = "helix"
+version = "25.07.1"
+description = "A post-modern modal text editor"
+homepage = "https://github.com/helix-editor/helix"
+license = "MPL-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "helix-25.07.1-x86_64-linux.tar.xz"
+strip_prefix = "helix-25.07.1-x86_64-linux"
+
+[install]
+bins = ["hx"]

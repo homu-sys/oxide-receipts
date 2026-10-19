@@ -1,0 +1,17 @@
+[package]
+name = "mcfly"
+version = "0.9.4"
+description = "Fly through your shell history"
+homepage = "https://github.com/cantino/mcfly"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "mcfly-v0.9.4-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["mcfly"]

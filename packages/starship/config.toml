@@ -1,0 +1,17 @@
+[package]
+name = "starship"
+version = "1.27.0"
+description = "The cross-shell prompt for astronauts"
+homepage = "https://github.com/starship/starship"
+license = "ISC"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "starship-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["starship"]

@@ -1,0 +1,17 @@
+[package]
+name = "binocle"
+version = "0.3.2"
+description = "A graphical tool to visualize binary data"
+homepage = "https://github.com/sharkdp/binocle"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "binocle-v0.3.2-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "binocle-v0.3.2-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["binocle"]

@@ -1,0 +1,17 @@
+[package]
+name = "git-cliff"
+version = "2.14.2"
+description = "A highly customizable changelog generator"
+homepage = "https://github.com/orhun/git-cliff"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "git-cliff-2.14.2-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "git-cliff-2.14.2"
+
+[install]
+bins = ["git-cliff"]

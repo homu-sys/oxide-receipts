@@ -1,0 +1,17 @@
+[package]
+name = "hexyl"
+version = "0.17.0"
+description = "A command-line hex viewer"
+homepage = "https://github.com/sharkdp/hexyl"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "hexyl-v0.17.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "hexyl-v0.17.0-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["hexyl"]

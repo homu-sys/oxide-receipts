@@ -1,0 +1,17 @@
+[package]
+name = "lazygit"
+version = "0.66.2"
+description = "Simple terminal UI for git commands"
+homepage = "https://github.com/jesseduffield/lazygit"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "lazygit_0.66.2_linux_x86_64.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["lazygit"]

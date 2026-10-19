@@ -1,0 +1,17 @@
+[package]
+name = "topgrade"
+version = "17.14.0"
+description = "Upgrade all the things"
+homepage = "https://github.com/topgrade-rs/topgrade"
+license = "GPL-3.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "topgrade-v17.14.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = ""
+
+[install]
+bins = ["topgrade"]

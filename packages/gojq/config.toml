@@ -1,0 +1,17 @@
+[package]
+name = "gojq"
+version = "0.12.19"
+description = "Pure Go implementation of jq"
+homepage = "https://github.com/itchyny/gojq"
+license = "MIT"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "gojq_v0.12.19_linux_amd64.tar.gz"
+strip_prefix = "gojq_v0.12.19_linux_amd64"
+
+[install]
+bins = ["gojq"]

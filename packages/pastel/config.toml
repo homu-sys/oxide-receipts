@@ -1,0 +1,17 @@
+[package]
+name = "pastel"
+version = "0.12.0"
+description = "Generate, analyze, convert and manipulate colors"
+homepage = "https://github.com/sharkdp/pastel"
+license = "MIT OR Apache-2.0"
+arch = ["x86_64"]
+
+[dependencies]
+depends = []
+
+[archive]
+file = "pastel-v0.12.0-x86_64-unknown-linux-musl.tar.gz"
+strip_prefix = "pastel-v0.12.0-x86_64-unknown-linux-musl"
+
+[install]
+bins = ["pastel"]
